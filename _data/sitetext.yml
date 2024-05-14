@@ -455,8 +455,8 @@ team:
 
     - name: Vincent Chamberland
       role: 
-        en: "MSc student<br> (Social Physiology)"
-        fr: "Étudiant à la maîtrise<br> (Physiologie sociale)"
+        en: "MSc student & Research Assistant<br> (Social Physiology)"
+        fr: "Étudiant à la maîtrise & Assistant de Recherche<br> (Physiologie sociale)"
       image: img/team/Vincent_Chamberland.png
       social:
         - url: https://www.linkedin.com/in/vincent-chamberland-631b5836/
@@ -497,11 +497,11 @@ team:
         - url: https://twitter.com/GAbrevaya
           icon: fab fa-twitter
 
-    - name: "Ivo Leiva"
-      role: 
-        en: "Visiting PhD <br>(Social Physiology)"
-        fr: "Doctorant invité<br>(Physiologie sociale)"
-      image: img/team/Ivo_Leiva.png
+    - name: "Camille Lanoix"
+      role:
+        en: "Bachelor's Student<br> (Social Physiology)"
+        fr: "Etudiante au Baccalauréat <br> (Physiologie sociale)"
+      image: img/team/Camille_Lanoix.png
       # social:
       #   - url: 
       #     icon: fab fa-linkedin-in
