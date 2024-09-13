@@ -252,26 +252,6 @@ team:
         - url: https://www.linkedin.com/in/laura-peyras-17387913b/
           icon: fab fa-linkedin-in
 
-    - name: "Annemarie Wolff"
-      role: 
-        en: "Visiting student <br> Research associate"
-        fr: "Étudiante invitée <br> Associée de recherche"
-      image: img/team/Annemarie_Wolff.jpg
-      social:
-        - url: #https://www.linkedin.com/in/laura-peyras-17387913b/
-          icon: fab fa-linkedin-in
-
-
-    - name: "Jade Esper "
-      role: 
-        en: "AI Data Analyst"
-        fr: "Analyste de données en IA"
-      image: img/team/Jade_Esper.jpg
-      social:
-        - url: #https://www.linkedin.com/in/laura-peyras-17387913b/
-          icon: fab fa-linkedin-in
-
-
     - name: "Gabriela Milanova"
       role: 
         en: "Research Assistant"
@@ -280,6 +260,24 @@ team:
       social:
         - url: https://www.linkedin.com/in/gabriela-m-19b38828b/
           icon: fab fa-linkedin-in
+
+    - name: "Jade Esper "
+      role: 
+        en: "AI Data Analyst<br>co-supervision with Sébastien Jacquemont"
+        fr: "Analyste de données en IA<br>co-supervision avec Sébastien Jacquemont"
+      image: img/team/Jade_Esper.jpg
+      social:
+        - url: https://www.linkedin.com/in/jade-esper/
+          icon: fab fa-linkedin-in
+
+    - name: "Annemarie Wolff"
+      role: 
+        en: "Visiting postdoc<br>(Social Computational Physiology)"
+        fr: "Postdoc invitée<br>(Physiologie sociale et computationnelle)"
+      image: img/team/Annemarie_Wolff.jpg
+      # social:
+      #   - url: #https://www.linkedin.com/in/
+      #     icon: fab fa-linkedin-in
 
     - name: "Zahra Sheikhbahaee"
       role: 
@@ -443,35 +441,9 @@ team:
 
     - name: Natalie Kastel
       role: 
-        en: "PhD Student<br>Coming soon...<br>(Social Neuro AI)"
-        fr: "Doctorante<br>Prochainement...<br>(Neuro-IA sociale)"
+        en: "PhD Student<br>(Social Neuro AI)"
+        fr: "Doctorante<br>(Neuro-IA sociale)"
       image: img/team/Natalie_Kastel.jpg 
-
-    - name: "Clara El Khantour"
-      role: 
-        en: "MSc Student<br>co-supervision with Karim Jerbi <br> (Social Physiology)"
-        fr: "Étudiante à la maîtrise<br>co-supervision avec Karim Jerbi <br>(Physiologie sociale)"
-      image: img/team/Clara_El_Khantour.jpeg
-      social:
-        - url: https://www.linkedin.com/in/clara-el-khantour-32706321a/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/claraElk
-          icon: fab fa-github
-        - url: https://twitter.com/c_khantour
-          icon: fab fa-twitter
-
-    - name: "Ghazaleh Ranjbaran"
-      role: 
-        en: "MSc Student<br>(Computational Physiology)"
-        fr: "Étudiante à la maîtrise<br>(Physiologie computationnelle)"
-      image: img/team/Ghazaleh_Ranjbaran.jpeg
-      social:
-        - url: https://twitter.com/BioMDScience
-          icon: fab fa-twitter
-        - url: https://www.linkedin.com/in/ghazaleh-ranjbaran-6865481ba
-          icon: fab fa-linkedin-in
-        - url: https://github.com/ghazalehran
-          icon: fab fa-github
 
     - name: Vincent Chamberland
       role: 
@@ -517,21 +489,6 @@ team:
         - url: https://twitter.com/GAbrevaya
           icon: fab fa-twitter
 
-    - name: "Camille Lanoix"
-      role:
-        en: "Bachelor's Student<br> (Social Physiology)"
-        fr: "Etudiante au Baccalauréat <br> (Physiologie sociale)"
-      image: img/team/Camille_Lanoix.png
-      # social:
-      #   - url: 
-      #     icon: fab fa-linkedin-in
-      #   - url: 
-      #     icon: fab fa-github
-      #   - url: 
-      #     icon: fab fa-twitter
-      #   - url: 
-      #     icon: fab fa-google
-  
 
 contact:
   title: 
