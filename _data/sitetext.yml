@@ -376,14 +376,6 @@ team:
         - url: "https://www.linkedin.com/in/guillaumelam/"
           icon: fab fa-linkedin-in
 
-    - name: Chantal-Valerie Lee
-      role: 
-        en: "PhD Student<br> co-supervision with Simone Falk <br> (Computational Linguistics)"
-        fr: "Doctorante<br> co-supervision avec Simone Falk <br> (Linguistique computationnelle)"
-      image: img/team/Chantal-Valerie_Lee.jpg
-      social:
-        - url: https://github.com/clee630
-          icon: "fab fa-github"
 
     - name: "Mahta Ramezanian"
       role: 
@@ -466,16 +458,25 @@ team:
           icon: fab fa-google
         - url: https://www.linkedin.com/in/k-l-91922969?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
           icon: fab fa-linkedin-in
-        # - url: https://github.com/Dub21
-        #   icon: fab fa-github  
 
     - name: Vincent Chamberland
       role: 
-        en: "MSc student & Research Assistant<br> (Social Physiology)"
-        fr: "Étudiant à la maîtrise & Assistant de Recherche<br> (Physiologie sociale)"
+        en: "PhD student & Research Assistant<br> (Social Physiology)"
+        fr: "Étudiant au Doctorat & Assistant de Recherche<br> (Physiologie sociale)"
       image: img/team/Vincent_Chamberland.png
       social:
         - url: https://www.linkedin.com/in/vincent-chamberland-631b5836/
+          icon: fab fa-linkedin-in
+
+    - name: "Arnaud Maupas"
+      role: 
+        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(System Biology & Cognition)"
+        fr: "Doctorant<br>co-supervision with Sébastien Jacquemont<br>(Biologie des systèmes et Cognition)"
+      image: img/team/Arnaud_Maupas.jpg
+      social:
+        - url: https://scholar.google.fr/citations?user=1SsON4kAAAAJ&hl=fr&oi=ao
+          icon: fab fa-google
+        - url: https://fr.linkedin.com/in/arnaud-maupas-3646a219a
           icon: fab fa-linkedin-in
 
     - name: "Olivia Leone"
@@ -497,18 +498,6 @@ team:
           icon: fab fa-linkedin-in
         - url: https://github.com/juandavidvargas19
           icon: fab fa-github
-
-    - name: "Patrice Fortin"
-      role: 
-        en: "MSc Student<br>co-supervision with Anne Gallagher<br>(Social NeuroAI)"
-        fr: "Étudiant à la maîtrise<br>co-supervision avec Anne Gallagher<br>(NeuroIA sociale)"
-      image: img/team/Patrice_Fortin.png
-      social:
-        - url: https://www.linkedin.com/in/patrice-fortin-85028a21/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/patricefortin
-          icon: fab fa-github
-
 
 contact:
   title: 
