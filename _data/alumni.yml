@@ -248,3 +248,17 @@
     - url: "https://www.linkedin.com/in/guillaumelam/"
       icon: fab fa-linkedin-in
 
+- name: "Zahra Sheikhbahaee"
+  role: 
+    en: "Social NeuroAI"
+    fr: "NeuroIA sociale"
+  social:
+    - url: https://twitter.com/zah_bah
+      icon: fab fa-twitter
+    - url: https://www.researchgate.net/profile/Zahra-Sheikhbahaee-2
+      icon: fab fa-researchgate
+    - url: https://www.linkedin.com/in/zahra-sheikhbahaee/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/neuronphysics
+      icon: fab fa-github
+
