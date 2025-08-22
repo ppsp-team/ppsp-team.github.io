@@ -308,17 +308,6 @@ team:
         - url: https://scholar.google.com/citations?hl=en&user=y3MQ5k4AAAAJ
           icon: fab fa-google
 
-    - name: "Tony Tona Landu"
-      role: 
-        en: "Postdoc<br>(Social NeuroAI)"
-        fr: "Postdoc<br>(NeuroIA sociale)"
-      image: img/team/Tony_Tona.jpg
-      social:
-        - url: http://linkedin.com/in/tony-tona-landu-0977a617a
-          icon: fab fa-linkedin-in
-        - url: https://scholar.google.com/citations?user=DlpCJxMAAAAJ&hl=fr
-          icon: fab fa-google
-
     - name: "Sayeh Kazem"
       role: 
         en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
@@ -490,17 +479,6 @@ team:
         - url: https://www.linkedin.com/in/olivia-leone/
           icon: fab fa-linkedin-in
   
-    - name: "Juan David Vargas"
-      role: 
-        en: "MSc Student<br>co-supervision with Zahra Sheikhbahaee<br>(Social NeuroAI)"
-        fr: "Étudiant à la maîtrise<br>co-supervision avec Zahra Sheikhbahaee<br>(NeuroIA sociale)"
-      image: img/team/JuanDavid_Vargas.jpg
-      social:
-        - url: https://www.linkedin.com/in/juan-david-vargas-mazuera-07197a1a5/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/juandavidvargas19
-          icon: fab fa-github
-
     - name: "Anaïs Rourre"
       role: 
         en: "MSc Student<br>co-supervision with Catherine Duclos<br>(Social Physiology)"
