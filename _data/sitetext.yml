@@ -298,8 +298,8 @@ team:
 
     - name: "Annemarie Wolff"
       role: 
-        en: "Visiting postdoc<br>(Social Computational Physiology)"
-        fr: "Postdoc invitée<br>(Physiologie sociale et computationnelle)"
+        en: "Postdoc<br>(Social Computational Physiology)"
+        fr: "Postdoc<br>(Physiologie sociale et computationnelle)"
       image: img/team/Annemarie_Wolff.jpg
       # social:
       #   - url: #https://www.linkedin.com/in/
