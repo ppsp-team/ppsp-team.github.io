@@ -283,3 +283,24 @@
       icon: fab fa-google
 
 
+- name: "Francesco Achilli"
+  role: 
+    en: "Computational Psychiatry"
+    fr: "Psychiatrie Computationelle"
+  social:
+    - url: https://orcid.org/0000-0002-9959-1319
+      icon: fab fa-orcid 
+    - url: https://www.researchgate.net/profile/Francesco-Achilli
+      icon: fab fa-researchgate
+    - url: https://scholar.google.com/citations?hl=en&user=tfr82wQAAAAJ&view_op=list_works&gmla=A[…]ZLa36XGf6L_eWBnqrdZ7hABesM_tkMdi2rrNgIdhaOyC_jSf-AzqMtI-xO0
+      icon: fab fa-google          
+
+
+- name: "Marvel Manoharan"
+  role: 
+    en: "Social Physiology"
+    fr: "Physiologie Sociale"
+  social:
+    - url: https://uk.linkedin.com/in/marvel-manoharan-64b4b526a
+      icon: fab fa-linkedin-in
+  

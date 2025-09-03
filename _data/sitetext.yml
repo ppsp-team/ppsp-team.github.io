@@ -265,6 +265,18 @@ team:
         - url: https://bsky.app/profile/remyramadour.bsky.social
           icon: fa-brands fa-square-bluesky
 
+    - name: "Saskia Helbling"
+      role: 
+        en: "Research Associate</br>(Social Neuro AI)"
+        fr: "Associée de Recherche</br>(Neuro-IA Sociale)"
+      image: img/team/Saskia_Helbling.jpg
+      social:
+        - url: https://www.researchgate.net/profile/Saskia-Helbling/research
+          icon: fab fa-researchgate
+        - url: https://scholar.google.com/citations?user=aPr843gAAAAJ&hl=en
+          icon: fab fa-google
+        - url:  https://github.com/sashelbling
+          icon: fab fa-github
 
     - name: "Maya Behlouli"
       role: 
@@ -286,8 +298,8 @@ team:
 
     - name: "Annemarie Wolff"
       role: 
-        en: "Visiting postdoc<br>(Social Computational Physiology)"
-        fr: "Postdoc invitée<br>(Physiologie sociale et computationnelle)"
+        en: "Postdoc<br>(Social Computational Physiology)"
+        fr: "Postdoc<br>(Physiologie sociale et computationnelle)"
       image: img/team/Annemarie_Wolff.jpg
       # social:
       #   - url: #https://www.linkedin.com/in/
@@ -295,8 +307,8 @@ team:
 
     - name: "Tommaso Tosato"
       role: 
-        en: "Postdoc<br>(Social Physiology)"
-        fr: "Postdoc<br>(Physiologie sociale)"
+        en: "Postdoc<br>(Social Neuro AI”)"
+        fr: "Postdoc<br>(Neuro-IA Sociale)"
       image: img/team/Tommaso_Tosato.jpg
       social:
         - url: https://www.linkedin.com/in/tommaso-tosato-01382948/
@@ -490,39 +502,14 @@ team:
         # - url: 
         #   icon: fab fa-github
 
-    - name: "Francesco Achilli"
-      role: 
-        en: "Intern<br>(Computational Psychiatry)"
-        fr: "Etudiant stagiaire<br>(Psychiatrie Computationelle)"
-      image: img/team/Francesco_Achilli.png
-      social:
-        - url: https://orcid.org/0000-0002-9959-1319
-          icon: fab fa-orcid 
-        - url: https://www.researchgate.net/profile/Francesco-Achilli
-          icon: fab fa-researchgate
-        - url: https://scholar.google.com/citations?hl=en&user=tfr82wQAAAAJ&view_op=list_works&gmla=A[…]ZLa36XGf6L_eWBnqrdZ7hABesM_tkMdi2rrNgIdhaOyC_jSf-AzqMtI-xO0
-          icon: fab fa-google          
-        # - url: 
-        #   icon: fab fa-github
-
-    - name: "Marvel Manoharan"
-      role: 
-        en: "Intern<br>(Social Physiology)"
-        fr: "Étudiant stagiaire<br>(Physiologie Sociale)"
-      image: img/team/Marvel_Manoharan.png
-      social:
-        - url: https://uk.linkedin.com/in/marvel-manoharan-64b4b526a
-          icon: fab fa-linkedin-in
-        # - url: 
-        #   icon: fab fa-github
 
 contact:
   title: 
     en: "Contact Us"
     fr: "Nous contacter"
-  text:
-    en: "If you want to join our team, do not hesitate to reach out: submit your cover letter with a CV using this form or sending a mail at \"join@ppsp.team\"!"
-    fr: "Si vous souhaitez rejoindre notre équipe, n'hésitez pas à nous contacter : envoyez votre lettre de motivation accompagnée d'un CV en utilisant ce formulaire ou en envoyant un mail à l'adresse suivante : \"join@ppsp.team\"!"
+  # text:
+    # en: "If you want to join our team, do not hesitate to reach out: submit your cover letter with a CV using this form or sending a mail at \"join@ppsp.team\"!"
+    # fr: "Si vous souhaitez rejoindre notre équipe, n'hésitez pas à nous contacter : envoyez votre lettre de motivation accompagnée d'un CV en utilisant ce formulaire ou en envoyant un mail à l'adresse suivante : \"join@ppsp.team\"!"
   section: contact
   buttonText: 
     en: "Send Message"
