@@ -326,7 +326,7 @@ team:
         fr: "Postdoc<br>(Physiologie sociale et computationnelle)"
       image: img/team/Yuto_Kurihara.JPG
       social:
-        - url: www.linkedin.com/in/yuto-kurihara-b803a9389
+        - url: https://www.linkedin.com/in/yuto-kurihara-b803a9389
           icon: fab fa-linkedin-in
         - url: https://www.researchgate.net/profile/Yuto-Kurihara?ev=hdr_xprf
           icon: fab fa-researchgate
