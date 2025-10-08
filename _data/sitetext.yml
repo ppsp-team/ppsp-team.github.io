@@ -307,6 +307,7 @@ team:
         - url: https://scholar.google.com/citations?hl=en&user=Vibks2wAAAAJ
           icon: fab fa-google
 
+
     - name: "Tommaso Tosato"
       role: 
         en: "Postdoc<br>(Social Neuro AI)"
