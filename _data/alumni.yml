@@ -303,4 +303,13 @@
   social:
     - url: https://uk.linkedin.com/in/marvel-manoharan-64b4b526a
       icon: fab fa-linkedin-in
-  
+
+- name: "Karoline Lippert"
+  role: 
+    en: "Precision Medicine"
+    fr: "Médecine de précision"
+  social:
+    - url: https://scholar.google.ca/citations?hl=en&user=vDSGSzwAAAAJ&view_op=list_works&gmla=AFix5Mamba8nhcA1yiPH_x0cEtfA8QsRl8jMVk7pQNDGy9vaHyFUIAMUTbg3GDNfl_i4jRI79VuKfnSzN2kotTxA
+      icon: fab fa-google
+    - url: https://www.linkedin.com/in/k-l-91922969?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+      icon: fab fa-linkedin-in

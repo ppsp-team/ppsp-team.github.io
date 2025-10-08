@@ -449,17 +449,6 @@ team:
         fr: "Doctorante<br>(Neuro-IA sociale)"
       image: img/team/Natalie_Kastel.jpg
 
-    - name: "Karoline Lippert"
-      role: 
-        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
-        fr: "Doctorant<br>co-supervision with Sébastien Jacquemont<br>(Médecine de précision)"
-      image: img/team/Karoline_Lippert.jpg
-      social:
-        - url: https://scholar.google.ca/citations?hl=en&user=vDSGSzwAAAAJ&view_op=list_works&gmla=AFix5Mamba8nhcA1yiPH_x0cEtfA8QsRl8jMVk7pQNDGy9vaHyFUIAMUTbg3GDNfl_i4jRI79VuKfnSzN2kotTxA
-          icon: fab fa-google
-        - url: https://www.linkedin.com/in/k-l-91922969?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
-          icon: fab fa-linkedin-in
-
     - name: Vincent Chamberland
       role: 
         en: "PhD student<br>(Precision Neuromodulation)"
