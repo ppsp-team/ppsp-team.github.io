@@ -301,9 +301,12 @@ team:
         en: "Postdoc<br>(Social Computational Physiology)"
         fr: "Postdoc<br>(Physiologie sociale et computationnelle)"
       image: img/team/Annemarie_Wolff.jpg
-      # social:
-      #   - url: #https://www.linkedin.com/in/
-      #     icon: fab fa-linkedin-in
+      social:
+        - url: https://www.linkedin.com/in/annemarie-wolff/
+          icon: fab fa-linkedin-in
+        - url: https://scholar.google.com/citations?hl=en&user=Vibks2wAAAAJ
+          icon: fab fa-google
+
 
     - name: "Tommaso Tosato"
       role: 
