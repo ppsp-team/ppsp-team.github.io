@@ -320,6 +320,21 @@ team:
         - url: https://scholar.google.com/citations?hl=en&user=y3MQ5k4AAAAJ
           icon: fab fa-google
 
+    - name: "Yuto Kurihara"
+      role: 
+        en: "Postdoc<br>(Social Computational Physiology)"
+        fr: "Postdoc<br>(Physiologie sociale et computationnelle)"
+      image: img/team/Yuto_Kurihara.JPG
+      social:
+        - url: www.linkedin.com/in/yuto-kurihara-b803a9389
+          icon: fab fa-linkedin-in
+        - url: https://www.researchgate.net/profile/Yuto-Kurihara?ev=hdr_xprf
+          icon: fab fa-researchgate
+        - url: https://scholar.google.com/citations?user=Qr2VctcAAAAJ
+          icon: fab fa-google
+        - url: https://x.com/y_kuri007?s=21&t=QAUl--4pVx22cD8JBDy-5g
+          icon: fab fa-twitter
+
     - name: "Sayeh Kazem"
       role: 
         en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
