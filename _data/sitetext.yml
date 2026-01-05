@@ -501,10 +501,21 @@ team:
     - name: "Anaïs Rourre"
       role: 
         en: "MSc Student<br>co-supervision with Catherine Duclos<br>(Social Physiology)"
-        fr: "Étudiant à la maîtrise<br>co-supervision avec Catherine Duclos<br>(Physiologie Sociale)"
+        fr: "Étudiante à la maîtrise<br>co-supervision avec Catherine Duclos<br>(Physiologie Sociale)"
       image: img/team/Anaïs_Rourre.jpg
       social:
         - url: https://fr.linkedin.com/in/ana%C3%AFs-rourre-51491426a?trk=public_profile_browsemap
+          icon: fab fa-linkedin-in
+        # - url: 
+        #   icon: fab fa-github
+
+    - name: "Nadine Mohamed"
+      role: 
+        en: "MSc Student<br>(Social Neuro-AI)"
+        fr: "Étudiante à la maîtrise<br>(Neuro-IA Sociale)"
+      image: img/team/Nadine_Mohamed.jpg
+      social:
+        - url: https://www.linkedin.com/in/nadine-mo-992b97165/
           icon: fab fa-linkedin-in
         # - url: 
         #   icon: fab fa-github
