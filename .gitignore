@@ -8,3 +8,7 @@ unused
 bootstrap-reference.html
 vendor
 .DS_Store
+
+# API keys
+.env
+scripts/.env

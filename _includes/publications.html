@@ -1,76 +1,386 @@
 <!-- Publications -->
 
-<section class="page-section" id="{{ site.data.sitetext.publications.section | default: 'publications' }}" style="padding: 20px 0;">
-  
+<section class="page-section" id="{{ site.data.sitetext.publications.section | default: 'publications' }}"
+  style="padding: 20px 0;">
+
   {% include header.html %}
- 
+
   <div class="container-fluid bg-light publications">
     <div class="container">
-      <div class="form-select" aria-label="Default select example" style="padding-right: 0; height: 140px;">
-        <!-- <div style="margin-top: 50px;">
-          <h5 style="color: #0d6cb5; position: absolute; margin: -37px auto;"> Filter your research</h3>
-        </div> -->
-        <input type="search" class="form-control rounded" id="search-input" onkeyup="searchItem()" placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
-        <!-- <select class="pub-filters pubtype-select form-control form-control-sm" id="publication-type" data-filter-group="pubtype">
-          <option value="">Type</option>
-          <option value="Conference paper">Conference paper</option>
-          <option value="Journal article">Journal article</option>
-          <option value="Preprint">Preprint</option>
-          <option value="Book">Book</option>
-          <option value="Thesis">Thesis</option>
-        </select>
-        <select class="pub-filters form-control form-control-sm" id="publication-year">
-          <option value="">Date</option>
-          <option value="2020">2020</option>
-          <option value="2019">2019</option>
-          <option value="2018">2018</option>
-          <option value="2017">2017</option>
-          <option value="2016">2016</option>
-          <option value="2015">2015</option>
-          <option value="2014">2014</option>
-          <option value="2013">2013</option>
-          <option value="2012">2012</option>
-        </select> -->
-        <span class="input-group-text border-0" id="search-addon" onclick=filterItems()>
-          <i class="fas fa-search"></i>
-        </span>
-      </div>
+      <div class="row">
+        <!-- Left Sidebar: Filters -->
+        <div class="col-lg-3 col-md-4">
+          <div class="pub-sidebar">
+            <!-- Search Bar -->
+            <div class="sidebar-section">
+              <input type="search" class="form-control rounded" id="search-input" onkeyup="filterPublications()"
+                placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" role="textbox"
+                spellcheck="false">
+            </div>
 
-      <div class="" style="margin: 50px 0px;">
-      <table id="pubTable" style="margin-bottom: 45px;"> 
-        {% assign projects=site.papers | where:"doi", page.doi | sort: 'lang' %}
-        {% for project in projects reversed %}
-          <tr>
-            <td>
-              <div class="container pub-item {{ project.type }}">
-                <div class="grid-sizer col-lg-10 mx-auto">
-                  <div class="pubtitle {{ project.type | default: 'All' }} year {{ project.year }}" id="pubtitle">
-                    <a class="papers-link" target="_blank" href="{{ project.link }}">{{ project.title }}</a>
-                  </div>         
-                  <div class="pubauthors">
-                    <span>{{ project.authors }}</span>
-                  </div>
-                  <div class="pubinfo">
-                    <span>{{ project.publication }}, {{ project.year }}</span> <br>
-                  </div> 
-              <div class="pubcategory mt-10">
-                <img class="" style="height: 35px;" src="/assets/img/icons/{{ project.type }}@2x.png">
-                {% for cat in project.category %}
-                  <img class="" style="height: 35px;" src="/assets/img/icons/{{ cat }}@2x.png">
-                {% endfor %}                  
+            <!-- Sort -->
+            <div class="sidebar-section">
+              <h6 class="sidebar-title">Sort by date</h6>
+              <div class="filter-group">
+                <button class="filter-pill active" id="sort-newest" onclick="sortPublications('newest')">Newest
+                  first</button>
+                <button class="filter-pill" id="sort-oldest" onclick="sortPublications('oldest')">Oldest first</button>
               </div>
             </div>
+
+            <!-- Type Filters -->
+            <div class="sidebar-section">
+              <h6 class="sidebar-title">Type</h6>
+              <div class="filter-group">
+                <button class="filter-pill active" data-filter="all" onclick="toggleFilter(this, 'type')">All</button>
+                <button class="filter-pill" data-filter="Journal Paper" onclick="toggleFilter(this, 'type')">Journal
+                  Paper</button>
+                <button class="filter-pill" data-filter="Preprint"
+                  onclick="toggleFilter(this, 'type')">Preprint</button>
+                <button class="filter-pill" data-filter="Book_Chapter" onclick="toggleFilter(this, 'type')">Book
+                  Chapter</button>
+                <button class="filter-pill" data-filter="Comment" onclick="toggleFilter(this, 'type')">Comment</button>
+                <button class="filter-pill" data-filter="Poster_Conference"
+                  onclick="toggleFilter(this, 'type')">Poster/Conference</button>
               </div>
-            </td>
-          </tr>
-        {% endfor %}
-      </table>
-      <div class="col-lg-12 text-center">
-      <p class="no-search-result" id="noResult">Sorry, your search did not return any results. Please try again with new search criteria.</h2>
-    </div>
+            </div>
+
+            <!-- Category Filters - PROVISOIREMENT DÉSACTIVÉ
+            <div class="sidebar-section">
+              <h6 class="sidebar-title">Category</h6>
+              <div class="filter-group">
+                <button class="filter-pill filter-pill-light active" data-filter="all"
+                  onclick="toggleFilter(this, 'category')">All</button>
+                <button class="filter-pill filter-pill-light" data-filter="Computational"
+                  onclick="toggleFilter(this, 'category')">Computational</button>
+                <button class="filter-pill filter-pill-light" data-filter="Experimental"
+                  onclick="toggleFilter(this, 'category')">Experimental</button>
+                <button class="filter-pill filter-pill-light" data-filter="Review"
+                  onclick="toggleFilter(this, 'category')">Review</button>
+                <button class="filter-pill filter-pill-light" data-filter="Social Cognitive and Affective Neuroscience"
+                  onclick="toggleFilter(this, 'category')">Social Neuroscience</button>
+                <button class="filter-pill filter-pill-light" data-filter="opinion_perspectives"
+                  onclick="toggleFilter(this, 'category')">Opinion</button>
+              </div>
+            </div>
+            -->
+
+            <!-- Year Filter -->
+            <div class="sidebar-section">
+              <h6 class="sidebar-title">Year</h6>
+              <div class="filter-group">
+                <button class="filter-pill filter-pill-year active" data-filter="all"
+                  onclick="toggleFilter(this, 'year')">All</button>
+                <button class="filter-pill filter-pill-year" data-filter="2025"
+                  onclick="toggleFilter(this, 'year')">2025</button>
+                <button class="filter-pill filter-pill-year" data-filter="2024"
+                  onclick="toggleFilter(this, 'year')">2024</button>
+                <button class="filter-pill filter-pill-year" data-filter="2023"
+                  onclick="toggleFilter(this, 'year')">2023</button>
+                <button class="filter-pill filter-pill-year" data-filter="2022"
+                  onclick="toggleFilter(this, 'year')">2022</button>
+                <button class="filter-pill filter-pill-year" data-filter="2021"
+                  onclick="toggleFilter(this, 'year')">2021</button>
+                <button class="filter-pill filter-pill-year" data-filter="2020"
+                  onclick="toggleFilter(this, 'year')">2020</button>
+                <button class="filter-pill filter-pill-year" data-filter="2019-"
+                  onclick="toggleFilter(this, 'year')">Before 2020</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Publications List -->
+        <div class="col-lg-9 col-md-8">
+          <table id="pubTable" style="margin-top: 20px; margin-bottom: 45px;">
+            {% assign projects = site.data.publications | sort: 'year' %}
+            {% for project in projects reversed %}
+            <tr class="pub-row" data-type="{{ project.type }}"
+              data-categories="{% for cat in project.category %}{{ cat }}|{% endfor %}" data-year="{{ project.year }}">
+              <td>
+                <div class="container pub-item {{ project.type }}">
+                  <div class="grid-sizer">
+                    <div class="pubtitle {{ project.type | default: 'All' }} year {{ project.year }}" id="pubtitle">
+                      <a class="papers-link" target="_blank" href="{{ project.link }}">{{ project.title }}</a>
+                    </div>
+                    <div class="pubauthors">
+                      <span>{{ project.authors }}</span>
+                    </div>
+                    <div class="pubinfo">
+                      <span>{{ project.publication }}, {{ project.year }}</span>
+                    </div>
+                    <div class="pub-tags">
+                      {% assign type_display = project.type | replace: "Poster_Conference", "Poster/Conference" |
+                      replace: "_", " " %}
+                      <button class="pub-tag" onclick="filterByTag('{{ project.type }}', 'type')">{{ type_display
+                        }}</button>
+                      <!-- Category tags - PROVISOIREMENT DÉSACTIVÉ
+                      {% for cat in project.category %}
+                      {% assign cat_display = cat | replace: "opinion_perspectives", "Opinion/Perspectives" | replace:
+                      "_", " " %}
+                      <button class="pub-tag pub-tag-light" onclick="filterByTag('{{ cat }}', 'category')">{{ cat_display }}</button>
+                      {% endfor %}
+                      -->
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            {% endfor %}
+          </table>
+          <div class="col-lg-12 text-center">
+            <p class="no-search-result" id="noResult" style="display: none;">Sorry, your search did not return any
+              results. Please try again with new search criteria.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  </div>
-  
+
 </section>
+
+<style>
+  /* Sidebar */
+  .pub-sidebar {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px 0px;
+    position: sticky;
+    top: 100px;
+  }
+
+  .sidebar-section {
+    margin-bottom: 20px;
+  }
+
+  .sidebar-title {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
+
+  .filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  /* Filter pill buttons - using site primary blue */
+  .filter-pill {
+    border: 1px solid #0f6cb6;
+    background: white;
+    color: #0f6cb6;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .filter-pill:hover {
+    background: #e3f0fa;
+  }
+
+  .filter-pill.active {
+    background: #0f6cb6;
+    color: white;
+  }
+
+  /* Light variant for category filter pills */
+  .filter-pill.filter-pill-light {
+    border-color: #4a9fd4;
+    color: #4a9fd4;
+  }
+
+  .filter-pill.filter-pill-light:hover {
+    background: #e8f4fc;
+  }
+
+  .filter-pill.filter-pill-light.active {
+    background: #4a9fd4;
+    color: white;
+  }
+
+  /* Year variant for year filter pills - teal tint */
+  .filter-pill.filter-pill-year {
+    border-color: #2196a6;
+    color: #2196a6;
+  }
+
+  .filter-pill.filter-pill-year:hover {
+    background: #e0f4f7;
+  }
+
+  .filter-pill.filter-pill-year.active {
+    background: #2196a6;
+    color: white;
+  }
+
+  /* Publication tags - same pill style */
+  .pub-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+
+  .pub-tag {
+    border: 1px solid #0f6cb6;
+    background: white;
+    color: #0f6cb6;
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .pub-tag:hover {
+    background: #0f6cb6;
+    color: white;
+    transform: scale(1.03);
+  }
+
+  /* Light variant for categories - lighter blue */
+  .pub-tag.pub-tag-light {
+    border-color: #4a9fd4;
+    color: #4a9fd4;
+  }
+
+  .pub-tag.pub-tag-light:hover {
+    background: #4a9fd4;
+    color: white;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .pub-sidebar {
+      position: static;
+      margin-bottom: 20px;
+    }
+  }
+</style>
+
+<script>
+  // Current filter state
+  let currentFilters = {
+    type: 'all',
+    category: 'all',
+    year: 'all',
+    search: ''
+  };
+  let sortOrder = 'newest';
+
+  // Toggle filter button
+  function toggleFilter(btn, filterGroup) {
+    // Update active state for buttons in this group
+    const filterDiv = btn.parentElement;
+    filterDiv.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // Update filter state
+    currentFilters[filterGroup] = btn.dataset.filter;
+
+    applyFilters();
+  }
+
+  // Filter by clicking on tag button
+  function filterByTag(value, filterGroup) {
+    currentFilters[filterGroup] = value;
+
+    // Update button states in sidebar
+    document.querySelectorAll('.sidebar-section').forEach(section => {
+      const buttons = section.querySelectorAll('.filter-pill[data-filter]');
+      if (buttons.length > 0) {
+        const hasType = section.querySelector('[data-filter="Journal Paper"]');
+        const hasCategory = section.querySelector('[data-filter="Computational"]');
+
+        if ((filterGroup === 'type' && hasType) || (filterGroup === 'category' && hasCategory)) {
+          buttons.forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.filter === value);
+          });
+        }
+      }
+    });
+
+    applyFilters();
+  }
+
+  // Search function
+  function filterPublications() {
+    currentFilters.search = document.getElementById('search-input').value.toLowerCase();
+    applyFilters();
+  }
+
+  // Sort function
+  function sortPublications(order) {
+    sortOrder = order;
+
+    // Update button states
+    document.getElementById('sort-newest').classList.toggle('active', order === 'newest');
+    document.getElementById('sort-oldest').classList.toggle('active', order === 'oldest');
+
+    const table = document.getElementById('pubTable');
+    const rows = Array.from(table.querySelectorAll('.pub-row'));
+
+    rows.sort((a, b) => {
+      const yearA = parseInt(a.dataset.year) || 0;
+      const yearB = parseInt(b.dataset.year) || 0;
+      return order === 'newest' ? yearB - yearA : yearA - yearB;
+    });
+
+    rows.forEach(row => table.appendChild(row));
+  }
+
+  // Apply all filters
+  function applyFilters() {
+    const rows = document.querySelectorAll('.pub-row');
+    let visibleCount = 0;
+
+    rows.forEach(row => {
+      const type = row.dataset.type || '';
+      const categories = row.dataset.categories || '';
+      const rowYear = parseInt(row.dataset.year) || 0;
+      const text = row.textContent.toLowerCase();
+
+      // Check type filter (case insensitive)
+      const typeMatch = currentFilters.type === 'all' ||
+        type.toLowerCase() === currentFilters.type.toLowerCase();
+
+      // Check category filter
+      const catMatch = currentFilters.category === 'all' ||
+        categories.toLowerCase().includes(currentFilters.category.toLowerCase());
+
+      // Check year filter
+      let yearMatch = true;
+      if (currentFilters.year !== 'all') {
+        if (currentFilters.year === '2019-') {
+          yearMatch = rowYear < 2020;
+        } else {
+          yearMatch = rowYear === parseInt(currentFilters.year);
+        }
+      }
+
+      // Check search
+      const searchMatch = currentFilters.search === '' || text.includes(currentFilters.search);
+
+      if (typeMatch && catMatch && yearMatch && searchMatch) {
+        row.style.display = '';
+        visibleCount++;
+      } else {
+        row.style.display = 'none';
+      }
+    });
+
+    // Show/hide no results message
+    document.getElementById('noResult').style.display = visibleCount === 0 ? 'block' : 'none';
+  }
+
+  // Initialize search function for backwards compatibility
+  function searchItem() {
+    filterPublications();
+  }
+</script>
+
 <!-- End publications -->
