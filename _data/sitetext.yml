@@ -465,10 +465,8 @@ team:
 
     - name: "Arnaud Maupas"
       role: 
-        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>Coming soon..."
-        # (System Biology & Cognition)
-        fr: "Doctorant<br>co-supervision with Sébastien Jacquemont<br>Prochainement..."
-        # (Biologie des systèmes et Cognition)
+        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(System Biology & Cognition)"
+        fr: "Doctorant<br>co-supervision avec Sébastien Jacquemont<br>(Biologie des systèmes et Cognition)"
       image: img/team/Arnaud_Maupas.jpg
       social:
         - url: https://scholar.google.fr/citations?user=1SsON4kAAAAJ&hl=fr&oi=ao
@@ -489,15 +487,6 @@ team:
         - url: https://github.com/mg-m
           icon: fab fa-github
 
-    - name: "Olivia Leone"
-      role: 
-        en: "MSc Student<br>co-supervision with Ian Gold<br>(Computational Psychiatry)"
-        fr: "Étudiante à la maîtrise<br>co-supervision avec Ian Gold<br>(Psychiatrie computationnelle)"
-      image: img/team/Olivia_Leone.jpg
-      social:
-        - url: https://www.linkedin.com/in/olivia-leone/
-          icon: fab fa-linkedin-in
-  
     - name: "Anaïs Rourre"
       role: 
         en: "MSc Student<br>co-supervision with Catherine Duclos<br>(Social Physiology)"
