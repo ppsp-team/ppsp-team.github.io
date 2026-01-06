@@ -313,3 +313,11 @@
       icon: fab fa-google
     - url: https://www.linkedin.com/in/k-l-91922969?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
       icon: fab fa-linkedin-in
+
+- name: "Olivia Leone"
+  role: 
+    en: "Computational Psychiatry"
+    fr: "Psychiatrie computationnelle"
+  social:
+    - url: https://www.linkedin.com/in/olivia-leone/
+      icon: fab fa-linkedin-in
