@@ -6,6 +6,7 @@ Clean publications data - fix doubled years, remove duplicates, fix wrong years.
 import yaml
 import re
 from pathlib import Path
+from datetime import datetime
 
 PUBLICATIONS_FILE = Path(__file__).parent.parent / '_data' / 'publications.yml'
 
@@ -29,21 +30,24 @@ def extract_year_from_publication(pub: dict) -> dict:
     publication = pub.get('publication', '')
     current_year = pub.get('year')
     
-    # If year is 2025 (our fallback), try to find real year in publication field
-    if current_year == 2025 and publication:
-        # Look for year pattern in publication
+    # If year is current year or future (likely a fallback value), try to find real year in publication field
+    this_year = datetime.now().year
+    if current_year and current_year >= this_year and publication:
+        # Look for year pattern in publication - use consistent pattern (1900-2029)
         year_match = re.search(r'\b(19\d{2}|20[0-2]\d)\b', publication)
         if year_match:
             real_year = int(year_match.group())
-            print(f"   📅 Fixed year: {current_year} → {real_year} for: {pub.get('title', '')[:50]}...")
-            pub['year'] = real_year
+            # Only update if the found year is older (more likely to be correct)
+            if real_year < current_year:
+                print(f"   📅 Fixed year: {current_year} → {real_year} for: {pub.get('title', '')[:50]}...")
+                pub['year'] = real_year
     
     return pub
 
 
 def remove_duplicates(pubs: list) -> list:
     """Remove duplicate publications based on title similarity."""
-    seen_titles = {}
+    seen_titles = set()  # Use set instead of dict for efficiency
     unique_pubs = []
     duplicates_removed = 0
     
@@ -53,7 +57,7 @@ def remove_duplicates(pubs: list) -> list:
         normalized = re.sub(r'[^a-z0-9]', '', title)
         
         if normalized and normalized not in seen_titles:
-            seen_titles[normalized] = True
+            seen_titles.add(normalized)
             unique_pubs.append(pub)
         else:
             duplicates_removed += 1

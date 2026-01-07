@@ -4,7 +4,6 @@ Migration script to convert existing .md publication files to single YAML file.
 Run once to migrate, then delete this script.
 """
 
-import os
 import re
 import yaml
 from pathlib import Path

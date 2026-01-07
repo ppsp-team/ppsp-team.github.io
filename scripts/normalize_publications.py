@@ -9,6 +9,9 @@ from pathlib import Path
 
 PUBLICATIONS_FILE = Path(__file__).parent.parent / '_data' / 'publications.yml'
 
+# Common compound last name prefixes
+COMPOUND_PREFIXES = {'van', 'von', 'de', 'la', 'del', 'der', 'di', 'da', 'dos', 'das', 'le', 'du', 'den'}
+
 
 def normalize_authors(authors: str) -> str:
     """Normalize author names to consistent format: First Initial. Last Name"""
@@ -26,20 +29,34 @@ def normalize_authors(authors: str) -> str:
         if not author:
             continue
         
-        # Skip if already in "X. Lastname" format
-        if re.match(r'^[A-Z]\.\s*[A-Za-z]+', author):
+        # Skip if already in "X. Lastname" format (handles multiple initials like "J.P. Smith" or "A. B. Jones")
+        # Also handles hyphenated last names like "J. Smith-Jones"
+        if re.match(r'^([A-Z]\.\s*)+[A-Za-z-]+$', author):
             normalized.append(author)
             continue
         
         # Split name into parts
         parts = author.split()
         if len(parts) >= 2:
-            # Last part is lastname, first parts are first names
-            lastname = parts[-1]
-            firstnames = parts[:-1]
-            # Convert first names to initials
-            initials = ' '.join([f"{n[0]}." for n in firstnames if n])
-            normalized.append(f"{initials} {lastname}")
+            # Check for compound last names (van, von, de, etc.)
+            # Find where the last name starts by looking for compound prefixes
+            lastname_start = len(parts) - 1
+            for i in range(len(parts) - 1, 0, -1):
+                if parts[i - 1].lower() in COMPOUND_PREFIXES:
+                    lastname_start = i - 1
+                else:
+                    break
+            
+            # Everything before lastname_start is first names, everything from there is last name
+            firstnames = parts[:lastname_start]
+            lastname = ' '.join(parts[lastname_start:])
+            
+            if firstnames:
+                # Convert first names to initials
+                initials = ' '.join([f"{n[0]}." for n in firstnames if n])
+                normalized.append(f"{initials} {lastname}")
+            else:
+                normalized.append(author)
         else:
             normalized.append(author)
     

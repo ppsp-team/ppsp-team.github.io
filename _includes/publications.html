@@ -29,19 +29,23 @@
             </div>
 
             <!-- Type Filters -->
-            <div class="sidebar-section">
+            <div class="sidebar-section" data-filter-group="type">
               <h6 class="sidebar-title">Type</h6>
               <div class="filter-group">
-                <button class="filter-pill active" data-filter="all" onclick="toggleFilter(this, 'type')">All</button>
-                <button class="filter-pill" data-filter="Journal Paper" onclick="toggleFilter(this, 'type')">Journal
+                <button class="filter-pill active" data-filter="all" onclick="toggleFilter(this, 'type')"
+                  aria-label="Show all publication types">All</button>
+                <button class="filter-pill" data-filter="Journal Paper" onclick="toggleFilter(this, 'type')"
+                  aria-label="Filter by type: Journal Paper">Journal
                   Paper</button>
-                <button class="filter-pill" data-filter="Preprint"
-                  onclick="toggleFilter(this, 'type')">Preprint</button>
-                <button class="filter-pill" data-filter="Book_Chapter" onclick="toggleFilter(this, 'type')">Book
+                <button class="filter-pill" data-filter="Preprint" onclick="toggleFilter(this, 'type')"
+                  aria-label="Filter by type: Preprint">Preprint</button>
+                <button class="filter-pill" data-filter="Book_Chapter" onclick="toggleFilter(this, 'type')"
+                  aria-label="Filter by type: Book Chapter">Book
                   Chapter</button>
-                <button class="filter-pill" data-filter="Comment" onclick="toggleFilter(this, 'type')">Comment</button>
-                <button class="filter-pill" data-filter="Poster_Conference"
-                  onclick="toggleFilter(this, 'type')">Poster/Conference</button>
+                <button class="filter-pill" data-filter="Comment" onclick="toggleFilter(this, 'type')"
+                  aria-label="Filter by type: Comment">Comment</button>
+                <button class="filter-pill" data-filter="Poster_Conference" onclick="toggleFilter(this, 'type')"
+                  aria-label="Filter by type: Poster/Conference">Poster/Conference</button>
               </div>
             </div>
 
@@ -66,25 +70,25 @@
             -->
 
             <!-- Year Filter -->
-            <div class="sidebar-section">
+            <div class="sidebar-section" data-filter-group="year">
               <h6 class="sidebar-title">Year</h6>
               <div class="filter-group">
                 <button class="filter-pill filter-pill-year active" data-filter="all"
-                  onclick="toggleFilter(this, 'year')">All</button>
-                <button class="filter-pill filter-pill-year" data-filter="2025"
-                  onclick="toggleFilter(this, 'year')">2025</button>
-                <button class="filter-pill filter-pill-year" data-filter="2024"
-                  onclick="toggleFilter(this, 'year')">2024</button>
-                <button class="filter-pill filter-pill-year" data-filter="2023"
-                  onclick="toggleFilter(this, 'year')">2023</button>
-                <button class="filter-pill filter-pill-year" data-filter="2022"
-                  onclick="toggleFilter(this, 'year')">2022</button>
-                <button class="filter-pill filter-pill-year" data-filter="2021"
-                  onclick="toggleFilter(this, 'year')">2021</button>
-                <button class="filter-pill filter-pill-year" data-filter="2020"
-                  onclick="toggleFilter(this, 'year')">2020</button>
-                <button class="filter-pill filter-pill-year" data-filter="2019-"
-                  onclick="toggleFilter(this, 'year')">Before 2020</button>
+                  onclick="toggleFilter(this, 'year')" aria-label="Show all years">All</button>
+                <button class="filter-pill filter-pill-year" data-filter="2025" onclick="toggleFilter(this, 'year')"
+                  aria-label="Filter by year: 2025">2025</button>
+                <button class="filter-pill filter-pill-year" data-filter="2024" onclick="toggleFilter(this, 'year')"
+                  aria-label="Filter by year: 2024">2024</button>
+                <button class="filter-pill filter-pill-year" data-filter="2023" onclick="toggleFilter(this, 'year')"
+                  aria-label="Filter by year: 2023">2023</button>
+                <button class="filter-pill filter-pill-year" data-filter="2022" onclick="toggleFilter(this, 'year')"
+                  aria-label="Filter by year: 2022">2022</button>
+                <button class="filter-pill filter-pill-year" data-filter="2021" onclick="toggleFilter(this, 'year')"
+                  aria-label="Filter by year: 2021">2021</button>
+                <button class="filter-pill filter-pill-year" data-filter="2020" onclick="toggleFilter(this, 'year')"
+                  aria-label="Filter by year: 2020">2020</button>
+                <button class="filter-pill filter-pill-year" data-filter="pre-2020" onclick="toggleFilter(this, 'year')"
+                  aria-label="Filter publications before 2020">Before 2020</button>
               </div>
             </div>
           </div>
@@ -146,7 +150,13 @@
     border-radius: 8px;
     padding: 20px 0px;
     position: sticky;
-    top: 100px;
+    top: 0;
+  }
+
+  @media (min-width: 992px) {
+    .pub-sidebar {
+      top: 100px;
+    }
   }
 
   .sidebar-section {
@@ -289,20 +299,36 @@
   function filterByTag(value, filterGroup) {
     currentFilters[filterGroup] = value;
 
-    // Update button states in sidebar
-    document.querySelectorAll('.sidebar-section').forEach(section => {
-      const buttons = section.querySelectorAll('.filter-pill[data-filter]');
-      if (buttons.length > 0) {
-        const hasType = section.querySelector('[data-filter="Journal Paper"]');
-        const hasCategory = section.querySelector('[data-filter="Computational"]');
+    // Update button states in sidebar using data-filter-group attribute
+    const dataGroupedSections = document.querySelectorAll('.sidebar-section[data-filter-group]');
 
-        if ((filterGroup === 'type' && hasType) || (filterGroup === 'category' && hasCategory)) {
+    if (dataGroupedSections.length > 0) {
+      // Use data-filter-group attributes for robust section identification
+      dataGroupedSections.forEach(section => {
+        const sectionGroup = section.dataset.filterGroup;
+        if (sectionGroup === filterGroup) {
+          const buttons = section.querySelectorAll('.filter-pill[data-filter]');
           buttons.forEach(btn => {
             btn.classList.toggle('active', btn.dataset.filter === value);
           });
         }
-      }
-    });
+      });
+    } else {
+      // Fallback: legacy behavior based on specific filter values
+      document.querySelectorAll('.sidebar-section').forEach(section => {
+        const buttons = section.querySelectorAll('.filter-pill[data-filter]');
+        if (buttons.length > 0) {
+          const hasType = section.querySelector('[data-filter="Journal Paper"]');
+          const hasCategory = section.querySelector('[data-filter="Computational"]');
+
+          if ((filterGroup === 'type' && hasType) || (filterGroup === 'category' && hasCategory)) {
+            buttons.forEach(btn => {
+              btn.classList.toggle('active', btn.dataset.filter === value);
+            });
+          }
+        }
+      });
+    }
 
     applyFilters();
   }
@@ -344,18 +370,18 @@
       const rowYear = parseInt(row.dataset.year) || 0;
       const text = row.textContent.toLowerCase();
 
-      // Check type filter (case insensitive)
+      // Check type filter (case sensitive, controlled values)
       const typeMatch = currentFilters.type === 'all' ||
-        type.toLowerCase() === currentFilters.type.toLowerCase();
+        type === currentFilters.type;
 
-      // Check category filter
+      // Check category filter (case sensitive, controlled values)
       const catMatch = currentFilters.category === 'all' ||
-        categories.toLowerCase().includes(currentFilters.category.toLowerCase());
+        categories.includes(currentFilters.category);
 
       // Check year filter
       let yearMatch = true;
       if (currentFilters.year !== 'all') {
-        if (currentFilters.year === '2019-') {
+        if (currentFilters.year === 'pre-2020') {
           yearMatch = rowYear < 2020;
         } else {
           yearMatch = rowYear === parseInt(currentFilters.year);

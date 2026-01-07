@@ -8,8 +8,13 @@ import os
 import re
 import yaml
 import requests
-from datetime import datetime
 from pathlib import Path
+
+# Get current year dynamically for fallback
+def get_current_year():
+    """Return current year for fallback when year is unknown."""
+    import datetime
+    return datetime.datetime.now().year
 
 # Load environment variables from .env file
 def load_env():
@@ -21,7 +26,9 @@ def load_env():
                 line = line.strip()
                 if line and not line.startswith('#') and '=' in line:
                     key, value = line.split('=', 1)
-                    env_vars[key.strip()] = value.strip()
+                    # Strip quotes from values (handles "value" or 'value')
+                    value = value.strip().strip('"').strip("'")
+                    env_vars[key.strip()] = value
     return env_vars
 
 env = load_env()
@@ -57,7 +64,8 @@ def extract_publication_info(article: dict) -> dict:
     if not year:
         # Try to extract from citation info
         citation = article.get('citation', '')
-        year_match = re.search(r'\b(19|20)\d{2}\b', citation)
+        # Use consistent year regex pattern (1900-2029)
+        year_match = re.search(r'\b(19\d{2}|20[0-2]\d)\b', citation)
         if year_match:
             year = year_match.group()
     
@@ -79,11 +87,15 @@ def extract_publication_info(article: dict) -> dict:
     elif 'book' in pub_lower or 'chapter' in pub_lower:
         pub_type = "Book_Chapter"
     
+    # Use current year as fallback instead of hardcoded value
+    fallback_year = get_current_year()
+    parsed_year = int(year) if year and str(year).isdigit() else fallback_year
+    
     return {
         'title': article.get('title', ''),
         'authors': article.get('authors', ''),
         'publication': publication,
-        'year': int(year) if year and str(year).isdigit() else 2025,  # Use 2025 as fallback for recent papers
+        'year': parsed_year,
         'link': article.get('link', ''),
         'type': pub_type,
         'category': [],  # Can be manually categorized later
@@ -133,9 +145,17 @@ def sync_publications(dry_run: bool = False):
         print("   Please add your API key to scripts/.env")
         return
     
+    # Validate AUTHOR_ID
+    if not AUTHOR_ID or len(AUTHOR_ID) < 5:
+        print("❌ Error: AUTHOR_ID is missing or invalid")
+        print("   Please set a valid Google Scholar author ID")
+        return
+    
     print(f"🔍 Fetching publications for author: {AUTHOR_ID}")
     
     # Fetch all publications (paginated)
+    # Note: If there are exactly 100, 200, etc. publications, an extra empty API call may be made.
+    # This is expected behavior and does not affect results.
     all_articles = []
     start = 0
     while True:
@@ -151,15 +171,26 @@ def sync_publications(dry_run: bool = False):
             if len(articles) < 100:
                 break
             start += 100
+        except requests.exceptions.HTTPError as e:
+            status_code = e.response.status_code if e.response else None
+            if status_code == 401 or status_code == 403:
+                print(f"❌ Authentication Error: Invalid API key (HTTP {status_code})")
+            elif status_code == 429:
+                print(f"❌ Rate Limit Error: Too many requests (HTTP 429). Please wait and try again.")
+            else:
+                print(f"❌ HTTP Error: {e}")
+            return
         except requests.exceptions.RequestException as e:
-            print(f"❌ API Error: {e}")
+            print(f"❌ Network Error: {e}")
             return
     
     print(f"📚 Total publications found: {len(all_articles)}")
     
     # Extract publication info
     fetched_pubs = [extract_publication_info(art) for art in all_articles]
-    fetched_pubs = [p for p in fetched_pubs if p['title']]  # Filter out empty titles only
+    # Filter out empty titles and publications with unreasonable years (0 or far future)
+    current_year = get_current_year()
+    fetched_pubs = [p for p in fetched_pubs if p['title'] and 0 < p.get('year', 0) <= current_year + 1]
     
     # Load existing
     existing_pubs = load_existing_publications()
