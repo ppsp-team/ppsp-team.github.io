@@ -87,9 +87,9 @@ def extract_publication_info(article: dict) -> dict:
     elif 'book' in pub_lower or 'chapter' in pub_lower:
         pub_type = "Book_Chapter"
     
-    # Use current year as fallback instead of hardcoded value
-    fallback_year = get_current_year()
-    parsed_year = int(year) if year and str(year).isdigit() else fallback_year
+    # Use None as fallback for missing years instead of current year
+    # This prevents publications with missing dates from appearing recent
+    parsed_year = int(year) if year and str(year).isdigit() else None
     
     return {
         'title': article.get('title', ''),

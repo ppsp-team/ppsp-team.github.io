@@ -17,13 +17,26 @@ def parse_frontmatter(file_path: Path) -> dict:
     """Parse YAML frontmatter from markdown file."""
     content = file_path.read_text(encoding='utf-8')
     
-    # Extract frontmatter between --- markers
-    match = re.match(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
-    if not match:
+    # Extract frontmatter between --- markers using robust boundary detection
+    # Matches: --- at start of line, captures content, then --- at start of line
+    lines = content.split('\n')
+    if len(lines) < 3 or lines[0].strip() != '---':
         return None
     
+    # Find closing --- marker
+    frontmatter_end = None
+    for i in range(1, len(lines)):
+        if lines[i].strip() == '---':
+            frontmatter_end = i
+            break
+    
+    if frontmatter_end is None:
+        return None
+    
+    frontmatter_text = '\n'.join(lines[1:frontmatter_end])
+    
     try:
-        data = yaml.safe_load(match.group(1))
+        data = yaml.safe_load(frontmatter_text)
         return data
     except yaml.YAMLError as e:
         print(f"  ⚠️ YAML error in {file_path.name}: {e}")

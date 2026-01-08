@@ -30,8 +30,8 @@ def normalize_authors(authors: str) -> str:
             continue
         
         # Skip if already in "X. Lastname" format (handles multiple initials like "J.P. Smith" or "A. B. Jones")
-        # Also handles hyphenated last names like "J. Smith-Jones"
-        if re.match(r'^([A-Z]\.\s*)+[A-Za-z-]+$', author):
+        # Also handles hyphenated and compound last names like "J. Smith-Jones" or "J. van der Berg"
+        if re.match(r'^([A-Z]\.\s*)+([a-z]+\s+)*[A-Za-z-]+$', author):
             normalized.append(author)
             continue
         
@@ -40,12 +40,17 @@ def normalize_authors(authors: str) -> str:
         if len(parts) >= 2:
             # Check for compound last names (van, von, de, etc.)
             # Find where the last name starts by looking for compound prefixes
+            # Handles multiple consecutive prefixes like "de la Fontaine"
             lastname_start = len(parts) - 1
             for i in range(len(parts) - 1, 0, -1):
                 if parts[i - 1].lower() in COMPOUND_PREFIXES:
                     lastname_start = i - 1
-                else:
+                elif i == len(parts) - 1:
+                    # If current part is not a prefix, stop looking
                     break
+                else:
+                    # If we found a prefix but then hit a non-prefix, keep the first prefix found
+                    continue
             
             # Everything before lastname_start is first names, everything from there is last name
             firstnames = parts[:lastname_start]

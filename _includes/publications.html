@@ -15,7 +15,7 @@
             <div class="sidebar-section">
               <input type="search" class="form-control rounded" id="search-input" onkeyup="filterPublications()"
                 placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" role="textbox"
-                spellcheck="false">
+                spellcheck="false" aria-label="Search publications">
             </div>
 
             <!-- Sort -->
@@ -155,6 +155,7 @@
 
   @media (min-width: 992px) {
     .pub-sidebar {
+      /* Offset matches desktop header height to prevent overlap; update if header height changes */
       top: 100px;
     }
   }
@@ -313,21 +314,6 @@
           });
         }
       });
-    } else {
-      // Fallback: legacy behavior based on specific filter values
-      document.querySelectorAll('.sidebar-section').forEach(section => {
-        const buttons = section.querySelectorAll('.filter-pill[data-filter]');
-        if (buttons.length > 0) {
-          const hasType = section.querySelector('[data-filter="Journal Paper"]');
-          const hasCategory = section.querySelector('[data-filter="Computational"]');
-
-          if ((filterGroup === 'type' && hasType) || (filterGroup === 'category' && hasCategory)) {
-            buttons.forEach(btn => {
-              btn.classList.toggle('active', btn.dataset.filter === value);
-            });
-          }
-        }
-      });
     }
 
     applyFilters();
@@ -375,6 +361,7 @@
         type === currentFilters.type;
 
       // Check category filter (case sensitive, controlled values)
+      // Note: Data should be validated on page load to ensure only expected values are present
       const catMatch = currentFilters.category === 'all' ||
         categories.includes(currentFilters.category);
 

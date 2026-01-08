@@ -45,8 +45,12 @@ def extract_year_from_publication(pub: dict) -> dict:
     return pub
 
 
-def remove_duplicates(pubs: list) -> list:
-    """Remove duplicate publications based on title similarity."""
+def remove_duplicates(pubs: list) -> tuple[list, int]:
+    """Remove duplicate publications based on title similarity.
+    
+    Returns:
+        tuple[list, int]: Tuple of (unique_publications, duplicates_removed_count)
+    """
     seen_titles = set()  # Use set instead of dict for efficiency
     unique_pubs = []
     duplicates_removed = 0
