@@ -1,117 +1,208 @@
-# Job Openings for PPSP Team
-# To add a new job: copy an entry below and update with your details
-# status: "open" or "closed"
-# type: PhD, Postdoc, Research Assistant, Internship, etc.
+# Jobs and Internship Offers - PPSP Laboratory
+# Format: Each job has bilingual fields (fr/en)
 
-- id: phd-2026-social-neuroai
-  title: "PhD Position in Social Neuro-AI"
-  type: "PhD"
-  deadline: "2026-03-15"
-  posted: "2026-01-27"
-  status: "open"
-  short_description: "Join our team to develop AI models inspired by social neuroscience."
-  description: |
-    We are seeking a highly motivated PhD candidate to work on developing artificial intelligence models 
-    inspired by social neuroscience research. This position offers the opportunity to work at the 
-    intersection of neuroscience, AI, and computational psychiatry.
+jobs:
+  # ============================================================================
+  # PRISME - XR Neuropsychological Task Design
+  # ============================================================================
+  - id: prisme-xr-task-design
+    active: true
+    type: internship
+    title:
+      fr: "Stagiaire en Sciences Cognitives — Conception de Tâches Neuropsychologiques en XR"
+      en: "Cognitive Science Intern — XR Neuropsychological Task Design"
+    location:
+      fr: "CHU Sainte-Justine, Montréal"
+      en: "CHU Sainte-Justine, Montreal"
+    duration:
+      fr: "4–5 mois (temps plein)"
+      en: "4–5 months (full-time)"
+    start:
+      fr: "Hiver ou Été 2026 (flexible)"
+      en: "Winter or Summer 2026 (flexible)"
+    onsite:
+      fr: "3 jours/semaine"
+      en: "3 days/week"
     
-    The successful candidate will work closely with our interdisciplinary team at CHU Sainte-Justine 
-    Research Center and benefit from affiliations with Mila (Quebec AI Institute) and the University of Montreal.
-  
-  requirements:
-    - "Master's degree in Computer Science, Neuroscience, Cognitive Science, or related field"
-    - "Strong programming skills (Python, TensorFlow/PyTorch)"
-    - "Background in machine learning and/or neuroscience"
-    - "Excellent communication skills in English (French is an asset)"
-    - "Ability to work independently and collaboratively"
-  
-  responsibilities:
-    - "Develop novel AI architectures inspired by social neuroscience"
-    - "Conduct experiments and analyze large-scale datasets"
-    - "Collaborate with clinicians and neuroscientists"
-    - "Publish research findings in top-tier venues"
-    - "Present work at international conferences"
-  
-  benefits:
-    - "Competitive stipend and benefits"
-    - "Access to state-of-the-art computational resources"
-    - "Collaborative research environment"
-    - "Opportunity to co-supervise with leading researchers"
-    - "Located in vibrant Montreal, Quebec"
-  
-  contact: "join@ppsp.team"
-  apply_url: "mailto:join@ppsp.team"
-  supervisor: "Guillaume Dumas"
+    project:
+      fr: |
+        PRISME (Plateforme de Réalité Immersive pour le Suivi et la Mesure des Expressions cliniques) est un programme de recherche du Laboratoire PPSP, dédié au développement d'outils immersifs pour mieux comprendre le fonctionnement cognitif et moteur des jeunes ayant un trouble neurodéveloppemental (TND).
+        
+        **Notre objectif :** Réinventer les tâches neuropsychologiques classiques en XR pour obtenir des mesures plus fines, plus écologiques et plus sensibles au développement. Nous transformons des tests standardisés (motricité fine, flexibilité cognitive, attention, inhibition, coordination visuomotrice…) en tâches interactives intégrées au Meta Quest 3.
+      en: |
+        PRISME (Immersive Reality Platform for Monitoring and Measuring Clinical Expressions) is a research program at the PPSP Laboratory, dedicated to developing immersive tools to better understand cognitive and motor functioning in youth with neurodevelopmental disorders (NDD).
+        
+        **Our objective:** Reinvent classic neuropsychological tasks in XR to obtain finer, more ecological measures that are more sensitive to development. We transform standardized tests (fine motor skills, cognitive flexibility, attention, inhibition, visuomotor coordination) into interactive tasks integrated into Meta Quest 3.
+    
+    mission:
+      fr: |
+        Vous serez responsable de la conceptualisation scientifique des futures tâches PRISME, en vous basant sur :
+        - Les tests neuropsy de référence (Purdue Pegboard, WCST, WISC, etc.)
+        - Les principes de validité psychométrique
+        - Les contraintes expérimentales XR
+      en: |
+        You will be responsible for the scientific conceptualization of future PRISME tasks, based on:
+        - Reference neuropsychological tests (Purdue Pegboard, WCST, WISC, etc.)
+        - Psychometric validity principles
+        - XR experimental constraints
+    
+    requirements:
+      fr:
+        - "Formation en neuropsychologie, psychologie cognitive ou neurosciences"
+        - "Intérêt pour la XR et les technologies immersives"
+        - "Capacité à analyser la littérature scientifique"
+        - "Rigueur méthodologique et esprit critique"
+      en:
+        - "Training in neuropsychology, cognitive psychology, or neuroscience"
+        - "Interest in XR and immersive technologies"
+        - "Ability to analyze scientific literature"
+        - "Methodological rigor and critical thinking"
+    
+    contact: "jobs@ppsp.team"
 
-- id: postdoc-2025-precision-medicine
-  title: "Postdoctoral Fellow in Precision Psychiatry"
-  type: "Postdoc"
-  deadline: "2025-12-31"
-  posted: "2025-11-15"
-  status: "closed"
-  short_description: "Develop precision medicine approaches using multi-scale data from genomes to smartphones."
-  description: |
-    This postdoctoral position focuses on developing precision medicine approaches for psychiatric disorders.
-    The researcher will work with multi-scale data ranging from genomics to smartphone-based digital phenotyping.
+  # ============================================================================
+  # Phenomenological Analysis Internship
+  # ============================================================================
+  - id: phenomenological-analysis
+    active: true
+    type: internship
+    title:
+      fr: "Stage — Analyses Phénoménologiques"
+      en: "Internship — Phenomenological Analysis"
+    location:
+      fr: "CHU Sainte-Justine, Montréal"
+      en: "CHU Sainte-Justine, Montreal"
+    duration:
+      fr: "12 semaines minimum"
+      en: "12 weeks minimum"
+    start:
+      fr: "Été 2026"
+      en: "Summer 2026"
+    onsite:
+      fr: "3 jours/semaine minimum"
+      en: "3 days/week minimum"
     
-    This position has been filled. Thank you for your interest!
-  
-  requirements:
-    - "PhD in Computational Biology, Bioinformatics, Computer Science, or related field"
-    - "Experience with genomic data analysis"
-    - "Strong statistical and machine learning background"
-    - "Track record of peer-reviewed publications"
-  
-  responsibilities:
-    - "Develop integrative analysis pipelines"
-    - "Lead research projects and mentor students"
-    - "Collaborate with clinical partners"
-    - "Publish and present research findings"
-  
-  benefits:
-    - "Competitive postdoctoral salary"
-    - "Professional development opportunities"
-    - "Collaborative international network"
-  
-  contact: "join@ppsp.team"
-  apply_url: "mailto:join@ppsp.team"
-  supervisor: "Guillaume Dumas"
+    contact: "jobs@ppsp.team"
 
-- id: ra-2026-data-collection
-  title: "Research Assistant - Clinical Data Collection"
-  type: "Research Assistant"
-  deadline: "2026-02-28"
-  posted: "2026-01-20"
-  status: "open"
-  short_description: "Support clinical research studies with data collection and participant coordination."
-  description: |
-    We are seeking a dedicated Research Assistant to support our clinical research studies. 
-    This role involves participant recruitment, data collection, and coordination of research activities.
+  # ============================================================================
+  # iOS Developer Internship
+  # ============================================================================
+  - id: ios-developer
+    active: true
+    type: internship
+    title:
+      fr: "Développeur iOS"
+      en: "iOS Developer"
+    location:
+      fr: "CHU Sainte-Justine, Montréal"
+      en: "CHU Sainte-Justine, Montreal"
+    duration:
+      fr: "12 semaines minimum"
+      en: "12 weeks minimum"
+    start:
+      fr: "Été 2026"
+      en: "Summer 2026"
+    onsite:
+      fr: "3 jours/semaine minimum"
+      en: "3 days/week minimum"
     
-    This is an excellent opportunity for individuals interested in gaining research experience 
-    in the field of precision psychiatry and social physiology.
-  
-  requirements:
-    - "Bachelor's degree in Psychology, Neuroscience, or related field"
-    - "Strong organizational and interpersonal skills"
-    - "Attention to detail and ability to follow protocols"
-    - "Bilingual (French/English) required"
-    - "Experience with clinical populations is an asset"
-  
-  responsibilities:
-    - "Recruit and schedule research participants"
-    - "Conduct behavioral assessments and interviews"
-    - "Assist with data entry and management"
-    - "Maintain research documentation and ethics compliance"
-    - "Support laboratory operations"
-  
-  benefits:
-    - "Hands-on research experience"
-    - "Mentorship and training opportunities"
-    - "Collaborative team environment"
-    - "Potential for academic co-authorship"
-  
-  contact: "join@ppsp.team"
-  apply_url: "mailto:join@ppsp.team"
-  duration: "12 months (renewable)"
-  hours: "Full-time (35-40 hours/week)"
+    contact: "jobs@ppsp.team"
+
+  # ============================================================================
+  # Python Developer - HyPyP
+  # ============================================================================
+  - id: python-hypyp
+    active: true
+    type: internship
+    title:
+      fr: "Développeur Python — HyPyP"
+      en: "Python Developer — HyPyP"
+    location:
+      fr: "CHU Sainte-Justine, Montréal"
+      en: "CHU Sainte-Justine, Montreal"
+    duration:
+      fr: "12 semaines minimum"
+      en: "12 weeks minimum"
+    start:
+      fr: "Été 2026"
+      en: "Summer 2026"
+    onsite:
+      fr: "3 jours/semaine minimum"
+      en: "3 days/week minimum"
+    
+    mission:
+      fr: |
+        HyPyP est la librairie Python de référence pour analyser la synchronie inter-cerveau en hyperscanning. Votre mission : étendre les capacités d'analyse de la dynamique de synchronisation en développant de nouvelles métriques et outils de visualisation.
+      en: |
+        HyPyP is the reference Python library for analyzing inter-brain synchrony in hyperscanning. Your mission: extend the analysis capabilities of synchronization dynamics by developing new metrics and visualization tools.
+    
+    contact: "jobs@ppsp.team"
+
+  # ============================================================================
+  # Psychology Internship
+  # ============================================================================
+  - id: psychology-intern
+    active: true
+    type: internship
+    title:
+      fr: "Stage en Psychologie"
+      en: "Psychology Internship"
+    location:
+      fr: "CHU Sainte-Justine, Montréal"
+      en: "CHU Sainte-Justine, Montreal"
+    duration:
+      fr: "12 semaines minimum"
+      en: "12 weeks minimum"
+    start:
+      fr: "Été 2026"
+      en: "Summer 2026"
+    onsite:
+      fr: "3 jours/semaine minimum"
+      en: "3 days/week minimum"
+    
+    contact: "jobs@ppsp.team"
+
+  # ============================================================================
+  # DataViz Wizard
+  # ============================================================================
+  - id: dataviz-wizard
+    active: true
+    type: internship
+    title:
+      fr: "Data Visualisation Wizard"
+      en: "Data Visualisation Wizard"
+    subtitle:
+      fr: "Making interactions beautiful"
+      en: "Making interactions beautiful"
+    location:
+      fr: "CHU Sainte-Justine, Montréal"
+      en: "CHU Sainte-Justine, Montreal"
+    duration:
+      fr: "12 semaines minimum"
+      en: "12 weeks minimum"
+    start:
+      fr: "Été 2026"
+      en: "Summer 2026"
+    onsite:
+      fr: "3 jours/semaine minimum"
+      en: "3 days/week minimum"
+    
+    mission:
+      fr: |
+        HyPyP est la librairie de référence pour analyser la synchronie cérébrale lors d'interactions sociales — utilisée quotidiennement par des chercheurs du monde entier. Votre mission : transformer des données complexes en visualisations belles et interprétables, à la manière de Shirley Wu qui encode plusieurs dimensions dans des représentations visuelles innovantes.
+      en: |
+        HyPyP is the reference library for analyzing brain synchrony during social interactions — used daily by researchers worldwide. Your mission: transform complex data into beautiful and interpretable visualizations, following the approach of Shirley Wu who encodes multiple dimensions in innovative visual representations.
+    
+    tasks:
+      fr:
+        - "Améliorer les visualisations existantes dans HyPyP (connectivités, synchronie, topographies)"
+        - "Créer de nouvelles modalités de représentation pour données multidimensionnelles"
+        - "Développer des scripts Python + D3.js réutilisables pour visualisations interactives"
+        - "Concevoir des templates de figures pour publications scientifiques (SVG, PNG)"
+      en:
+        - "Improve existing visualizations in HyPyP (connectivity, synchrony, topographies)"
+        - "Create new representation modalities for multidimensional data"
+        - "Develop reusable Python + D3.js scripts for interactive visualizations"
+        - "Design figure templates for scientific publications (SVG, PNG)"
+    
+    contact: "jobs@ppsp.team"

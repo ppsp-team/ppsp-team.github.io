@@ -374,10 +374,11 @@ permalink: /jobs/
       <!-- Jobs Feed -->
       <main class="col-lg-9">
         <div class="row" id="jobsContainer">
-          {% assign jobs = site.data.jobs | sort: 'posted' | reverse %}
+          {% assign jobs = site.data.jobs.jobs %}
           {% for job in jobs %}
+          {% if job.active %}
           <div class="col-xl-6 col-lg-12 mb-4 job-card-wrapper" 
-               data-status="{{ job.status }}" 
+               data-status="{% if job.active %}open{% else %}closed{% endif %}" 
                data-type="{{ job.type }}"
                data-id="{{ job.id }}">
             
@@ -390,30 +391,45 @@ permalink: /jobs/
                 {% else %}<i class="fas fa-briefcase"></i>{% endif %}
               </div>
 
-              <h4 class="job-title">{{ job.title }}</h4>
+              {% if page.lang == 'fr' %}
+                <h4 class="job-title">{{ job.title.fr }}</h4>
+              {% else %}
+                <h4 class="job-title">{{ job.title.en }}</h4>
+              {% endif %}
 
               <div class="job-meta-tags">
-                <span class="job-type-badge badge-{{ job.type | downcase | replace: ' ', '-' }}">{{ job.type }}</span>
-                <div class="job-status-indicator status-{{ job.status }}">
+                <span class="job-type-badge badge-{{ job.type | downcase | replace: ' ', '-' }}">{{ job.type | capitalize }}</span>
+                <div class="job-status-indicator status-{% if job.active %}open{% else %}closed{% endif %}">
                   <span class="status-dot"></span>
-                  {{ job.status | capitalize }}
+                  {% if job.active %}{% t jobs.open %}{% else %}{% t jobs.closed %}{% endif %}
                 </div>
               </div>
 
-              <p class="job-excerpt">{{ job.short_description }}</p>
+              {% if job.mission %}
+                {% if page.lang == 'fr' %}
+                  <p class="job-excerpt">{{ job.mission.fr | strip_html | truncate: 200 }}</p>
+                {% else %}
+                  <p class="job-excerpt">{{ job.mission.en | strip_html | truncate: 200 }}</p>
+                {% endif %}
+              {% endif %}
 
               <div class="job-card-action">
                 <span class="deadline-info">
-                  <i class="far fa-calendar-alt"></i> Exp: {{ job.deadline }}
+                  {% if page.lang == 'fr' %}
+                    <i class="far fa-calendar-alt"></i> {{ job.start.fr }}
+                  {% else %}
+                    <i class="far fa-calendar-alt"></i> {{ job.start.en }}
+                  {% endif %}
                 </span>
                 <button class="btn btn-primary btn-sm rounded-pill px-4" 
                         onclick="openJobModal('{{ job.id }}')" 
-                        {% if job.status == 'closed' %}disabled{% endif %}>
-                  {% if job.status == 'open' %}Voir Offre{% else %}Pourvu{% endif %}
+                        {% unless job.active %}disabled{% endunless %}>
+                  {% if job.active %}{% if page.lang == 'fr' %}Voir l'offre{% else %}View offer{% endif %}{% else %}{% if page.lang == 'fr' %}Pourvu{% else %}Filled{% endif %}{% endif %}
                 </button>
               </div>
             </div>
           </div>
+          {% endif %}
           {% endfor %}
         </div>
         
@@ -429,74 +445,103 @@ permalink: /jobs/
 </section>
 
 <!-- Improved Modals -->
-{% for job in site.data.jobs %}
+{% for job in site.data.jobs.jobs %}
+{% if job.active %}
 <div class="modal fade" id="modal-{{ job.id }}" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header d-flex flex-column align-items-start">
         <div class="d-flex justify-content-between w-100">
-          <h4 class="modal-title">{{ job.title }}</h4>
+          {% if page.lang == 'fr' %}
+            <h4 class="modal-title">{{ job.title.fr }}</h4>
+          {% else %}
+            <h4 class="modal-title">{{ job.title.en }}</h4>
+          {% endif %}
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="job-meta-tags mt-2">
-          <span class="job-type-badge badge-{{ job.type | downcase | replace: ' ', '-' }}">{{ job.type }}</span>
-          <div class="job-status-indicator status-{{ job.status }}">
+          <span class="job-type-badge badge-{{ job.type | downcase | replace: ' ', '-' }}">{{ job.type | capitalize }}</span>
+          <div class="job-status-indicator status-{% if job.active %}open{% else %}closed{% endif %}">
             <span class="status-dot"></span>
-            {{ job.status | capitalize }}
+            {% if job.active %}{% if page.lang == 'fr' %}Ouvert{% else %}Open{% endif %}{% else %}{% if page.lang == 'fr' %}Fermé{% else %}Closed{% endif %}{% endif %}
           </div>
         </div>
       </div>
       
       <div class="modal-body">
         <div class="job-info-grid">
-          <div class="info-item"><label>Published</label><span>{{ job.posted }}</span></div>
-          <div class="info-item"><label>Deadline</label><span>{{ job.deadline }}</span></div>
-          {% if job.supervisor %}<div class="info-item"><label>PI / Supervisor</label><span>{{ job.supervisor }}</span></div>{% endif %}
-          {% if job.duration %}<div class="info-item"><label>Duration</label><span>{{ job.duration }}</span></div>{% endif %}
+          {% if page.lang == 'fr' %}
+            <div class="info-item"><label>Lieu</label><span>{{ job.location.fr }}</span></div>
+            <div class="info-item"><label>Durée</label><span>{{ job.duration.fr }}</span></div>
+            <div class="info-item"><label>Début</label><span>{{ job.start.fr }}</span></div>
+            {% if job.onsite %}<div class="info-item"><label>Présentiel</label><span>{{ job.onsite.fr }}</span></div>{% endif %}
+          {% else %}
+            <div class="info-item"><label>Location</label><span>{{ job.location.en }}</span></div>
+            <div class="info-item"><label>Duration</label><span>{{ job.duration.en }}</span></div>
+            <div class="info-item"><label>Start</label><span>{{ job.start.en }}</span></div>
+            {% if job.onsite %}<div class="info-item"><label>On-site</label><span>{{ job.onsite.en }}</span></div>{% endif %}
+          {% endif %}
         </div>
 
+        {% if job.project %}
         <div class="mb-5">
-          <h6 class="section-subtitle"><i class="fas fa-align-left mr-2"></i> Overview</h6>
-          <div class="job-rich-text">{{ job.description | markdownify }}</div>
+          <h6 class="section-subtitle"><i class="fas fa-project-diagram mr-2"></i> {% if page.lang == 'fr' %}Projet{% else %}Project{% endif %}</h6>
+          {% if page.lang == 'fr' %}
+            <div class="job-rich-text">{{ job.project.fr | markdownify }}</div>
+          {% else %}
+            <div class="job-rich-text">{{ job.project.en | markdownify }}</div>
+          {% endif %}
         </div>
+        {% endif %}
+
+        {% if job.mission %}
+        <div class="mb-5">
+          <h6 class="section-subtitle"><i class="fas fa-bullseye mr-2"></i> {% if page.lang == 'fr' %}Mission{% else %}Mission{% endif %}</h6>
+          {% if page.lang == 'fr' %}
+            <div class="job-rich-text">{{ job.mission.fr | markdownify }}</div>
+          {% else %}
+            <div class="job-rich-text">{{ job.mission.en | markdownify }}</div>
+          {% endif %}
+        </div>
+        {% endif %}
+
+        {% if job.tasks %}
+        <div class="mb-5">
+          <h6 class="section-subtitle"><i class="fas fa-tasks mr-2"></i> {% if page.lang == 'fr' %}Tâches{% else %}Tasks{% endif %}</h6>
+          <div class="job-rich-text">
+            {% if page.lang == 'fr' %}
+              <ul>{% for task in job.tasks.fr %}<li>{{ task }}</li>{% endfor %}</ul>
+            {% else %}
+              <ul>{% for task in job.tasks.en %}<li>{{ task }}</li>{% endfor %}</ul>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
 
         {% if job.requirements %}
         <div class="mb-5">
-          <h6 class="section-subtitle"><i class="fas fa-check-circle mr-2"></i> Requirements</h6>
+          <h6 class="section-subtitle"><i class="fas fa-check-circle mr-2"></i> {% if page.lang == 'fr' %}Exigences{% else %}Requirements{% endif %}</h6>
           <div class="job-rich-text">
-            <ul>{% for req in job.requirements %}<li>{{ req }}</li>{% endfor %}</ul>
-          </div>
-        </div>
-        {% endif %}
-
-        {% if job.responsibilities %}
-        <div class="mb-5">
-          <h6 class="section-subtitle"><i class="fas fa-tasks mr-2"></i> Responsibilities</h6>
-          <div class="job-rich-text">
-            <ul>{% for resp in job.responsibilities %}<li>{{ resp }}</li>{% endfor %}</ul>
-          </div>
-        </div>
-        {% endif %}
-
-        {% if job.benefits %}
-        <div>
-          <h6 class="section-subtitle"><i class="fas fa-star mr-2"></i> Perks & Environment</h6>
-          <div class="job-rich-text">
-            <ul>{% for b in job.benefits %}<li>{{ b }}</li>{% endfor %}</ul>
+            {% if page.lang == 'fr' %}
+              <ul>{% for req in job.requirements.fr %}<li>{{ req }}</li>{% endfor %}</ul>
+            {% else %}
+              <ul>{% for req in job.requirements.en %}<li>{{ req }}</li>{% endfor %}</ul>
+            {% endif %}
           </div>
         </div>
         {% endif %}
       </div>
 
       <div class="modal-footer">
-        <button type="button" class="btn btn-light rounded-pill px-4" data-dismiss="modal">Close</button>
-        {% if job.status == 'open' %}
-        <a href="{{ job.apply_url }}" class="btn btn-primary rounded-pill px-5 shadow">Apply for this Position</a>
+        <button type="button" class="btn btn-light rounded-pill px-4" data-dismiss="modal">{% if page.lang == 'fr' %}Fermer{% else %}Close{% endif %}</button>
+        {% if job.active %}
+        <a href="mailto:{{ job.contact }}" class="btn btn-primary rounded-pill px-5 shadow">{% if page.lang == 'fr' %}Postuler{% else %}Apply{% endif %}</a>
         {% endif %}
       </div>
     </div>
   </div>
 </div>
+{% endif %}
 {% endfor %}
 
 <script>
