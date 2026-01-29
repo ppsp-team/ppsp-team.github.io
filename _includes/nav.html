@@ -74,10 +74,9 @@
               </a>
             </li>
             {% if site.lang == "fr" %}
-            {% assign en_url = page.url | remove_first: "/fr" %}
-            {% assign root_url = site.baseurl | remove: "/fr" %}
+            {% assign en_url = page.url | replace_first: "/fr", "" %}
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ root_url }}{{ en_url }}">{% translate global.en %}</a>
+              <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}{{ en_url }}">{% translate global.en %}</a>
             </li>
             {% elsif site.lang == "en" %}
             <li class="nav-item">
