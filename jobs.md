@@ -11,7 +11,7 @@ permalink: /jobs/
   #jobs .masthead {
     height: 20vw;
     min-height: 200px;
-    background-image: url("{{ site.baseurl }}assets/img/background-header.png");
+    background-image: url("/assets/img/background-header.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -349,22 +349,22 @@ permalink: /jobs/
         <div class="job-sidebar">
           
           <div class="sidebar-section">
-            <h6 class="sidebar-title">Current Status</h6>
+            <h6 class="sidebar-title">{% t jobs.current_status %}</h6>
             <div class="filter-group">
-              <button class="filter-pill active" data-filter="open" onclick="toggleStatusFilter(this, 'open')">Open</button>
-              <button class="filter-pill" data-filter="all" onclick="toggleStatusFilter(this, 'all')">All</button>
-              <button class="filter-pill" data-filter="closed" onclick="toggleStatusFilter(this, 'closed')">Archived</button>
+              <button class="filter-pill active" data-filter="open" onclick="toggleStatusFilter(this, 'open')">{% t jobs.open %}</button>
+              <button class="filter-pill" data-filter="all" onclick="toggleStatusFilter(this, 'all')">{% t jobs.all_roles %}</button>
+              <button class="filter-pill" data-filter="closed" onclick="toggleStatusFilter(this, 'closed')">{% t jobs.archived %}</button>
             </div>
           </div>
 
           <div class="sidebar-section">
-            <h6 class="sidebar-title">Position Category</h6>
+            <h6 class="sidebar-title">{% t jobs.position_category %}</h6>
             <div class="filter-group">
-              <button class="filter-pill active" data-filter="all" onclick="toggleTypeFilter(this)">All Roles</button>
-              <button class="filter-pill" data-filter="PhD" onclick="toggleTypeFilter(this)">PhD</button>
-              <button class="filter-pill" data-filter="Postdoc" onclick="toggleTypeFilter(this)">Postdoc</button>
-              <button class="filter-pill" data-filter="Research Assistant" onclick="toggleTypeFilter(this)">Assistant</button>
-              <button class="filter-pill" data-filter="Internship" onclick="toggleTypeFilter(this)">Internship</button>
+              <button class="filter-pill active" data-filter="all" onclick="toggleTypeFilter(this)">{% t jobs.all_roles %}</button>
+              <button class="filter-pill" data-filter="PhD" onclick="toggleTypeFilter(this)">{% t jobs.phd %}</button>
+              <button class="filter-pill" data-filter="Postdoc" onclick="toggleTypeFilter(this)">{% t jobs.postdoc %}</button>
+              <button class="filter-pill" data-filter="Research Assistant" onclick="toggleTypeFilter(this)">{% t jobs.assistant %}</button>
+              <button class="filter-pill" data-filter="Internship" onclick="toggleTypeFilter(this)">{% t jobs.internship %}</button>
             </div>
           </div>
 

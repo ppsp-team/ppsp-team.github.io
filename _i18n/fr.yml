@@ -42,3 +42,11 @@ nav:
 jobs:
   open: "Ouvert"
   closed: "Fermé"
+  current_status: "Statut actuel"
+  position_category: "Catégorie de poste"
+  all_roles: "Tous les rôles"
+  phd: "Doctorat"
+  postdoc: "Postdoc"
+  assistant: "Assistant"
+  internship: "Stage"
+  archived: "Archivé"

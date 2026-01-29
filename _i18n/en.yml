@@ -41,3 +41,11 @@ nav:
 jobs:
   open: "Open"
   closed: "Closed"
+  current_status: "Current Status"
+  position_category: "Position Category"
+  all_roles: "All Roles"
+  phd: "PhD"
+  postdoc: "Postdoc"
+  assistant: "Assistant"
+  internship: "Internship"
+  archived: "Archived"
