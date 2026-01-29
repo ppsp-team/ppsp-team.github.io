@@ -403,9 +403,9 @@ permalink: /jobs/
                 {% assign job_type_key = job.type | downcase | replace: ' ', '_' %}
                 <span class="job-type-badge badge-{{ job.type | downcase | replace: ' ', '-' }}">
                   {% if job_type_key == 'research_assistant' %}
-                    {% t jobs.assistant %}
+                    {{ site.translations[site.lang].jobs.assistant }}
                   {% else %}
-                    {% t jobs[job_type_key] %}
+                    {{ site.translations[site.lang].jobs[job_type_key] }}
                   {% endif %}
                 </span>
                 <div class="job-status-indicator status-{% if job.active %}open{% else %}closed{% endif %}">
