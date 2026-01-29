@@ -3,9 +3,9 @@
   <div class="container">
     <div class="row">
       <div class="col" style="display: contents;">
-        <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}">
+        <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl | replace: '//', '/' }}">
           <div class="logo">
-            <img class="logo" src="{{ site.baseurl }}favicon-transparent.png" />
+            <img class="logo" src="/favicon-transparent.png" />
           </div>
           {%- if site.logo -%}
           <div>
@@ -50,7 +50,8 @@
           </li>
           {%- else -%}
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}#{{ link.section }}">{{ link.title }}</a>
+            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl | replace: '//', '/' }}#{{ link.section }}">{{
+              link.title }}</a>
           </li>
           {%- endif -%}
           {%- else -%}
@@ -74,13 +75,16 @@
               </a>
             </li>
             {% if site.lang == "fr" %}
-            {% assign en_url = page.url | replace_first: "/fr", "" %}
+            {% assign root_url = site.baseurl | replace: "/fr", "" | replace: "//", "/" %}
+            {% assign clean_path = page.url | replace: "/fr/", "/" | replace: "/fr", "" | replace: "//", "/" %}
+            {% assign full_en_url = root_url | append: clean_path | replace: "//", "/" %}
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}{{ en_url }}">{% translate global.en %}</a>
+              <a class="nav-link js-scroll-trigger" href="{{ full_en_url }}">{% translate global.en %}</a>
             </li>
             {% elsif site.lang == "en" %}
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}fr{{ page.url }}">{% translate global.fr
+              <a class="nav-link js-scroll-trigger"
+                href="{{ site.baseurl | append: 'fr' | append: page.url | replace: '//', '/' }}">{% translate global.fr
                 %}</a>
             </li>
             {% endif %}
