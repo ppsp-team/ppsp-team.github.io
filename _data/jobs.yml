@@ -3,7 +3,7 @@
 
 jobs:
   # ============================================================================
-  # PRISME - XR Neuropsychological Task Design
+  # 1. PRISME - XR Neuropsychological Task Design
   # ============================================================================
   - id: prisme-xr-task-design
     active: true
@@ -11,6 +11,9 @@ jobs:
     title:
       fr: "Stagiaire en Sciences Cognitives — Conception de Tâches Neuropsychologiques en XR"
       en: "Cognitive Science Intern — XR Neuropsychological Task Design"
+    subtitle:
+      fr: "Conception de Tâches Neuropsychologiques en XR"
+      en: "XR Neuropsychological Task Design"
     location:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
@@ -46,22 +49,62 @@ jobs:
         - Psychometric validity principles
         - XR experimental constraints
     
-    requirements:
-      fr:
-        - "Formation en neuropsychologie, psychologie cognitive ou neurosciences"
-        - "Intérêt pour la XR et les technologies immersives"
-        - "Capacité à analyser la littérature scientifique"
-        - "Rigueur méthodologique et esprit critique"
-      en:
-        - "Training in neuropsychology, cognitive psychology, or neuroscience"
-        - "Interest in XR and immersive technologies"
-        - "Ability to analyze scientific literature"
-        - "Methodological rigor and critical thinking"
+    profile:
+      fr: |
+        **Formation**
+        - Formation en neuropsychologie, psychologie cognitive ou neurosciences
+        
+        **Savoir-être & Compétences**
+        - Intérêt pour la XR et les technologies immersives
+        - Capacité à analyser la littérature scientifique
+        - Rigueur méthodologique et esprit critique
+      en: |
+        **Education**
+        - Training in neuropsychology, cognitive psychology, or neuroscience
+        
+        **Skills & Mindset**
+        - Interest in XR and immersive technologies
+        - Ability to analyze scientific literature
+        - Methodological rigor and critical thinking
+
+    skills:
+      fr: |
+        - Expertise en conception expérimentale
+        - Connaissance approfondie des TND (Troubles du Neurodéveloppement)
+        - Travail en équipe interdisciplinaire (ingénieurs, cliniciens)
+      en: |
+        - Expertise in experimental design
+        - In-depth knowledge of NDDs (Neurodevelopmental Disorders)
+        - Interdisciplinary teamwork (engineers, clinicians)
+
+    supervision:
+      fr: |
+        - **Superviseur scientifique :** Guillaume Dumas, Professeur titulaire en psychiatrie computationnelle
+        - **Encadrement technique :** Équipe PRISME (ingénieurs et développeurs)
+      en: |
+        - **Scientific Supervisor:** Guillaume Dumas, Associate Professor in Computational Psychiatry
+        - **Technical Supervision:** PRISME Team (engineers and developers)
+
+    process:
+      fr: |
+        **Documents requis :**
+        - CV (2 pages max)
+        - Relevé de notes
+        - Lettre de motivation
+        
+        **Envoyer à :** jobs@ppsp.team avec objet « Candidature Stage PRISME - [Votre Nom] »
+      en: |
+        **Required Documents:**
+        - CV (2 pages max)
+        - Transcripts
+        - Cover Letter
+        
+        **Send to:** jobs@ppsp.team with subject "PRISME Internship Application - [Your Name]"
     
     contact: "jobs@ppsp.team"
 
   # ============================================================================
-  # Phenomenological Analysis Internship
+  # 2. Phenomenological Analysis Internship
   # ============================================================================
   - id: phenomenological-analysis
     active: true
@@ -87,9 +130,17 @@ jobs:
     
     project:
       fr: |
-        Vous rejoindrez le projet « Computational approaches to the phenomenology of togetherness in autism and non-autism ». Votre mission : analyser l'expérience vécue de l'interaction sociale chez les personnes autistes et non-autistes, à travers des entretiens phénoménologiques et des cartes corporelles.
+        Vous rejoindrez le projet « Computational approaches to the phenomenology of togetherness in autism and non-autism ». 
+        
+        **Votre mission :** analyser l'expérience vécue de l'interaction sociale chez les personnes autistes et non-autistes, à travers des entretiens phénoménologiques et des cartes corporelles.
+        
+        **Impact :** Contribuer à mieux comprendre le vécu de l'interaction sociale chez les personnes autistes.
       en: |
-        You will join the project "Computational approaches to the phenomenology of togetherness in autism and non-autism". Your mission: analyze the lived experience of social interaction in autistic and non-autistic individuals, through phenomenological interviews and body maps.
+        You will join the project "Computational approaches to the phenomenology of togetherness in autism and non-autism".
+        
+        **Your mission:** analyze the lived experience of social interaction in autistic and non-autistic individuals, through phenomenological interviews and body maps.
+        
+        **Impact:** Contribute to better understanding the lived experience of social interaction in autistic individuals.
     
     mission:
       fr: |
@@ -122,25 +173,127 @@ jobs:
         - Document coding procedures
         - Contribute to methodological guides development
         - Participate in team discussions on analysis
+
+    profile:
+      fr: |
+        **Ce qui vous anime (Savoir-être)**
+        - **Orientation résultats :** Vous trouvez satisfaction dans le travail qui aboutit, les objectifs atteints, la documentation qui éclaire.
+        - **Curiosité intellectuelle :** Vous voulez comprendre pourquoi on mène ces projets, comment ils s'inscrivent dans la recherche.
+        - **Rigueur méthodologique :** Vous travaillez de façon structurée, documentez vos démarches, validez vos résultats.
+        - **Esprit collaboratif :** Vous appréciez les retours, partagez vos réflexions, accueillez les feedbacks.
+        - **Autonomie :** Face à un problème, vous décomposez, explorez, testez des hypothèses.
+
+        **Formation**
+        - Étudiant·e en psychologie, neuropsychologie, sciences cognitives, sociologie, anthropologie, philosophie ou discipline connexe.
+
+        **Compétences requises**
+        - Maîtrise du français (obligatoire — entretiens et analyses en français)
+        - Rigueur et attention aux détails (obligatoire)
+
+        **Atouts valorisés**
+        - Expérience en analyse qualitative
+        - Connaissance des méthodes phénoménologiques (IPA, etc.)
+        - Maîtrise d'un logiciel de codage (Atlas.ti, NVivo, etc.) et de transcription
+        - Connaissances sur l'autisme / neurodiversité
+        - Maîtrise de l'anglais
+      en: |
+        **What drives you (Mindset)**
+        - **Results-oriented:** You find satisfaction in work that delivers, goals achieved, documentation that clarifies.
+        - **Intellectual curiosity:** You want to understand why we pursue these projects, how they fit into research.
+        - **Methodological rigor:** You work in a structured way, document your approaches, validate your results.
+        - **Collaborative spirit:** You appreciate feedback, share your reflections, welcome input.
+        - **Autonomy:** Faced with a problem, you break it down, explore, test hypotheses.
+
+        **Education**
+        - Student in psychology, neuropsychology, cognitive science, sociology, anthropology, philosophy or related discipline.
+
+        **Required Skills**
+        - French fluency (mandatory — interviews and analyses in French)
+        - Rigor and attention to detail (mandatory)
+
+        **Valued Assets**
+        - Experience in qualitative analysis
+        - Knowledge of phenomenological methods (IPA, etc.)
+        - Proficiency in coding software (Atlas.ti, NVivo, etc.) and transcription
+        - Knowledge of autism / neurodiversity
+        - English proficiency
+
+    skills:
+      fr: |
+        À la fin de ces 12 semaines minimum, vous aurez développé une expertise singulière et recherchée.
+        
+        **Expertise Technique**
+        - Maîtrise des méthodes d'analyse phénoménologique (IPA)
+        - Compétence en codage qualitatif (Atlas.ti, outils open source)
+        - Expérience en analyse de cartes corporelles
+        - Techniques de transcription rigoureuse
+
+        **Vision Interdisciplinaire**
+        - Vous comprendrez comment s'articulent neurosciences, phénoménologie et applications cliniques au sein d'un hôpital pédiatrique universitaire.
+        
+        **Portfolio Concret**
+        - Transcriptions réalisées, Base de données codée, Rapport d'analyse, Guide méthodologique.
+      en: |
+        After these 12 weeks minimum, you will have developed unique and sought-after expertise.
+        
+        **Technical Expertise**
+        - Mastery of phenomenological analysis methods (IPA)
+        - Qualitative coding competence (Atlas.ti, open source tools)
+        - Experience in body map analysis
+        - Rigorous transcription techniques
+
+        **Interdisciplinary Vision**
+        - You will understand how neuroscience, phenomenology, and clinical applications articulate within a pediatric university hospital.
+        
+        **Concrete Portfolio**
+        - Completed transcripts, Coded database, Analysis report, Methodological guide.
+
+    supervision:
+      fr: |
+        - **Superviseur scientifique :** Guillaume Dumas, Professeur titulaire en psychiatrie computationnelle, Université de Montréal.
+        - **Encadrante de proximité :** Anne Monnier, candidate au doctorat en sciences psychiatriques — accompagnement quotidien, revue technique, mentorat pratique.
+      en: |
+        - **Scientific Supervisor:** Guillaume Dumas, Associate Professor in Computational Psychiatry, University of Montreal.
+        - **Direct Supervisor:** Anne Monnier, PhD candidate in psychiatric sciences — daily guidance, technical review, practical mentorship.
+
+    process:
+      fr: |
+        **Documents requis**
+        - CV (2 pages maximum)
+        - Relevé de notes (2 dernières années)
+        - Lettre de motivation (1 page) : pourquoi ce stage ? pourquoi le PPSP ? votre projet à 3-5 ans
+
+        **Processus**
+        1. **Présélection sur dossier** (réponse sous 7 jours)
+        2. **Entretien motivation** (30 min, visio ou présentiel)
+        3. **Entretien technique** (1h, présentiel au CHU) — discussion méthodologique + présentation d'un travail antérieur
+        4. **Entretien de départage** (optionnel, 30 min)
+
+        **Comment Postuler**
+        Email : apply@ppsp.team
+        Objet : «Candidature Stage Analyses Phénoménologiques - [Votre Nom]»
+        Format : PDF (NomPrenom_CV.pdf, etc.)
+      en: |
+        **Required Documents**
+        - CV (2 pages maximum)
+        - Transcripts (last 2 years)
+        - Cover Letter (1 page): why this internship? why PPSP? your 3-5 year project
+
+        **Process**
+        1. **Dossier Pre-selection** (response within 7 days)
+        2. **Motivation Interview** (30 min, video or in-person)
+        3. **Technical Interview** (1h, in-person at CHU) — methodological discussion + presentation of past work
+        4. **Final Interview** (optional, 30 min)
+
+        **How to Apply**
+        Email: apply@ppsp.team
+        Subject: "Phenomenological Analysis Internship Application - [Your Name]"
+        Format: PDF (NameSurname_CV.pdf, etc.)
     
-    requirements:
-      fr:
-        - "Maîtrise du français (obligatoire — entretiens et analyses en français)"
-        - "Rigueur et attention aux détails (obligatoire)"
-        - "Expérience en analyse qualitative (atout)"
-        - "Connaissance des méthodes phénoménologiques (IPA, etc.) (atout)"
-        - "Maîtrise d'un logiciel de codage (Atlas.ti, NVivo, etc.) (atout)"
-      en:
-        - "French fluency (mandatory — interviews and analyses in French)"
-        - "Rigor and attention to detail (mandatory)"
-        - "Experience in qualitative analysis (asset)"
-        - "Knowledge of phenomenological methods (IPA, etc.) (asset)"
-        - "Proficiency in coding software (Atlas.ti, NVivo, etc.) (asset)"
-    
-    contact: "jobs@ppsp.team"
+    contact: "apply@ppsp.team"
 
   # ============================================================================
-  # iOS Developer Internship
+  # 3. iOS Developer Internship
   # ============================================================================
   - id: ios-developer
     active: true
@@ -166,9 +319,13 @@ jobs:
     
     project:
       fr: |
-        Nous développons des applications iOS pour tablettes destinées à la recherche clinique pédiatrique. Ces applications incluent des tests neuropsychologiques et neurophénoménologiques, des questionnaires phénotypiques, des échelles d'évaluation, des tests de métacognition et des « jeux » de coopération et synchronisation. Vous rejoindrez une équipe qui dispose déjà d'applications fonctionnelles (comme nos échelles iOS en neuropsychologie) avec des modules d'authentification et de synchronisation CloudKit réutilisables.
+        Nous développons des applications iOS pour tablettes destinées à la recherche clinique pédiatrique. Ces applications incluent des tests neuropsychologiques et neurophénoménologiques, des questionnaires phénotypiques, des échelles d'évaluation, des tests de métacognition et des « jeux » de coopération et synchronisation.
+        
+        Vous rejoindrez une équipe qui dispose déjà d'applications fonctionnelles (comme nos échelles iOS en neuropsychologie) avec des modules d'authentification et de synchronisation CloudKit réutilisables.
       en: |
-        We develop iOS applications for tablets intended for pediatric clinical research. These applications include neuropsychological and neurophenomenological tests, phenotypic questionnaires, assessment scales, metacognition tests, and cooperation/synchronization "games". You will join a team that already has functional applications (like our iOS neuropsychology scales) with reusable authentication and CloudKit synchronization modules.
+        We develop iOS applications for tablets intended for pediatric clinical research. These applications include neuropsychological and neurophenomenological tests, phenotypic questionnaires, assessment scales, metacognition tests, and cooperation/synchronization "games".
+        
+        You will join a team that already has functional applications (like our iOS neuropsychology scales) with reusable authentication and CloudKit synchronization modules.
     
     mission:
       fr: |
@@ -200,30 +357,124 @@ jobs:
         - Validate application robustness on different iPad devices
         
         **Documentation & Open-Source**
-        - Document reusable modules to facilitate development of future applications
-        - Contribute to the laboratory's open-source repositories (e.g., github.com/Ramdam17/IOS-Scale)
+        - Document reusable modules to facilitate future application development
+        - Contribute to the lab's open-source repositories (e.g., github.com/Ramdam17/IOS-Scale)
         - Write technical documentation for developed architectures
+
+    profile:
+      fr: |
+        **Ce qui vous anime (Savoir-être)**
+        - **Orientation qualité :** Vous ne livrez pas du code « qui marche juste », mais du code propre, maintenable et testé.
+        - **Sens de l'utilisateur :** Vous comprenez que ces apps seront utilisées par des enfants en contexte clinique ; l'UX doit être impeccable.
+        - **Curiosité technique :** Vous aimez explorer les nouvelles API d'Apple, comprendre comment fonctionne CloudKit en profondeur.
+        - **Autonomie et responsabilité :** Vous prenez en charge une feature de A à Z.
+
+        **Formation**
+        - Étudiant·e en génie logiciel, informatique, ou domaine connexe (Baccalauréat ou Maîtrise).
+
+        **Compétences requises**
+        - Expérience concrète en développement iOS natif (Swift, SwiftUI)
+        - Connaissance des architectures MVVM
+        - Familier avec Git et les bonnes pratiques de développement
+
+        **Atouts valorisés**
+        - Applications publiées sur l'App Store ou projets personnels complets
+        - Connaissance de Core Data / CloudKit
+        - Expérience avec les tests unitaires / UI tests
+        - Intérêt pour le domaine médical / santé numérique
+      en: |
+        **What drives you (Mindset)**
+        - **Quality orientation:** You don't just ship code "that works", but clean, maintainable, and tested code.
+        - **User sense:** You understand these apps will be used by children in clinical settings; UX must be flawless.
+        - **Technical curiosity:** You love exploring new Apple APIs, understanding how CloudKit works deep down.
+        - **Autonomy and responsibility:** You take ownership of a feature from A to Z.
+
+        **Education**
+        - Student in Software Engineering, Computer Science, or related field (Bachelor's or Master's).
+
+        **Required Skills**
+        - Concrete experience in native iOS development (Swift, SwiftUI)
+        - Knowledge of MVVM architectures
+        - Familiar with Git and development best practices
+
+        **Valued Assets**
+        - Apps published on App Store or complete personal projects
+        - Knowledge of Core Data / CloudKit
+        - Experience with Unit Tests / UI Tests
+        - Interest in medical field / digital health
+
+    skills:
+      fr: |
+        **Expertise Technique**
+        - Développement iOS avancé (SwiftUI, Concurrency, Combine)
+        - Architecture logicielle propre (Clean Architecture, MVVM)
+        - Gestion de données complexes en local et cloud (Core Data + CloudKit)
+        - CI/CD et tests automatisés
+        
+        **Compétences Transversales**
+        - Collaboration avec des chercheurs et cliniciens (traduction de besoins métiers en code)
+        - Rigueur du contexte médical (sécurité des données, fiabilité)
+        
+        **Portfolio Concret**
+        - Code source contribué aux projets du labo (crédité sur GitHub)
+        - Apps déployées et utilisées en étude clinique
+      en: |
+        **Technical Expertise**
+        - Advanced iOS Development (SwiftUI, Concurrency, Combine)
+        - Clean Software Architecture (MVVM)
+        - Complex data management (Core Data + CloudKit)
+        - CI/CD and automated tests
+        
+        **Transversal Skills**
+        - Collaboration with researchers and clinicians (translating business needs into code)
+        - Rigor of medical context (data security, reliability)
+        
+        **Concrete Portfolio**
+        - Source code contributed to lab projects (credited on GitHub)
+        - Apps deployed and used in clinical studies
+
+    supervision:
+      fr: |
+        - **Superviseur scientifique :** Guillaume Dumas, Professeur titulaire en psychiatrie computationnelle, Université de Montréal.
+        - **Encadrant technique :** Yann Hogeveen (Développeur principal) et l'équipe d'ingénierie du PPSP.
+      en: |
+        - **Scientific Supervisor:** Guillaume Dumas, Associate Professor in Computational Psychiatry, University of Montreal.
+        - **Technical Supervisor:** Yann Hogeveen (Lead Developer) and the PPSP engineering team.
+
+    process:
+      fr: |
+        **Documents requis**
+        - CV (avec lien GitHub/Portfolio indispensable)
+        - Lettre de motivation courte (vos projets, ce que vous voulez apprendre)
+        - Relevé de notes récent
+
+        **Processus**
+        1. **Revue de code/Portfolio** (Critère #1)
+        2. **Entretien technique** (Discussion sur vos choix d'architecture, Swift, défis rencontrés)
+        3. **Rencontre avec l'équipe** (Culture fit)
+
+        **Comment Postuler**
+        Email : apply@ppsp.team
+        Objet : «Candidature Stage iOS - [Votre Nom]»
+      en: |
+        **Required Documents**
+        - CV (with GitHub/Portfolio link essential)
+        - Short Cover Letter (your projects, what you want to learn)
+        - Recent transcripts
+
+        **Process**
+        1. **Code/Portfolio Review** (Criterion #1)
+        2. **Technical Interview** (Discussion on architecture choices, Swift, challenges faced)
+        3. **Team Meeting** (Culture fit)
+
+        **How to Apply**
+        Email: apply@ppsp.team
+        Subject: "iOS Internship Application - [Your Name]"
     
-    requirements:
-      fr:
-        - "Swift & SwiftUI : maîtrise solide avec au moins un projet mené de bout en bout"
-        - "Architecture MVVM : compréhension et application pratique"
-        - "Git/GitHub : usage quotidien, collaboration via pull requests"
-        - "Lien GitHub actif avec au moins un projet iOS visible (obligatoire)"
-        - "Core Data / CloudKit (atout)"
-        - "Sign in with Apple (atout)"
-      en:
-        - "Swift & SwiftUI: solid mastery with at least one end-to-end project completed"
-        - "MVVM architecture: understanding and practical application"
-        - "Git/GitHub: daily use, collaboration via pull requests"
-        - "Active GitHub link with at least one visible iOS project (required)"
-        - "Core Data / CloudKit (asset)"
-        - "Sign in with Apple (asset)"
-    
-    contact: "jobs@ppsp.team"
+    contact: "apply@ppsp.team"
 
   # ============================================================================
-  # Python Developer - HyPyP
+  # 4. Python Developer - HyPyP
   # ============================================================================
   - id: python-hypyp
     active: true
@@ -232,85 +483,159 @@ jobs:
       fr: "Développeur Python — HyPyP"
       en: "Python Developer — HyPyP"
     subtitle:
-      fr: "HyPyP : développement de métriques et visualisations"
-      en: "HyPyP: Metrics Development and Visualizations"
+      fr: "Hyperscanning Python Pipelines : Analyse de synchronie cérébrale"
+      en: "Hyperscanning Python Pipelines: Brain Synchrony Analysis"
     location:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
     duration:
-      fr: "12 à 20 semaines (3 à 5 mois)"
-      en: "12 to 20 weeks (3 to 5 months)"
+      fr: "12 semaines (possibilité temps partiel ou plein)"
+      en: "12 weeks (part-time or full-time possible)"
     start:
       fr: "Été 2026 (à partir de mai)"
-      en: "Summer 2026 (from May)"
+      en: "Summer 2026 (starting May)"
     onsite:
-      fr: "3 jours/semaine minimum"
-      en: "3 days/week minimum"
+      fr: "Hybride (1-2 jours présentiel souhaités)"
+      en: "Hybrid (1-2 days onsite preferred)"
     
     project:
       fr: |
-        HyPyP est la librairie Python de référence pour analyser la synchronie inter-cerveau en hyperscanning. Votre mission : étendre les capacités d'analyse des dynamiques de synchronisation en développant de nouvelles métriques et des outils de visualisation.
+        HyPyP (Hyperscanning Python Pipelines) est une librairie open-source développée par le PPSP Lab pour l'analyse des signaux cérébraux (EEG/MEG) en hyperscanning (plusieurs cerveaux simultanément). Elle est utilisée par la communauté internationale pour calculer la synchronie inter-cérébrale.
+        
+        **Le Défi :** La librairie doit évoluer pour intégrer de nouvelles métriques de connectivité, améliorer sa visualisation graphique, et être optimisée pour de plus gros datasets.
       en: |
-        HyPyP is the reference Python library for analyzing inter-brain synchrony in hyperscanning. Your mission: extend the analysis capabilities of synchronization dynamics by developing new metrics and visualization tools.
+        HyPyP (Hyperscanning Python Pipelines) is an open-source library developed by the PPSP Lab for analyzing brain signals (EEG/MEG) in hyperscanning (multiple brains simultaneously). It is used by the international community to calculate inter-brain synchrony.
+        
+        **The Challenge:** The library must evolve to integrate new connectivity metrics, improve its graphical visualization, and be optimized for larger datasets.
     
     mission:
       fr: |
         **Développement**
-        - Implémenter de nouvelles métriques de synchronie
-        - Créer des modules de visualisation interactifs
-        - Optimiser les performances des pipelines existants
-        - Assurer un code robuste avec tests et benchmarks des méthodes
+        - Implémenter de nouvelles métriques de synchronie (ex: PLV, wPLI, cohérence en ondelettes)
+        - Créer des modules de visualisation interactifs (graphes de connectivité inter-cerveaux)
+        - Optimiser les performances des pipelines existants (numpy/scipy)
+        - Assurer un code robuste, testé et documenté
         
-        **Validation & Tests**
-        - Rédiger des tests unitaires et d'intégration
-        - Valider les métriques sur des données synthétiques et réelles
-        - Comparer les résultats avec la littérature scientifique
-        - Documenter les performances et limites
-        
-        **Documentation & Open-Source**
-        - Rédiger la documentation technique des nouvelles fonctionnalités
-        - Créer des tutoriels et exemples d'utilisation
-        - Contribuer à la documentation API
-        - Participer aux revues de code et aux issues GitHub
+        **Open Source**
+        - Gérer les Pull Requests et Issues sur GitHub
+        - Améliorer la documentation (ReadTheDocs) et les tutoriels (Jupyter Notebooks)
+        - Préparer la prochaine release majeure de HyPyP
       en: |
         **Development**
-        - Implement new synchrony metrics
-        - Create interactive visualization modules
-        - Optimize existing pipeline performance
-        - Ensure robust code with tests and method benchmarks
+        - Implement new synchrony metrics (e.g., PLV, wPLI, wavelet coherence)
+        - Create interactive visualization modules (inter-brain connectivity graphs)
+        - Optimize existing pipeline performance (numpy/scipy)
+        - Ensure robust, tested, and documented code
         
-        **Validation & Testing**
-        - Write unit and integration tests
-        - Validate metrics on synthetic and real data
-        - Compare results with scientific literature
-        - Document performance and limitations
+        **Open Source**
+        - Manage Pull Requests and Issues on GitHub
+        - Improve documentation (ReadTheDocs) and tutorials (Jupyter Notebooks)
+        - Prepare the next major release of HyPyP
+
+    profile:
+      fr: |
+        **Ce qui vous anime (Savoir-être)**
+        - **Passion du code propre :** Vous aimez le code lisible, pythonique, bien structuré.
+        - **Esprit Open Source :** Vous croyez au partage de la science et des outils.
+        - **Autonomie :** Vous savez naviguer dans une codebase existante et proposer des améliorations.
+
+        **Formation**
+        - Étudiant·e en informatique, génie logiciel, science des données, bio-informatique ou neurosciences computationnelles.
+
+        **Compétences techniques**
+        - Solide maîtrise de Python (numpy, scipy, pandas, matplotlib)
+        - Expérience avec Git / GitHub (workflow PR, branches)
+        - Connaissance de MNE-Python (un atout majeur)
+        - Notions en traitement du signal (un atout)
+
+        **Atouts valorisés**
+        - Contributions open-source préalables
+        - Connaissance des signaux EEG/MEG
+      en: |
+        **What drives you (Mindset)**
+        - **Passion for clean code:** You love readable, pythonic, well-structured code.
+        - **Open Source Spirit:** You believe in sharing science and tools.
+        - **Autonomy:** You can navigate an existing codebase and propose improvements.
+
+        **Education**
+        - Student in Computer Science, Software Engineering, Data Science, Bioinformatics, or Computational Neuroscience.
+
+        **Technical Skills**
+        - Strong mastery of Python (numpy, scipy, pandas, matplotlib)
+        - Experience with Git / GitHub (PR workflow, branches)
+        - Knowledge of MNE-Python (major asset)
+        - Signal processing concepts (asset)
+
+        **Valued Assets**
+        - Previous open-source contributions
+        - Knowledge of EEG/MEG signals
+
+    skills:
+      fr: |
+        **Expertise Technique**
+        - Développement Python scientifique avancé
+        - Gestion de package open-source (PyPI, CI/CD, documentation)
+        - Traitement du signal biomédical
         
-        **Documentation & Open-Source**
-        - Write technical documentation for new features
-        - Create tutorials and usage examples
-        - Contribute to API documentation
-        - Participate in code reviews and GitHub issues
+        **Compétences Transversales**
+        - Travail collaboratif asynchrone (GitHub)
+        - Communication technique (documentation, tutoriels)
+        
+        **Portfolio Concret**
+        - Commits et PRs mergés sur le repo HyPyP (public)
+        - Votre nom dans les contributeurs de la librairie
+      en: |
+        **Technical Expertise**
+        - Advanced scientific Python development
+        - Open-source package management (PyPI, CI/CD, documentation)
+        - Biomedical signal processing
+        
+        **Transversal Skills**
+        - Asynchronous collaborative work (GitHub)
+        - Technical communication (documentation, tutorials)
+        
+        **Concrete Portfolio**
+        - Merged commits and PRs on the HyPyP repo (public)
+        - Your name in the library contributors
+
+    supervision:
+      fr: |
+        - **Superviseur scientifique :** Guillaume Dumas
+        - **Mentorat technique :** Développeurs seniors du labo et contributeurs principaux de HyPyP.
+      en: |
+        - **Scientific Supervisor:** Guillaume Dumas
+        - **Technical Mentorship:** Senior lab developers and main HyPyP contributors.
+
+    process:
+      fr: |
+        **Documents requis**
+        - CV + Lien GitHub (ou extraits de code)
+        - Lettre de motivation courte
+
+        **Processus**
+        1. **Revue de code** (GitHub)
+        2. **Entretien visio** (technique + fit projet)
+
+        **Comment Postuler**
+        Email : apply@ppsp.team ou contact@ppsp.team
+        Objet : «Candidature HyPyP - [Votre Nom]»
+      en: |
+        **Required Documents**
+        - CV + GitHub link (or code samples)
+        - Short Cover Letter
+
+        **Process**
+        1. **Code Review** (GitHub)
+        2. **Video Interview** (technical + project fit)
+
+        **How to Apply**
+        Email: apply@ppsp.team or contact@ppsp.team
+        Subject: "HyPyP Application - [Your Name]"
     
-    requirements:
-      fr:
-        - "Maîtrise de Python"
-        - "Expérience avec NumPy/SciPy/Pandas"
-        - "Expérience avec Git"
-        - "GitHub actif avec projets personnels ou contributions open-source (obligatoire)"
-        - "Expérience avec MNE-Python ou autres librairies de neurosciences (atout)"
-        - "Connaissances en théorie de l'information ou algèbre géométrique (atout)"
-      en:
-        - "Python proficiency"
-        - "Experience with NumPy/SciPy/Pandas"
-        - "Experience with Git"
-        - "Active GitHub with personal projects or open-source contributions (required)"
-        - "Experience with MNE-Python or other neuroscience libraries (asset)"
-        - "Knowledge in information theory or geometric algebra (asset)"
-    
-    contact: "jobs@ppsp.team"
+    contact: "apply@ppsp.team"
 
   # ============================================================================
-  # Psychology Internship
+  # 5. Psychology Intern
   # ============================================================================
   - id: psychology-intern
     active: true
@@ -331,14 +656,18 @@ jobs:
       fr: "Été 2026"
       en: "Summer 2026"
     onsite:
-      fr: "3 jours/semaine minimum"
-      en: "3 days/week minimum"
+      fr: "Présentiel (collecte de données)"
+      en: "In-person (data collection)"
     
     project:
       fr: |
-        Au sein du laboratoire PPSP, vous participerez à l'ensemble du cycle de recherche : de la conception des protocoles à l'analyse des données, en passant par la collecte sur le terrain. Vous contribuerez à des études explorant l'interaction sociale et la cognition, en utilisant des approches innovantes incluant la neurophénoménologie.
+        Vous participerez à des projets de recherche explorant la synchronie interpersonnelle (comment nos cerveaux et comportements se synchronisent) chez des populations typiques et atypiques (autisme, TDAH). 
+        
+        Nous combinons psychologie expérimentale et mesures physiologiques pour comprendre les mécanismes de l'interaction sociale.
       en: |
-        Within the PPSP laboratory, you will participate in the entire research cycle: from protocol design to data analysis, including field data collection. You will contribute to studies exploring social interaction and cognition, using innovative approaches including neurophenomenology.
+        You will participate in research projects exploring interpersonal synchrony (how our brains and behaviors synchronize) in typical and atypical populations (autism, ADHD).
+        
+        We combine experimental psychology and physiological measures to understand social interaction mechanisms.
     
     mission:
       fr: |
@@ -346,97 +675,212 @@ jobs:
         - Revue de littérature en neuropsychologie, psychologie expérimentale et neurophénoménologie
         - Conception de tâches expérimentales
         - Adaptation et validation de questionnaires
-        - Design de protocoles neurophénoménologiques
         
-        **Passations & collecte de données**
-        - Administration de tests neuropsychologiques standardisés
-        - Passation de tâches expérimentales
-        - Conduite d'entretiens et recueil de données subjectives (approches neurophénoménologiques)
-        - Participation à la gestion logistique des sessions
+        **Collecte de données (Testing)**
+        - Recrutement et accueil des participants (familles, enfants, adultes)
+        - Passation de tests neuropsychologiques et cognitifs
+        - Assistance lors des enregistrements EEG/hyperscanning
         
-        **Analyses de données**
-        - Saisie et nettoyage de données
-        - Cotation et scoring de tests neuropsychologiques
-        - Analyses statistiques en collaboration avec l'équipe
-        - Analyse qualitative et thématique des données neurophénoménologiques
+        **Gestion de données**
+        - Saisie et vérification des données (RedCap, Excel)
+        - Participation à l'analyse statistique préliminaire
       en: |
         **Protocol Development**
         - Literature review in neuropsychology, experimental psychology, and neurophenomenology
         - Design of experimental tasks
         - Adaptation and validation of questionnaires
-        - Design of neurophenomenological protocols
         
-        **Data Collection & Administration**
-        - Administration of standardized neuropsychological tests
-        - Administration of experimental tasks
-        - Conducting interviews and collecting subjective data (neurophenomenological approaches)
-        - Participation in session logistics management
+        **Data Collection (Testing)**
+        - Recruitment and welcoming of participants (families, children, adults)
+        - Administration of neuropsychological and cognitive tests
+        - Assistance during EEG/hyperscanning recordings
         
-        **Data Analysis**
-        - Data entry and cleaning
-        - Scoring of neuropsychological tests
-        - Statistical analyses in collaboration with the team
-        - Qualitative and thematic analysis of neurophenomenological data
+        **Data Management**
+        - Data entry and verification (RedCap, Excel)
+        - Participation in preliminary statistical analysis
+
+    profile:
+      fr: |
+        **Savoir-être**
+        - **Empathie et relationnel :** Excellent contact avec les participants, notamment les enfants et familles.
+        - **Rigueur scientifique :** Respect strict des protocoles standardisés.
+        - **Curiosité :** Intérêt pour les neurosciences sociales et l'approche multi-niveaux.
+
+        **Formation**
+        - Baccalauréat (ou Maîtrise) en Psychologie, Neuropsychologie ou Sciences Cognitives.
+
+        **Compétences**
+        - Connaissance des tests psychométriques (WISC, etc. est un atout)
+        - Expérience en recherche (assistanat de recherche, projet de fin d'études)
+        - Maîtrise de l'anglais scientifique (lecture d'articles)
+      en: |
+        **Mindset**
+        - **Empathy and interpersonal skills:** Excellent contact with participants, especially children and families.
+        - **Scientific rigor:** Strict adherence to standardized protocols.
+        - **Curiosity:** Interest in social neuroscience and multi-level approaches.
+
+        **Education**
+        - Bachelor's (or Master's) in Psychology, Neuropsychology, or Cognitive Science.
+
+        **Skills**
+        - Knowledge of psychometric tests (WISC, etc. is an asset)
+        - Research experience (research assistantship, honors thesis)
+        - Scientific English proficiency (reading articles)
+
+    skills:
+      fr: |
+        **Ce que vous allez apprendre**
+        - Administration de tâches expérimentales complexes
+        - Utilisation de technologies de pointe (EEG, capteurs physiologiques)
+        - Gestion d'études cliniques en milieu hospitalier
+        - Analyse de données comportementales
+      en: |
+        **What you will learn**
+        - Administration of complex experimental tasks
+        - Use of cutting-edge technologies (EEG, physiological sensors)
+        - Management of clinical studies in a hospital setting
+        - Behavioral data analysis
+
+    supervision:
+      fr: |
+        - **Supervision :** Étudiants gradués (M.Sc, PhD) et Post-doctorants du laboratoire.
+        - **Direction :** Guillaume Dumas.
+      en: |
+        - **Supervision:** Graduate students (M.Sc, PhD) and Postdocs of the laboratory.
+        - **Direction:** Guillaume Dumas.
+
+    process:
+      fr: |
+        **Candidature**
+        - CV + Lettre de présentation
+        - Relevé de notes
+        
+        **Processus**
+        - Entretien avec un étudiant gradué ou post-doc responsable du projet.
+        
+        **Email :** apply@ppsp.team
+        Objet : "Stage Psychologie - [Nom]"
+      en: |
+        **Application**
+        - CV + Cover Letter
+        - Transcripts
+        
+        **Process**
+        - Interview with a graduate student or postdoc leading the project.
+        
+        **Email:** apply@ppsp.team
+        Subject: "Psychology Internship - [Name]"
     
-    requirements:
-      fr:
-        - "Formation en cours en psychologie (tous niveaux considérés)"
-        - "Formation aux méthodes expérimentales en psychologie"
-        - "Formation aux tests neuropsychologiques (en cours ou complétée)"
-        - "Connaissances de base en statistiques"
-        - "Anglais scientifique (lecture d'articles)"
-        - "Intérêt pour la cognition sociale et les interactions sociales (atout)"
-      en:
-        - "Ongoing training in psychology (all levels considered)"
-        - "Training in experimental methods in psychology"
-        - "Training in neuropsychological testing (ongoing or completed)"
-        - "Basic knowledge of statistics"
-        - "Scientific English (reading articles)"
-        - "Strong interest in social cognition and social interactions (asset)"
-    
-    contact: "jobs@ppsp.team"
+    contact: "apply@ppsp.team"
 
   # ============================================================================
-  # DataViz Wizard
+  # 6. Data Visualisation Wizard
   # ============================================================================
   - id: dataviz-wizard
     active: true
     type: internship
     title:
       fr: "Data Visualisation Wizard"
-      en: "Data Visualisation Wizard"
+      en: "Data Visualization Wizard"
     subtitle:
-      fr: "Making interactions beautiful"
-      en: "Making interactions beautiful"
+      fr: "Rendre visible l'invisible : Graphiques interactifs pour cerveaux connectés"
+      en: "Making the invisible visible: Interactive graphics for connected brains"
     location:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
     duration:
-      fr: "12 semaines minimum"
-      en: "12 weeks minimum"
+      fr: "12 semaines"
+      en: "12 weeks"
     start:
       fr: "Été 2026"
       en: "Summer 2026"
     onsite:
-      fr: "3 jours/semaine minimum"
-      en: "3 days/week minimum"
+      fr: "Hybride"
+      en: "Hybrid"
+    
+    project:
+      fr: |
+        HyPyP est la librairie de référence pour analyser la synchronie cérébrale lors d'interactions sociales — utilisée quotidiennement par des chercheurs du monde entier.
+        
+        **Votre mission :** transformer des matrices de connectivité abstraites en visualisations époustouflantes, intuitives et interactives. Nous voulons passer de graphiques "statiques" à des explorations dynamiques des réseaux cérébraux en 3D ou en topologies interactives.
+      en: |
+        HyPyP is the reference library for analyzing brain synchrony during social interactions — used daily by researchers worldwide.
+        
+        **Your mission:** transform abstract connectivity matrices into stunning, intuitive, and interactive visualizations. We want to move from "static" plots to dynamic explorations of brain networks in 3D or interactive topologies.
     
     mission:
       fr: |
-        HyPyP est la librairie de référence pour analyser la synchronie cérébrale lors d'interactions sociales — utilisée quotidiennement par des chercheurs du monde entier. Votre mission : transformer des données complexes en visualisations belles et interprétables, à la manière de Shirley Wu qui encode plusieurs dimensions dans des représentations visuelles innovantes.
+        **Design & Code**
+        - Créer un module de visualisation pour HyPyP (basé sur BrainNets, PyVista, ou MNE-Python)
+        - Implémenter des visualisations de "têtes connectées" (hyper-links)
+        - Rendre les graphiques interactifs (zoom, rotation, sélection de noeuds) pour les notebooks Jupyter
+        
+        **UX Scientifique**
+        - S'assurer que les visualisations sont scientifiquement justes ET esthétiquement magnifiques
+        - Créer une galerie d'exemples pour la documentation
       en: |
-        HyPyP is the reference library for analyzing brain synchrony during social interactions — used daily by researchers worldwide. Your mission: transform complex data into beautiful and interpretable visualizations, following the approach of Shirley Wu who encodes multiple dimensions in innovative visual representations.
+        **Design & Code**
+        - Create a visualization module for HyPyP (based on BrainNets, PyVista, or MNE-Python)
+        - Implement "connected heads" visualizations (hyper-links)
+        - Make graphics interactive (zoom, rotation, node selection) for Jupyter Notebooks
+        
+        **Scientific UX**
+        - Ensure visualizations are scientifically accurate AND aesthetically beautiful
+        - Create a gallery of examples for documentation
+
+    profile:
+      fr: |
+        **Ce qu'on cherche**
+        - Un talent hybride : vous codez en Python mais vous avez un œil de designer.
+        - Expérience avec des librairies de viz (Matplotlib c'est bien, Plotly/PyVista/Vispy c'est mieux).
+        - Envie de créer des images "Publication-Ready" qui feront la couverture de journaux scientifiques.
+
+        **Formation**
+        - Informatique, Arts Numériques, Data Science, ou autre.
+      en: |
+        **What we are looking for**
+        - A hybrid talent: you code in Python but have a designer's eye.
+        - Experience with viz libraries (Matplotlib is good, Plotly/PyVista/Vispy is better).
+        - Desire to create "Publication-Ready" images that will make the cover of scientific journals.
+
+        **Education**
+        - Computer Science, Digital Arts, Data Science, or other.
+
+    skills:
+      fr: |
+        **Compétences Développées**
+        - Python Viz Stack expert level
+        - Contribution Open Source majeure
+        - Design de données scientifiques
+      en: |
+        **Skills Developed**
+        - Python Viz Stack expert level
+        - Major Open Source contribution
+        - Scientific Data Design
+
+    supervision:
+      fr: |
+        - **Superviseur :** Guillaume Dumas
+        - **Mentorat :** Équipe HyPyP
+      en: |
+        - **Supervisor:** Guillaume Dumas
+        - **Mentorship:** HyPyP Team
+
+    process:
+      fr: |
+        **Candidature**
+        - Portfolio de visualisations (indispensable) — Montrez-nous ce que vous savez faire !
+        - Lien GitHub
+        
+        **Email :** apply@ppsp.team
+        Objet : "Dataviz Wizard - [Nom]"
+      en: |
+        **Application**
+        - Visualization Portfolio (essential) — Show us what you can do!
+        - GitHub Link
+        
+        **Email:** apply@ppsp.team
+        Subject: "Dataviz Wizard - [Name]"
     
-    tasks:
-      fr:
-        - "Améliorer les visualisations existantes dans HyPyP (connectivités, synchronie, topographies)"
-        - "Créer de nouvelles modalités de représentation pour données multidimensionnelles"
-        - "Développer des scripts Python + D3.js réutilisables pour visualisations interactives"
-        - "Concevoir des templates de figures pour publications scientifiques (SVG, PNG)"
-      en:
-        - "Improve existing visualizations in HyPyP (connectivity, synchrony, topographies)"
-        - "Create new representation modalities for multidimensional data"
-        - "Develop reusable Python + D3.js scripts for interactive visualizations"
-        - "Design figure templates for scientific publications (SVG, PNG)"
-    
-    contact: "jobs@ppsp.team"
+    contact: "apply@ppsp.team"
+

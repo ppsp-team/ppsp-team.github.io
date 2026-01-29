@@ -527,15 +527,38 @@ permalink: /jobs/
         </div>
         {% endif %}
 
-        {% if job.requirements %}
+        {% if job.profile %}
         <div class="mb-5">
-          <h6 class="section-subtitle"><i class="fas fa-check-circle mr-2"></i> {% if site.lang == 'fr' %}Exigences{% else %}Requirements{% endif %}</h6>
+          <h6 class="section-subtitle"><i class="fas fa-user-circle mr-2"></i> {% if site.lang == 'fr' %}Profil Recherché{% else %}Profile{% endif %}</h6>
           <div class="job-rich-text">
-            {% if site.lang == 'fr' %}
-              <ul>{% for req in job.requirements.fr %}<li>{{ req }}</li>{% endfor %}</ul>
-            {% else %}
-              <ul>{% for req in job.requirements.en %}<li>{{ req }}</li>{% endfor %}</ul>
-            {% endif %}
+            {% if site.lang == 'fr' %}{{ job.profile.fr | markdownify }}{% else %}{{ job.profile.en | markdownify }}{% endif %}
+          </div>
+        </div>
+        {% endif %}
+
+        {% if job.skills %}
+        <div class="mb-5">
+          <h6 class="section-subtitle"><i class="fas fa-graduation-cap mr-2"></i> {% if site.lang == 'fr' %}Compétences Développées{% else %}Skills You Will Develop{% endif %}</h6>
+          <div class="job-rich-text">
+            {% if site.lang == 'fr' %}{{ job.skills.fr | markdownify }}{% else %}{{ job.skills.en | markdownify }}{% endif %}
+          </div>
+        </div>
+        {% endif %}
+
+        {% if job.supervision %}
+        <div class="mb-5">
+          <h6 class="section-subtitle"><i class="fas fa-users mr-2"></i> {% if site.lang == 'fr' %}Encadrement{% else %}Supervision{% endif %}</h6>
+          <div class="job-rich-text">
+            {% if site.lang == 'fr' %}{{ job.supervision.fr | markdownify }}{% else %}{{ job.supervision.en | markdownify }}{% endif %}
+          </div>
+        </div>
+        {% endif %}
+
+        {% if job.process %}
+        <div class="mb-5">
+          <h6 class="section-subtitle"><i class="fas fa-file-alt mr-2"></i> {% if site.lang == 'fr' %}Procédure de Recrutement{% else %}Application Process{% endif %}</h6>
+          <div class="job-rich-text">
+            {% if site.lang == 'fr' %}{{ job.process.fr | markdownify }}{% else %}{{ job.process.en | markdownify }}{% endif %}
           </div>
         </div>
         {% endif %}
