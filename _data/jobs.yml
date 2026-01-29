@@ -1,0 +1,117 @@
+# Job Openings for PPSP Team
+# To add a new job: copy an entry below and update with your details
+# status: "open" or "closed"
+# type: PhD, Postdoc, Research Assistant, Internship, etc.
+
+- id: phd-2026-social-neuroai
+  title: "PhD Position in Social Neuro-AI"
+  type: "PhD"
+  deadline: "2026-03-15"
+  posted: "2026-01-27"
+  status: "open"
+  short_description: "Join our team to develop AI models inspired by social neuroscience."
+  description: |
+    We are seeking a highly motivated PhD candidate to work on developing artificial intelligence models 
+    inspired by social neuroscience research. This position offers the opportunity to work at the 
+    intersection of neuroscience, AI, and computational psychiatry.
+    
+    The successful candidate will work closely with our interdisciplinary team at CHU Sainte-Justine 
+    Research Center and benefit from affiliations with Mila (Quebec AI Institute) and the University of Montreal.
+  
+  requirements:
+    - "Master's degree in Computer Science, Neuroscience, Cognitive Science, or related field"
+    - "Strong programming skills (Python, TensorFlow/PyTorch)"
+    - "Background in machine learning and/or neuroscience"
+    - "Excellent communication skills in English (French is an asset)"
+    - "Ability to work independently and collaboratively"
+  
+  responsibilities:
+    - "Develop novel AI architectures inspired by social neuroscience"
+    - "Conduct experiments and analyze large-scale datasets"
+    - "Collaborate with clinicians and neuroscientists"
+    - "Publish research findings in top-tier venues"
+    - "Present work at international conferences"
+  
+  benefits:
+    - "Competitive stipend and benefits"
+    - "Access to state-of-the-art computational resources"
+    - "Collaborative research environment"
+    - "Opportunity to co-supervise with leading researchers"
+    - "Located in vibrant Montreal, Quebec"
+  
+  contact: "join@ppsp.team"
+  apply_url: "mailto:join@ppsp.team"
+  supervisor: "Guillaume Dumas"
+
+- id: postdoc-2025-precision-medicine
+  title: "Postdoctoral Fellow in Precision Psychiatry"
+  type: "Postdoc"
+  deadline: "2025-12-31"
+  posted: "2025-11-15"
+  status: "closed"
+  short_description: "Develop precision medicine approaches using multi-scale data from genomes to smartphones."
+  description: |
+    This postdoctoral position focuses on developing precision medicine approaches for psychiatric disorders.
+    The researcher will work with multi-scale data ranging from genomics to smartphone-based digital phenotyping.
+    
+    This position has been filled. Thank you for your interest!
+  
+  requirements:
+    - "PhD in Computational Biology, Bioinformatics, Computer Science, or related field"
+    - "Experience with genomic data analysis"
+    - "Strong statistical and machine learning background"
+    - "Track record of peer-reviewed publications"
+  
+  responsibilities:
+    - "Develop integrative analysis pipelines"
+    - "Lead research projects and mentor students"
+    - "Collaborate with clinical partners"
+    - "Publish and present research findings"
+  
+  benefits:
+    - "Competitive postdoctoral salary"
+    - "Professional development opportunities"
+    - "Collaborative international network"
+  
+  contact: "join@ppsp.team"
+  apply_url: "mailto:join@ppsp.team"
+  supervisor: "Guillaume Dumas"
+
+- id: ra-2026-data-collection
+  title: "Research Assistant - Clinical Data Collection"
+  type: "Research Assistant"
+  deadline: "2026-02-28"
+  posted: "2026-01-20"
+  status: "open"
+  short_description: "Support clinical research studies with data collection and participant coordination."
+  description: |
+    We are seeking a dedicated Research Assistant to support our clinical research studies. 
+    This role involves participant recruitment, data collection, and coordination of research activities.
+    
+    This is an excellent opportunity for individuals interested in gaining research experience 
+    in the field of precision psychiatry and social physiology.
+  
+  requirements:
+    - "Bachelor's degree in Psychology, Neuroscience, or related field"
+    - "Strong organizational and interpersonal skills"
+    - "Attention to detail and ability to follow protocols"
+    - "Bilingual (French/English) required"
+    - "Experience with clinical populations is an asset"
+  
+  responsibilities:
+    - "Recruit and schedule research participants"
+    - "Conduct behavioral assessments and interviews"
+    - "Assist with data entry and management"
+    - "Maintain research documentation and ethics compliance"
+    - "Support laboratory operations"
+  
+  benefits:
+    - "Hands-on research experience"
+    - "Mentorship and training opportunities"
+    - "Collaborative team environment"
+    - "Potential for academic co-authorship"
+  
+  contact: "join@ppsp.team"
+  apply_url: "mailto:join@ppsp.team"
+  duration: "12 months (renewable)"
+  hours: "Full-time (35-40 hours/week)"
