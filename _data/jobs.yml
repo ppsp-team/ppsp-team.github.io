@@ -69,6 +69,9 @@ jobs:
     title:
       fr: "Stage — Analyses Phénoménologiques"
       en: "Internship — Phenomenological Analysis"
+    subtitle:
+      fr: "Codage et analyse d'entretiens phénoménologiques"
+      en: "Interview Coding and Analysis"
     location:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
@@ -81,6 +84,58 @@ jobs:
     onsite:
       fr: "3 jours/semaine minimum"
       en: "3 days/week minimum"
+    
+    project:
+      fr: |
+        Vous rejoindrez le projet « Computational approaches to the phenomenology of togetherness in autism and non-autism ». Votre mission : analyser l'expérience vécue de l'interaction sociale chez les personnes autistes et non-autistes, à travers des entretiens phénoménologiques et des cartes corporelles.
+      en: |
+        You will join the project "Computational approaches to the phenomenology of togetherness in autism and non-autism". Your mission: analyze the lived experience of social interaction in autistic and non-autistic individuals, through phenomenological interviews and body maps.
+    
+    mission:
+      fr: |
+        **Transcription & Préparation des données**
+        - Transcrire les entretiens phénoménologiques
+        - Préparer et organiser les données pour l'analyse
+        - Assurer la qualité et la fidélité des transcriptions
+        
+        **Codage & Analyse**
+        - Coder les entretiens avec Atlas.ti et logiciels open source
+        - Réaliser des analyses thématiques / IPA (Interpretative Phenomenological Analysis)
+        - Analyser les cartes corporelles
+        
+        **Documentation & Méthodologie**
+        - Documenter les procédures de codage
+        - Contribuer à l'élaboration de guides méthodologiques
+        - Participer aux discussions d'équipe sur l'analyse
+      en: |
+        **Transcription & Data Preparation**
+        - Transcribe phenomenological interviews
+        - Prepare and organize data for analysis
+        - Ensure quality and accuracy of transcriptions
+        
+        **Coding & Analysis**
+        - Code interviews using Atlas.ti and open source software
+        - Conduct thematic analysis / IPA (Interpretative Phenomenological Analysis)
+        - Analyze body maps
+        
+        **Documentation & Methodology**
+        - Document coding procedures
+        - Contribute to methodological guides development
+        - Participate in team discussions on analysis
+    
+    requirements:
+      fr:
+        - "Maîtrise du français (obligatoire — entretiens et analyses en français)"
+        - "Rigueur et attention aux détails (obligatoire)"
+        - "Expérience en analyse qualitative (atout)"
+        - "Connaissance des méthodes phénoménologiques (IPA, etc.) (atout)"
+        - "Maîtrise d'un logiciel de codage (Atlas.ti, NVivo, etc.) (atout)"
+      en:
+        - "French fluency (mandatory — interviews and analyses in French)"
+        - "Rigor and attention to detail (mandatory)"
+        - "Experience in qualitative analysis (asset)"
+        - "Knowledge of phenomenological methods (IPA, etc.) (asset)"
+        - "Proficiency in coding software (Atlas.ti, NVivo, etc.) (asset)"
     
     contact: "jobs@ppsp.team"
 
@@ -93,18 +148,77 @@ jobs:
     title:
       fr: "Développeur iOS"
       en: "iOS Developer"
+    subtitle:
+      fr: "Apps mobiles pour la recherche clinique pédiatrique"
+      en: "Mobile Apps for Pediatric Clinical Research"
     location:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
     duration:
-      fr: "12 semaines minimum"
-      en: "12 weeks minimum"
+      fr: "12 semaines minimum (3+ mois)"
+      en: "12 weeks minimum (3+ months)"
     start:
       fr: "Été 2026"
       en: "Summer 2026"
     onsite:
       fr: "3 jours/semaine minimum"
       en: "3 days/week minimum"
+    
+    project:
+      fr: |
+        Nous développons des applications iOS pour tablettes destinées à la recherche clinique pédiatrique. Ces applications incluent des tests neuropsychologiques et neurophénoménologiques, des questionnaires phénotypiques, des échelles d'évaluation, des tests de métacognition et des « jeux » de coopération et synchronisation. Vous rejoindrez une équipe qui dispose déjà d'applications fonctionnelles (comme nos échelles iOS en neuropsychologie) avec des modules d'authentification et de synchronisation CloudKit réutilisables.
+      en: |
+        We develop iOS applications for tablets intended for pediatric clinical research. These applications include neuropsychological and neurophenomenological tests, phenotypic questionnaires, assessment scales, metacognition tests, and cooperation/synchronization "games". You will join a team that already has functional applications (like our iOS neuropsychology scales) with reusable authentication and CloudKit synchronization modules.
+    
+    mission:
+      fr: |
+        **Développement**
+        - Concevoir et développer des applications iOS natives en Swift/SwiftUI avec architecture MVVM
+        - Implémenter l'authentification via Sign in with Apple pour un usage clinique sécurisé
+        - Gérer la persistance des données avec Core Data et la synchronisation via CloudKit
+        - Étendre et améliorer les modules existants pour de nouvelles applications
+        
+        **Validation & Tests**
+        - Écrire et maintenir des tests unitaires (XCTest) pour garantir la qualité du code
+        - Participer aux tests avec utilisateurs réels (enfants, cliniciens) en environnement hospitalier
+        - Valider la robustesse des applications sur différents appareils iPad
+        
+        **Documentation & Open-Source**
+        - Documenter les modules réutilisables pour faciliter le développement de futures applications
+        - Contribuer aux repositories open-source du laboratoire (ex: github.com/Ramdam17/IOS-Scale)
+        - Rédiger la documentation technique des architectures développées
+      en: |
+        **Development**
+        - Design and develop native iOS applications in Swift/SwiftUI with MVVM architecture
+        - Implement authentication via Sign in with Apple for secure clinical use
+        - Manage data persistence with Core Data and synchronization via CloudKit
+        - Extend and improve existing modules for new applications
+        
+        **Validation & Testing**
+        - Write and maintain unit tests (XCTest) to ensure code quality
+        - Participate in testing with real users (children, clinicians) in hospital settings
+        - Validate application robustness on different iPad devices
+        
+        **Documentation & Open-Source**
+        - Document reusable modules to facilitate development of future applications
+        - Contribute to the laboratory's open-source repositories (e.g., github.com/Ramdam17/IOS-Scale)
+        - Write technical documentation for developed architectures
+    
+    requirements:
+      fr:
+        - "Swift & SwiftUI : maîtrise solide avec au moins un projet mené de bout en bout"
+        - "Architecture MVVM : compréhension et application pratique"
+        - "Git/GitHub : usage quotidien, collaboration via pull requests"
+        - "Lien GitHub actif avec au moins un projet iOS visible (obligatoire)"
+        - "Core Data / CloudKit (atout)"
+        - "Sign in with Apple (atout)"
+      en:
+        - "Swift & SwiftUI: solid mastery with at least one end-to-end project completed"
+        - "MVVM architecture: understanding and practical application"
+        - "Git/GitHub: daily use, collaboration via pull requests"
+        - "Active GitHub link with at least one visible iOS project (required)"
+        - "Core Data / CloudKit (asset)"
+        - "Sign in with Apple (asset)"
     
     contact: "jobs@ppsp.team"
 
@@ -117,24 +231,81 @@ jobs:
     title:
       fr: "Développeur Python — HyPyP"
       en: "Python Developer — HyPyP"
+    subtitle:
+      fr: "HyPyP : développement de métriques et visualisations"
+      en: "HyPyP: Metrics Development and Visualizations"
     location:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
     duration:
-      fr: "12 semaines minimum"
-      en: "12 weeks minimum"
+      fr: "12 à 20 semaines (3 à 5 mois)"
+      en: "12 to 20 weeks (3 to 5 months)"
     start:
-      fr: "Été 2026"
-      en: "Summer 2026"
+      fr: "Été 2026 (à partir de mai)"
+      en: "Summer 2026 (from May)"
     onsite:
       fr: "3 jours/semaine minimum"
       en: "3 days/week minimum"
     
-    mission:
+    project:
       fr: |
-        HyPyP est la librairie Python de référence pour analyser la synchronie inter-cerveau en hyperscanning. Votre mission : étendre les capacités d'analyse de la dynamique de synchronisation en développant de nouvelles métriques et outils de visualisation.
+        HyPyP est la librairie Python de référence pour analyser la synchronie inter-cerveau en hyperscanning. Votre mission : étendre les capacités d'analyse des dynamiques de synchronisation en développant de nouvelles métriques et des outils de visualisation.
       en: |
         HyPyP is the reference Python library for analyzing inter-brain synchrony in hyperscanning. Your mission: extend the analysis capabilities of synchronization dynamics by developing new metrics and visualization tools.
+    
+    mission:
+      fr: |
+        **Développement**
+        - Implémenter de nouvelles métriques de synchronie
+        - Créer des modules de visualisation interactifs
+        - Optimiser les performances des pipelines existants
+        - Assurer un code robuste avec tests et benchmarks des méthodes
+        
+        **Validation & Tests**
+        - Rédiger des tests unitaires et d'intégration
+        - Valider les métriques sur des données synthétiques et réelles
+        - Comparer les résultats avec la littérature scientifique
+        - Documenter les performances et limites
+        
+        **Documentation & Open-Source**
+        - Rédiger la documentation technique des nouvelles fonctionnalités
+        - Créer des tutoriels et exemples d'utilisation
+        - Contribuer à la documentation API
+        - Participer aux revues de code et aux issues GitHub
+      en: |
+        **Development**
+        - Implement new synchrony metrics
+        - Create interactive visualization modules
+        - Optimize existing pipeline performance
+        - Ensure robust code with tests and method benchmarks
+        
+        **Validation & Testing**
+        - Write unit and integration tests
+        - Validate metrics on synthetic and real data
+        - Compare results with scientific literature
+        - Document performance and limitations
+        
+        **Documentation & Open-Source**
+        - Write technical documentation for new features
+        - Create tutorials and usage examples
+        - Contribute to API documentation
+        - Participate in code reviews and GitHub issues
+    
+    requirements:
+      fr:
+        - "Maîtrise de Python"
+        - "Expérience avec NumPy/SciPy/Pandas"
+        - "Expérience avec Git"
+        - "GitHub actif avec projets personnels ou contributions open-source (obligatoire)"
+        - "Expérience avec MNE-Python ou autres librairies de neurosciences (atout)"
+        - "Connaissances en théorie de l'information ou algèbre géométrique (atout)"
+      en:
+        - "Python proficiency"
+        - "Experience with NumPy/SciPy/Pandas"
+        - "Experience with Git"
+        - "Active GitHub with personal projects or open-source contributions (required)"
+        - "Experience with MNE-Python or other neuroscience libraries (asset)"
+        - "Knowledge in information theory or geometric algebra (asset)"
     
     contact: "jobs@ppsp.team"
 
@@ -147,6 +318,9 @@ jobs:
     title:
       fr: "Stage en Psychologie"
       en: "Psychology Internship"
+    subtitle:
+      fr: "Protocoles expérimentaux & synchronie interpersonnelle"
+      en: "Experimental Protocols & Interpersonal Synchrony"
     location:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
@@ -159,6 +333,66 @@ jobs:
     onsite:
       fr: "3 jours/semaine minimum"
       en: "3 days/week minimum"
+    
+    project:
+      fr: |
+        Au sein du laboratoire PPSP, vous participerez à l'ensemble du cycle de recherche : de la conception des protocoles à l'analyse des données, en passant par la collecte sur le terrain. Vous contribuerez à des études explorant l'interaction sociale et la cognition, en utilisant des approches innovantes incluant la neurophénoménologie.
+      en: |
+        Within the PPSP laboratory, you will participate in the entire research cycle: from protocol design to data analysis, including field data collection. You will contribute to studies exploring social interaction and cognition, using innovative approaches including neurophenomenology.
+    
+    mission:
+      fr: |
+        **Élaboration de protocoles**
+        - Revue de littérature en neuropsychologie, psychologie expérimentale et neurophénoménologie
+        - Conception de tâches expérimentales
+        - Adaptation et validation de questionnaires
+        - Design de protocoles neurophénoménologiques
+        
+        **Passations & collecte de données**
+        - Administration de tests neuropsychologiques standardisés
+        - Passation de tâches expérimentales
+        - Conduite d'entretiens et recueil de données subjectives (approches neurophénoménologiques)
+        - Participation à la gestion logistique des sessions
+        
+        **Analyses de données**
+        - Saisie et nettoyage de données
+        - Cotation et scoring de tests neuropsychologiques
+        - Analyses statistiques en collaboration avec l'équipe
+        - Analyse qualitative et thématique des données neurophénoménologiques
+      en: |
+        **Protocol Development**
+        - Literature review in neuropsychology, experimental psychology, and neurophenomenology
+        - Design of experimental tasks
+        - Adaptation and validation of questionnaires
+        - Design of neurophenomenological protocols
+        
+        **Data Collection & Administration**
+        - Administration of standardized neuropsychological tests
+        - Administration of experimental tasks
+        - Conducting interviews and collecting subjective data (neurophenomenological approaches)
+        - Participation in session logistics management
+        
+        **Data Analysis**
+        - Data entry and cleaning
+        - Scoring of neuropsychological tests
+        - Statistical analyses in collaboration with the team
+        - Qualitative and thematic analysis of neurophenomenological data
+    
+    requirements:
+      fr:
+        - "Formation en cours en psychologie (tous niveaux considérés)"
+        - "Formation aux méthodes expérimentales en psychologie"
+        - "Formation aux tests neuropsychologiques (en cours ou complétée)"
+        - "Connaissances de base en statistiques"
+        - "Anglais scientifique (lecture d'articles)"
+        - "Intérêt pour la cognition sociale et les interactions sociales (atout)"
+      en:
+        - "Ongoing training in psychology (all levels considered)"
+        - "Training in experimental methods in psychology"
+        - "Training in neuropsychological testing (ongoing or completed)"
+        - "Basic knowledge of statistics"
+        - "Scientific English (reading articles)"
+        - "Strong interest in social cognition and social interactions (asset)"
     
     contact: "jobs@ppsp.team"
 
