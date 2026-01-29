@@ -391,7 +391,7 @@ permalink: /jobs/
                 {% else %}<i class="fas fa-briefcase"></i>{% endif %}
               </div>
 
-              {% if page.lang == 'fr' %}
+              {% if site.lang == 'fr' %}
                 <h4 class="job-title">{{ job.title.fr }}</h4>
               {% else %}
                 <h4 class="job-title">{{ job.title.en }}</h4>
@@ -406,7 +406,7 @@ permalink: /jobs/
               </div>
 
               {% if job.mission %}
-                {% if page.lang == 'fr' %}
+                {% if site.lang == 'fr' %}
                   <p class="job-excerpt">{{ job.mission.fr | strip_html | truncate: 200 }}</p>
                 {% else %}
                   <p class="job-excerpt">{{ job.mission.en | strip_html | truncate: 200 }}</p>
@@ -415,7 +415,7 @@ permalink: /jobs/
 
               <div class="job-card-action">
                 <span class="deadline-info">
-                  {% if page.lang == 'fr' %}
+                  {% if site.lang == 'fr' %}
                     <i class="far fa-calendar-alt"></i> {{ job.start.fr }}
                   {% else %}
                     <i class="far fa-calendar-alt"></i> {{ job.start.en }}
@@ -424,7 +424,7 @@ permalink: /jobs/
                 <button class="btn btn-primary btn-sm rounded-pill px-4" 
                         onclick="openJobModal('{{ job.id }}')" 
                         {% unless job.active %}disabled{% endunless %}>
-                  {% if job.active %}{% if page.lang == 'fr' %}Voir l'offre{% else %}View offer{% endif %}{% else %}{% if page.lang == 'fr' %}Pourvu{% else %}Filled{% endif %}{% endif %}
+                  {% if job.active %}{% if site.lang == 'fr' %}Voir l'offre{% else %}View offer{% endif %}{% else %}{% if site.lang == 'fr' %}Pourvu{% else %}Filled{% endif %}{% endif %}
                 </button>
               </div>
             </div>
@@ -452,7 +452,7 @@ permalink: /jobs/
     <div class="modal-content">
       <div class="modal-header d-flex flex-column align-items-start">
         <div class="d-flex justify-content-between w-100">
-          {% if page.lang == 'fr' %}
+          {% if site.lang == 'fr' %}
             <h4 class="modal-title">{{ job.title.fr }}</h4>
           {% else %}
             <h4 class="modal-title">{{ job.title.en }}</h4>
@@ -463,14 +463,14 @@ permalink: /jobs/
           <span class="job-type-badge badge-{{ job.type | downcase | replace: ' ', '-' }}">{{ job.type | capitalize }}</span>
           <div class="job-status-indicator status-{% if job.active %}open{% else %}closed{% endif %}">
             <span class="status-dot"></span>
-            {% if job.active %}{% if page.lang == 'fr' %}Ouvert{% else %}Open{% endif %}{% else %}{% if page.lang == 'fr' %}Fermé{% else %}Closed{% endif %}{% endif %}
+            {% if job.active %}{% if site.lang == 'fr' %}Ouvert{% else %}Open{% endif %}{% else %}{% if site.lang == 'fr' %}Fermé{% else %}Closed{% endif %}{% endif %}
           </div>
         </div>
       </div>
       
       <div class="modal-body">
         <div class="job-info-grid">
-          {% if page.lang == 'fr' %}
+          {% if site.lang == 'fr' %}
             <div class="info-item"><label>Lieu</label><span>{{ job.location.fr }}</span></div>
             <div class="info-item"><label>Durée</label><span>{{ job.duration.fr }}</span></div>
             <div class="info-item"><label>Début</label><span>{{ job.start.fr }}</span></div>
@@ -485,8 +485,8 @@ permalink: /jobs/
 
         {% if job.project %}
         <div class="mb-5">
-          <h6 class="section-subtitle"><i class="fas fa-project-diagram mr-2"></i> {% if page.lang == 'fr' %}Projet{% else %}Project{% endif %}</h6>
-          {% if page.lang == 'fr' %}
+          <h6 class="section-subtitle"><i class="fas fa-project-diagram mr-2"></i> {% if site.lang == 'fr' %}Projet{% else %}Project{% endif %}</h6>
+          {% if site.lang == 'fr' %}
             <div class="job-rich-text">{{ job.project.fr | markdownify }}</div>
           {% else %}
             <div class="job-rich-text">{{ job.project.en | markdownify }}</div>
@@ -496,8 +496,8 @@ permalink: /jobs/
 
         {% if job.mission %}
         <div class="mb-5">
-          <h6 class="section-subtitle"><i class="fas fa-bullseye mr-2"></i> {% if page.lang == 'fr' %}Mission{% else %}Mission{% endif %}</h6>
-          {% if page.lang == 'fr' %}
+          <h6 class="section-subtitle"><i class="fas fa-bullseye mr-2"></i> {% if site.lang == 'fr' %}Mission{% else %}Mission{% endif %}</h6>
+          {% if site.lang == 'fr' %}
             <div class="job-rich-text">{{ job.mission.fr | markdownify }}</div>
           {% else %}
             <div class="job-rich-text">{{ job.mission.en | markdownify }}</div>
@@ -507,9 +507,9 @@ permalink: /jobs/
 
         {% if job.tasks %}
         <div class="mb-5">
-          <h6 class="section-subtitle"><i class="fas fa-tasks mr-2"></i> {% if page.lang == 'fr' %}Tâches{% else %}Tasks{% endif %}</h6>
+          <h6 class="section-subtitle"><i class="fas fa-tasks mr-2"></i> {% if site.lang == 'fr' %}Tâches{% else %}Tasks{% endif %}</h6>
           <div class="job-rich-text">
-            {% if page.lang == 'fr' %}
+            {% if site.lang == 'fr' %}
               <ul>{% for task in job.tasks.fr %}<li>{{ task }}</li>{% endfor %}</ul>
             {% else %}
               <ul>{% for task in job.tasks.en %}<li>{{ task }}</li>{% endfor %}</ul>
@@ -520,9 +520,9 @@ permalink: /jobs/
 
         {% if job.requirements %}
         <div class="mb-5">
-          <h6 class="section-subtitle"><i class="fas fa-check-circle mr-2"></i> {% if page.lang == 'fr' %}Exigences{% else %}Requirements{% endif %}</h6>
+          <h6 class="section-subtitle"><i class="fas fa-check-circle mr-2"></i> {% if site.lang == 'fr' %}Exigences{% else %}Requirements{% endif %}</h6>
           <div class="job-rich-text">
-            {% if page.lang == 'fr' %}
+            {% if site.lang == 'fr' %}
               <ul>{% for req in job.requirements.fr %}<li>{{ req }}</li>{% endfor %}</ul>
             {% else %}
               <ul>{% for req in job.requirements.en %}<li>{{ req }}</li>{% endfor %}</ul>
@@ -533,9 +533,9 @@ permalink: /jobs/
       </div>
 
       <div class="modal-footer">
-        <button type="button" class="btn btn-light rounded-pill px-4" data-dismiss="modal">{% if page.lang == 'fr' %}Fermer{% else %}Close{% endif %}</button>
+        <button type="button" class="btn btn-light rounded-pill px-4" data-dismiss="modal">{% if site.lang == 'fr' %}Fermer{% else %}Close{% endif %}</button>
         {% if job.active %}
-        <a href="mailto:{{ job.contact }}" class="btn btn-primary rounded-pill px-5 shadow">{% if page.lang == 'fr' %}Postuler{% else %}Apply{% endif %}</a>
+        <a href="mailto:{{ job.contact }}" class="btn btn-primary rounded-pill px-5 shadow">{% if site.lang == 'fr' %}Postuler{% else %}Apply{% endif %}</a>
         {% endif %}
       </div>
     </div>

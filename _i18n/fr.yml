@@ -38,3 +38,7 @@ nav:
 
   - title: "Contact"
     section: contact
+
+jobs:
+  open: "Ouvert"
+  closed: "Fermé"
