@@ -1,91 +1,98 @@
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top NavBar" id="Nav"  style="background-color: #212529;">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top NavBar" id="Nav" style="background-color: #212529;">
   <div class="container">
     <div class="row">
       <div class="col" style="display: contents;">
-        <a class="navbar-brand js-scroll-trigger" href="./">
-        <div class="logo">
-          <img class="logo"  src="./favicon-transparent.png"/>
-        </div>
-        {%- if site.logo -%}    
-          <div>
-            <img height="{{ site.logo.height | default: 52 }}" src="./"/>
+        <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl | replace: '//', '/' }}">
+          <div class="logo">
+            <img class="logo" src="/favicon-transparent.png" />
           </div>
-        {%- else -%}
+          {%- if site.logo -%}
+          <div>
+            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.baseurl }}{{ site.logo.path }}" />
+          </div>
+          {%- else -%}
           <div style="margin: auto;">
             <span style="font-size: 0.75em;">{{ site.title }}</span>
-          </div>  
-        {%- endif -%}
-      </a>
+          </div>
+          {%- endif -%}
+        </a>
       </div>
     </div>
-    
+
     <div class="button">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i> MEnu
-    </button>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i> MEnu
+      </button>
     </div>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <div class="col" style="display: contents;">
         <ul class="navbar-nav text-uppercase ml-auto">
-        {% for link in site.translations[site.lang]["nav"] %}
+          {% for link in site.translations[site.lang]["nav"] %}
           {%- if link.url -%}
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+          </li>
           {%- elsif link.section -%}
-            {% if link.subsection %}
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  {{ link.title }}
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  {% for item in link.subsection %}
-                    <a class="dropdown-item" href="{{item['href']}}">{{item["title"]}}</a> 
-                  {% endfor %}
-                </div>
-              </li>
-            {%- else -%}
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="./#{{ link.section }}">{{ link.title }}</a>
-              </li>
-            {%- endif -%}
+          {% if link.subsection %}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              {{ link.title }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% for item in link.subsection %}
+              <a class="dropdown-item" href="{{item['href']}}">{{item["title"]}}</a>
+              {% endfor %}
+            </div>
+          </li>
           {%- else -%}
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl | replace: '//', '/' }}#{{ link.section }}">{{
+              link.title }}</a>
+          </li>
           {%- endif -%}
-        {% endfor %}
-        <div class="twitter-location-box">
-          <li class="nav-item twitter" style="margin: 0 0.5em;">
-          <a class="nav-link js-scroll-trigger" target="_blank" href="https://twitter.com/ppsp_team">
-            <i class="fab fa-twitter" style="font-size: 1.2em;"></i>
-            <!-- <img src="../img/icons/twitter_white@2x.png" alt="PPSP twitter" style="height: 34px; padding-left: 0;"> -->
-            <div class="twitter"></div>
-            </a>
+          {%- else -%}
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
           </li>
-          <li class="nav-item location" style="margin: 0 0.5em;">
-            <a class="nav-link js-scroll-trigger" target="_blank" href="https://goo.gl/maps/7E8Upxotto9NGyXdA">
-              <i class="fas fa-map-marker-alt" style="font-size: 1.2em;"></i>
-              <div class="location"></div>
-            </a>
-          </li>
-          {% if site.lang == "fr" %}
-            {% capture link1 %}..{{ page.url}}{% endcapture %}
-            <li class="nav-item"> 
-              <a class="nav-link js-scroll-trigger" href="{{ link1 }}">{% translate global.en %}</a>
+          {%- endif -%}
+          {% endfor %}
+          <div class="twitter-location-box">
+            <li class="nav-item twitter" style="margin: 0 0.5em;">
+              <a class="nav-link js-scroll-trigger" target="_blank" href="https://twitter.com/ppsp_team">
+                <i class="fab fa-twitter" style="font-size: 1.2em;"></i>
+                <!-- <img src="../img/icons/twitter_white@2x.png" alt="PPSP twitter" style="height: 34px; padding-left: 0;"> -->
+                <div class="twitter"></div>
+              </a>
             </li>
-          {% elsif site.lang == "en" %}
-            {% capture link2 %}{{ site.baseurl_root }}fr{{ page.url  }}{% endcapture %}
-            <li class="nav-item"> 
-              <a class="nav-link js-scroll-trigger" href="{{ link2 }}">{% translate global.fr %}</a>
+            <li class="nav-item location" style="margin: 0 0.5em;">
+              <a class="nav-link js-scroll-trigger" target="_blank" href="https://goo.gl/maps/7E8Upxotto9NGyXdA">
+                <i class="fas fa-map-marker-alt" style="font-size: 1.2em;"></i>
+                <div class="location"></div>
+              </a>
             </li>
-          {% endif %}
+            {% if site.lang == "fr" %}
+            {% assign root_url = site.baseurl | replace: "/fr", "" | replace: "//", "/" %}
+            {% assign clean_path = page.url | replace: "/fr/", "/" | replace: "/fr", "" | replace: "//", "/" %}
+            {% assign full_en_url = root_url | append: clean_path | replace: "//", "/" %}
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{{ full_en_url }}">{% translate global.en %}</a>
+            </li>
+            {% elsif site.lang == "en" %}
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger"
+                href="{{ site.baseurl | append: 'fr' | append: page.url | replace: '//', '/' }}">{% translate global.fr
+                %}</a>
+            </li>
+            {% endif %}
 
-        </div>
-      </ul>
+          </div>
+        </ul>
       </div>
     </div>
   </div>
 </nav>
-  <!-- End Navigation -->
+<!-- End Navigation -->

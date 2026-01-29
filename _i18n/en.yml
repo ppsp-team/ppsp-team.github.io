@@ -11,10 +11,10 @@ nav:
     subsection:
       -
         title: Highlights
-        href: "./#papers"
+        href: "/#papers"
       - 
         title: All papers 
-        href: "publications"
+        href: "/publications"
     
   - title: "Story"
     section: timeline
@@ -24,13 +24,28 @@ nav:
     subsection:
       -
         title: Members
-        href: "./#team"
+        href: "/#team"
       - 
         title: Collaborators 
-        href: "collaborators"
+        href: "/collaborators"
       -
         title: Alumni
-        href: "alumni"
+        href: "/alumni"
+
+  - title: "Jobs"
+    url: "/jobs/"
 
   - title: "Contact"
     section: contact
+
+jobs:
+  open: "Open"
+  closed: "Closed"
+  current_status: "Current Status"
+  position_category: "Position Category"
+  all_roles: "All Roles"
+  phd: "PhD"
+  postdoc: "Postdoc"
+  assistant: "Assistant"
+  internship: "Internship"
+  archived: "Archived"

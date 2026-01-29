@@ -1,0 +1,115 @@
+# ============================================================================
+# JOB TEMPLATE - Copy this template to add a new job
+# ============================================================================
+# Instructions:
+# 1. Copy this entire template block
+# 2. Paste it at the beginning of the jobs list in _data/jobs.yml
+# 3. Fill in all fields in both French (fr) and English (en)
+# 4. Remove any unused optional fields
+# 5. Update the 'active' field to true when ready to publish
+# ============================================================================
+
+- id: unique-job-id  # REQUIRED: Use lowercase, hyphens only (e.g., "data-scientist-2026")
+  active: false  # REQUIRED: Set to true to display, false to hide
+  type: internship  # REQUIRED: internship, position, or contract
+  
+  # REQUIRED: Job title in both languages
+  title:
+    fr: "Titre du poste en français"
+    en: "Job title in English"
+  
+  # OPTIONAL: Subtitle/tagline
+  subtitle:
+    fr: "Sous-titre optionnel en français"
+    en: "Optional subtitle in English"
+  
+  # REQUIRED: Location
+  location:
+    fr: "CHU Sainte-Justine, Montréal"
+    en: "CHU Sainte-Justine, Montreal"
+  
+  # REQUIRED: Duration
+  duration:
+    fr: "X mois (temps plein/partiel)"
+    en: "X months (full-time/part-time)"
+  
+  # REQUIRED: Start date
+  start:
+    fr: "Saison ANNÉE (flexible)"
+    en: "Season YEAR (flexible)"
+  
+  # OPTIONAL: On-site requirements
+  onsite:
+    fr: "X jours/semaine"
+    en: "X days/week"
+  
+  # OPTIONAL: Project context/description
+  project:
+    fr: |
+      Description du projet en français.
+      Peut être sur plusieurs lignes.
+    en: |
+      Project description in English.
+      Can be multiline.
+  
+  # OPTIONAL: Main mission/objective
+  mission:
+    fr: |
+      Description de la mission en français.
+    en: |
+      Mission description in English.
+  
+  # OPTIONAL: List of tasks
+  tasks:
+    fr:
+      - "Tâche 1 en français"
+      - "Tâche 2 en français"
+      - "Tâche 3 en français"
+    en:
+      - "Task 1 in English"
+      - "Task 2 in English"
+      - "Task 3 in English"
+  
+  # OPTIONAL: Requirements/qualifications
+  requirements:
+    fr:
+      - "Exigence 1 en français"
+      - "Exigence 2 en français"
+    en:
+      - "Requirement 1 in English"
+      - "Requirement 2 in English"
+  
+  # OPTIONAL: Skills sought
+  skills:
+    fr:
+      - "Compétence 1 en français"
+      - "Compétence 2 en français"
+    en:
+      - "Skill 1 in English"
+      - "Skill 2 in English"
+  
+  # OPTIONAL: Benefits/perks
+  benefits:
+    fr:
+      - "Avantage 1 en français"
+      - "Avantage 2 en français"
+    en:
+      - "Benefit 1 in English"
+      - "Benefit 2 in English"
+  
+  # REQUIRED: Contact email
+  contact: "jobs@ppsp.team"
+  
+  # OPTIONAL: Application deadline
+  deadline:
+    fr: "Date limite en français"
+    en: "Deadline in English"
+  
+  # OPTIONAL: Salary range
+  salary:
+    fr: "Fourchette salariale en français"
+    en: "Salary range in English"
+
+# ============================================================================
+# END OF TEMPLATE
+# ============================================================================
