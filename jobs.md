@@ -361,10 +361,10 @@ permalink: /jobs/
             <h6 class="sidebar-title">{% t jobs.position_category %}</h6>
             <div class="filter-group">
               <button class="filter-pill active" data-filter="all" onclick="toggleTypeFilter(this)">{% t jobs.all_roles %}</button>
-              <button class="filter-pill" data-filter="PhD" onclick="toggleTypeFilter(this)">{% t jobs.phd %}</button>
-              <button class="filter-pill" data-filter="Postdoc" onclick="toggleTypeFilter(this)">{% t jobs.postdoc %}</button>
-              <button class="filter-pill" data-filter="Research Assistant" onclick="toggleTypeFilter(this)">{% t jobs.assistant %}</button>
-              <button class="filter-pill" data-filter="Internship" onclick="toggleTypeFilter(this)">{% t jobs.internship %}</button>
+              <button class="filter-pill" data-filter="phd" onclick="toggleTypeFilter(this)">{% t jobs.phd %}</button>
+              <button class="filter-pill" data-filter="postdoc" onclick="toggleTypeFilter(this)">{% t jobs.postdoc %}</button>
+              <button class="filter-pill" data-filter="research assistant" onclick="toggleTypeFilter(this)">{% t jobs.assistant %}</button>
+              <button class="filter-pill" data-filter="internship" onclick="toggleTypeFilter(this)">{% t jobs.internship %}</button>
             </div>
           </div>
 
@@ -377,9 +377,9 @@ permalink: /jobs/
           {% assign jobs = site.data.jobs.jobs %}
           {% for job in jobs %}
           {% if job.active %}
-          <div class="col-xl-6 col-lg-12 mb-4 job-card-wrapper" 
+           <div class="col-xl-6 col-lg-12 mb-4 job-card-wrapper" 
                data-status="{% if job.active %}open{% else %}closed{% endif %}" 
-               data-type="{{ job.type }}"
+               data-type="{{ job.type | downcase }}"
                data-id="{{ job.id }}">
             
             <div class="job-card {% if job.status == 'closed' %}job-card-archived{% endif %}">
@@ -393,12 +393,21 @@ permalink: /jobs/
 
               {% if site.lang == 'fr' %}
                 <h4 class="job-title">{{ job.title.fr }}</h4>
+                {% if job.subtitle %}<p class="text-muted mb-2" style="font-weight: 500;">{{ job.subtitle.fr }}</p>{% endif %}
               {% else %}
                 <h4 class="job-title">{{ job.title.en }}</h4>
+                {% if job.subtitle %}<p class="text-muted mb-2" style="font-weight: 500;">{{ job.subtitle.en }}</p>{% endif %}
               {% endif %}
 
               <div class="job-meta-tags">
-                <span class="job-type-badge badge-{{ job.type | downcase | replace: ' ', '-' }}">{{ job.type | capitalize }}</span>
+                {% assign job_type_key = job.type | downcase | replace: ' ', '_' %}
+                <span class="job-type-badge badge-{{ job.type | downcase | replace: ' ', '-' }}">
+                  {% if job_type_key == 'research_assistant' %}
+                    {% t jobs.assistant %}
+                  {% else %}
+                    {% t jobs[job_type_key] %}
+                  {% endif %}
+                </span>
                 <div class="job-status-indicator status-{% if job.active %}open{% else %}closed{% endif %}">
                   <span class="status-dot"></span>
                   {% if job.active %}{% t jobs.open %}{% else %}{% t jobs.closed %}{% endif %}
