@@ -414,7 +414,16 @@ jobs:
         ensemble, servent directement les enfants, les familles et les soignants. Du labo à l'hôpital, de la science à la
         santé.
       en: |
-
+        ## Our Mission
+        **Social NeuroAI Hub — Where minds connect**
+        **Où les intelligences se rencontrent**
+        The **PPSP Laboratory** is located at **CHU Sainte-Justine**, one of the world's largest pediatric university
+        hospitals. We develop the sciences and technologies that enable understanding of how diverse
+        intelligences coordinate, develop, and support one another. Our approach: **multimodal hyperscanning**
+        simultaneously records brain, physiology, language, and behavior of multiple people in interaction. Our
+        goal is to explore **cognitive and meta-cognitive potentialities and diversities**. We create open-source
+        tools, clinical protocols, and knowledge that together directly serve children, families, and healthcare
+        providers. **From lab to hospital, from science to health**.
     your_mission:
       fr: |
         ## Votre Mission
@@ -442,7 +451,28 @@ jobs:
         **Impact :**
         Contribuer à mieux comprendre le vécu de l'interaction sociale chez les personnes autistes.
       en: |
-
+        ## Your Mission
+        You will join the project **«Computational approaches to the phenomenology of togetherness in autism and non-autism»**. Your mission: analyze the lived experience of social interaction in autistic and non-autistic individuals, through phenomenological interviews and body maps.
+        
+        **What you will do:**
+        
+        ### Transcription & Data Preparation
+        - Transcribe phenomenological interviews
+        - Prepare and organize data for analysis
+        - Ensure quality and accuracy of transcriptions
+        
+        ### Coding & Analysis
+        - Code interviews using Atlas.ti and open source software
+        - Conduct thematic analysis / IPA (Interpretative Phenomenological Analysis)
+        - Analyze body maps
+        
+        ### Documentation & Methodology
+        - Document coding procedures
+        - Contribute to methodological guides development
+        - Participate in team discussions on analysis
+        
+        **Impact:**
+        Contribute to better understanding the lived experience of social interaction in autistic individuals.
     profile:
       fr: |
         ## Profil Recherché
@@ -474,7 +504,31 @@ jobs:
         - Connaissances sur l'autisme / neurodiversité
         - Maîtrise de l'anglais
       en: |
-
+        ## Profile
+        
+        ### What drives you
+        
+        You are drawn to **concrete, robust, lasting execution.**
+        - **Results-oriented**: You find satisfaction in work that delivers, goals achieved, documentation that clarifies.
+        - **Intellectual curiosity**: You want to understand why we pursue these projects, how they fit into research.
+        - **Methodological rigor**: You work in a structured way, document your approaches, validate your results.
+        - **Collaborative spirit**: You appreciate feedback, share your reflections, welcome input.
+        - **Autonomy**: Faced with a problem, you break it down, explore, test hypotheses.
+        
+        ### Education
+        Student in psychology, neuropsychology, cognitive science, sociology, anthropology, philosophy or related discipline.
+        
+        ### Required skills
+        - **French fluency (mandatory — interviews and analyses in French)**
+        - Rigor and attention to detail (mandatory)
+        
+        ### Valued assets (not mandatory)
+        - Experience in qualitative analysis
+        - Knowledge of phenomenological methods (IPA, etc.)
+        - Proficiency in coding software (Atlas.ti, NVivo, etc.)
+        - Experience in interview transcription
+        - Knowledge of autism / neurodiversity
+        - English proficiency
     skills:
       fr: |
         ## Compétences Développées
@@ -502,6 +556,30 @@ jobs:
         Vous travaillerez au CHU Sainte-Justine, avec accès aux séminaires et formations de l'écosystème IA
         montréalais (Mila, IVADO). Selon l'avancement du projet, vous pourrez co-signer des publications.
       en: |
+        ## Skills You Will Develop
+        After these 12 weeks minimum, you will have developed unique and sought-after expertise.
+        
+        ### Technical Expertise
+        - Mastery of phenomenological analysis methods (IPA)
+        - Qualitative coding competence (Atlas.ti, open source tools)
+        - Experience in body map analysis
+        - Rigorous transcription techniques
+        
+        ### Interdisciplinary Vision
+        You will understand how neuroscience, phenomenology, and clinical applications articulate. You will have
+        worked in a pediatric university hospital, observed how research connects to the real needs of children and
+        families.
+        
+        ### Concrete Portfolio
+        - Completed interview transcriptions
+        - Coded database (Atlas.ti)
+        - Thematic analysis report
+        - Methodological guide (coding protocol)
+        - Presentations (lab meetings)
+        
+        ### Network & Trajectories
+        You will work at CHU Sainte-Justine, with access to seminars and training from Montreal's AI ecosystem (Mila,
+        IVADO). Depending on project progress, you may co-sign publications.
 
     working_conditions:
       fr: |
@@ -517,6 +595,17 @@ jobs:
         - Télétravail : 2 jours/semaine possibles selon avancement
         - Horaires flexibles (core hours : 10h-16h)
       en: |
+        ## Working Conditions
+        
+        ### Compensation & Duration
+        - **Duration**: 12 weeks minimum (possibility to extend)
+        - **Start**: Summer 2026
+        - **Scholarships**: We support applications to grants (FRQS, FRQSC, Mitacs, SSHRC, CIHR, etc.)
+        
+        ### Work Organization
+        - **On-site**: 3 days/week minimum at CHU Sainte-Justine
+        - **Remote**: 2 days/week possible depending on progress
+        - **Flexible hours** (core hours: 10am-4pm)
       
     supervision:
       fr: |
@@ -529,6 +618,13 @@ jobs:
         Anne Monnier, candidate au doctorat en sciences psychiatriques — accompagnement quotidien, revue
         technique, mentorat pratique
       en: |
+        ## Supervision
+        
+        **Scientific Supervisor**
+        Guillaume Dumas, Full Professor in Computational Psychiatry, Université de Montréal
+        
+        **Daily Mentor**
+        Anne Monnier, PhD candidate in Psychiatric Sciences — daily support, technical review, practical mentoring
 
     application:
       fr: |
@@ -552,6 +648,25 @@ jobs:
         * **Format des documents** : PDF nommés NomPrenom_CV.pdf, NomPrenom_RelevéNotes.pdf,
         NomPrenom_LettreMotivation.pdf
       en: |
+        ## Recruitment Process
+        
+        ### Required Documents
+        - CV (2 pages maximum)
+        - Transcripts (last 2 years)
+        - Cover letter (1 page): why this internship? why PPSP? your 3-5 year plan
+        
+        ### Process
+        - **Step 1**: Application screening (response within 7 days)
+        - **Step 2**: Motivation interview (30 min, video or in-person)
+        - **Step 3**: Technical interview (1h, in-person at CHU) — methodological discussion + presentation of
+        previous work
+        - **Step 4**: Tie-breaking interview (optional, 30 min)
+        
+        ## How to Apply
+        * **Email**: apply@ppsp.team
+        * **Subject**: «Application Phenomenological Analysis Internship - [Your Name]»
+        * **Document format**: PDFs named LastnameFirstname_CV.pdf, LastnameFirstname_Transcripts.pdf,
+        LastnameFirstname_CoverLetter.pdf
     
     contact: "apply@ppsp.team"
 
@@ -1819,7 +1934,7 @@ jobs:
         * **Questions ?** Écrivez-nous. Nous répondons à toutes les questions.
       en: |
         * **Write to** : apply@ppsp.team
-        * **Subject** :  "Candidature Stage Psychologie Expérimentale - [Your Name]"
+        * **Subject** :  "Application Experimental Psychology Internship - [Your Name]"
         * **Document format** : PDF named NomPrenom_CV.pdf, NomPrenom_RelevéNotes.pdf,
         NomPrenom_LettreMotivation.pdf
         * **In the body of the email** : desired availability period, any questions.
