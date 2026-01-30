@@ -12,8 +12,8 @@ jobs:
       fr: "Stagiaire en Sciences Cognitives — Conception de Tâches Neuropsychologiques en XR"
       en: "Cognitive Science Intern — XR Neuropsychological Task Design"
     subtitle:
-      fr: "Conception de Tâches Neuropsychologiques en XR"
-      en: "XR Neuropsychological Task Design"
+      fr: "Façonner le futur de la neuropsychologie en XR"
+      en: "Shaping the future of neuropsychology in XR"
     location:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
@@ -27,81 +27,353 @@ jobs:
       fr: "3 jours/semaine"
       en: "3 days/week"
     
-    project:
+    our_mission:
       fr: |
-        PRISME (Plateforme de Réalité Immersive pour le Suivi et la Mesure des Expressions cliniques) est un programme de recherche du Laboratoire PPSP, dédié au développement d'outils immersifs pour mieux comprendre le fonctionnement cognitif et moteur des jeunes ayant un trouble neurodéveloppemental (TND).
+        ## Notre Mission
+        **Social NeuroAI Hub — Where minds connect**
+        **Où les intelligences se rencontrent**
+        Le **Laboratoire PPSP** est situé au **CHU Sainte-Justine**, l'un des plus grands hôpitaux pédiatriques
+        universitaires au monde. Nous développons les sciences et technologies qui permettent de comprendre
+        comment les diverses intelligences se coordonnent, se développent et s'entraident. Notre approche :
+        l'**hyperscanning multimodal** enregistre simultanément cerveau, physiologie, langage et comportement
+        de plusieurs personnes en interaction. L'objectif est d'explorer les **potentialités et diversités cognitives
+        et méta-cognitives**. Nous créons des outils open-source, des protocoles cliniques et des connaissances
+        qui, ensemble, servent directement les enfants, les familles et les soignants. **Du labo à l'hôpital, de la
+        science à la santé**.
         
-        **Notre objectif :** Réinventer les tâches neuropsychologiques classiques en XR pour obtenir des mesures plus fines, plus écologiques et plus sensibles au développement. Nous transformons des tests standardisés (motricité fine, flexibilité cognitive, attention, inhibition, coordination visuomotrice…) en tâches interactives intégrées au Meta Quest 3.
+        ### Contexte du Projet — PRISME
+        **PRISME** (Plateforme de Réalité Immersive pour le Suivi et la Mesure des Expressions cliniques) est
+        un programme de recherche du Laboratoire PPSP, dédié au développement d’outils immersifs pour
+        mieux comprendre le fonctionnement cognitif et moteur des jeunes ayant un trouble
+        neurodéveloppemental (TND).
+        
+        **Notre objectif :**
+        👉 Réinventer les tâches neuropsychologiques classiques en XR pour obtenir des mesures plus
+        fines, plus écologiques et plus sensibles au développement.
+        
+        Nous transformons des tests standardisés (motricité fine, flexibilité cognitive, attention, inhibition,
+        coordination visuomotrice…) en tâches interactives intégrées au Meta Quest 3.
+        Les données sont ensuite combinées avec des modèles de psychiatrie computationnelle.
       en: |
-        PRISME (Immersive Reality Platform for Monitoring and Measuring Clinical Expressions) is a research program at the PPSP Laboratory, dedicated to developing immersive tools to better understand cognitive and motor functioning in youth with neurodevelopmental disorders (NDD).
+        ## Our Mission
+        **Social NeuroAI Hub — Where minds connect**
+        **Où les intelligences se rencontrent**
+        The **PPSP Laboratory** is located at **CHU Sainte-Justine**, one of the world's largest pediatric university
+        hospitals. We develop the sciences and technologies that enable understanding of how diverse
+        intelligences coordinate, develop, and support one another. Our approach: **multimodal hyperscanning**
+        simultaneously records brain, physiology, language, and behavior of multiple people in interaction. Our
+        goal is to explore **cognitive and meta-cognitive potentialities and diversities**. We create open-source
+        tools, clinical protocols, and knowledge that together directly serve children, families, and healthcare
+        providers. **From lab to hospital, from science to health**.
         
-        **Our objective:** Reinvent classic neuropsychological tasks in XR to obtain finer, more ecological measures that are more sensitive to development. We transform standardized tests (fine motor skills, cognitive flexibility, attention, inhibition, visuomotor coordination) into interactive tasks integrated into Meta Quest 3.
-    
-    mission:
+        ### Project Context — PRISME
+        **PRISME** (Immersive Reality Platform for Monitoring and Measuring Clinical Expressions) is
+        a research program at the PPSP Laboratory, dedicated to developing immersive tools to
+        better understand cognitive and motor functioning in youth with neurodevelopmental
+        disorders (NDD).
+        
+        **Our objective:**
+        👉 Reinvent classic neuropsychological tasks in XR to obtain finer, more ecological, and
+        developmentally sensitive measures.
+        
+        We transform standardized tests (fine motor skills, cognitive flexibility, attention, inhibition,
+        visuomotor coordination...) into interactive tasks integrated into Meta Quest 3.
+        Data are then combined with computational psychiatry models.
+
+    your_mission:
       fr: |
-        Vous serez responsable de la conceptualisation scientifique des futures tâches PRISME, en vous basant sur :
+        ## Votre Mission
+        **Concevoir des tâches neuropsychologiques adaptées à la XR**
+        
+        Vous serez responsable de la conceptualisation scientifique des futures tâches PRISME, en vous
+        basant sur :
         - Les tests neuropsy de référence (Purdue Pegboard, WCST, WISC, etc.)
-        - Les principes de validité psychométrique
-        - Les contraintes expérimentales XR
+        - Les principes de validité psychométrique (fidélité, sensibilité développementale, sensibilité interindividuelle)
+        - Les contraintes expérimentales XR (interaction, ergonomie, sur-stimulation, calibration spatio-temporelle)
+        - Les métriques computationnelles extraites en XR (variabilité, vitesse, erreurs spatiales, trajectoires, entropie, jitter, temps de réaction, stabilité intra-individuelle)
+        
+        **Concrètement, vous allez :**
+
+        ### 1. Cartographier les tests existants
+        - Analyse des objectifs cognitifs/moteurs de chaque test
+        - Identification des processus sous-jacents (contrôle exécutif, séquençage, motricité fine, feedback sensorimoteur)
+        
+        ### 2. Définir leur transposition XR
+        - Décomposition en unités d’action XR
+        - Identification des affordances XR pertinentes (interactions simples, gestes naturels, manipulation virtuelle)
+        - Proposition de 2–3 variantes par test selon le niveau cognitif ou moteur
+        
+        ### 3. Décrire les métriques pertinentes
+        Pour chaque tâche XR :
+        - Variables primaires (mesures principales du construit)
+        - Variables secondaires (cinématique, précision, erreurs)
+        - Indicateurs de performance stables vs. bruit expérimental
+        - Estimation de la sensibilité attendue (développement, profils TND)
+        
+        ### 4. Produire les spécifications scientifiques PRISME
+        👉 **Livrable principal du stage**
+        Un dossier structuré comprenant :
+        - Logique cognitive de la tâche
+        - Hypothèses sur les métriques
+        - Paramètres d’implémentation
+        - Plan expérimental d’évaluation (validité, fidélité, calibration)
+        
+        Ces documents guideront les équipes Unity et data science pour l’implémentation dans PRISME.
       en: |
+        ## Your Mission
+        **Design neuropsychological tasks adapted to XR**
+        
         You will be responsible for the scientific conceptualization of future PRISME tasks, based on:
         - Reference neuropsychological tests (Purdue Pegboard, WCST, WISC, etc.)
-        - Psychometric validity principles
-        - XR experimental constraints
-    
+        - Psychometric validity principles (reliability, developmental sensitivity, inter-individual sensitivity)
+        - XR experimental constraints (interaction, ergonomics, over-stimulation, spatio-temporal calibration)
+        - Computational metrics extracted in XR (variability, speed, spatial errors, trajectories, entropy, jitter, reaction time, intra-individual stability)
+        
+        **Concretely, you will:**
+
+        ### 1. Map existing tests
+        - Analyze cognitive/motor objectives of each test
+        - Identify underlying processes (executive control, sequencing, fine motor skills, sensorimotor feedback)
+        
+        ### 2. Define their XR transposition
+        - Decomposition into XR action units
+        - Identification of relevant XR affordances (simple interactions, natural gestures, virtual manipulation)
+        - Proposal of 2–3 variants per test depending on cognitive or motor level
+        
+        ### 3. Describe relevant metrics
+        For each XR task:
+        - Primary variables (main measures of construct)
+        - Secondary variables (kinematics, accuracy, errors)
+        - Stable performance indicators vs. experimental noise
+        - Estimation of expected sensitivity (development, NDD profiles)
+        
+        ### 4. Produce PRISME scientific specifications
+        👉 **Main internship deliverable**
+        A structured dossier including:
+        - Cognitive logic of the task
+        - Hypotheses on metrics
+        - Implementation parameters
+        - Experimental evaluation plan (validity, reliability, calibration)
+        
+        These documents will guide the Unity and data science teams for implementation in PRISME.
+
     profile:
       fr: |
-        **Formation**
-        - Formation en neuropsychologie, psychologie cognitive ou neurosciences
+        ## Profil Recherché
         
-        **Savoir-être & Compétences**
-        - Intérêt pour la XR et les technologies immersives
-        - Capacité à analyser la littérature scientifique
-        - Rigueur méthodologique et esprit critique
+        ### Formation
+        Étudiant·e en sciences cognitives, psychologie, neurosciences, neuropsychologie,
+        ergothérapie, ou discipline connexe — niveau Baccalauréat (3e année) ou équivalent.
+        
+        ### Compétences essentielles
+        - Excellente compréhension des fonctionnements cognitifs et de leur évaluation
+        - Connaissance des tests neuropsychologiques standardisés
+        - Capacité à analyser une tâche et identifier les processus cognitifs/moteurs mobilisés
+        - Maîtrise des concepts de validité, fidélité, sensibilité développementale
+        - Intérêt marqué pour la mesure comportementale quantitative
+        - Rigueur scientifique et sens du détail
+        - Capacité à structurer des documents et modèles conceptuels
+        
+        ### Atouts (non obligatoires)
+        - Intérêt pour la XR / VR / interactions naturelles
+        - Connaissances de base en comportement moteur, coordination, ou psychométrie avancée
+        - Familiarité avec les métriques formelles (variabilité, trajectoires, temps-réaction)
+        - Notions en Unity ou C# (un bonus, pas requis)
       en: |
-        **Education**
-        - Training in neuropsychology, cognitive psychology, or neuroscience
+        ## Desired Profile
         
-        **Skills & Mindset**
-        - Interest in XR and immersive technologies
-        - Ability to analyze scientific literature
-        - Methodological rigor and critical thinking
+        ### Education
+        Student in cognitive science, psychology, neuroscience, neuropsychology,
+        occupational therapy, or related discipline — Bachelor level (3rd year) or equivalent.
+        
+        ### Essential Skills
+        - Excellent understanding of cognitive functioning and its assessment
+        - Knowledge of standardized neuropsychological tests
+        - Ability to analyze a task and identify mobilized cognitive/motor processes
+        - Mastery of validity, reliability, and developmental sensitivity concepts
+        - Strong interest in quantitative behavioral measurement
+        - Scientific rigor and attention to detail
+        - Ability to structure documents and conceptual models
+        
+        ### Assets (not mandatory)
+        - Interest in XR / VR / natural interactions
+        - Basic knowledge of motor behavior, coordination, or advanced psychometry
+        - Familiarity with formal metrics (variability, trajectories, reaction time)
+        - Basics in Unity or C# (a bonus, not required)
 
     skills:
       fr: |
-        - Expertise en conception expérimentale
-        - Connaissance approfondie des TND (Troubles du Neurodéveloppement)
-        - Travail en équipe interdisciplinaire (ingénieurs, cliniciens)
+        ## Ce que vous développerez
+        
+        ### Compétences scientifiques
+        - Analyse de tâches et modélisation de processus cognitifs
+        - Compréhension approfondie des tests neuropsy les plus utilisés en clinique
+        - Introduction à la psychiatrie computationnelle appliquée aux TND
+        - Conception de tâches adaptées à des interactions immersives
+        
+        ### Compétences méthodologiques
+        - Définition et opérationnalisation de métriques comportementales
+        - Rédaction de spécifications scientifiques complètes
+        - Documentation rigoureuse pour pipeline interdisciplinaire
+        
+        ### Compétences pratiques
+        - Travail dans un environnement hospitalier (CHU Sainte-Justine)
+        - Collaboration avec ingénieurs, cliniciens et data scientists
+        - Participation aux réunions projet PRISME
+        
+        ### Livrable attendu
+        Un dossier scientifique complet comprenant :
+        - Analyse théorique des tests adaptés
+        - Spécifications de la version XR
+        - Liste des métriques opérationnalisées
+        - Paramètres et contraintes d’implémentation
+        - Recommandations pour évaluation et calibration
+        - Document intégré directement à l’infrastructure PRISME.
       en: |
-        - Expertise in experimental design
-        - In-depth knowledge of NDDs (Neurodevelopmental Disorders)
-        - Interdisciplinary teamwork (engineers, clinicians)
+        ## What You Will Develop
+        
+        ### Scientific Skills
+        - Task analysis and cognitive process modeling
+        - Deep understanding of clinical neuropsychological tests
+        - Introduction to computational psychiatry applied to NDD
+        - Design of tasks adapted to immersive interactions
+        
+        ### Methodological Skills
+        - Definition and operationalization of behavioral metrics
+        - Writing of complete scientific specifications
+        - Rigorous documentation for interdisciplinary pipeline
+        
+        ### Practical Skills
+        - Work in a hospital environment (CHU Sainte-Justine)
+        - Collaboration with engineers, clinicians, and data scientists
+        - Participation in PRISME project meetings
+        
+        ### Expected Deliverable
+        A complete scientific dossier including:
+        - Theoretical analysis of adapted tests
+        - XR version specifications
+        - List of operationalized metrics
+        - Implementation parameters and constraints
+        - Recommendations for evaluation and calibration
+        - Document integrated directly into the PRISME infrastructure.
 
+    working_conditions:
+      fr: |
+        ## Environnement de travail & avantages
+        
+        ### CHU Sainte-Justine — Hôpital Pédiatrique Universitaire
+        Vous travaillez dans un hôpital qui soigne 400 000 enfants par an. Cet environnement donne du sens
+        au quotidien : la recherche que vous développez servira directement les enfants, les familles et les
+        soignants que vous croiserez dans les couloirs.
+        - **Cantine subventionnée** : Repas complets à tarif syndical (~6-10$/repas)
+        - **Cafétéria** ouverte 7j/7, espaces de repos
+        - **Bibliothèque universitaire** : Accès ressources UdeM, bases de données scientifiques
+        - **Transport** : Métro à 5 min à pied, stationnement disponible (frais applicables)
+        
+        ### Écosystème Scientifique Montréalais
+        - **Séminaires** : Accès aux talks hebdomadaires (IA, neurosciences, santé numérique)
+        - **Formations** : Workshops et cours (deep learning, méthodologie, éthique)
+        - **Événements** : Journées scientifiques, hackathons, conférences
+        - **Réseau** : Interaction avec l'écosystème Mila-IVADO (chercheurs, ingénieurs, startups)
+        
+        ### Développement Professionnel
+        - **Mentorat carrière** : Guidance sur trajectoires académiques ou industrielles
+        - **Lettres de recommandation** : Détaillées, d'un laboratoire reconnu internationalement
+        
+        ### Vie d'Équipe
+        - Lab meetings hebdomadaires (présentations, discussions scientifiques)
+        - Culture de feedback constructif et d'apprentissage continu
+        - Environnement multiculturel et interdisciplinaire
+        - Social events ponctuels
+      en: |
+        ## Work Environment & Benefits
+        
+        ### CHU Sainte-Justine — Pediatric University Hospital
+        You work in a hospital that treats 400,000 children per year. This environment gives meaning
+        to your daily life: the research you develop will directly serve the children, families, and
+        caregivers you cross in the hallways.
+        - **Subsidized cafeteria**: Complete meals at union rate (~$6-10/meal)
+        - **Cafeteria** open 7 days/7, rest areas
+        - **University library**: Access to UdeM resources, scientific databases
+        - **Transport**: Metro 5 min walk, parking available (fees apply)
+        
+        ### Montreal Scientific Ecosystem
+        - **Seminars**: Access to weekly talks (AI, neuroscience, digital health)
+        - **Training**: Workshops and courses (deep learning, methodology, ethics)
+        - **Events**: Scientific days, hackathons, conferences
+        - **Network**: Interaction with the Mila-IVADO ecosystem (researchers, engineers, startups)
+        
+        ### Professional Development
+        - **Career mentoring**: Guidance on academic or industrial trajectories
+        - **Letters of recommendation**: Detailed, from an internationally recognized laboratory
+        
+        ### Team Life
+        - Weekly lab meetings (presentations, scientific discussions)
+        - Culture of constructive feedback and continuous learning
+        - Multicultural and interdisciplinary environment
+        - Occasional social events
+      
     supervision:
       fr: |
-        - **Superviseur scientifique :** Guillaume Dumas, Professeur titulaire en psychiatrie computationnelle
-        - **Encadrement technique :** Équipe PRISME (ingénieurs et développeurs)
+        ## Encadrement & Équipe
+        - **Guillaume Dumas** (Superviseur scientifique) — Vision scientifique, guidance stratégique
+        - **Rémy Ramadour** (Ingénieur de recherche) — Support technique
+        - **Mariem Hafsia** (Doctorante en sciences psychiatriques) — Support quotidien, revue technique, mentorat pratique
       en: |
-        - **Scientific Supervisor:** Guillaume Dumas, Associate Professor in Computational Psychiatry
-        - **Technical Supervision:** PRISME Team (engineers and developers)
+        ## Supervision & Team
+        - **Guillaume Dumas** (Scientific Supervisor) — Scientific vision, strategic guidance
+        - **Rémy Ramadour** (Research Engineer) — Technical support
+        - **Mariem Hafsia** (PhD student in Psychiatric Science) — Daily support, technical review, practical mentoring
 
-    process:
+    application:
       fr: |
-        **Documents requis :**
+        ## Procédure de candidature
+        **Envoyer en PDF :**
         - CV (2 pages max)
+        - Lettre de motivation (1 page)
         - Relevé de notes
-        - Lettre de motivation
+        - (Optionnel) Références ou travaux pertinents
         
-        **Envoyer à :** jobs@ppsp.team avec objet « Candidature Stage PRISME - [Votre Nom] »
+        **Email** : apply@ppsp.team
+        **Objet** : Candidature — Stage PRISME — Sciences cognitives — [Nom]
+        
+        **Format des documents** : Envoyez tous les documents au format PDF, nommés comme suit :
+        - NomPrenom_CV.pdf
+        - NomPrenom_RelevéNotes.pdf
+        - NomPrenom_LettreMotivation.pdf
+        
+        **Dans le corps de l'email :**
+        - Lien vers votre GitHub si vous en avez un
+        - Période de disponibilité souhaitée
+        - Questions éventuelles
+        
+        **Questions ?**
+        Écrivez-nous. Nous répondons à toutes les questions.
       en: |
-        **Required Documents:**
+        ## Application Procedure
+        **Send in PDF:**
         - CV (2 pages max)
+        - Cover Letter (1 page)
         - Transcripts
-        - Cover Letter
+        - (Optional) References or relevant work
         
-        **Send to:** jobs@ppsp.team with subject "PRISME Internship Application - [Your Name]"
+        **Email**: apply@ppsp.team
+        **Subject**: Application — PRISME Internship — Cognitive Science — [Name]
+        
+        **Document format**: Send all documents in PDF format, named as follows:
+        - NomPrenom_CV.pdf
+        - NomPrenom_Transcripts.pdf
+        - NomPrenom_CoverLetter.pdf
+        
+        **In the email body:**
+        - Link to your GitHub if you have one
+        - Desired availability period
+        - Any questions
+        
+        **Questions?**
+        Write to us. We answer all questions.
     
-    contact: "jobs@ppsp.team"
+    contact: "apply@ppsp.team"
 
   # ============================================================================
   # 2. Phenomenological Analysis Internship
@@ -110,7 +382,7 @@ jobs:
     active: true
     type: internship
     title:
-      fr: "Stage — Analyses Phénoménologiques"
+      fr: "Stagiaire en analyses phénoménologiques"
       en: "Internship — Phenomenological Analysis"
     subtitle:
       fr: "Codage et analyse d'entretiens phénoménologiques"
@@ -128,167 +400,158 @@ jobs:
       fr: "3 jours/semaine minimum"
       en: "3 days/week minimum"
     
-    project:
+    our_mission:
       fr: |
-        Vous rejoindrez le projet « Computational approaches to the phenomenology of togetherness in autism and non-autism ». 
-        
-        **Votre mission :** analyser l'expérience vécue de l'interaction sociale chez les personnes autistes et non-autistes, à travers des entretiens phénoménologiques et des cartes corporelles.
-        
-        **Impact :** Contribuer à mieux comprendre le vécu de l'interaction sociale chez les personnes autistes.
+        ## Notre Mission
+        Social NeuroAI Hub — Where minds connect
+        Où les intelligences se rencontrent
+        Le Laboratoire PPSP est situé au CHU Sainte-Justine, l'un des plus grands hôpitaux pédiatriques
+        universitaires au monde. Nous développons les sciences et technologies qui permettent de comprendre
+        comment les diverses intelligences se coordonnent, se développent et s'entraident. Notre approche :
+        l'hyperscanning multimodal enregistre simultanément cerveau, physiologie, langage et comportement de
+        plusieurs personnes en interaction. L'objectif est d'explorer les potentialités et diversités cognitives et
+        méta-cognitives. Nous créons des outils open-source, des protocoles cliniques et des connaissances qui,
+        ensemble, servent directement les enfants, les familles et les soignants. Du labo à l'hôpital, de la science à la
+        santé.
       en: |
-        You will join the project "Computational approaches to the phenomenology of togetherness in autism and non-autism".
-        
-        **Your mission:** analyze the lived experience of social interaction in autistic and non-autistic individuals, through phenomenological interviews and body maps.
-        
-        **Impact:** Contribute to better understanding the lived experience of social interaction in autistic individuals.
-    
-    mission:
+
+    your_mission:
       fr: |
-        **Transcription & Préparation des données**
+        ## Votre Mission
+        Vous rejoindrez le projet «Computational approaches to the phenomenology of togetherness in autism
+        and non-autism». Votre mission : analyser l'expérience vécue de l'interaction sociale chez les personnes
+        autistes et non-autistes, à travers des entretiens phénoménologiques et des cartes corporelles.
+
+        **Ce que vous allez faire :**
+
+        ### Transcription & Préparation des données
         - Transcrire les entretiens phénoménologiques
         - Préparer et organiser les données pour l'analyse
         - Assurer la qualité et la fidélité des transcriptions
-        
-        **Codage & Analyse**
+
+        ### Codage & Analyse
         - Coder les entretiens avec Atlas.ti et logiciels open source
         - Réaliser des analyses thématiques / IPA (Interpretative Phenomenological Analysis)
         - Analyser les cartes corporelles
-        
-        **Documentation & Méthodologie**
+
+        ### Documentation & Méthodologie
         - Documenter les procédures de codage
         - Contribuer à l'élaboration de guides méthodologiques
         - Participer aux discussions d'équipe sur l'analyse
+        
+        **Impact :**
+        Contribuer à mieux comprendre le vécu de l'interaction sociale chez les personnes autistes.
       en: |
-        **Transcription & Data Preparation**
-        - Transcribe phenomenological interviews
-        - Prepare and organize data for analysis
-        - Ensure quality and accuracy of transcriptions
-        
-        **Coding & Analysis**
-        - Code interviews using Atlas.ti and open source software
-        - Conduct thematic analysis / IPA (Interpretative Phenomenological Analysis)
-        - Analyze body maps
-        
-        **Documentation & Methodology**
-        - Document coding procedures
-        - Contribute to methodological guides development
-        - Participate in team discussions on analysis
 
     profile:
       fr: |
-        **Ce qui vous anime (Savoir-être)**
-        - **Orientation résultats :** Vous trouvez satisfaction dans le travail qui aboutit, les objectifs atteints, la documentation qui éclaire.
-        - **Curiosité intellectuelle :** Vous voulez comprendre pourquoi on mène ces projets, comment ils s'inscrivent dans la recherche.
-        - **Rigueur méthodologique :** Vous travaillez de façon structurée, documentez vos démarches, validez vos résultats.
-        - **Esprit collaboratif :** Vous appréciez les retours, partagez vos réflexions, accueillez les feedbacks.
-        - **Autonomie :** Face à un problème, vous décomposez, explorez, testez des hypothèses.
+        ## Profil Recherché
+        **Ce qui vous anime**
+
+        Vous êtes attiré·e par l'exécution concrète, robuste, durable.
+        - **Orientation résultats** : Vous trouvez satisfaction dans le travail qui aboutit, les objectifs atteints, la
+        documentation qui éclaire.
+        - **Curiosité intellectuelle** : Vous voulez comprendre pourquoi on mène ces projets, comment ils s'inscrivent
+        dans la recherche.
+        - **Rigueur méthodologique** : Vous travaillez de façon structurée, documentez vos démarches, validez vos
+        résultats.
+        - **Esprit collaboratif** : Vous appréciez les retours, partagez vos réflexions, accueillez les feedbacks.
+        - **Autonomie** : Face à un problème, vous décomposez, explorez, testez des hypothèses.
 
         **Formation**
-        - Étudiant·e en psychologie, neuropsychologie, sciences cognitives, sociologie, anthropologie, philosophie ou discipline connexe.
-
+        Étudiant·e en psychologie, neuropsychologie, sciences cognitives, sociologie, anthropologie, philosophie ou
+        discipline connexe.
+        
         **Compétences requises**
         - Maîtrise du français (obligatoire — entretiens et analyses en français)
         - Rigueur et attention aux détails (obligatoire)
-
-        **Atouts valorisés**
+        
+        **Atouts valorisés (non obligatoires)**
         - Expérience en analyse qualitative
         - Connaissance des méthodes phénoménologiques (IPA, etc.)
-        - Maîtrise d'un logiciel de codage (Atlas.ti, NVivo, etc.) et de transcription
+        - Maîtrise d'un logiciel de codage (Atlas.ti, NVivo, etc.)
+        - Expérience en transcription d'entretiens
         - Connaissances sur l'autisme / neurodiversité
         - Maîtrise de l'anglais
       en: |
-        **What drives you (Mindset)**
-        - **Results-oriented:** You find satisfaction in work that delivers, goals achieved, documentation that clarifies.
-        - **Intellectual curiosity:** You want to understand why we pursue these projects, how they fit into research.
-        - **Methodological rigor:** You work in a structured way, document your approaches, validate your results.
-        - **Collaborative spirit:** You appreciate feedback, share your reflections, welcome input.
-        - **Autonomy:** Faced with a problem, you break it down, explore, test hypotheses.
-
-        **Education**
-        - Student in psychology, neuropsychology, cognitive science, sociology, anthropology, philosophy or related discipline.
-
-        **Required Skills**
-        - French fluency (mandatory — interviews and analyses in French)
-        - Rigor and attention to detail (mandatory)
-
-        **Valued Assets**
-        - Experience in qualitative analysis
-        - Knowledge of phenomenological methods (IPA, etc.)
-        - Proficiency in coding software (Atlas.ti, NVivo, etc.) and transcription
-        - Knowledge of autism / neurodiversity
-        - English proficiency
 
     skills:
       fr: |
+        ## Compétences Développées
         À la fin de ces 12 semaines minimum, vous aurez développé une expertise singulière et recherchée.
-        
-        **Expertise Technique**
+
+        ### Expertise Technique
         - Maîtrise des méthodes d'analyse phénoménologique (IPA)
         - Compétence en codage qualitatif (Atlas.ti, outils open source)
         - Expérience en analyse de cartes corporelles
         - Techniques de transcription rigoureuse
 
-        **Vision Interdisciplinaire**
-        - Vous comprendrez comment s'articulent neurosciences, phénoménologie et applications cliniques au sein d'un hôpital pédiatrique universitaire.
-        
-        **Portfolio Concret**
-        - Transcriptions réalisées, Base de données codée, Rapport d'analyse, Guide méthodologique.
+        ### Vision Interdisciplinaire
+        Vous comprendrez comment s'articulent neurosciences, phénoménologie et applications cliniques. Vous aurez
+        travaillé dans un hôpital pédiatrique universitaire, observé comment la recherche se connecte aux besoins
+        réels des enfants et des familles.
+
+        ### Portfolio Concret
+        - Transcriptions d'entretiens réalisées
+        - Base de données codée (Atlas.ti)
+        - Rapport d'analyse thématique
+        - Guide méthodologique (protocole de codage)
+        - Présentations (lab meetings)
+
+        ### Réseau & Trajectoires
+        Vous travaillerez au CHU Sainte-Justine, avec accès aux séminaires et formations de l'écosystème IA
+        montréalais (Mila, IVADO). Selon l'avancement du projet, vous pourrez co-signer des publications.
       en: |
-        After these 12 weeks minimum, you will have developed unique and sought-after expertise.
-        
-        **Technical Expertise**
-        - Mastery of phenomenological analysis methods (IPA)
-        - Qualitative coding competence (Atlas.ti, open source tools)
-        - Experience in body map analysis
-        - Rigorous transcription techniques
 
-        **Interdisciplinary Vision**
-        - You will understand how neuroscience, phenomenology, and clinical applications articulate within a pediatric university hospital.
+    working_conditions:
+      fr: |
+        ## Conditions de Travail
         
-        **Concrete Portfolio**
-        - Completed transcripts, Coded database, Analysis report, Methodological guide.
-
+        ### Rémunération & Durée
+        - Durée : 12 semaines minimum (possibilité de prolonger)
+        - Début : Été 2026
+        - Bourses : Nous accompagnons les candidatures aux bourses (FRQS, FRQSC, Mitacs, CRSH, IRSC, etc.)
+        
+        ### Organisation du Travail
+        - Présentiel : 3 jours/semaine minimum au CHU Sainte-Justine
+        - Télétravail : 2 jours/semaine possibles selon avancement
+        - Horaires flexibles (core hours : 10h-16h)
+      en: |
+      
     supervision:
       fr: |
-        - **Superviseur scientifique :** Guillaume Dumas, Professeur titulaire en psychiatrie computationnelle, Université de Montréal.
-        - **Encadrante de proximité :** Anne Monnier, candidate au doctorat en sciences psychiatriques — accompagnement quotidien, revue technique, mentorat pratique.
-      en: |
-        - **Scientific Supervisor:** Guillaume Dumas, Associate Professor in Computational Psychiatry, University of Montreal.
-        - **Direct Supervisor:** Anne Monnier, PhD candidate in psychiatric sciences — daily guidance, technical review, practical mentorship.
+        ## Encadrement
 
-    process:
+        **Superviseur scientifique**
+        Guillaume Dumas, Professeur titulaire en psychiatrie computationnelle, Université de Montréal
+
+        **Encadrante de proximité**
+        Anne Monnier, candidate au doctorat en sciences psychiatriques — accompagnement quotidien, revue
+        technique, mentorat pratique
+      en: |
+
+    application:
       fr: |
-        **Documents requis**
+        ## Procédure de Recrutement
+        
+        ### Documents requis
         - CV (2 pages maximum)
         - Relevé de notes (2 dernières années)
         - Lettre de motivation (1 page) : pourquoi ce stage ? pourquoi le PPSP ? votre projet à 3-5 ans
-
-        **Processus**
-        1. **Présélection sur dossier** (réponse sous 7 jours)
-        2. **Entretien motivation** (30 min, visio ou présentiel)
-        3. **Entretien technique** (1h, présentiel au CHU) — discussion méthodologique + présentation d'un travail antérieur
-        4. **Entretien de départage** (optionnel, 30 min)
-
-        **Comment Postuler**
-        Email : apply@ppsp.team
-        Objet : «Candidature Stage Analyses Phénoménologiques - [Votre Nom]»
-        Format : PDF (NomPrenom_CV.pdf, etc.)
+        
+        ### Processus
+        - Étape 1 : Présélection sur dossier (réponse sous 7 jours)
+        - Étape 2 : Entretien motivation (30 min, visio ou présentiel)
+        - Étape 3 : Entretien technique (1h, présentiel au CHU) — discussion méthodologique + présentation d'un
+        travail antérieur
+        - Étape 4 : Entretien de départage (optionnel, 30 min)
+        
+        ## Comment Postuler
+        * **Email** : apply@ppsp.team
+        * **Objet** : «Candidature Stage Analyses Phénoménologiques - [Votre Nom]»
+        * **Format des documents** : PDF nommés NomPrenom_CV.pdf, NomPrenom_RelevéNotes.pdf,
+        NomPrenom_LettreMotivation.pdf
       en: |
-        **Required Documents**
-        - CV (2 pages maximum)
-        - Transcripts (last 2 years)
-        - Cover Letter (1 page): why this internship? why PPSP? your 3-5 year project
-
-        **Process**
-        1. **Dossier Pre-selection** (response within 7 days)
-        2. **Motivation Interview** (30 min, video or in-person)
-        3. **Technical Interview** (1h, in-person at CHU) — methodological discussion + presentation of past work
-        4. **Final Interview** (optional, 30 min)
-
-        **How to Apply**
-        Email: apply@ppsp.team
-        Subject: "Phenomenological Analysis Internship Application - [Your Name]"
-        Format: PDF (NameSurname_CV.pdf, etc.)
     
     contact: "apply@ppsp.team"
 
@@ -299,8 +562,8 @@ jobs:
     active: true
     type: internship
     title:
-      fr: "Développeur iOS"
-      en: "iOS Developer"
+      fr: "Développeur·se Swift / iOS"
+      en: "Swift / iOS Developer"
     subtitle:
       fr: "Apps mobiles pour la recherche clinique pédiatrique"
       en: "Mobile Apps for Pediatric Clinical Research"
@@ -308,8 +571,8 @@ jobs:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
     duration:
-      fr: "12 semaines minimum (3+ mois)"
-      en: "12 weeks minimum (3+ months)"
+      fr: "12+ semaines (3+ mois)"
+      en: "12+ weeks (3+ months)"
     start:
       fr: "Été 2026"
       en: "Summer 2026"
@@ -317,159 +580,356 @@ jobs:
       fr: "3 jours/semaine minimum"
       en: "3 days/week minimum"
     
-    project:
+    our_mission:
       fr: |
-        Nous développons des applications iOS pour tablettes destinées à la recherche clinique pédiatrique. Ces applications incluent des tests neuropsychologiques et neurophénoménologiques, des questionnaires phénotypiques, des échelles d'évaluation, des tests de métacognition et des « jeux » de coopération et synchronisation.
-        
-        Vous rejoindrez une équipe qui dispose déjà d'applications fonctionnelles (comme nos échelles iOS en neuropsychologie) avec des modules d'authentification et de synchronisation CloudKit réutilisables.
+        ## Notre Mission
+        **Social NeuroAI Hub — Where minds connect**
+        **Où les intelligences se rencontrent**
+        Le **Laboratoire PPSP** est situé au **CHU Sainte-Justine**, l'un des plus grands hôpitaux
+        pédiatriques universitaires au monde. Nous développons les sciences et technologies qui
+        permettent de comprendre comment les diverses intelligences se coordonnent, se développent
+        et s'entraident. Notre approche : l'**hyperscanning multimodal** enregistre simultanément
+        cerveau, physiologie, langage et comportement de plusieurs personnes en interaction. L'objectif
+        est d'explorer les **potentialités et diversités cognitives et méta-cognitives**. Nous créons
+        des outils open-source, des protocoles cliniques et des connaissances qui, ensemble, servent
+        directement les enfants, les familles et les soignants. **Du labo à l'hôpital, de la science à la
+        santé**.
       en: |
-        We develop iOS applications for tablets intended for pediatric clinical research. These applications include neuropsychological and neurophenomenological tests, phenotypic questionnaires, assessment scales, metacognition tests, and cooperation/synchronization "games".
-        
-        You will join a team that already has functional applications (like our iOS neuropsychology scales) with reusable authentication and CloudKit synchronization modules.
-    
-    mission:
+        ## Our Mission
+        **Social NeuroAI Hub — Where minds connect**
+        **Où les intelligences se rencontrent**
+        The **PPSP Laboratory** is located at **CHU Sainte-Justine**, one of the world's largest pediatric
+        university hospitals. We develop the sciences and technologies that enable understanding of how
+        diverse intelligences coordinate, develop, and support one another. Our approach: **multimodal
+        hyperscanning** simultaneously records brain, physiology, language, and behavior of multiple
+        people in interaction. Our goal is to explore **cognitive and meta-cognitive potentialities and
+        diversities**. We create open-source tools, clinical protocols, and knowledge that together directly
+        serve children, families, and healthcare providers. **From lab to hospital, from science to
+        health**.
+
+    your_mission:
       fr: |
-        **Développement**
+        ## Votre Mission
+        Nous développons des applications iOS pour tablettes destinées à la recherche clinique
+        pédiatrique. Ces applications incluent des tests neuropsychologiques et
+        neurophénoménologiques, des questionnaires phénotypiques, des échelles d'évaluation, des
+        tests de métacognition et des « jeux » de coopération et synchronisation. Vous rejoindrez une
+        équipe qui dispose déjà d'applications fonctionnelles (comme nos échelles iOS en
+        neuropsychologie) avec des modules d'authentification et de synchronisation CloudKit
+        réutilisables.
+
+        **Ce que vous allez faire :**
+
+        ### Développement
         - Concevoir et développer des applications iOS natives en Swift/SwiftUI avec architecture MVVM
         - Implémenter l'authentification via Sign in with Apple pour un usage clinique sécurisé
         - Gérer la persistance des données avec Core Data et la synchronisation via CloudKit
         - Étendre et améliorer les modules existants pour de nouvelles applications
-        
-        **Validation & Tests**
+
+        ### Validation & Tests
         - Écrire et maintenir des tests unitaires (XCTest) pour garantir la qualité du code
         - Participer aux tests avec utilisateurs réels (enfants, cliniciens) en environnement hospitalier
         - Valider la robustesse des applications sur différents appareils iPad
-        
-        **Documentation & Open-Source**
+
+        ### Documentation & Open-Source
         - Documenter les modules réutilisables pour faciliter le développement de futures applications
-        - Contribuer aux repositories open-source du laboratoire (ex: github.com/Ramdam17/IOS-Scale)
+        - Contribuer aux repositories open-source du laboratoire (ex : github.com/Ramdam17/IOS-Scale)
         - Rédiger la documentation technique des architectures développées
+
+        ### Recherche Appliquée
+        - Collaborer avec les stagiaires en neuropsychologie pour définir les tests, protocoles et variables
+        - Adapter les interfaces aux besoins spécifiques des populations pédiatriques
+        - Intégrer les retours cliniques pour améliorer l'expérience utilisateur
+        
+        **Impact** : Vos applications seront utilisées directement par les équipes cliniques du CHU
+        Sainte-Justine pour évaluer et accompagner les enfants et leurs familles.
       en: |
-        **Development**
+        ## Your Mission
+        We develop iOS applications for tablets intended for pediatric clinical research. These
+        applications include neuropsychological and neurophenomenological tests, phenotypic
+        questionnaires, assessment scales, metacognition tests, and cooperation/synchronization
+        "games". You will join a team that already has functional applications (like our iOS
+        neuropsychology scales) with reusable authentication and CloudKit synchronization modules.
+        
+        **What you will do:**
+        
+        ### Development
         - Design and develop native iOS applications in Swift/SwiftUI with MVVM architecture
         - Implement authentication via Sign in with Apple for secure clinical use
         - Manage data persistence with Core Data and synchronization via CloudKit
         - Extend and improve existing modules for new applications
         
-        **Validation & Testing**
+        ### Validation & Testing
         - Write and maintain unit tests (XCTest) to ensure code quality
         - Participate in testing with real users (children, clinicians) in hospital settings
         - Validate application robustness on different iPad devices
         
-        **Documentation & Open-Source**
-        - Document reusable modules to facilitate future application development
-        - Contribute to the lab's open-source repositories (e.g., github.com/Ramdam17/IOS-Scale)
+        ### Documentation & Open-Source
+        - Document reusable modules to facilitate development of future applications
+        - Contribute to the laboratory's open-source repositories (e.g., github.com/Ramdam17/IOS-Scale)
         - Write technical documentation for developed architectures
+        
+        ### Applied Research
+        - Collaborate with neuropsychology interns to define tests, protocols, and variables
+        - Adapt interfaces to specific needs of pediatric populations
+        - Integrate clinical feedback to improve user experience
+        
+        **Impact**: Your applications will be used directly by clinical teams at CHU Sainte-Justine to assess
+        and support children and their families.
 
     profile:
       fr: |
-        **Ce qui vous anime (Savoir-être)**
-        - **Orientation qualité :** Vous ne livrez pas du code « qui marche juste », mais du code propre, maintenable et testé.
-        - **Sens de l'utilisateur :** Vous comprenez que ces apps seront utilisées par des enfants en contexte clinique ; l'UX doit être impeccable.
-        - **Curiosité technique :** Vous aimez explorer les nouvelles API d'Apple, comprendre comment fonctionne CloudKit en profondeur.
-        - **Autonomie et responsabilité :** Vous prenez en charge une feature de A à Z.
+        ## Profil Recherché
+        **Ce qui vous anime**
 
-        **Formation**
-        - Étudiant·e en génie logiciel, informatique, ou domaine connexe (Baccalauréat ou Maîtrise).
+        Vous êtes attiré·e par l'**exécution concrète, robuste, durable.**
+        - **Orientation résultats** : Vous trouvez satisfaction dans le travail qui aboutit, les objectifs
+        atteints. La finition d'un travail bien fait vous anime.
+        - **Curiosité intellectuelle** : Vous voulez comprendre pourquoi on mène ces projets, comment
+        ils s'inscrivent dans la recherche, à quoi ils serviront.
+        - **Rigueur méthodologique** : Vous travaillez de façon structurée, documentez vos
+        démarches, validez vos résultats.
+        - **Esprit collaboratif** : Vous appréciez les retours, partagez vos réflexions, accueillez les
+        feedbacks.
+        - **Autonomie et collaboration** : Face à un problème, vous décomposez, explorez la
+        documentation, testez des hypothèses. Vous naviguez naturellement entre travail autonome
+        et co-construction.
 
-        **Compétences requises**
-        - Expérience concrète en développement iOS natif (Swift, SwiftUI)
-        - Connaissance des architectures MVVM
-        - Familier avec Git et les bonnes pratiques de développement
+        **Compétences techniques fondamentales**
 
-        **Atouts valorisés**
-        - Applications publiées sur l'App Store ou projets personnels complets
-        - Connaissance de Core Data / CloudKit
-        - Expérience avec les tests unitaires / UI tests
-        - Intérêt pour le domaine médical / santé numérique
+        ### Obligatoires :
+        - Swift & SwiftUI : maîtrise solide avec au moins un projet mené de bout en bout
+        - Architecture MVVM : compréhension et application pratique
+        - Git/GitHub : usage quotidien, collaboration via pull requests
+        - **Lien GitHub actif avec au moins un projet iOS visible (obligatoire, pas d'alternative)**
+
+        ### Atouts valorisés (non-obligatoires) :
+        - Core Data / CloudKit : expérience avec la persistance et synchronisation de données
+        - Sign in with Apple : implémentation de l'authentification Apple
+        - Tests unitaires (XCTest) : expérience avec le testing iOS
+        - Expérience avec des applications publiées sur l'App Store
+        - Intérêt pour les neurosciences sociales et la recherche clinique
+
+        ### Comment nous grandissons ensemble
+        Ce stage est un espace de développement mutuel. Vous apporterez vos compétences et votre
+        perspective, nous partagerons notre expertise scientifique et méthodologique. À travers la
+        collaboration quotidienne, les revues de travail, les discussions et le mentorat, chacun·e
+        développe les compétences qui font avancer le projet.
       en: |
-        **What drives you (Mindset)**
-        - **Quality orientation:** You don't just ship code "that works", but clean, maintainable, and tested code.
-        - **User sense:** You understand these apps will be used by children in clinical settings; UX must be flawless.
-        - **Technical curiosity:** You love exploring new Apple APIs, understanding how CloudKit works deep down.
-        - **Autonomy and responsibility:** You take ownership of a feature from A to Z.
-
-        **Education**
-        - Student in Software Engineering, Computer Science, or related field (Bachelor's or Master's).
-
-        **Required Skills**
-        - Concrete experience in native iOS development (Swift, SwiftUI)
-        - Knowledge of MVVM architectures
-        - Familiar with Git and development best practices
-
-        **Valued Assets**
-        - Apps published on App Store or complete personal projects
-        - Knowledge of Core Data / CloudKit
-        - Experience with Unit Tests / UI Tests
-        - Interest in medical field / digital health
+        ## Desired Profile
+        **What drives you**
+        
+        You are drawn to **concrete, robust, lasting execution.**
+        - **Results-oriented**: You find satisfaction in work that delivers, goals achieved. The completion
+        of work well done motivates you.
+        - **Intellectual curiosity**: You want to understand why we pursue these projects, how they fit
+        into research, what they will serve.
+        - **Methodological rigor**: You work in a structured way, document your approaches, validate
+        your results.
+        - **Collaborative spirit**: You appreciate feedback, share your reflections, welcome input.
+        - **Autonomy and collaboration**: Faced with a problem, you break it down, explore
+        documentation, test hypotheses. You navigate naturally between autonomous work and
+        co-construction.
+        
+        **Core Technical Skills**
+        
+        ### Required:
+        - Swift & SwiftUI: solid mastery with at least one end-to-end project completed
+        - MVVM architecture: understanding and practical application
+        - Git/GitHub: daily use, collaboration via pull requests
+        - **Active GitHub link with at least one visible iOS project (required, no alternative)**
+        
+        ### Valued assets (not required):
+        - Core Data / CloudKit: experience with data persistence and synchronization
+        - Sign in with Apple: Apple authentication implementation
+        - Unit tests (XCTest): iOS testing experience
+        - Experience with applications published on the App Store
+        - Interest in social neurosciences and clinical research
+        
+        ### How we grow together
+        This internship is a space for mutual development. You will bring your skills and perspective,
+        we will share our scientific and methodological expertise. Through daily collaboration, work
+        reviews, discussions, and mentorship, everyone develops the skills that advance the project.
 
     skills:
       fr: |
-        **Expertise Technique**
-        - Développement iOS avancé (SwiftUI, Concurrency, Combine)
-        - Architecture logicielle propre (Clean Architecture, MVVM)
-        - Gestion de données complexes en local et cloud (Core Data + CloudKit)
-        - CI/CD et tests automatisés
-        
-        **Compétences Transversales**
-        - Collaboration avec des chercheurs et cliniciens (traduction de besoins métiers en code)
-        - Rigueur du contexte médical (sécurité des données, fiabilité)
-        
-        **Portfolio Concret**
-        - Code source contribué aux projets du labo (crédité sur GitHub)
-        - Apps déployées et utilisées en étude clinique
-      en: |
-        **Technical Expertise**
-        - Advanced iOS Development (SwiftUI, Concurrency, Combine)
-        - Clean Software Architecture (MVVM)
-        - Complex data management (Core Data + CloudKit)
-        - CI/CD and automated tests
-        
-        **Transversal Skills**
-        - Collaboration with researchers and clinicians (translating business needs into code)
-        - Rigor of medical context (data security, reliability)
-        
-        **Concrete Portfolio**
-        - Source code contributed to lab projects (credited on GitHub)
-        - Apps deployed and used in clinical studies
+        ## Compétences Développées
+        À la fin de ces 12+ semaines, vous aurez développé une expertise **singulière et recherchée.**
 
+        ### Expertise Technique
+        - Maîtrise avancée de Swift/SwiftUI en contexte de production clinique
+        - Architecture MVVM appliquée à des applications complexes
+        - Intégration Core Data + CloudKit pour synchronisation robuste
+        - Bonnes pratiques de testing et documentation en environnement open-source
+
+        ### Vision Interdisciplinaire
+        *Le pont neuro-IA-clinique* : Vous comprendrez comment s'articulent neurosciences
+        fondamentales, intelligence artificielle et applications cliniques. Vous aurez travaillé dans un
+        hôpital pédiatrique universitaire, observé comment la recherche se connecte aux besoins réels
+        des enfants et des familles.
+        *Culture pluridisciplinaire* : Vous saurez dialoguer avec des chercheurs en neurosciences, des
+        ingénieurs, des cliniciens et des designers.
+
+        ### Réseau & Trajectoires
+        Vous travaillerez au CHU Sainte-Justine, avec accès aux séminaires et formations de l'écosystème
+        IA montréalais (Mila, IVADO). Selon l'avancement du projet, vous pourrez co-signer des
+        publications méthodologiques.
+
+        ### Portfolio Concret
+        - Applications iOS publiées (ou prêtes à publier) sur l'App Store
+        - Modules réutilisables documentés (authentification, sync CloudKit, etc.)
+        - Code open-source sur GitHub
+        - Documentation technique des architectures développées
+      en: |
+        ## Skills You Will Develop
+        After these 12+ weeks, you will have developed **unique and sought-after expertise.**
+        
+        ### Technical Expertise
+        - Advanced mastery of Swift/SwiftUI in clinical production context
+        - MVVM architecture applied to complex applications
+        - Core Data + CloudKit integration for robust synchronization
+        - Testing and documentation best practices in open-source environment
+        
+        ### Interdisciplinary Vision
+        *The neuro-AI-clinical bridge*: You will understand how fundamental neuroscience, artificial
+        intelligence, and clinical applications articulate. You will have worked in a pediatric university
+        hospital, observed how research connects to the real needs of children and families.
+        *Multidisciplinary culture*: You will be able to dialogue with neuroscience researchers, engineers,
+        clinicians, and designers.
+        
+        ### Network & Trajectories
+        You will work at CHU Sainte-Justine, with access to seminars and training from Montreal's AI
+        ecosystem (Mila, IVADO). Depending on project progress, you may co-sign methodological
+        publications.
+        
+        ### Concrete Portfolio
+        - iOS applications published (or ready to publish) on the App Store
+        - Documented reusable modules (authentication, CloudKit sync, etc.)
+        - Open-source code on GitHub
+        - Technical documentation of developed architectures
+
+    working_conditions:
+      fr: |
+        ## Conditions de Travail
+        
+        ### Rémunération & Durée
+        - Statut : Stage rémunéré (convention avec votre établissement)
+        - Bourses : Nous encourageons les candidatures aux bourses (FRQNT, FRQS, Mitacs)
+        - Durée : 12+ semaines (environ 3+ mois)
+        - Début : Été 2026
+        
+        ### Organisation du Travail
+        - Présentiel : 3 jours/semaine minimum au CHU Sainte-Justine
+        - Télétravail : 2 jours/semaine possibles
+        - Horaires flexibles, core hours : 10h-16h
+      en: |
+        ## Working Conditions
+        
+        ### Compensation & Duration
+        - Status: Paid internship (agreement with your institution)
+        - Scholarships: We encourage applications for scholarships (FRQNT, FRQS, Mitacs)
+        - Duration: 12+ weeks (approximately 3+ months)
+        - Start: Summer 2026
+        
+        ### Work Organization
+        - On-site: 3 days/week minimum at CHU Sainte-Justine
+        - Remote work: 2 days/week possible
+        - Flexible hours, core hours: 10am-4pm
+      
     supervision:
       fr: |
-        - **Superviseur scientifique :** Guillaume Dumas, Professeur titulaire en psychiatrie computationnelle, Université de Montréal.
-        - **Encadrant technique :** Yann Hogeveen (Développeur principal) et l'équipe d'ingénierie du PPSP.
+        ## Encadrement & Mentorat
+        - Superviseur scientifique : Guillaume Dumas
+        - Superviseur technique : Rémy Ramadour, Research Engineer
+        - Équipe projet : 5+ personnes, dont stagiaires en neuropsychologie
       en: |
-        - **Scientific Supervisor:** Guillaume Dumas, Associate Professor in Computational Psychiatry, University of Montreal.
-        - **Technical Supervisor:** Yann Hogeveen (Lead Developer) and the PPSP engineering team.
+        ## Supervision & Mentoring
+        - Scientific supervisor: Guillaume Dumas
+        - Technical supervisor: Rémy Ramadour, Research Engineer
+        - Project team: 5+ people, including neuropsychology interns
 
-    process:
+    application:
       fr: |
-        **Documents requis**
-        - CV (avec lien GitHub/Portfolio indispensable)
-        - Lettre de motivation courte (vos projets, ce que vous voulez apprendre)
-        - Relevé de notes récent
-
-        **Processus**
-        1. **Revue de code/Portfolio** (Critère #1)
-        2. **Entretien technique** (Discussion sur vos choix d'architecture, Swift, défis rencontrés)
-        3. **Rencontre avec l'équipe** (Culture fit)
-
-        **Comment Postuler**
-        Email : apply@ppsp.team
-        Objet : «Candidature Stage iOS - [Votre Nom]»
+        ## Procédure de Recrutement
+        Notre processus est conçu pour être transparent, respectueux et équitable. L'objectif :
+        trouver le bon fit mutuel.
+        
+        ### Documents Requis
+        
+        **Obligatoires :**
+        - CV (2 pages maximum)
+        - Relevé de notes (transcripts des 2 dernières années)
+        - Lettre de motivation (1 page) : Pourquoi ce stage ? Pourquoi le PPSP ? Votre projet à 3-5 ans
+        - Lien GitHub avec au moins un projet iOS visible
+        
+        **Complémentaires (recommandés) :**
+        - 1 à 2 références (académiques ou professionnelles) : nom, fonction, email
+        
+        ### Processus de Sélection
+        
+        **Étape 1 : Présélection sur Dossier (7 jours)**
+        Nous évaluons : motivation et alignement, compétences techniques, potentiel de croissance, fit
+        avec le projet. Vous recevez une réponse dans les 7 jours ouvrés.
+        
+        **Étape 2 : Entretien Motivation (30 min)**
+        Discussion ouverte pour mieux vous connaître : votre parcours, vos motivations, votre projet de
+        carrière, vos questions.
+        
+        **Étape 3 : Entretien Technique (45 min)**
+        Revue de code d'un de vos projets GitHub + discussion technique sur l'architecture, les choix de
+        conception et les bonnes pratiques iOS.
+        
+        **Étape 4 : Entretien de Départage (Optionnel, 30 min)**
+        Si plusieurs candidatures excellentes sont en balance.
+        
+        ## Comment Postuler
+        * **Email** : apply@ppsp.team
+        * **Objet** : « Candidature Stage Développeur Swift/iOS — [Votre Nom] »
+        * **Format** : Documents PDF nommés NomPrenom_CV.pdf, NomPrenom_ReleveNotes.pdf,
+        NomPrenom_LettreMotivation.pdf
+        * **Dans le corps de l'email** : Lien GitHub, période de disponibilité souhaitée, questions
+        éventuelles
+        * **Questions ?** Écrivez-nous. Nous répondons à toutes les questions.
       en: |
-        **Required Documents**
-        - CV (with GitHub/Portfolio link essential)
-        - Short Cover Letter (your projects, what you want to learn)
-        - Recent transcripts
-
-        **Process**
-        1. **Code/Portfolio Review** (Criterion #1)
-        2. **Technical Interview** (Discussion on architecture choices, Swift, challenges faced)
-        3. **Team Meeting** (Culture fit)
-
-        **How to Apply**
-        Email: apply@ppsp.team
-        Subject: "iOS Internship Application - [Your Name]"
+        ## Recruitment Process
+        Our process is designed to be transparent, respectful, and fair. The goal: find the right
+        mutual fit.
+        
+        ### Required Documents
+        
+        **Mandatory:**
+        - CV (2 pages maximum)
+        - Transcripts (last 2 years)
+        - Cover letter (1 page): Why this internship? Why PPSP? Your 3-5 year plan
+        - GitHub link with at least one visible iOS project
+        
+        **Complementary (recommended):**
+        - 1 to 2 references (academic or professional): name, title, email
+        
+        ### Selection Process
+        
+        **Step 1: Application Screening (7 days)**
+        We evaluate: motivation and alignment, technical skills, growth potential, project fit. You receive
+        a response within 7 business days.
+        
+        **Step 2: Motivation Interview (30 min)**
+        Open discussion to get to know you better: your background, motivations, career plan, and
+        questions.
+        
+        **Step 3: Technical Interview (45 min)**
+        Code review of one of your GitHub projects + technical discussion on architecture, design
+        choices, and iOS best practices.
+        
+        **Step 4: Tie-Breaking Interview (Optional, 30 min)**
+        If several excellent applications are balanced.
+        
+        ## How to Apply
+        * **Email**: apply@ppsp.team
+        * **Subject**: "Application Swift/iOS Developer Internship — [Your Name]"
+        * **Format**: PDF documents named LastnameFirstname_CV.pdf,
+        LastnameFirstname_Transcripts.pdf, LastnameFirstname_CoverLetter.pdf
+        * **In the email body**: GitHub link, desired availability period, any questions
+        * **Questions?** Write to us. We respond to all questions.
     
     contact: "apply@ppsp.team"
 
@@ -480,157 +940,437 @@ jobs:
     active: true
     type: internship
     title:
-      fr: "Développeur Python — HyPyP"
-      en: "Python Developer — HyPyP"
+      fr: "Développeur·se Python pour la librairie HyPyP"
+      en: "Python Developer for the HyPyP Library"
     subtitle:
-      fr: "Hyperscanning Python Pipelines : Analyse de synchronie cérébrale"
-      en: "Hyperscanning Python Pipelines: Brain Synchrony Analysis"
+      fr: "HyPyP : développement de métriques et visualisations"
+      en: "HyPyP: Metrics Development and Visualizations"
     location:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
     duration:
-      fr: "12 semaines (possibilité temps partiel ou plein)"
-      en: "12 weeks (part-time or full-time possible)"
+      fr: "12 à 20 semaines (3 à 5 mois)"
+      en: "12 to 20 weeks (3 to 5 months)"
     start:
       fr: "Été 2026 (à partir de mai)"
-      en: "Summer 2026 (starting May)"
+      en: "Summer 2026 (from May)"
     onsite:
-      fr: "Hybride (1-2 jours présentiel souhaités)"
-      en: "Hybrid (1-2 days onsite preferred)"
+      fr: "3 jours/semaine minimum"
+      en: "3 days/week minimum"
     
-    project:
+    our_mission:
       fr: |
-        HyPyP (Hyperscanning Python Pipelines) est une librairie open-source développée par le PPSP Lab pour l'analyse des signaux cérébraux (EEG/MEG) en hyperscanning (plusieurs cerveaux simultanément). Elle est utilisée par la communauté internationale pour calculer la synchronie inter-cérébrale.
-        
-        **Le Défi :** La librairie doit évoluer pour intégrer de nouvelles métriques de connectivité, améliorer sa visualisation graphique, et être optimisée pour de plus gros datasets.
+        ## Notre Mission
+        **Social NeuroAI Hub — Where minds connect**
+        **Où les intelligences se rencontrent**
+        Le **Laboratoire PPSP** est situé au **CHU Sainte-Justine**, l'un des plus grands hôpitaux pédiatriques
+        universitaires au monde. Nous développons les sciences et technologies qui permettent de comprendre
+        comment les diverses intelligences se coordonnent, se développent et s'entraident. Notre approche :
+        l'**hyperscanning multimodal** enregistre simultanément cerveau, physiologie, langage et comportement
+        de plusieurs personnes en interaction. L'objectif est d'explorer les **potentialités et diversités cognitives
+        et méta-cognitives**. Nous créons des outils open-source, des protocoles cliniques et des connaissances
+        qui, ensemble, servent directement les enfants, les familles et les soignants. **Du labo à l'hôpital, de la
+        science à la santé**.
       en: |
-        HyPyP (Hyperscanning Python Pipelines) is an open-source library developed by the PPSP Lab for analyzing brain signals (EEG/MEG) in hyperscanning (multiple brains simultaneously). It is used by the international community to calculate inter-brain synchrony.
-        
-        **The Challenge:** The library must evolve to integrate new connectivity metrics, improve its graphical visualization, and be optimized for larger datasets.
-    
-    mission:
+        ## Our Mission
+        **Social NeuroAI Hub — Where minds connect**
+        **Où les intelligences se rencontrent**
+        The **PPSP Laboratory** is located at **CHU Sainte-Justine**, one of the world's largest pediatric university
+        hospitals. We develop the sciences and technologies that enable understanding of how diverse
+        intelligences coordinate, develop, and support one another. Our approach: **multimodal hyperscanning**
+        simultaneously records brain, physiology, language, and behavior of multiple people in interaction. Our
+        goal is to explore **cognitive and meta-cognitive potentialities and diversities**. We create open-source
+        tools, clinical protocols, and knowledge that together directly serve children, families, and healthcare
+        providers. **From lab to hospital, from science to health**.
+
+    your_mission:
       fr: |
-        **Développement**
-        - Implémenter de nouvelles métriques de synchronie (ex: PLV, wPLI, cohérence en ondelettes)
-        - Créer des modules de visualisation interactifs (graphes de connectivité inter-cerveaux)
-        - Optimiser les performances des pipelines existants (numpy/scipy)
-        - Assurer un code robuste, testé et documenté
+        ## Votre Mission
+        **HyPyP** est la librairie Python de référence pour analyser la synchronie inter-cerveau en hyperscanning.
+        Votre mission : étendre les capacités d'analyse des dynamiques de synchronisation en développant
+        de nouvelles métriques et des outils de visualisation.
+
+        **Ce que vous allez faire :**
+
+        ### Développement
+        - Implémenter de nouvelles métriques de synchronie
+        - Créer des modules de visualisation interactifs
+        - Optimiser les performances des pipelines existants
+        - Assurer un code robuste avec tests et benchmarks des méthodes
+
+        ### Validation & Tests
+        - Rédiger des tests unitaires et d'intégration
+        - Valider les métriques sur des données synthétiques et réelles
+        - Comparer les résultats avec la littérature scientifique
+        - Documenter les performances et limites
+
+        ### Documentation & Open-Source
+        - Rédiger la documentation technique des nouvelles fonctionnalités
+        - Créer des tutoriels et exemples d'utilisation
+        - Contribuer à la documentation API
+        - Participer aux revues de code et aux issues GitHub
+
+        ### Recherche Appliquée
+        - Explorer la littérature sur les métriques de synchronie inter-cerveau
+        - Adapter des méthodes issues d'autres domaines (théorie de l'information, algèbre géométrique)
+        - Collaborer avec les chercheurs pour tester les outils sur des données cliniques
         
-        **Open Source**
-        - Gérer les Pull Requests et Issues sur GitHub
-        - Améliorer la documentation (ReadTheDocs) et les tutoriels (Jupyter Notebooks)
-        - Préparer la prochaine release majeure de HyPyP
+        ### Projets concrets
+        - Développement de métriques basées sur la théorie de l'information et l'algèbre géométrique
+        - Dashboard de visualisation des résultats de synchronie
+        - Application sur les études pilotes en cours au laboratoire
+
+        **Impact**
+        Vos contributions alimenteront directement les études cliniques du laboratoire sur les dynamiques
+        inter-cérébrales et seront partagées avec une communauté grandissante de chercheuses et chercheurs
+        en neurosciences sociales.
       en: |
-        **Development**
-        - Implement new synchrony metrics (e.g., PLV, wPLI, wavelet coherence)
-        - Create interactive visualization modules (inter-brain connectivity graphs)
-        - Optimize existing pipeline performance (numpy/scipy)
-        - Ensure robust, tested, and documented code
+        ## Your Mission
+        **HyPyP** is the reference Python library for analyzing inter-brain synchrony in hyperscanning. Your mission:
+        extend the analysis capabilities of synchronization dynamics by developing new metrics and
+        visualization tools.
         
-        **Open Source**
-        - Manage Pull Requests and Issues on GitHub
-        - Improve documentation (ReadTheDocs) and tutorials (Jupyter Notebooks)
-        - Prepare the next major release of HyPyP
+        **What you will do:**
+        
+        ### Development
+        - Implement new synchrony metrics
+        - Create interactive visualization modules
+        - Optimize existing pipeline performance
+        - Ensure robust code with tests and method benchmarks
+        
+        ### Validation & Testing
+        - Write unit and integration tests
+        - Validate metrics on synthetic and real data
+        - Compare results with scientific literature
+        - Document performance and limitations
+        
+        ### Documentation & Open-Source
+        - Write technical documentation for new features
+        - Create tutorials and usage examples
+        - Contribute to API documentation
+        - Participate in code reviews and GitHub issues
+        
+        ### Applied Research
+        - Explore literature on inter-brain synchrony metrics
+        - Adapt methods from other fields (information theory, geometric algebra)
+        - Collaborate with researchers to test tools on clinical data
+        
+        ### Concrete Projects
+        - Development of metrics based on information theory and geometric algebra
+        - Dashboard for visualizing synchrony results
+        - Application on ongoing pilot studies in the laboratory
+        
+        **Impact**
+        Your contributions will directly feed into the laboratory's clinical studies on inter-brain dynamics and will be
+        shared with a growing community of researchers in social neuroscience.
 
     profile:
       fr: |
-        **Ce qui vous anime (Savoir-être)**
-        - **Passion du code propre :** Vous aimez le code lisible, pythonique, bien structuré.
-        - **Esprit Open Source :** Vous croyez au partage de la science et des outils.
-        - **Autonomie :** Vous savez naviguer dans une codebase existante et proposer des améliorations.
+        ## Profil Recherché
+        **Ce qui vous anime**
 
-        **Formation**
-        - Étudiant·e en informatique, génie logiciel, science des données, bio-informatique ou neurosciences computationnelles.
+        Vous êtes attiré·e par l'**exécution concrète, robuste, durable.**
+        - **Orientation résultats** — Vous trouvez satisfaction dans le travail qui aboutit, les objectifs atteints, la
+        documentation qui éclaire. La finition d'un travail bien fait vous anime.
+        - **Curiosité intellectuelle** — Vous voulez comprendre pourquoi on mène ces projets, comment ils
+        s'inscrivent dans la recherche, à quoi ils serviront. Vous lisez, vous posez des questions, vous
+        explorez au-delà de votre mission immédiate.
+        - **Rigueur méthodologique** — Vous travaillez de façon structurée, documentez vos démarches,
+        validez vos résultats. Vous accordez du temps à bien faire les choses.
+        - **Esprit collaboratif** — Vous appréciez les retours, partagez vos réflexions, accueillez les feedbacks.
+        Vous contribuez à une dynamique d'équipe constructive.
+        - **Autonomie et collaboration** — Face à un problème, vous décomposez, explorez la documentation,
+        testez des hypothèses. Vous naviguez naturellement entre travail autonome et co-construction.
 
-        **Compétences techniques**
-        - Solide maîtrise de Python (numpy, scipy, pandas, matplotlib)
-        - Expérience avec Git / GitHub (workflow PR, branches)
-        - Connaissance de MNE-Python (un atout majeur)
-        - Notions en traitement du signal (un atout)
+        **Compétences techniques fondamentales**
 
-        **Atouts valorisés**
-        - Contributions open-source préalables
-        - Connaissance des signaux EEG/MEG
+        ### Python & écosystème scientifique
+        - Maîtrise de Python
+        - Expérience avec NumPy/SciPy/Pandas
+        - Familiarité avec les environnements virtuels et gestionnaires de paquets
+
+        ### Qualité logicielle
+        - Expérience avec Git
+        - Écriture de tests (pytest)
+        - Documentation de code
+
+        ### Traitement du signal / neurosciences
+        - Notions de traitement du signal
+        - Intérêt pour les données EEG/physiologiques
+        
+        **Élément vérifiable obligatoire**
+        - GitHub actif avec projets personnels ou contributions open-source
+        
+        **Atouts valorisés (non-obligatoires)**
+        - Expérience avec MNE-Python ou autres librairies de neurosciences
+        - Connaissances en théorie de l'information ou algèbre géométrique
+        - Contributions antérieures à des projets open-source
+        - Expérience en visualisation de données (Matplotlib, Plotly, Dash...)
+        - Familiarité avec les standards BIDS
+        - Intérêt pour les neurosciences sociales ou la psychiatrie
+        - Publications ou présentations scientifiques
+
+        ### Comment nous grandissons ensemble
+        Ce stage est un espace de développement mutuel. Vous apporterez vos compétences et votre
+        perspective, nous partagerons notre expertise scientifique et méthodologique. À travers la collaboration
+        quotidienne, les revues de travail, les discussions et le mentorat, chacun·e développe les compétences
+        qui font avancer le projet.
       en: |
-        **What drives you (Mindset)**
-        - **Passion for clean code:** You love readable, pythonic, well-structured code.
-        - **Open Source Spirit:** You believe in sharing science and tools.
-        - **Autonomy:** You can navigate an existing codebase and propose improvements.
-
-        **Education**
-        - Student in Computer Science, Software Engineering, Data Science, Bioinformatics, or Computational Neuroscience.
-
-        **Technical Skills**
-        - Strong mastery of Python (numpy, scipy, pandas, matplotlib)
-        - Experience with Git / GitHub (PR workflow, branches)
-        - Knowledge of MNE-Python (major asset)
-        - Signal processing concepts (asset)
-
-        **Valued Assets**
-        - Previous open-source contributions
-        - Knowledge of EEG/MEG signals
+        ## Desired Profile
+        **What drives you**
+        
+        You are drawn to **concrete, robust, lasting execution.**
+        - **Results-oriented** — You find satisfaction in work that delivers, goals achieved, documentation that
+        clarifies. The completion of work well done motivates you.
+        - **Intellectual curiosity** — You want to understand why we pursue these projects, how they fit into
+        research, what they will serve. You read, ask questions, explore beyond your immediate mission.
+        - **Methodological rigor** — You work in a structured way, document your approaches, validate your
+        results. You take time to do things properly.
+        - **Collaborative spirit** — You appreciate feedback, share your reflections, welcome input. You
+        contribute to a constructive team dynamic.
+        - **Autonomy and collaboration** — Faced with a problem, you break it down, explore documentation,
+        test hypotheses. You navigate naturally between autonomous work and co-construction.
+        
+        **Core Technical Skills**
+        
+        ### Python & scientific ecosystem
+        - Python proficiency
+        - Experience with NumPy/SciPy/Pandas
+        - Familiarity with virtual environments and package managers
+        
+        ### Software quality
+        - Experience with Git
+        - Test writing (pytest)
+        - Code documentation
+        
+        ### Signal processing / neuroscience
+        - Signal processing fundamentals
+        - Interest in EEG/physiological data
+        
+        **Mandatory verifiable element**
+        - Active GitHub with personal projects or open-source contributions
+        
+        **Valued Assets (not mandatory)**
+        - Experience with MNE-Python or other neuroscience libraries
+        - Knowledge in information theory or geometric algebra
+        - Previous contributions to open-source projects
+        - Data visualization experience (Matplotlib, Plotly, Dash...)
+        - Familiarity with BIDS standards
+        - Interest in social neuroscience or psychiatry
+        - Scientific publications or presentations
+        
+        ### How we grow together
+        This internship is a space for mutual development. You will bring your skills and perspective, we will
+        share our scientific and methodological expertise. Through daily collaboration, work reviews, discussions,
+        and mentorship, everyone develops the skills that advance the project.
 
     skills:
       fr: |
-        **Expertise Technique**
-        - Développement Python scientifique avancé
-        - Gestion de package open-source (PyPI, CI/CD, documentation)
-        - Traitement du signal biomédical
-        
-        **Compétences Transversales**
-        - Travail collaboratif asynchrone (GitHub)
-        - Communication technique (documentation, tutoriels)
-        
-        **Portfolio Concret**
-        - Commits et PRs mergés sur le repo HyPyP (public)
-        - Votre nom dans les contributeurs de la librairie
-      en: |
-        **Technical Expertise**
-        - Advanced scientific Python development
-        - Open-source package management (PyPI, CI/CD, documentation)
-        - Biomedical signal processing
-        
-        **Transversal Skills**
-        - Asynchronous collaborative work (GitHub)
-        - Technical communication (documentation, tutorials)
-        
-        **Concrete Portfolio**
-        - Merged commits and PRs on the HyPyP repo (public)
-        - Your name in the library contributors
+        ## Compétences Développées
+        À la fin de ce stage, vous aurez développé une expertise **singulière et recherchée.**
 
+        ### Expertise Technique
+        - Maîtrise avancée du développement de librairies Python scientifiques
+        - Expertise en métriques de synchronie inter-cerveau (théorie de l'information, algèbre géométrique)
+        - Compétences en visualisation de données complexes
+        - Pratiques de développement logiciel robuste (tests, CI/CD, documentation)
+        - Compréhension des pipelines d'analyse de données neurophysiologiques
+
+        ### Vision Interdisciplinaire
+        *Le pont neuro-IA-clinique* — Vous comprendrez comment s'articulent neurosciences fondamentales,
+        intelligence artificielle et applications cliniques. Vous aurez travaillé dans un hôpital pédiatrique
+        universitaire, observé comment la recherche se connecte aux besoins réels des enfants et des familles.
+        *Culture pluridisciplinaire* — Vous saurez dialoguer avec des chercheurs en neurosciences, des ingénieurs,
+        des cliniciens et des designers.
+
+        ### Méthodologie de Recherche Ouverte
+        *Science reproductible* — Vous maîtriserez les standards de la science ouverte : travail versionné,
+        pipelines documentés, analyses reproductibles.
+
+        ### Réseau & Trajectoires
+        *Écosystème montréalais* — Vous travaillerez au CHU Sainte-Justine, avec accès aux séminaires et
+        formations de l'écosystème IA montréalais (Mila, IVADO).
+        *Co-authorship possible* — Selon l'avancement du projet, vous pourrez co-signer des publications
+        méthodologiques ou les études utilisant vos contributions.
+
+        ### Portfolio Concret
+        - Modules de métriques intégrés à HyPyP (code open-source publié)
+        - Dashboard de visualisation fonctionnel
+        - Suite de tests et documentation technique
+        - Benchmarks comparatifs des méthodes implémentées
+        - Éventuelle contribution à une publication méthodologique
+      en: |
+        ## Skills You Will Develop
+        After this internship, you will have developed **unique and sought-after expertise.**
+        
+        ### Technical Expertise
+        - Advanced mastery of scientific Python library development
+        - Expertise in inter-brain synchrony metrics (information theory, geometric algebra)
+        - Complex data visualization skills
+        - Robust software development practices (tests, CI/CD, documentation)
+        - Understanding of neurophysiological data analysis pipelines
+        
+        ### Interdisciplinary Vision
+        *The neuro-AI-clinical bridge* — You will understand how fundamental neuroscience, artificial intelligence,
+        and clinical applications articulate. You will have worked in a pediatric university hospital, observed how
+        research connects to the real needs of children and families.
+        *Multidisciplinary culture* — You will be able to dialogue with neuroscience researchers, engineers,
+        clinicians, and designers.
+        
+        ### Open Research Methodology
+        *Reproducible science* — You will master open science standards: versioned work, documented pipelines,
+        reproducible analyses.
+        
+        ### Network & Trajectories
+        *Montreal ecosystem* — You will work at CHU Sainte-Justine, with access to seminars and training from
+        Montreal's AI ecosystem (Mila, IVADO).
+        *Possible co-authorship* — Depending on project progress, you may co-sign methodological publications or
+        studies using your contributions.
+        
+        ### Concrete Portfolio
+        - Metrics modules integrated into HyPyP (published open-source code)
+        - Functional visualization dashboard
+        - Test suite and technical documentation
+        - Comparative benchmarks of implemented methods
+        - Possible contribution to a methodological publication
+
+    working_conditions:
+      fr: |
+        ## Conditions de Travail
+        
+        ### Rémunération & Durée
+        - Statut : Stage rémunéré (convention avec votre établissement)
+        - Bourses : Nous encourageons les candidatures aux bourses (FRQNT, FRQS, Mitacs)
+        - Durée : 12 à 20 semaines
+        - Charge : Temps plein (35-40h/semaine) ou temps partiel selon contraintes académiques
+        - Début : Été 2026 (à partir de mai)
+        
+        ### Organisation du Travail
+        - Présentiel : 3 jours/semaine minimum au CHU Sainte-Justine
+        - Télétravail : 2 jours/semaine possibles selon avancement du projet
+        - Horaires flexibles (core hours : 10h-16h)
+      en: |
+        ## Working Conditions
+        
+        ### Compensation & Duration
+        - Status: Paid internship (agreement with your institution)
+        - Scholarships: We encourage applications for scholarships (FRQNT, FRQS, Mitacs)
+        - Duration: 12 to 20 weeks
+        - Workload: Full-time (35-40h/week) or part-time depending on academic constraints
+        - Start: Summer 2026 (from May)
+        
+        ### Work Organization
+        - On-site: 3 days/week minimum at CHU Sainte-Justine
+        - Remote work: 2 days/week possible depending on project progress
+        - Flexible hours (core hours: 10am-4pm)
+      
     supervision:
       fr: |
-        - **Superviseur scientifique :** Guillaume Dumas
-        - **Mentorat technique :** Développeurs seniors du labo et contributeurs principaux de HyPyP.
+        ## Encadrement & Mentorat
+        - Superviseur scientifique : Guillaume Dumas
+        - Encadrant technique : Rémy Ramadour (Research Engineer)
+        - Équipe projet : 5+ personnes (dont un·e stagiaire orienté·e neuropsychologie)
       en: |
-        - **Scientific Supervisor:** Guillaume Dumas
-        - **Technical Mentorship:** Senior lab developers and main HyPyP contributors.
+        ## Supervision & Mentoring
+        - Scientific supervisor: Guillaume Dumas
+        - Technical mentor: Rémy Ramadour (Research Engineer)
+        - Project team: 5+ people (including a neuropsychology-focused intern)
 
-    process:
+    application:
       fr: |
-        **Documents requis**
-        - CV + Lien GitHub (ou extraits de code)
-        - Lettre de motivation courte
-
-        **Processus**
-        1. **Revue de code** (GitHub)
-        2. **Entretien visio** (technique + fit projet)
-
-        **Comment Postuler**
-        Email : apply@ppsp.team ou contact@ppsp.team
-        Objet : «Candidature HyPyP - [Votre Nom]»
+        ## Procédure de Recrutement
+        Notre processus est conçu pour être transparent, respectueux et équitable.
+        
+        ### Documents Requis
+        
+        **Obligatoires :**
+        - CV (2 pages maximum)
+        - Relevé de notes (transcripts des 2 dernières années)
+        - Lettre de motivation (1 page) : Pourquoi ce stage ? Pourquoi le laboratoire PPSP ? Votre projet de
+        carrière à 3-5 ans
+        - Lien GitHub actif
+        
+        **Complémentaires (appréciés) :**
+        - Lettres de recommandation (académiques ou professionnelles)
+        
+        ### Processus de Sélection
+        
+        **Étape 1 : Présélection sur Dossier (7 jours)**
+        Nous évaluons : motivation et alignement, compétences techniques, potentiel de croissance, fit avec le
+        projet. Vous recevez une réponse dans les 7 jours ouvrés.
+        
+        **Étape 2 : Entretien Motivation (30 min)**
+        Visioconférence ou présentiel. Discussion ouverte sur votre parcours, vos motivations, votre projet de
+        carrière.
+        
+        **Étape 3 : Entretien Technique (45 min)**
+        Discussion autour d'un de vos projets GitHub et/ou étude de cas technique.
+        
+        **Étape 4 : Entretien de Départage (Optionnel, 30 min)**
+        Si plusieurs candidatures excellentes sont en balance.
+        
+        ### Nos engagements
+        - Réponse systématique à toute candidature complète
+        - Transparence sur critères et timeline
+        - Feedback constructif pour candidat·es reçu·es en entretien
+        - Respect de votre temps (pas de ghosting, pas de délais excessifs)
+        - Équité : mêmes critères pour tou·tes
+        
+        ## Comment Postuler
+        * **Email** : apply@ppsp.team
+        * **Objet** : "Candidature Stage Développeur·se Python HyPyP - [Votre Nom]"
+        * **Format des documents** :
+          - NomPrenom_CV.pdf
+          - NomPrenom_RelevéNotes.pdf
+          - NomPrenom_LettreMotivation.pdf
+        * **Dans le corps de l'email** : Lien GitHub, période de disponibilité souhaitée, questions éventuelles.
+        * **Questions ?** Écrivez-nous. Nous répondons à toutes les questions.
       en: |
-        **Required Documents**
-        - CV + GitHub link (or code samples)
-        - Short Cover Letter
-
-        **Process**
-        1. **Code Review** (GitHub)
-        2. **Video Interview** (technical + project fit)
-
-        **How to Apply**
-        Email: apply@ppsp.team or contact@ppsp.team
-        Subject: "HyPyP Application - [Your Name]"
+        ## Recruitment Process
+        Our process is designed to be transparent, respectful, and fair.
+        
+        ### Required Documents
+        
+        **Mandatory:**
+        - CV (2 pages maximum)
+        - Transcripts (last 2 years)
+        - Cover letter (1 page): Why this internship? Why PPSP laboratory? Your 3-5 year career plan
+        - Active GitHub link
+        
+        **Complementary (appreciated):**
+        - Letters of recommendation (academic or professional)
+        
+        ### Selection Process
+        
+        **Step 1: Application Screening (7 days)**
+        We evaluate: motivation and alignment, technical skills, growth potential, project fit. You receive a
+        response within 7 business days.
+        
+        **Step 2: Motivation Interview (30 min)**
+        Video conference or in-person. Open discussion about your background, motivations, career plan.
+        
+        **Step 3: Technical Interview (45 min)**
+        Discussion around one of your GitHub projects and/or technical case study.
+        
+        **Step 4: Tie-Breaking Interview (Optional, 30 min)**
+        If several excellent applications are balanced.
+        
+        ### Our Commitments
+        - Systematic response to every complete application
+        - Transparency on criteria and timeline
+        - Constructive feedback for interviewed candidates
+        - Respect for your time (no ghosting, no excessive delays)
+        - Equity: same criteria for everyone
+        
+        ## How to Apply
+        * **Email**: apply@ppsp.team
+        * **Subject**: "Application Python Developer HyPyP Internship - [Your Name]"
+        * **Document format**:
+          - LastnameFirstname_CV.pdf
+          - LastnameFirstname_Transcripts.pdf
+          - LastnameFirstname_CoverLetter.pdf
+        * **In the email body**: GitHub link, desired availability period, any questions.
+        * **Questions?** Write to us. We respond to all questions.
     
     contact: "apply@ppsp.team"
 
@@ -641,8 +1381,8 @@ jobs:
     active: true
     type: internship
     title:
-      fr: "Stage en Psychologie"
-      en: "Psychology Internship"
+      fr: "Stagiaire en psychologie expérimentale et neuropsychologie de la cognition sociale"
+      en: "Intern in Experimental Psychology and Neuropsychology of Social Cognition"
     subtitle:
       fr: "Protocoles expérimentaux & synchronie interpersonnelle"
       en: "Experimental Protocols & Interpersonal Synchrony"
@@ -650,127 +1390,441 @@ jobs:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
     duration:
-      fr: "12 semaines minimum"
-      en: "12 weeks minimum"
+      fr: "12+ semaines"
+      en: "12+ weeks"
     start:
       fr: "Été 2026"
       en: "Summer 2026"
     onsite:
-      fr: "Présentiel (collecte de données)"
-      en: "In-person (data collection)"
-    
-    project:
+      fr: "Présentiel : 3j/semaine minimum"
+      en: "In-person : 3 days/week minimum"
+     
+    our_mission:
       fr: |
-        Vous participerez à des projets de recherche explorant la synchronie interpersonnelle (comment nos cerveaux et comportements se synchronisent) chez des populations typiques et atypiques (autisme, TDAH). 
-        
-        Nous combinons psychologie expérimentale et mesures physiologiques pour comprendre les mécanismes de l'interaction sociale.
+        ## Notre Mission
+        **Plateforme de recherche en neurosciences sociales et IA -- Où les intelligences se rencontrent**
+        Le **Laboratoire PPSP** est situé au **CHU Sainte-Justine**, l'un des plus grands hôpitaux pédiatriques
+        universitaires au monde. Nous développons les sciences et technologies qui permettent de comprendre
+        comment les diverses intelligences se coordonnent, se développent et s'entraident. Notre approche :
+        l'**hyperscanning multimodal** enregistre simultanément cerveau, physiologie, langage et comportement de
+        plusieurs personnes en interaction. L'objectif est d'explorer les **potentialités et diversités cognitives et
+        méta-cognitives**. Nous créons des outils open-source, des protocoles cliniques et des connaissances qui,
+        ensemble, servent directement les enfants, les familles et les soignants. **Du labo à l'hôpital, de la science à la
+        santé**.
       en: |
-        You will participate in research projects exploring interpersonal synchrony (how our brains and behaviors synchronize) in typical and atypical populations (autism, ADHD).
-        
-        We combine experimental psychology and physiological measures to understand social interaction mechanisms.
-    
-    mission:
+        **Social NeuroAI Hub — Where minds connect**
+        ## Our Mission
+        The **PPSP Laboratory** is located at **CHU Sainte-Justine**, one of the world's largest pediatric university
+        hospitals. We develop the sciences and technologies that enable understanding of how diverse intelligences
+        coordinate, develop, and support one another. Our approach: **multimodal hyperscanning** simultaneously
+        records brain, physiology, language, and behavior of multiple people in interaction. Our goal is to explore
+        **cognitive and meta-cognitive potentialities and diversities**. We create open-source tools, clinical protocols,
+        and knowledge that together directly serve children, families, and healthcare providers. **From lab to hospital,
+        from science to health**.
+
+    your_mission:
       fr: |
-        **Élaboration de protocoles**
+        ## Votre Mission
+        Au sein du laboratoire PPSP, vous participerez à l'ensemble du cycle de recherche : de la conception des
+        protocoles à l'analyse des données, en passant par la collecte sur le terrain. Vous contribuerez à des études
+        explorant l'interaction sociale et la cognition, en utilisant des approches innovantes incluant la
+        neurophénoménologie.
+
+        **Ce que vous allez faire :**
+
+        ### Élaboration de protocoles
         - Revue de littérature en neuropsychologie, psychologie expérimentale et neurophénoménologie
         - Conception de tâches expérimentales
         - Adaptation et validation de questionnaires
+        - Design de protocoles neurophénoménologiques
+        - Contribution au développement de tâches sur les outils internes du laboratoire
         
-        **Collecte de données (Testing)**
-        - Recrutement et accueil des participants (familles, enfants, adultes)
-        - Passation de tests neuropsychologiques et cognitifs
-        - Assistance lors des enregistrements EEG/hyperscanning
+        ### Passations & collecte de données
+        - Administration de tests neuropsychologiques standardisés
+        - Passation de tâches expérimentales
+        - Conduite d'entretiens et recueil de données subjectives (approches neurophénoménologiques)
+        - Participation à la gestion logistique des sessions (planification, accueil, consentements)
         
-        **Gestion de données**
-        - Saisie et vérification des données (RedCap, Excel)
-        - Participation à l'analyse statistique préliminaire
+        ### Analyses de données
+        - Saisie et nettoyage de données
+        - Cotation et scoring de tests neuropsychologiques
+        - Analyses statistiques en collaboration avec l'équipe
+        - Analyse qualitative et thématique des données neurophénoménologiques
+        
+        ### Documentation
+        - Contribution à la rédaction de manuels de passation et procédures opératoires standardisées
+        - Participation à la documentation des protocoles expérimentaux
       en: |
-        **Protocol Development**
+        ## Your Mission
+        Within the PPSP laboratory, you will participate in the entire research cycle: from protocol design to data
+        analysis, including field data collection. You will contribute to studies exploring social interaction and cognition,
+        using innovative approaches including neurophenomenology.
+        
+        **What you will do**:
+
+        ### Protocol Development
         - Literature review in neuropsychology, experimental psychology, and neurophenomenology
         - Design of experimental tasks
         - Adaptation and validation of questionnaires
+        - Design of neurophenomenological protocols
+        - Contribution to task development using the laboratory's internal tools
         
-        **Data Collection (Testing)**
-        - Recruitment and welcoming of participants (families, children, adults)
-        - Administration of neuropsychological and cognitive tests
-        - Assistance during EEG/hyperscanning recordings
+        ### Data Collection & Administration
+        - Administration of standardized neuropsychological tests
+        - Administration of experimental tasks
+        - Conducting interviews and collecting subjective data (neurophenomenological approaches)
+        - Participation in session logistics management (scheduling, reception, consent)
         
-        **Data Management**
-        - Data entry and verification (RedCap, Excel)
-        - Participation in preliminary statistical analysis
+        ### Data Analysis
+        - Data entry and cleaning
+        - Scoring of neuropsychological tests
+        - Statistical analyses in collaboration with the team
+        - Qualitative and thematic analysis of neurophenomenological data
+        
+        ### Documentation
+        - Contribution to administration manuals and standard operating procedures
+        - Participation in experimental protocol documentation
 
     profile:
       fr: |
-        **Savoir-être**
-        - **Empathie et relationnel :** Excellent contact avec les participants, notamment les enfants et familles.
-        - **Rigueur scientifique :** Respect strict des protocoles standardisés.
-        - **Curiosité :** Intérêt pour les neurosciences sociales et l'approche multi-niveaux.
+        **Ce qui vous anime**
+
+        Vous êtes attiré·e par l'**exécution concrète, robuste, durable.**
+
+        - **Orientation résultats** — Vous trouvez satisfaction dans le travail qui aboutit, les objectifs atteints, la
+        documentation qui éclaire. La finition d'un travail bien fait vous anime.
+        - **Curiosité intellectuelle** — Vous voulez comprendre pourquoi on mène ces projets, comment ils
+        s'inscrivent dans la recherche, à quoi ils serviront. Vous lisez, vous posez des questions, vous explorez
+        au-delà de votre mission immédiate.
+        - **Rigueur méthodologique** — Vous travaillez de façon structurée, documentez vos démarches, validez vos
+        résultats. La qualité de votre travail compte pour vous.
+        - **Esprit collaboratif** — Vous appréciez les retours, partagez vos réflexions, accueillez les feedbacks. Vous
+        contribuez à une dynamique d'équipe constructive.
+        - **Autonomie et collaboration** — Face à un problème, vous décomposez, explorez la documentation,
+        testez des hypothèses. Vous naviguez naturellement entre travail autonome et co-construction.
+
+        **Compétences techniques fondamentales**
 
         **Formation**
-        - Baccalauréat (ou Maîtrise) en Psychologie, Neuropsychologie ou Sciences Cognitives.
-
-        **Compétences**
-        - Connaissance des tests psychométriques (WISC, etc. est un atout)
-        - Expérience en recherche (assistanat de recherche, projet de fin d'études)
-        - Maîtrise de l'anglais scientifique (lecture d'articles)
+        - Formation en cours en psychologie (tous niveaux considérés)
+        - Formation aux méthodes expérimentales en psychologie (en cours ou complétée)
+        - Formation aux tests neuropsychologiques (en cours ou complétée)
+        - Connaissances de base en statistiques
+        
+        **Langues**
+        - Anglais scientifique (lecture d'articles)
+        
+        **Atouts valorisés (non-obligatoires)**
+        - Intérêt marqué pour la cognition sociale et les interactions sociales
+        - Expérience préalable en recherche (même mineure)
+        - Connaissances en neurophénoménologie ou approches en première personne
+        - Notions de Python
+        - Expérience avec des populations pédiatriques ou familiales
+        
+        **Comment nous grandissons ensemble**
+        
+        Ce stage est un espace de **développement mutuel**. Vous apporterez vos compétences et votre perspective,
+        nous partagerons notre expertise scientifique et méthodologique. À travers la collaboration quotidienne, les
+        revues de travail, les discussions et le mentorat, chacun·e développe les compétences qui font avancer le
+        projet.
       en: |
-        **Mindset**
-        - **Empathy and interpersonal skills:** Excellent contact with participants, especially children and families.
-        - **Scientific rigor:** Strict adherence to standardized protocols.
-        - **Curiosity:** Interest in social neuroscience and multi-level approaches.
+        **What drives you**
 
+        You are drawn to **concrete, robust, lasting execution.**
+        - **Results-oriented** — You find satisfaction in work that delivers, goals achieved, documentation that
+        clarifies. The completion of work well done motivates you.
+        - **Intellectual curiosity** — You want to understand why we pursue these projects, how they fit into research,
+        what they will serve. You read, ask questions, explore beyond your immediate mission.
+        - **Methodological rigor** — You work in a structured way, document your approaches, validate your results.
+        The quality of your work matters to you.
+        - **Collaborative spirit** — You appreciate feedback, share your reflections, welcome input. You contribute to
+        a constructive team dynamic.
+        - **Autonomy and collaboration** — Faced with a problem, you break it down, explore documentation, test
+        hypotheses. You navigate naturally between autonomous work and co-construction.
+        
+        **Core Technical Skills**
+        
         **Education**
-        - Bachelor's (or Master's) in Psychology, Neuropsychology, or Cognitive Science.
-
-        **Skills**
-        - Knowledge of psychometric tests (WISC, etc. is an asset)
-        - Research experience (research assistantship, honors thesis)
-        - Scientific English proficiency (reading articles)
+        - Ongoing training in psychology (all levels considered)
+        - Training in experimental methods in psychology (ongoing or completed)
+        - Training in neuropsychological testing (ongoing or completed)
+        - Basic knowledge of statistics
+        
+        **Languages**
+        - Scientific English (reading articles)
+        
+        **Valued Assets (non-mandatory)**
+        - Strong interest in social cognition and social interactions
+        - Prior research experience (even minor)
+        - Knowledge of neurophenomenology or first-person approaches
+        - Basic Python skills
+        - Experience with pediatric or family populations
+        
+        **How we grow together**
+        
+        This internship is a space for mutual development. You will bring your skills and perspective, we will share our
+        scientific and methodological expertise. Through daily collaboration, work reviews, discussions, and
+        mentorship, everyone develops the skills that advance the project.
 
     skills:
       fr: |
-        **Ce que vous allez apprendre**
-        - Administration de tâches expérimentales complexes
-        - Utilisation de technologies de pointe (EEG, capteurs physiologiques)
-        - Gestion d'études cliniques en milieu hospitalier
-        - Analyse de données comportementales
-      en: |
-        **What you will learn**
-        - Administration of complex experimental tasks
-        - Use of cutting-edge technologies (EEG, physiological sensors)
-        - Management of clinical studies in a hospital setting
-        - Behavioral data analysis
+        **Compétences Développées**
 
-    supervision:
-      fr: |
-        - **Supervision :** Étudiants gradués (M.Sc, PhD) et Post-doctorants du laboratoire.
-        - **Direction :** Guillaume Dumas.
+        À la fin de ce stage, vous aurez développé une expertise **singulière et recherchée.**
+
+        **Expertise technique**
+        
+        - Expérience en passation de tests neuropsychologiques standardisés
+        - Compétence en design de protocoles expérimentaux
+        - Expérience en recueil de données neurophénoménologiques
+        - Maîtrise de l'analyse de données comportementales et subjectives
+        
+        **Vision interdisciplinaire**
+
+        *Le pont neuro-IA-clinique* — Vous comprendrez comment s'articulent neurosciences fondamentales,
+        intelligence artificielle et applications cliniques. Vous aurez travaillé dans un hôpital pédiatrique universitaire,
+        observé comment la recherche se connecte aux besoins réels des enfants et des familles.
+        *Culture pluridisciplinaire* — Vous saurez dialoguer avec des chercheurs en neurosciences, des ingénieurs, des
+        cliniciens et des designers.
+        
+        **Méthodologie de recherche ouverte**
+
+        *Science reproductible* — Vous maîtriserez les standards de la science ouverte : travail versionné, pipelines
+        documentés, analyses reproductibles. Ces pratiques deviennent essentielles dans tous les domaines de la
+        recherche.
+        
+        **Réseau & trajectoires**
+
+        *Écosystème montréalais* — Vous travaillerez au CHU Sainte-Justine, avec accès aux séminaires et formations
+        de l'écosystème IA montréalais (Mila, IVADO). Vous rencontrerez chercheurs, ingénieurs et cliniciens qui
+        façonnent l'avenir de la neuro-IA.
+
+        *Trajectoires après le stage* — Nos anciens stagiaires poursuivent des parcours variés : PhD en neurosciences
+        computationnelles ou IA, postes d'ingénieur·es recherche dans des instituts académiques, développement en
+        neuro-tech, carrières industrielles et création d'entreprises.
+        
+        **Portfolio concret**
+
+        À l'issue du stage, votre portfolio inclura :
+        - Protocoles expérimentaux documentés auxquels vous avez contribué
+        - Données collectées et analysées
+        - Rapports et synthèses de résultats
+        - Documentation de procédures
       en: |
-        - **Supervision:** Graduate students (M.Sc, PhD) and Postdocs of the laboratory.
-        - **Direction:** Guillaume Dumas.
+        **Skills You Will Develop**
+        
+        At the end of this internship, you will have developed **unique and sought-after expertise.**
+        
+        **Technical Expertise**
+        - Experience in administering standardized neuropsychological tests
+        - Competence in experimental protocol design
+        - Experience in neurophenomenological data collection
+        - Mastery of behavioral and subjective data analysis
+        
+        **Interdisciplinary Vision**
+
+        *The neuro-AI-clinical bridge* — You will understand how fundamental neuroscience, artificial intelligence, and
+        clinical applications articulate. You will have worked in a pediatric university hospital, observed how research
+        connects to the real needs of children and families.
+        *Multidisciplinary culture* — You will be able to dialogue with neuroscience researchers, engineers, clinicians,
+        and designers.
+        
+        **Open Research Methodology**
+
+        *Reproducible science* — You will master open science standards: versioned work, documented pipelines,
+        reproducible analyses. These practices are becoming essential in all fields of research.
+        
+        **Network & Trajectories**
+
+        *Montreal ecosystem* — You will work at CHU Sainte-Justine, with access to seminars and training from
+        Montreal's AI ecosystem (Mila, IVADO). You will meet researchers, engineers, and clinicians shaping the future
+        of neuro-AI.
+        *Post-internship trajectories* — Our former interns pursue varied paths: PhD in computational neuroscience or
+        AI, research engineer positions in academic institutes, neuro-tech development, industrial careers, and
+        company creation.
+        
+        **Concrete Portfolio**
+
+        At the end of the internship, your portfolio will include:
+        - Documented experimental protocols you contributed to
+        - Collected and analyzed data
+        - Reports and results summaries
+        - Procedure documentation
 
     process:
       fr: |
-        **Candidature**
-        - CV + Lettre de présentation
-        - Relevé de notes
+        ** Procédure de Recrutement **
         
-        **Processus**
-        - Entretien avec un étudiant gradué ou post-doc responsable du projet.
+        Notre processus est conçu pour être transparent, respectueux et équitable. L'objectif : trouver le bon fit
+        mutuel.
         
-        **Email :** apply@ppsp.team
-        Objet : "Stage Psychologie - [Nom]"
+        **Documents requis**
+        
+        *Obligatoires :*
+        - CV (2 pages maximum)
+        - Relevé de notes (transcripts des 2 dernières années)
+        - Lettre de motivation (1 page) : Pourquoi ce stage précis ? Pourquoi le laboratoire PPSP ? Votre projet de
+        carrière à 3-5 ans
+        
+        *Complémentaires (recommandés) :*
+        - 1 à 2 références (académiques ou professionnelles) : nom, fonction, email
+        - Exemple de travail universitaire (rapport, mémoire, projet collectif)
+        
+        **Processus de sélection**
+        
+        *Étape 1 : Présélection sur dossier (7 jours)
+        Nous évaluons votre candidature selon : motivation et alignement, compétences techniques, potentiel de
+        croissance, fit avec le projet. Vous recevez une réponse dans les 7 jours ouvrés.
+        
+        *Étape 2 : Entretien motivation (30 min)
+        Visioconférence ou présentiel (votre choix). Discussion ouverte sur votre parcours, vos motivations, votre projet
+        de carrière et vos questions sur le stage.
+        
+        *Étape 3 : Entretien technique (45 min)
+        Discussion méthodologique pour évaluer votre curiosité intellectuelle et votre rigueur méthodologique. Nous
+        explorerons vos connaissances et votre approche de la recherche.
+        
+        *Étape 4 : Entretien de départage (optionnel, 30 min)
+        Si plusieurs candidatures excellentes sont en balance.
+        
+        **Timeline & engagements**
+
+        Réponse initiale : 7 jours ouvrés | Entretiens : planifiés sur 2-3 semaines | Décision finale : 48h après dernier
+        entretien
+        
+        Nos engagements : réponse systématique à toute candidature complète, transparence sur critères et timeline,
+        feedback constructif pour candidat·es reçu·es en entretien, respect de votre temps, équité pour tou·tes.
+      
       en: |
-        **Application**
-        - CV + Cover Letter
-        - Transcripts
+        **Recruitment Process**
         
-        **Process**
-        - Interview with a graduate student or postdoc leading the project.
+        Our process is designed to be transparent, respectful, and fair. The goal: find the right mutual fit.
         
-        **Email:** apply@ppsp.team
-        Subject: "Psychology Internship - [Name]"
-    
+        **Required Documents**
+        
+        *Mandatory:*
+        - CV (2 pages maximum)
+        - Transcripts (last 2 years)
+        - Cover letter (1 page): Why this specific internship? Why the PPSP laboratory? Your career plan for the
+        next 3-5 years
+        
+        *Complementary (recommended):*
+        - 1 to 2 references (academic or professional): name, title, email
+        - Example of academic work (report, thesis, group project)
+        
+        *Selection Process*
+        
+        * Step 1: Application Screening (7 days)
+
+        We evaluate your application on: motivation and alignment, technical skills, growth potential, project fit. You
+        receive a response within 7 business days.
+        
+        * Step 2: Motivation Interview (30 min)
+
+        Video conference or in-person (your choice). Open discussion about your background, motivations, career plan,
+        and questions about the internship.
+        
+        * Step 3: Technical Interview (45 min)
+
+        Methodological discussion to evaluate your intellectual curiosity and methodological rigor. We will explore your
+        knowledge and approach to research.
+
+        * Step 4: Tie-Breaking Interview (optional, 30 min)
+        If several excellent applications are balanced.
+        
+        **Timeline & Commitments**
+
+        - Initial response: 7 business days | Interviews: scheduled over 2-3 weeks | Final decision: 48 hours after last
+        interview
+        - Our commitments: systematic response to every complete application, transparency on criteria and timeline,
+        constructive feedback for interviewed candidates, respect for your time, equity for everyone.
+
+    working_conditions:
+      fr: |
+        **Conditions de Travail**
+        
+        **Rémunération & durée**
+        - Statut : Stage rémunéré (convention avec votre établissement)
+        - Rémunération : Selon convention de stage de votre établissement
+        - Bourses : Nous encourageons et accompagnons les candidatures aux bourses (FRQNT, FRQS, Mitacs,
+        et autres)
+        - Durée : 12+ semaines
+        - Charge : Temps plein (35-40h/semaine) ou temps partiel selon contraintes académiques (à discuter)
+        - Début : Été 2026
+        Organisation du travail
+        Présentiel :
+        - 3 jours/semaine minimum au CHU Sainte-Justine (Montréal)
+        - Localisation : 3175 chemin de la Côte-Sainte-Catherine (métro Université-de-Montréal)
+        - Flexibilité pour s'adapter aux disponibilités des participants
+        Télétravail :
+        - 2 jours/semaine possibles selon avancement du projet
+        Horaires :
+        - Flexibles dans la plage 8h-18h | Core hours : 10h-16h
+        
+        **Encadrement & mentorat**
+        
+        - Superviseur scientifique : Guillaume Dumas (Directeur du laboratoire) — Vision scientifique, guidance
+        stratégique, opportunités réseau. Réunions mensuelles + disponibilité ad hoc.
+        - Encadrant de proximité : Rémy Ramadour (Research Engineer) — Accompagnement quotidien, revue
+        technique, mentorat pratique. Points hebdomadaires + disponibilité quasi-quotidienne.
+        - Équipe projet : 5+ personnes dont un autre stagiaire. Rituels d'équipe : stand-ups hebdomadaires, revues de
+        travail, collaboration.
+        
+        **Environnement & avantages**
+
+        Vous travaillez au *CHU Sainte-Justine*, un hôpital qui soigne 400 000 enfants par an. Cantine subventionnée,
+        bibliothèque universitaire, accès aux séminaires de l'écosystème IA montréalais (Mila, IVADO), mentorat
+        carrière et lettres de recommandation détaillées.
+
+      en: |
+        **Compensation & Duration**
+        - Status: Paid internship (agreement with your institution)
+        - Compensation: According to your institution's internship agreement
+        - Scholarships: We encourage and support scholarship applications (FRQNT, FRQS, Mitacs, and others)
+        - Duration: 12+ weeks
+        - Workload: Full-time (35-40h/week) or part-time depending on academic constraints (to discuss)
+        - Start: Summer 2026
+        
+        **Work Organization**
+
+        On-site:
+        - 3 days/week minimum at CHU Sainte-Justine (Montreal)
+        - Location: 3175 chemin de la Côte-Sainte-Catherine (Université-de-Montréal metro)
+        - Flexibility to accommodate participant availability
+        
+        Remote work:
+        - 2 days/week possible depending on project progress
+        Schedule:
+        - Flexible within 8am-6pm range | Core hours: 10am-4pm
+        
+        **Supervision & Mentoring**
+        - Scientific supervisor: Guillaume Dumas (Laboratory Director) — Scientific vision, strategic guidance,
+        networking opportunities. Monthly meetings + ad hoc availability.
+        - Daily mentor: Rémy Ramadour (Research Engineer) — Daily support, technical review, practical mentoring.
+        Weekly check-ins + near-daily availability.
+        - Project team: 5+ people including another intern. Team rituals: weekly stand-ups, work reviews, collaboration.
+        
+        **Environment & Benefits**
+        You work at **CHU Sainte-Justine**, a hospital that treats 400,000 children per year. Subsidized cafeteria,
+        university library, access to seminars from Montreal's AI ecosystem (Mila, IVADO), career mentoring, and
+        detailed letters of recommendation.
+
+    application: 
+      fr: |
+        * **Écrivez à** : apply@ppsp.team
+        * **Objet** :  "Candidature Stage Psychologie Expérimentale - [Votre Nom]"
+        * **Format des documents** : PDF nommés NomPrenom_CV.pdf, NomPrenom_RelevéNotes.pdf,
+        NomPrenom_LettreMotivation.pdf
+        * **Dans le corps de l'email** : période de disponibilité souhaitée, questions éventuelles.
+        * **Questions ?** Écrivez-nous. Nous répondons à toutes les questions.
+      en: |
+        * **Write to** : apply@ppsp.team
+        * **Subject** :  "Candidature Stage Psychologie Expérimentale - [Your Name]"
+        * **Document format** : PDF named NomPrenom_CV.pdf, NomPrenom_RelevéNotes.pdf,
+        NomPrenom_LettreMotivation.pdf
+        * **In the body of the email** : desired availability period, any questions.
+        * **Questions ?** Write to us. We answer all questions.
+
     contact: "apply@ppsp.team"
 
   # ============================================================================
@@ -781,106 +1835,354 @@ jobs:
     type: internship
     title:
       fr: "Data Visualisation Wizard"
-      en: "Data Visualization Wizard"
+      en: "Data Visualisation Wizard"
     subtitle:
-      fr: "Rendre visible l'invisible : Graphiques interactifs pour cerveaux connectés"
-      en: "Making the invisible visible: Interactive graphics for connected brains"
+      fr: "Making interactions beautiful"
+      en: "Making interactions beautiful"
     location:
       fr: "CHU Sainte-Justine, Montréal"
       en: "CHU Sainte-Justine, Montreal"
     duration:
-      fr: "12 semaines"
-      en: "12 weeks"
+      fr: "12 semaines minimum"
+      en: "12 weeks minimum"
     start:
       fr: "Été 2026"
       en: "Summer 2026"
     onsite:
-      fr: "Hybride"
-      en: "Hybrid"
+      fr: "3j/semaine minimum"
+      en: "3 days/week minimum"
     
-    project:
+    our_mission:
       fr: |
-        HyPyP est la librairie de référence pour analyser la synchronie cérébrale lors d'interactions sociales — utilisée quotidiennement par des chercheurs du monde entier.
-        
-        **Votre mission :** transformer des matrices de connectivité abstraites en visualisations époustouflantes, intuitives et interactives. Nous voulons passer de graphiques "statiques" à des explorations dynamiques des réseaux cérébraux en 3D ou en topologies interactives.
+        ## Notre Mission
+        **Social NeuroAI Hub — Where minds connect**
+        **Où les intelligences se rencontrent**
+        Le **Laboratoire PPSP** est situé au **CHU Sainte-Justine**, l'un des plus grands hôpitaux pédiatriques
+        universitaires au monde. Nous développons les sciences et technologies qui permettent de comprendre
+        comment les diverses intelligences se coordonnent, se développent et s'entraident. Notre approche :
+        l'**hyperscanning multimodal** enregistre simultanément cerveau, physiologie, langage et comportement
+        de plusieurs personnes en interaction. L'objectif est d'explorer les **potentialités et diversités cognitives
+        et méta-cognitives**. Nous créons des outils open-source, des protocoles cliniques et des connaissances
+        qui, ensemble, servent directement les enfants, les familles et les soignants. **Du labo à l'hôpital, de la
+        science à la santé**.
       en: |
-        HyPyP is the reference library for analyzing brain synchrony during social interactions — used daily by researchers worldwide.
-        
-        **Your mission:** transform abstract connectivity matrices into stunning, intuitive, and interactive visualizations. We want to move from "static" plots to dynamic explorations of brain networks in 3D or interactive topologies.
-    
-    mission:
+        ## Our Mission
+        **Social NeuroAI Hub — Where minds connect**
+        **Où les intelligences se rencontrent**
+        The **PPSP Laboratory** is located at **CHU Sainte-Justine**, one of the world's largest pediatric university
+        hospitals. We develop the sciences and technologies that enable understanding of how diverse
+        intelligences coordinate, develop, and support one another. Our approach: **multimodal hyperscanning**
+        simultaneously records brain, physiology, language, and behavior of multiple people in interaction. Our
+        goal is to explore **cognitive and meta-cognitive potentialities and diversities**. We create open-source
+        tools, clinical protocols, and knowledge that together directly serve children, families, and healthcare
+        providers. **From lab to hospital, from science to health**.
+
+    your_mission:
       fr: |
-        **Design & Code**
-        - Créer un module de visualisation pour HyPyP (basé sur BrainNets, PyVista, ou MNE-Python)
-        - Implémenter des visualisations de "têtes connectées" (hyper-links)
-        - Rendre les graphiques interactifs (zoom, rotation, sélection de noeuds) pour les notebooks Jupyter
+        ## Votre Mission
+        **HyPyP** est la librairie de référence pour analyser la synchronie cérébrale lors d'interactions sociales —
+        utilisée quotidiennement par des chercheurs du monde entier. Votre mission : transformer des données
+        complexes en visualisations belles et interprétables, à la manière de Shirley Wu qui encode plusieurs
+        dimensions dans des représentations visuelles innovantes.
+
+        **Ce que vous allez faire :**
+
+        ### Développement & Design
+        - Améliorer les visualisations existantes dans HyPyP (connectivités, synchronie, topographies, rejection mapping)
+        - Créer de nouvelles modalités de représentation pour données multidimensionnelles (inspirées des approches de Shirley Wu)
+        - Développer des scripts Python + D3.js réutilisables pour visualisations interactives
+        - Concevoir des templates de figures pour publications scientifiques (SVG, PNG)
+
+        ### Visualisations Scientifiques
+        - Proposer des visualisations pour évaluations neuropsychologiques et neurophénoménologiques
+        - Créer des représentations pour matrices de connectivité et leurs dynamiques temporelles
+        - Visualiser des métriques de théorie de l'information (Phi ID, information intégrée)
+        - Développer des topomaps et graphiques de synchronie physiologique
+
+        ### Support à l'Équipe
+        - Accompagner 4 doctorant·es dans la création de figures pour leurs publications
+        - Collaborer avec le stagiaire développement HyPyP sur l'intégration des visualisations
+        - Créer une bibliothèque de templates et guidelines visuelles pour le laboratoire
         
-        **UX Scientifique**
-        - S'assurer que les visualisations sont scientifiquement justes ET esthétiquement magnifiques
-        - Créer une galerie d'exemples pour la documentation
+        **Impact** : Vos contributions seront intégrées dans HyPyP, une librairie open-source utilisée
+        internationalement. Vous transformerez la façon dont les chercheurs visualisent et communiquent les
+        interactions cérébrales et physiologiques.
       en: |
-        **Design & Code**
-        - Create a visualization module for HyPyP (based on BrainNets, PyVista, or MNE-Python)
-        - Implement "connected heads" visualizations (hyper-links)
-        - Make graphics interactive (zoom, rotation, node selection) for Jupyter Notebooks
+        ## Your Mission
+        **HyPyP** is the reference library for analyzing brain synchrony during social interactions — used daily by
+        researchers worldwide. Your mission: transform complex data into beautiful and interpretable
+        visualizations, following the approach of Shirley Wu who encodes multiple dimensions in innovative
+        visual representations.
         
-        **Scientific UX**
-        - Ensure visualizations are scientifically accurate AND aesthetically beautiful
-        - Create a gallery of examples for documentation
+        **What you will do:**
+        
+        ### Development & Design
+        - Improve existing visualizations in HyPyP (connectivity, synchrony, topographies, rejection mapping)
+        - Create new representation modalities for multidimensional data (inspired by Shirley Wu's approaches)
+        - Develop reusable Python + D3.js scripts for interactive visualizations
+        - Design figure templates for scientific publications (SVG, PNG)
+        
+        ### Scientific Visualizations
+        - Propose visualizations for neuropsychological and neurophenomenological assessments
+        - Create representations for connectivity matrices and their temporal dynamics
+        - Visualize information theory metrics (Phi ID, integrated information)
+        - Develop topomaps and physiological synchrony graphs
+        
+        ### Team Support
+        - Support 4 PhD students in creating figures for their publications
+        - Collaborate with the HyPyP development intern on visualization integration
+        - Create a library of templates and visual guidelines for the laboratory
+        
+        **Impact**: Your contributions will be integrated into HyPyP, an internationally used open-source library. You
+        will transform how researchers visualize and communicate brain and physiological interactions.
 
     profile:
       fr: |
-        **Ce qu'on cherche**
-        - Un talent hybride : vous codez en Python mais vous avez un œil de designer.
-        - Expérience avec des librairies de viz (Matplotlib c'est bien, Plotly/PyVista/Vispy c'est mieux).
-        - Envie de créer des images "Publication-Ready" qui feront la couverture de journaux scientifiques.
-
-        **Formation**
-        - Informatique, Arts Numériques, Data Science, ou autre.
+        ## Profil Recherché
+        **Ce qui vous anime**
+        
+        Vous êtes attiré·e par l'**exécution concrète, robuste, durable.** Vous trouvez satisfaction dans le travail
+        qui aboutit, les objectifs atteints, la documentation qui éclaire. Vous voulez comprendre pourquoi on
+        mène ces projets et comment ils serviront. Vous travaillez de façon structurée et la qualité de votre travail
+        compte pour vous.
+        
+        Nous recherchons deux types de profils complémentaires : **développeur·se/data scientist avec
+        sensibilité esthétique**, OU **étudiant·e en arts/design/communication avec solides bases en code**. Si vous
+        êtes "entre deux chaises", ce stage est fait pour vous.
+        
+        **Compétences techniques fondamentales**
+        
+        - **Programmation data viz** : Python (matplotlib, seaborn, plotly) et/ou JavaScript/D3.js
+        - **Design visuel** : Maîtrise des principes de design, sensibilité esthétique démontrée
+        - **Données complexes** : Expérience avec données multidimensionnelles
+        - **Portfolio obligatoire** : Portfolio et/ou GitHub démontrant vos projets de visualisation
+        
+        **Atouts valorisés (non-obligatoires)**
+        - Expérience avec données neurosciences / physiologie (EEG, signaux biologiques)
+        - Contributions open-source
+        - Expérience avec animation / visualisations interactives
+        - Familiarité avec l'écosystème Python scientifique (NumPy, Pandas, MNE-Python)
+        - Formation en design, arts visuels ou communication visuelle
       en: |
-        **What we are looking for**
-        - A hybrid talent: you code in Python but have a designer's eye.
-        - Experience with viz libraries (Matplotlib is good, Plotly/PyVista/Vispy is better).
-        - Desire to create "Publication-Ready" images that will make the cover of scientific journals.
-
-        **Education**
-        - Computer Science, Digital Arts, Data Science, or other.
+        ## Desired Profile
+        **What drives you**
+        
+        You are drawn to **concrete, robust, lasting execution.** You find satisfaction in work that delivers, goals
+        achieved, documentation that clarifies. You want to understand why we pursue these projects and how
+        they will serve. You work in a structured way and the quality of your work matters to you.
+        
+        We are looking for two complementary profile types: **developer/data scientist with aesthetic sensitivity**,
+        OR **arts/design/communication student with solid coding foundations**. If you feel "between two worlds", this
+        internship is for you.
+        
+        **Core Technical Skills**
+        
+        - **Data viz programming**: Python (matplotlib, seaborn, plotly) and/or JavaScript/D3.js
+        - **Visual design**: Mastery of design principles, demonstrated aesthetic sensitivity
+        - **Complex data**: Experience with multidimensional data
+        - **Required portfolio**: Portfolio and/or GitHub demonstrating your visualization projects
+        
+        **Valued Assets (non-mandatory)**
+        - Experience with neuroscience / physiology data (EEG, biological signals)
+        - Open-source contributions
+        - Experience with animation / interactive visualizations
+        - Familiarity with the scientific Python ecosystem (NumPy, Pandas, MNE-Python)
+        - Background in design, visual arts, or visual communication
 
     skills:
       fr: |
-        **Compétences Développées**
-        - Python Viz Stack expert level
-        - Contribution Open Source majeure
-        - Design de données scientifiques
-      en: |
-        **Skills Developed**
-        - Python Viz Stack expert level
-        - Major Open Source contribution
-        - Scientific Data Design
+        ## Compétences Développées
+        À la fin de ces 12+ semaines, vous aurez développé une expertise **singulière et recherchée.**
 
+        ### Expertise Technique
+        - Visualisation de données neuroscientifiques (EEG, synchronie, connectivité)
+        - Création de librairies de visualisation open-source
+        - Design de représentations innovantes pour données multidimensionnelles
+        - Intégration Python + D3.js pour visualisations scientifiques interactives
+
+        ### Vision Interdisciplinaire
+        Vous comprendrez comment s'articulent neurosciences fondamentales, intelligence artificielle et
+        applications cliniques. Vous saurez dialoguer avec des chercheurs en neurosciences, des ingénieurs, des
+        cliniciens et des designers. Vous aurez travaillé dans un hôpital pédiatrique universitaire, observé
+        comment la recherche se connecte aux besoins réels.
+
+        ### Réseau & Trajectoires
+        Vous travaillerez au CHU Sainte-Justine, avec accès aux séminaires et formations de l'écosystème IA
+        montréalais (Mila, IVADO). Selon l'avancement du projet, vous pourrez co-signer des publications. Nos
+        anciens stagiaires poursuivent des parcours variés : PhD, postes d'ingénieur·es recherche,
+        développement en neuro-tech, carrières industrielles.
+
+        ### Portfolio Concret
+        - Contributions à HyPyP (librairie utilisée internationalement)
+        - Scripts/modules de visualisation réutilisables (Python + D3.js)
+        - Templates de figures pour publications scientifiques
+        - Nouvelles représentations visuelles pour métriques avancées (Phi ID, connectivité dynamique)
+      en: |
+        ## Skills You Will Develop
+        After these 12+ weeks, you will have developed **unique and sought-after expertise.**
+        
+        ### Technical Expertise
+        - Visualization of neuroscientific data (EEG, synchrony, connectivity)
+        - Creation of open-source visualization libraries
+        - Design of innovative representations for multidimensional data
+        - Python + D3.js integration for interactive scientific visualizations
+        
+        ### Interdisciplinary Vision
+        You will understand how fundamental neuroscience, artificial intelligence, and clinical applications
+        articulate. You will be able to dialogue with neuroscience researchers, engineers, clinicians, and
+        designers. You will have worked in a pediatric university hospital, observed how research connects to real
+        needs.
+        
+        ### Network & Trajectories
+        You will work at CHU Sainte-Justine, with access to seminars and training from Montreal's AI ecosystem
+        (Mila, IVADO). Depending on project progress, you may co-sign publications. Our former interns pursue
+        varied paths: PhD, research engineer positions, neuro-tech development, industrial careers.
+        
+        ### Concrete Portfolio
+        - Contributions to HyPyP (internationally used library)
+        - Reusable visualization scripts/modules (Python + D3.js)
+        - Figure templates for scientific publications
+        - New visual representations for advanced metrics (Phi ID, dynamic connectivity)
+
+    working_conditions:
+      fr: |
+        ## Conditions de Travail
+        
+        ### Rémunération & Durée
+        - Statut : Stage rémunéré (convention avec votre établissement)
+        - Bourses : Nous accompagnons les candidatures aux bourses (FRQNT, FRQS, Mitacs, etc.)
+        - Durée : 12 semaines minimum
+        - Charge : Temps plein (35-40h/semaine) ou temps partiel selon contraintes académiques
+        - Début : Été 2026
+        
+        ### Organisation du Travail
+        - Présentiel : 3 jours/semaine minimum au CHU Sainte-Justine (3175 chemin de la Côte-Sainte-Catherine, métro Université-de-Montréal)
+        - Télétravail : 2 jours/semaine possibles
+        - Horaires : Flexibles (8h-18h), core hours 10h-16h pour collaboration équipe
+      en: |
+        ## Working Conditions
+        
+        ### Compensation & Duration
+        - Status: Paid internship (agreement with your institution)
+        - Scholarships: We support scholarship applications (FRQNT, FRQS, Mitacs, etc.)
+        - Duration: 12 weeks minimum
+        - Workload: Full-time (35-40h/week) or part-time depending on academic constraints
+        - Start: Summer 2026
+        
+        ### Work Organization
+        - On-site: 3 days/week minimum at CHU Sainte-Justine (3175 chemin de la Côte-Sainte-Catherine, Université-de-Montréal metro)
+        - Remote work: 2 days/week possible
+        - Schedule: Flexible (8am-6pm), core hours 10am-4pm for team collaboration
+      
     supervision:
       fr: |
-        - **Superviseur :** Guillaume Dumas
-        - **Mentorat :** Équipe HyPyP
+        ## Encadrement & Équipe
+        - Superviseur scientifique : Guillaume Dumas — Vision scientifique, guidance stratégique
+        - Encadrant technique : Rémy Ramadour (Research Engineer) — Accompagnement quotidien, revue technique
+        - Équipe projet : 7+ personnes dont un stagiaire dev HyPyP et 4 PhD avec besoins graphiques
       en: |
-        - **Supervisor:** Guillaume Dumas
-        - **Mentorship:** HyPyP Team
+        ## Supervision & Team
+        - Scientific supervisor: Guillaume Dumas — Scientific vision, strategic guidance
+        - Technical mentor: Rémy Ramadour (Research Engineer) — Daily support, technical review
+        - Project team: 7+ people including a HyPyP development intern and 4 PhDs with graphic needs
 
-    process:
+    application:
       fr: |
-        **Candidature**
-        - Portfolio de visualisations (indispensable) — Montrez-nous ce que vous savez faire !
-        - Lien GitHub
+        ## Procédure de Recrutement
+        Notre processus est conçu pour être transparent, respectueux et équitable. L'objectif : trouver le bon fit
+        mutuel.
         
-        **Email :** apply@ppsp.team
-        Objet : "Dataviz Wizard - [Nom]"
+        ### Documents Requis
+        
+        **Obligatoires :**
+        - CV (2 pages maximum)
+        - Relevé de notes (transcripts des 2 dernières années)
+        - Lettre de motivation (1 page) : Pourquoi ce stage ? Pourquoi le PPSP ? Votre projet à 3-5 ans
+        - Portfolio et/ou lien GitHub démontrant vos projets de visualisation de données
+        
+        **Complémentaires (recommandés) :**
+        - 1 à 2 références (académiques ou professionnelles) : nom, fonction, email
+        
+        ### Processus de Sélection
+        
+        **Étape 1 : Présélection sur Dossier (7 jours)**
+        Nous évaluons motivation et alignement, compétences techniques, potentiel de croissance, et fit avec le
+        projet. Vous recevez une réponse dans les 7 jours ouvrés, même si votre candidature n'est pas retenue.
+        
+        **Étape 2 : Entretien Motivation (30 min)**
+        Visioconférence ou présentiel (votre choix). Discussion ouverte sur votre parcours, vos motivations, votre
+        projet de carrière. Ce que nous évaluons : alignement motivationnel, clarté du projet professionnel,
+        capacité à communiquer.
+        
+        **Étape 3 : Entretien Technique (45 min)**
+        Revue de portfolio commentée : vous présentez vos projets de visualisation. Discussion technique autour
+        d'un cas concret du laboratoire (communiqué à l'avance) : comment visualiseriez-vous ces données ?
+        
+        **Étape 4 : Entretien de Départage (optionnel, 30 min)**
+        Si plusieurs candidatures excellentes sont en balance.
+        
+        ### Nos engagements
+        - Réponse initiale : 7 jours ouvrés après réception dossier complet
+        - Décision finale : 48h après dernier entretien
+        - Feedback constructif pour candidat·es reçu·es en entretien
+        - Respect de votre temps (pas de ghosting, pas de délais excessifs)
+        
+        ## Comment Postuler
+        * **Email** : apply@ppsp.team
+        * **Objet** : "Candidature Stage Data Visualisation Wizard - [Votre Nom]"
+        * **Format des documents** :
+          - NomPrenom_CV.pdf
+          - NomPrenom_ReleveNotes.pdf
+          - NomPrenom_LettreMotivation.pdf
+        * **Dans le corps de l'email** : Lien vers portfolio/GitHub, période de disponibilité souhaitée, questions
+        éventuelles.
+        * **Questions ?** Écrivez-nous. Nous répondons à toutes les questions.
       en: |
-        **Application**
-        - Visualization Portfolio (essential) — Show us what you can do!
-        - GitHub Link
+        ## Recruitment Process
+        Our process is designed to be transparent, respectful, and fair. The goal: find the right mutual fit.
         
-        **Email:** apply@ppsp.team
-        Subject: "Dataviz Wizard - [Name]"
-    
-    contact: "apply@ppsp.team"
+        ### Required Documents
+        
+        **Mandatory:**
+        - CV (2 pages maximum)
+        - Transcripts (last 2 years)
+        - Cover letter (1 page): Why this internship? Why PPSP? Your 3-5 year plan
+        - Portfolio and/or GitHub link demonstrating your data visualization projects
+        
+        **Complementary (recommended):**
+        - 1 to 2 references (academic or professional): name, title, email
+        
+        ### Selection Process
+        
+        **Step 1: Application Screening (7 days)**
+        We evaluate motivation and alignment, technical skills, growth potential, and project fit. You receive a
+        response within 7 business days, even if your application is not selected.
+        
+        **Step 2: Motivation Interview (30 min)**
+        Video conference or in-person (your choice). Open discussion about your background, motivations, career
+        plan. What we evaluate: motivational alignment, career plan clarity, communication ability.
+        
+        **Step 3: Technical Interview (45 min)**
+        Commented portfolio review: you present your visualization projects. Technical discussion around a
+        concrete lab case (communicated in advance): how would you visualize this data?
+        
+        **Step 4: Tie-Breaking Interview (optional, 30 min)**
+        If several excellent applications are balanced.
+        
+        ### Our Commitments
+        - Initial response: 7 business days after complete application received
+        - Final decision: 48 hours after last interview
+        - Constructive feedback for candidates interviewed
+        - Respect for your time (no ghosting, no excessive delays)
+        
+        ## How to Apply
+        * **Email**: apply@ppsp.team
+        * **Subject**: "Application Data Visualisation Wizard Internship - [Your Name]"
+        * **Document format**:
+          - LastnameFirstname_CV.pdf
+          - LastnameFirstname_Transcripts.pdf
+          - LastnameFirstname_CoverLetter.pdf
+        * **In the email body**: Link to portfolio/GitHub, desired availability period, any questions.
+        * **Questions?** Write to us. We respond to all questions.
 
+    contact: "apply@ppsp.team"
