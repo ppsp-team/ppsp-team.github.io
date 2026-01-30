@@ -320,6 +320,22 @@ permalink: /jobs/
     margin-bottom: 10px;
   }
 
+  .job-rich-text h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  .job-rich-text h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #34495e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
   .modal-footer {
     padding: 25px 40px;
     border-top: 1px solid #edf2f7;
@@ -492,7 +508,27 @@ permalink: /jobs/
           {% endif %}
         </div>
 
-        {% if job.project %}
+        {% comment %} --- NEW FIELDS SUPPORT (Job #5 style) --- {% endcomment %}
+        
+        {% if job.our_mission %}
+        <div class="mb-5">
+          <div class="job-rich-text">
+            {% if site.lang == 'fr' %}{{ job.our_mission.fr | markdownify }}{% else %}{{ job.our_mission.en | markdownify }}{% endif %}
+          </div>
+        </div>
+        {% endif %}
+
+        {% if job.your_mission %}
+        <div class="mb-5">
+          <div class="job-rich-text">
+            {% if site.lang == 'fr' %}{{ job.your_mission.fr | markdownify }}{% else %}{{ job.your_mission.en | markdownify }}{% endif %}
+          </div>
+        </div>
+        {% endif %}
+
+        {% comment %} --- LEGACY FIELDS SUPPORT --- {% endcomment %}
+
+        {% if job.project and job.our_mission == nil %}
         <div class="mb-5">
           <h6 class="section-subtitle"><i class="fas fa-project-diagram mr-2"></i> {% if site.lang == 'fr' %}Projet{% else %}Project{% endif %}</h6>
           {% if site.lang == 'fr' %}
@@ -503,7 +539,7 @@ permalink: /jobs/
         </div>
         {% endif %}
 
-        {% if job.mission %}
+        {% if job.mission and job.your_mission == nil %}
         <div class="mb-5">
           <h6 class="section-subtitle"><i class="fas fa-bullseye mr-2"></i> {% if site.lang == 'fr' %}Mission{% else %}Mission{% endif %}</h6>
           {% if site.lang == 'fr' %}
@@ -554,7 +590,25 @@ permalink: /jobs/
         </div>
         {% endif %}
 
-        {% if job.process %}
+        {% if job.working_conditions %}
+        <div class="mb-5">
+          <h6 class="section-subtitle"><i class="fas fa-clock mr-2"></i> {% if site.lang == 'fr' %}Conditions{% else %}Working Conditions{% endif %}</h6>
+          <div class="job-rich-text">
+            {% if site.lang == 'fr' %}{{ job.working_conditions.fr | markdownify }}{% else %}{{ job.working_conditions.en | markdownify }}{% endif %}
+          </div>
+        </div>
+        {% endif %}
+
+        {% if job.application %}
+        <div class="mb-5">
+          <h6 class="section-subtitle"><i class="fas fa-paper-plane mr-2"></i> {% if site.lang == 'fr' %}Candidature{% else %}Application{% endif %}</h6>
+          <div class="job-rich-text">
+            {% if site.lang == 'fr' %}{{ job.application.fr | markdownify }}{% else %}{{ job.application.en | markdownify }}{% endif %}
+          </div>
+        </div>
+        {% endif %}
+
+        {% if job.process and job.application == nil %}
         <div class="mb-5">
           <h6 class="section-subtitle"><i class="fas fa-file-alt mr-2"></i> {% if site.lang == 'fr' %}Procédure de Recrutement{% else %}Application Process{% endif %}</h6>
           <div class="job-rich-text">
