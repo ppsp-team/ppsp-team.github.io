@@ -1,116 +1,200 @@
-- name: "Harshit Bokadia"
+- name: "Tommaso Tosato"
   role: 
-    en: "Computational Physiology"
-    fr: "Physiologie computationelle"
+    en: "Postdoc<br>(Social Neuro AI)"
+    fr: "Postdoc<br>(Neuro-IA Sociale)"
   social:
-    - url: https://twitter.com/harshitbokadia
-      icon: fab fa-twitter
-    - url: https://scholar.google.com/citations?user=QxgwOOcAAAAJ&hl=en
-      icon: fab fa-google
-    - url: https://www.linkedin.com/in/hbk007/
+    - url: https://www.linkedin.com/in/tommaso-tosato-01382948/
       icon: fab fa-linkedin-in
-    - url: https://github.com/hbk008
+    - url: https://github.com/tosatot
       icon: fab fa-github
+    - url: https://twitter.com/Tommaso_Tosato
+      icon: fab fa-twitter
+    - url: https://scholar.google.com/citations?hl=en&user=y3MQ5k4AAAAJ
+      icon: fab fa-google
 
-- name: "Raghu Vamshi Hemadri"
+- name: "Karoline Lippert"
   role: 
-    en: "Social Neuro AI"
-    fr: "Neuro IA sociale"
+    en: "Precision Medicine"
+    fr: "Médecine de précision"
   social:
-    - url: https://raghuhemadri.github.io/profile
-      icon: fab fa-github
+    - url: https://scholar.google.ca/citations?hl=en&user=vDSGSzwAAAAJ&view_op=list_works&gmla=AFix5Mamba8nhcA1yiPH_x0cEtfA8QsRl8jMVk7pQNDGy9vaHyFUIAMUTbg3GDNfl_i4jRI79VuKfnSzN2kotTxA
+      icon: fab fa-google
+    - url: https://www.linkedin.com/in/k-l-91922969?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+      icon: fab fa-linkedin-in
 
-- name: "Samuele Bolotta"
+- name: "Marvel Manoharan"
+  role: 
+    en: "Social Physiology"
+    fr: "Physiologie Sociale"
+  social:
+    - url: https://uk.linkedin.com/in/marvel-manoharan-64b4b526a
+      icon: fab fa-linkedin-in
+
+- name: "Francesco Achilli"
+  role: 
+    en: "Computational Psychiatry"
+    fr: "Psychiatrie Computationelle"
+  social:
+    - url: https://orcid.org/0000-0002-9959-1319
+      icon: fab fa-orcid 
+    - url: https://www.researchgate.net/profile/Francesco-Achilli
+      icon: fab fa-researchgate
+    - url: https://scholar.google.com/citations?hl=en&user=tfr82wQAAAAJ&view_op=list_works&gmla=A[…]ZLa36XGf6L_eWBnqrdZ7hABesM_tkMdi2rrNgIdhaOyC_jSf-AzqMtI-xO0
+      icon: fab fa-google          
+
+
+- name: "Tony Tona Landu"
   role: 
     en: "Social NeuroAI"
-    fr: "Social NeuroAI"
+    fr: "NeuroIA sociale"
   social:
-    - url: https://twitter.com/SamBolotta
-      icon: fab fa-twitter
-    - url: https://www.linkedin.com/in/samuele-bolotta-841b16160/
+    - url: http://linkedin.com/in/tony-tona-landu-0977a617a
       icon: fab fa-linkedin-in
-    - url: https://github.com/SamueleBolotta
+    - url: https://scholar.google.com/citations?user=DlpCJxMAAAAJ&hl=fr
+      icon: fab fa-google
+
+
+- name: "Juan David Vargas"
+  role: 
+    en: "Social NeuroAI"
+    fr: "NeuroIA sociale"
+  social:
+    - url: https://www.linkedin.com/in/juan-david-vargas-mazuera-07197a1a5/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/juandavidvargas19
       icon: fab fa-github
 
-- name: "Katie Douglas"
+- name: "Zahra Sheikhbahaee"
+  role: 
+    en: "Social NeuroAI"
+    fr: "NeuroIA sociale"
+  social:
+    - url: https://twitter.com/zah_bah
+      icon: fab fa-twitter
+    - url: https://www.researchgate.net/profile/Zahra-Sheikhbahaee-2
+      icon: fab fa-researchgate
+    - url: https://www.linkedin.com/in/zahra-sheikhbahaee/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/neuronphysics
+      icon: fab fa-github
+
+- name: Guillaume Lam
+  role: 
+    en: "Computational Physiology"
+    fr: "Physiologie computationnelle"
+  social:
+    - url: https://scholar.google.com/citations?hl=en&user=1rf8jLQAAAAJ
+      icon: fab fa-google
+    - url: https://github.com/GuillaumeLam
+      icon:  "fab fa-github"
+    - url: "https://www.linkedin.com/in/guillaumelam/"
+      icon: fab fa-linkedin-in
+
+- name: "Gabriela Milanova"
+  role: 
+    en: "Research Assistant"
+    fr: "Assistante de Recherche"
+  social:
+    - url: https://www.linkedin.com/in/gabriela-m-19b38828b/
+      icon: fab fa-linkedin-in
+
+- name: Chantal-Valerie Lee
+  role: 
+    en: "Computational Linguistics"
+    fr: "Linguistique computationnelle"
+  social:
+    - url: https://github.com/clee630
+      icon: "fab fa-github"
+
+- name: "Patrice Fortin"
+  role: 
+    en: "Social NeuroAI"
+    fr: "NeuroIA sociale"
+  social:
+    - url: https://www.linkedin.com/in/patrice-fortin-85028a21/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/patricefortin
+      icon: fab fa-github
+
+
+- name: "Germán Abrevaya"
+  role: 
+    en: "Dynamical NeuroAI"
+    fr: "NeuroIA Dynamique"
+  social:
+    - url: https://www.linkedin.com/in/germ%C3%A1n-abrevaya-63a0482a5/
+      icon: fab fa-linkedin-in
+    - url: https://scholar.google.com/citations?user=qQ51jJsAAAAJ&hl=es&oi=ao
+      icon: fab fa-google
+    - url: https://github.com/gabrevaya
+      icon: fab fa-github
+    - url: https://twitter.com/GAbrevaya
+      icon: fab fa-twitter
+
+- name: "Camille Lanoix"
+  role:
+    en: "Social Physiology"
+    fr: "Physiologie sociale"
+
+- name: "Clara El Khantour"
   role: 
     en: "Social Physiology"
     fr: "Physiologie sociale"
   social:
-    - url: https://twitter.com/douglascait/
-      icon: fab fa-twitter
-    - url: https://www.researchgate.net/profile/Caitriona-Douglas
-      icon: fab fa-researchgate
-    - url: https://github.com/katied-neuro
+    - url: https://www.linkedin.com/in/clara-el-khantour-32706321a/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/claraElk
       icon: fab fa-github
+    - url: https://twitter.com/c_khantour
+      icon: fab fa-twitter
 
-- name: "Elisabeth Audet-Duchesne"
+- name: "Ghazaleh Ranjbaran"
   role: 
     en: "Computational Physiology"
     fr: "Physiologie computationnelle"
   social:
-    - url: https://www.researchgate.net/profile/Elisabeth_Audet-Duchesne
-      icon: fab fa-researchgate
-    - url: https://github.com/ElisabethAD
-      icon: fab fa-github
-
-- name: "Jean-Christophe Gagnon-Audet"
-  role: 
-    en: "Dynamical NeuroAI"
-    fr: "NeuroAI dynamique"
-  social:
-    - url: https://www.linkedin.com/in/jcaudet/
-      icon: fab fa-linkedin-in
-    - url: https://github.com/jc-audet
-      icon: fab fa-github
-
-
-- name: Nicolas Coucke
-  role: 
-    en: "Social Neuro AI"
-    fr: "Neuro-IA sociale"
-  social:
-    - url: https://twitter.com/CouckeNicolas
+    - url: https://twitter.com/BioMDScience
       icon: fab fa-twitter
-    - url: https://scholar.google.nl/citations?user=6nsctv0AAAAJ&hl=nl
+    - url: https://www.linkedin.com/in/ghazaleh-ranjbaran-6865481ba
+      icon: fab fa-linkedin-in
+    - url: https://github.com/ghazalehran
+      icon: fab fa-github
+
+- name: "Ivo Leiva"
+  role: 
+    en: "Social Physiology" 
+    fr: "Physiologie sociale"
+
+- name: "Edoardo Chidichimo"
+  role: 
+    en: "Computational Social Neuroscience"
+    fr: "Neurosciences sociales computationnelle"
+  social:
+    - url: https://www.linkedin.com/in/ec750/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/EdoardoChidichimo
+      icon: fab fa-github
+    - url: https://twitter.com/EdoardoChidich1
+      icon: fab fa-twitter
+
+- name: "Hannah De Laet"
+  role: 
+    en: "Social Physiology"
+    fr: "Physiologie sociale"
+  social:
+    - url: https://scholar.google.be/citations?hl=nl&user=BEh4FGsAAAAJ
       icon: fab fa-google
-    - url: https://www.researchgate.net/profile/Nicolas-Coucke-2
-      icon: fab fa-researchgate
-    - url:  https://www.linkedin.com/in/nicolas-coucke-518133144/
-      icon: fab fa-linkedin-in
-    - url: https://github.com/NicolasCoucke
-      icon: fab fa-github
-
-- name: "Annabelle Harvey"
-  role: 
-    en: "Precision Medicine"
-    fr: "Precision Medicine"
-  social:
-    - url: https://twitter.com/harvey_aa
+    - url: https://www.linkedin.com/in/hannah-de-laet-5a72831b4/
       icon: fab fa-twitter
-    - url: https://www.linkedin.com/in/annabelle-harvey-525932201/
-      icon: fab fa-linkedin-in
-    - url: https://github.com/harveyaa
-      icon: fab fa-github
 
-- name: Katelyn Cassar
+- name: "Nynke Boiten"
   role: 
-    en: "Computational Psychiatry"
-    fr: "Computational Psychiatry"
+    en: Computational Psychiatry
+    fr: Psychiatrie computationnelle
   social:
-    - url: https://www.linkedin.com/in/katelyn-cassar-266865251/
+    - url: https://www.linkedin.com/in/nynke-boiten-8828071a8
       icon: fab fa-linkedin-in
-
-- name: "Lisane Moses"
-  role: 
-    en: "Computational Psychiatry"
-    fr: "Physiologie computationnelle"
-  social:
-    - url: http://www.linkedin.com/in/lisane-moses-754718210
-      icon: fab fa-linkedin-in
-    - url: https://twitter.com/LisaneMoses
-      icon: fab fa-twitter
-    - url: https://github.com/lisanem27
+    - url: https://github.com/Annaother
       icon: fab fa-github
 
 - name: "Quentin Moreau"
@@ -129,187 +213,118 @@
     - url: https://github.com/quentinmoreau
       icon: fab fa-github
 
-- name: "Nynke Boiten"
-  role: 
-    en: Computational Psychiatry
-    fr: Psychiatrie computationnelle
-  social:
-    - url: https://www.linkedin.com/in/nynke-boiten-8828071a8
-      icon: fab fa-linkedin-in
-    - url: https://github.com/Annaother
-      icon: fab fa-github
-
-- name: "Hannah De Laet"
-  role: 
-    en: "Social Physiology"
-    fr: "Physiologie sociale"
-  social:
-    - url: https://scholar.google.be/citations?hl=nl&user=BEh4FGsAAAAJ
-      icon: fab fa-google
-    - url: https://www.linkedin.com/in/hannah-de-laet-5a72831b4/
-      icon: fab fa-twitter
-
-- name: "Edoardo Chidichimo"
-  role: 
-    en: "Computational Social Neuroscience"
-    fr: "Neurosciences sociales computationnelle"
-  social:
-    - url: https://www.linkedin.com/in/ec750/
-      icon: fab fa-linkedin-in
-    - url: https://github.com/EdoardoChidichimo
-      icon: fab fa-github
-    - url: https://twitter.com/EdoardoChidich1
-      icon: fab fa-twitter
-
-- name: "Ivo Leiva"
-  role: 
-    en: "Social Physiology" 
-    fr: "Physiologie sociale"
-
-- name: "Ghazaleh Ranjbaran"
-  role: 
-    en: "Computational Physiology"
-    fr: "Physiologie computationnelle"
-  social:
-    - url: https://twitter.com/BioMDScience
-      icon: fab fa-twitter
-    - url: https://www.linkedin.com/in/ghazaleh-ranjbaran-6865481ba
-      icon: fab fa-linkedin-in
-    - url: https://github.com/ghazalehran
-      icon: fab fa-github
-
-- name: "Clara El Khantour"
-  role: 
-    en: "Social Physiology"
-    fr: "Physiologie sociale"
-  social:
-    - url: https://www.linkedin.com/in/clara-el-khantour-32706321a/
-      icon: fab fa-linkedin-in
-    - url: https://github.com/claraElk
-      icon: fab fa-github
-    - url: https://twitter.com/c_khantour
-      icon: fab fa-twitter
-
-- name: "Camille Lanoix"
-  role:
-    en: "Social Physiology"
-    fr: "Physiologie sociale"
-
-- name: "Germán Abrevaya"
-  role: 
-    en: "Dynamical NeuroAI"
-    fr: "NeuroIA Dynamique"
-  social:
-    - url: https://www.linkedin.com/in/germ%C3%A1n-abrevaya-63a0482a5/
-      icon: fab fa-linkedin-in
-    - url: https://scholar.google.com/citations?user=qQ51jJsAAAAJ&hl=es&oi=ao
-      icon: fab fa-google
-    - url: https://github.com/gabrevaya
-      icon: fab fa-github
-    - url: https://twitter.com/GAbrevaya
-      icon: fab fa-twitter
-
-- name: "Patrice Fortin"
-  role: 
-    en: "Social NeuroAI"
-    fr: "NeuroIA sociale"
-  social:
-    - url: https://www.linkedin.com/in/patrice-fortin-85028a21/
-      icon: fab fa-linkedin-in
-    - url: https://github.com/patricefortin
-      icon: fab fa-github
-
-
-- name: Chantal-Valerie Lee
-  role: 
-    en: "Computational Linguistics"
-    fr: "Linguistique computationnelle"
-  social:
-    - url: https://github.com/clee630
-      icon: "fab fa-github"
-
-- name: "Gabriela Milanova"
-  role: 
-    en: "Research Assistant"
-    fr: "Assistante de Recherche"
-  social:
-    - url: https://www.linkedin.com/in/gabriela-m-19b38828b/
-      icon: fab fa-linkedin-in
-
-- name: Guillaume Lam
-  role: 
-    en: "Computational Physiology"
-    fr: "Physiologie computationnelle"
-  social:
-    - url: https://scholar.google.com/citations?hl=en&user=1rf8jLQAAAAJ
-      icon: fab fa-google
-    - url: https://github.com/GuillaumeLam
-      icon:  "fab fa-github"
-    - url: "https://www.linkedin.com/in/guillaumelam/"
-      icon: fab fa-linkedin-in
-
-- name: "Zahra Sheikhbahaee"
-  role: 
-    en: "Social NeuroAI"
-    fr: "NeuroIA sociale"
-  social:
-    - url: https://twitter.com/zah_bah
-      icon: fab fa-twitter
-    - url: https://www.researchgate.net/profile/Zahra-Sheikhbahaee-2
-      icon: fab fa-researchgate
-    - url: https://www.linkedin.com/in/zahra-sheikhbahaee/
-      icon: fab fa-linkedin-in
-    - url: https://github.com/neuronphysics
-      icon: fab fa-github
-
-- name: "Juan David Vargas"
-  role: 
-    en: "Social NeuroAI"
-    fr: "NeuroIA sociale"
-  social:
-    - url: https://www.linkedin.com/in/juan-david-vargas-mazuera-07197a1a5/
-      icon: fab fa-linkedin-in
-    - url: https://github.com/juandavidvargas19
-      icon: fab fa-github
-
-- name: "Tony Tona Landu"
-  role: 
-    en: "Social NeuroAI"
-    fr: "NeuroIA sociale"
-  social:
-    - url: http://linkedin.com/in/tony-tona-landu-0977a617a
-      icon: fab fa-linkedin-in
-    - url: https://scholar.google.com/citations?user=DlpCJxMAAAAJ&hl=fr
-      icon: fab fa-google
-
-
-- name: "Francesco Achilli"
+- name: "Lisane Moses"
   role: 
     en: "Computational Psychiatry"
-    fr: "Psychiatrie Computationelle"
+    fr: "Physiologie computationnelle"
   social:
-    - url: https://orcid.org/0000-0002-9959-1319
-      icon: fab fa-orcid 
-    - url: https://www.researchgate.net/profile/Francesco-Achilli
-      icon: fab fa-researchgate
-    - url: https://scholar.google.com/citations?hl=en&user=tfr82wQAAAAJ&view_op=list_works&gmla=A[…]ZLa36XGf6L_eWBnqrdZ7hABesM_tkMdi2rrNgIdhaOyC_jSf-AzqMtI-xO0
-      icon: fab fa-google          
+    - url: http://www.linkedin.com/in/lisane-moses-754718210
+      icon: fab fa-linkedin-in
+    - url: https://twitter.com/LisaneMoses
+      icon: fab fa-twitter
+    - url: https://github.com/lisanem27
+      icon: fab fa-github
 
-
-- name: "Marvel Manoharan"
+- name: Katelyn Cassar
   role: 
-    en: "Social Physiology"
-    fr: "Physiologie Sociale"
+    en: "Computational Psychiatry"
+    fr: "Computational Psychiatry"
   social:
-    - url: https://uk.linkedin.com/in/marvel-manoharan-64b4b526a
+    - url: https://www.linkedin.com/in/katelyn-cassar-266865251/
       icon: fab fa-linkedin-in
 
-- name: "Karoline Lippert"
+- name: "Annabelle Harvey"
   role: 
     en: "Precision Medicine"
-    fr: "Médecine de précision"
+    fr: "Precision Medicine"
   social:
-    - url: https://scholar.google.ca/citations?hl=en&user=vDSGSzwAAAAJ&view_op=list_works&gmla=AFix5Mamba8nhcA1yiPH_x0cEtfA8QsRl8jMVk7pQNDGy9vaHyFUIAMUTbg3GDNfl_i4jRI79VuKfnSzN2kotTxA
-      icon: fab fa-google
-    - url: https://www.linkedin.com/in/k-l-91922969?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+    - url: https://twitter.com/harvey_aa
+      icon: fab fa-twitter
+    - url: https://www.linkedin.com/in/annabelle-harvey-525932201/
       icon: fab fa-linkedin-in
+    - url: https://github.com/harveyaa
+      icon: fab fa-github
+
+- name: Nicolas Coucke
+  role: 
+    en: "Social Neuro AI"
+    fr: "Neuro-IA sociale"
+  social:
+    - url: https://twitter.com/CouckeNicolas
+      icon: fab fa-twitter
+    - url: https://scholar.google.nl/citations?user=6nsctv0AAAAJ&hl=nl
+      icon: fab fa-google
+    - url: https://www.researchgate.net/profile/Nicolas-Coucke-2
+      icon: fab fa-researchgate
+    - url:  https://www.linkedin.com/in/nicolas-coucke-518133144/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/NicolasCoucke
+      icon: fab fa-github
+
+- name: "Jean-Christophe Gagnon-Audet"
+  role: 
+    en: "Dynamical NeuroAI"
+    fr: "NeuroAI dynamique"
+  social:
+    - url: https://www.linkedin.com/in/jcaudet/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/jc-audet
+      icon: fab fa-github
+
+
+- name: "Elisabeth Audet-Duchesne"
+  role: 
+    en: "Computational Physiology"
+    fr: "Physiologie computationnelle"
+  social:
+    - url: https://www.researchgate.net/profile/Elisabeth_Audet-Duchesne
+      icon: fab fa-researchgate
+    - url: https://github.com/ElisabethAD
+      icon: fab fa-github
+
+- name: "Katie Douglas"
+  role: 
+    en: "Social Physiology"
+    fr: "Physiologie sociale"
+  social:
+    - url: https://twitter.com/douglascait/
+      icon: fab fa-twitter
+    - url: https://www.researchgate.net/profile/Caitriona-Douglas
+      icon: fab fa-researchgate
+    - url: https://github.com/katied-neuro
+      icon: fab fa-github
+
+- name: "Samuele Bolotta"
+  role: 
+    en: "Social NeuroAI"
+    fr: "Social NeuroAI"
+  social:
+    - url: https://twitter.com/SamBolotta
+      icon: fab fa-twitter
+    - url: https://www.linkedin.com/in/samuele-bolotta-841b16160/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/SamueleBolotta
+      icon: fab fa-github
+
+- name: "Raghu Vamshi Hemadri"
+  role: 
+    en: "Social Neuro AI"
+    fr: "Neuro IA sociale"
+  social:
+    - url: https://raghuhemadri.github.io/profile
+      icon: fab fa-github
+
+- name: "Harshit Bokadia"
+  role: 
+    en: "Computational Physiology"
+    fr: "Physiologie computationelle"
+  social:
+    - url: https://twitter.com/harshitbokadia
+      icon: fab fa-twitter
+    - url: https://scholar.google.com/citations?user=QxgwOOcAAAAJ&hl=en
+      icon: fab fa-google
+    - url: https://www.linkedin.com/in/hbk007/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/hbk008
+      icon: fab fa-github
+

@@ -308,20 +308,6 @@ team:
           icon: fab fa-google
 
 
-    - name: "Tommaso Tosato"
-      role: 
-        en: "Postdoc<br>(Social Neuro AI)"
-        fr: "Postdoc<br>(Neuro-IA Sociale)"
-      image: img/team/Tommaso_Tosato.jpg
-      social:
-        - url: https://www.linkedin.com/in/tommaso-tosato-01382948/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/tosatot
-          icon: fab fa-github
-        - url: https://twitter.com/Tommaso_Tosato
-          icon: fab fa-twitter
-        - url: https://scholar.google.com/citations?hl=en&user=y3MQ5k4AAAAJ
-          icon: fab fa-google
 
     - name: "Yuto Kurihara"
       role: 
