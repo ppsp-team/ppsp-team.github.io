@@ -328,3 +328,10 @@
     - url: https://github.com/hbk008
       icon: fab fa-github
 
+- name: "Olivia Leone"
+  role: 
+    en: "Computational Psychiatry"
+    fr: "Psychiatrie computationnelle"
+  social:
+    - url: https://www.linkedin.com/in/olivia-leone/
+      icon: fab fa-linkedin-in
