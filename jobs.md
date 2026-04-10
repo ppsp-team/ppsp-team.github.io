@@ -367,8 +367,8 @@ permalink: /jobs/
           <div class="sidebar-section">
             <h6 class="sidebar-title">{% t jobs.current_status %}</h6>
             <div class="filter-group">
-              <button class="filter-pill active" data-filter="open" onclick="toggleStatusFilter(this, 'open')">{% t jobs.open %}</button>
-              <button class="filter-pill" data-filter="all" onclick="toggleStatusFilter(this, 'all')">{% t jobs.all_roles %}</button>
+              <button class="filter-pill" data-filter="open" onclick="toggleStatusFilter(this, 'open')">{% t jobs.open %}</button>
+              <button class="filter-pill active" data-filter="all" onclick="toggleStatusFilter(this, 'all')">{% t jobs.all_roles %}</button>
               <button class="filter-pill" data-filter="closed" onclick="toggleStatusFilter(this, 'closed')">{% t jobs.archived %}</button>
             </div>
           </div>
@@ -392,13 +392,12 @@ permalink: /jobs/
         <div class="row" id="jobsContainer">
           {% assign jobs = site.data.jobs.jobs %}
           {% for job in jobs %}
-          {% if job.active %}
            <div class="col-xl-6 col-lg-12 mb-4 job-card-wrapper" 
                data-status="{% if job.active %}open{% else %}closed{% endif %}" 
                data-type="{{ job.type | downcase }}"
                data-id="{{ job.id }}">
             
-            <div class="job-card {% if job.status == 'closed' %}job-card-archived{% endif %}">
+            <div class="job-card {% unless job.active %}job-card-archived{% endunless %}" style="position:relative;">{% unless job.active %}<div style="position:absolute;top:12px;right:12px;background:#e74c3c;color:white;font-size:0.7rem;font-weight:700;padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:1px;">{% if site.lang == 'fr' %}Clôturé{% else %}Filled{% endif %}</div>{% endunless %}
               <div class="job-icon-box">
                 {% if job.type == 'PhD' %}<i class="fas fa-graduation-cap"></i>
                 {% elsif job.type == 'Postdoc' %}<i class="fas fa-microscope"></i>
@@ -454,7 +453,6 @@ permalink: /jobs/
               </div>
             </div>
           </div>
-          {% endif %}
           {% endfor %}
         </div>
         
@@ -471,7 +469,6 @@ permalink: /jobs/
 
 <!-- Improved Modals -->
 {% for job in site.data.jobs.jobs %}
-{% if job.active %}
 <div class="modal fade" id="modal-{{ job.id }}" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
@@ -627,11 +624,10 @@ permalink: /jobs/
     </div>
   </div>
 </div>
-{% endif %}
 {% endfor %}
 
 <script>
-  let currentStatus = 'open';
+  let currentStatus = 'all';
   let currentType = 'all';
 
   function toggleStatusFilter(btn, s) {

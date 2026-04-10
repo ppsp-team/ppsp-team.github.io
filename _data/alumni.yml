@@ -1,3 +1,17 @@
+- name: "Lena Adel"
+  role: 
+    en: "PhD Student<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
+    fr: "Doctorante<br>co-supervision avec Michael Lifshitz<br>(Physiologie sociale et computationnelle)"
+  social:
+    - url: https://twitter.com/anelleda_
+      icon: fab fa-twitter
+    - url: https://www.researchgate.net/profile/Lena_Adel2
+      icon: fab fa-researchgate
+    - url: https://www.linkedin.com/in/lena-adel-2a99b81a0/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/lenaadel
+      icon: fab fa-github
+
 - name: "Tommaso Tosato"
   role: 
     en: "Postdoc<br>(Social Neuro AI)"
