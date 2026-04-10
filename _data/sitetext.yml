@@ -324,6 +324,23 @@ team:
         - url: https://x.com/y_kuri007?s=21&t=QAUl--4pVx22cD8JBDy-5g
           icon: fab fa-twitter
 
+    - name: "Ulysse Klatzmann"
+      role:
+        en: "Postdoc<br>(Dynamical NeuroAI)"
+        fr: "Postdoc<br>(NeuroIA Dynamique)"
+      image: img/team/unknown.png
+      social:
+        - url: https://ulysse-klatzmann.com/
+          icon: fas fa-home
+        - url: https://scholar.google.co.uk/citations?user=lCXjLYsAAAAJ&hl=en&oi=sra
+          icon: fab fa-google
+        - url: https://www.linkedin.com/in/ulysseklatzmann/
+          icon: fab fa-linkedin-in
+        - url: https://x.com/ulysseklatzmann
+          icon: fab fa-twitter
+
+        
+
     - name: "Sayeh Kazem"
       role: 
         en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
@@ -335,21 +352,6 @@ team:
         - url: https://www.linkedin.com/in/saye-kazem-5b830b127/
           icon: fab fa-linkedin-in
         - url: https://github.com/sayekazem94
-          icon: fab fa-github
-
-    - name: "Lena Adel"
-      role: 
-        en: "PhD Student<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
-        fr: "Doctorante<br>co-supervision avec Michael Lifshitz<br>(Physiologie sociale et computationnelle)"
-      image: img/team/Lena_Adel.jpg
-      social:
-        - url: https://twitter.com/anelleda_
-          icon: fab fa-twitter
-        - url: https://www.researchgate.net/profile/Lena_Adel2
-          icon: fab fa-researchgate
-        - url: https://www.linkedin.com/in/lena-adel-2a99b81a0/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/lenaadel
           icon: fab fa-github
 
     - name: Emmanuel Olarewaju
@@ -494,6 +496,17 @@ team:
           icon: fab fa-linkedin-in
         # - url: 
         #   icon: fab fa-github
+
+    - name: "Camille Rigaudias"
+      role:
+        en: "Visiting Intern<br>(Computational Physiology)"
+        fr: "Stagiaire Visiteuse<br>(Physiologie computationnelle)"
+      image: img/team/Camille_Rigaudias.jpg
+      social:
+        - url: https://www.linkedin.com/in/camille-rigaudias-748019236
+          icon: fab fa-linkedin-in
+        - url: https://github.com/Camomilllle
+          icon: fab fa-github
 
 
 contact:

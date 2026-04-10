@@ -6,7 +6,7 @@ jobs:
   # 1. PRISME - XR Neuropsychological Task Design
   # ============================================================================
   - id: prisme-xr-task-design
-    active: true
+    active: false
     type: internship
     title:
       fr: "Stagiaire en Sciences Cognitives — Conception de Tâches Neuropsychologiques en XR"
@@ -379,7 +379,7 @@ jobs:
   # 2. Phenomenological Analysis Internship
   # ============================================================================
   - id: phenomenological-analysis
-    active: true
+    active: false
     type: internship
     title:
       fr: "Stagiaire en analyses phénoménologiques"
@@ -674,7 +674,7 @@ jobs:
   # 3. iOS Developer Internship
   # ============================================================================
   - id: ios-developer
-    active: true
+    active: false
     type: internship
     title:
       fr: "Développeur·se Swift / iOS"
@@ -1052,7 +1052,7 @@ jobs:
   # 4. Python Developer - HyPyP
   # ============================================================================
   - id: python-hypyp
-    active: true
+    active: false
     type: internship
     title:
       fr: "Développeur·se Python pour la librairie HyPyP"
@@ -1493,7 +1493,7 @@ jobs:
   # 5. Psychology Intern
   # ============================================================================
   - id: psychology-intern
-    active: true
+    active: false
     type: internship
     title:
       fr: "Stagiaire en psychologie expérimentale et neuropsychologie de la cognition sociale"
@@ -1946,7 +1946,7 @@ jobs:
   # 6. Data Visualisation Wizard
   # ============================================================================
   - id: dataviz-wizard
-    active: true
+    active: false
     type: internship
     title:
       fr: "Data Visualisation Wizard"
