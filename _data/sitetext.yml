@@ -307,8 +307,6 @@ team:
         - url: https://scholar.google.com/citations?hl=en&user=Vibks2wAAAAJ
           icon: fab fa-google
 
-
-
     - name: "Yuto Kurihara"
       role: 
         en: "Postdoc<br>(Social Computational Physiology)"
@@ -328,18 +326,16 @@ team:
       role:
         en: "Postdoc<br>(Dynamical NeuroAI)"
         fr: "Postdoc<br>(NeuroIA Dynamique)"
-      image: img/team/unknown.png
+      image: img/team/Ulysse_Klatzmann.png
       social:
         - url: https://ulysse-klatzmann.com/
           icon: fas fa-home
         - url: https://scholar.google.co.uk/citations?user=lCXjLYsAAAAJ&hl=en&oi=sra
           icon: fab fa-google
-        - url: https://www.linkedin.com/in/ulysseklatzmann/
-          icon: fab fa-linkedin-in
-        - url: https://x.com/ulysseklatzmann
-          icon: fab fa-twitter
-
-        
+        - url: https://bsky.app/profile/ulysse-klatzmann.bsky.social
+          icon: fa-brands fa-square-bluesky
+        - url: https://github.com/ulyssek
+          icon: fab fa-github
 
     - name: "Sayeh Kazem"
       role: 
