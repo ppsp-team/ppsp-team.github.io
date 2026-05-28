@@ -504,6 +504,19 @@ team:
         - url: https://github.com/Camomilllle
           icon: fab fa-github
 
+    - name: "Florence Gendreau"
+      role:
+        en: "Intern<br>(Computational Psychiatry)"
+        fr: "Stagiaire<br>(Psychiatrie computationnelle)"
+      image: img/team/Florence_Gendreau.jpg
+      social:
+        - url: https://www.linkedin.com/in/florence-gendreau-5b7191185/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/florencegendreau3
+          icon: fab fa-github
+        - url: https://www.instagram.com/neurogendreau/
+          icon: fab fa-instagram
+
 
 contact:
   title: 
