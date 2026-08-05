@@ -307,22 +307,6 @@ team:
         - url: https://scholar.google.com/citations?hl=en&user=Vibks2wAAAAJ
           icon: fab fa-google
 
-
-    - name: "Tommaso Tosato"
-      role: 
-        en: "Postdoc<br>(Social Neuro AI)"
-        fr: "Postdoc<br>(Neuro-IA Sociale)"
-      image: img/team/Tommaso_Tosato.jpg
-      social:
-        - url: https://www.linkedin.com/in/tommaso-tosato-01382948/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/tosatot
-          icon: fab fa-github
-        - url: https://twitter.com/Tommaso_Tosato
-          icon: fab fa-twitter
-        - url: https://scholar.google.com/citations?hl=en&user=y3MQ5k4AAAAJ
-          icon: fab fa-google
-
     - name: "Yuto Kurihara"
       role: 
         en: "Postdoc<br>(Social Computational Physiology)"
@@ -338,6 +322,21 @@ team:
         - url: https://x.com/y_kuri007?s=21&t=QAUl--4pVx22cD8JBDy-5g
           icon: fab fa-twitter
 
+    - name: "Ulysse Klatzmann"
+      role:
+        en: "Postdoc<br>(Dynamical NeuroAI)"
+        fr: "Postdoc<br>(NeuroIA Dynamique)"
+      image: img/team/Ulysse_Klatzmann.png
+      social:
+        - url: https://ulysse-klatzmann.com/
+          icon: fas fa-home
+        - url: https://scholar.google.co.uk/citations?user=lCXjLYsAAAAJ&hl=en&oi=sra
+          icon: fab fa-google
+        - url: https://bsky.app/profile/ulysse-klatzmann.bsky.social
+          icon: fa-brands fa-square-bluesky
+        - url: https://github.com/ulyssek
+          icon: fab fa-github
+
     - name: "Sayeh Kazem"
       role: 
         en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
@@ -349,21 +348,6 @@ team:
         - url: https://www.linkedin.com/in/saye-kazem-5b830b127/
           icon: fab fa-linkedin-in
         - url: https://github.com/sayekazem94
-          icon: fab fa-github
-
-    - name: "Lena Adel"
-      role: 
-        en: "PhD Student<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
-        fr: "Doctorante<br>co-supervision avec Michael Lifshitz<br>(Physiologie sociale et computationnelle)"
-      image: img/team/Lena_Adel.jpg
-      social:
-        - url: https://twitter.com/anelleda_
-          icon: fab fa-twitter
-        - url: https://www.researchgate.net/profile/Lena_Adel2
-          icon: fab fa-researchgate
-        - url: https://www.linkedin.com/in/lena-adel-2a99b81a0/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/lenaadel
           icon: fab fa-github
 
     - name: Emmanuel Olarewaju
@@ -508,6 +492,30 @@ team:
           icon: fab fa-linkedin-in
         # - url: 
         #   icon: fab fa-github
+
+    - name: "Florence Gendreau"
+      role:
+        en: "Intern<br>(Computational Psychiatry)"
+        fr: "Stagiaire<br>(Psychiatrie computationnelle)"
+      image: img/team/Florence_Gendreau.jpg
+      social:
+        - url: https://www.linkedin.com/in/florence-gendreau-5b7191185/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/florencegendreau3
+          icon: fab fa-github
+        - url: https://www.instagram.com/neurogendreau/
+          icon: fab fa-instagram
+
+    - name: "Corinne Patry"
+      role:
+        en: "Intern<br>(Social Physiology)"
+        fr: "Stagiaire<br>(Physiologie Sociale)"
+      image: img/team/Corinne_Patry.jpg
+      social:
+        - url: https://www.linkedin.com/in/corinne-patry-4019b3386/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/CorinnePatry
+          icon: fab fa-github
 
 
 contact:
