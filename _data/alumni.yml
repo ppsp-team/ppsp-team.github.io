@@ -1,3 +1,13 @@
+- name: "Camille Rigaudias"
+  role:
+    en: "Visiting Intern<br>(Computational Physiology)"
+    fr: "Stagiaire Visiteuse<br>(Physiologie computationnelle)"
+  social:
+    - url: https://www.linkedin.com/in/camille-rigaudias-748019236
+      icon: fab fa-linkedin-in
+    - url: https://github.com/Camomilllle
+      icon: fab fa-github
+
 - name: "Lena Adel"
   role: 
     en: "PhD Student<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
@@ -144,6 +154,14 @@
       icon: fab fa-github
     - url: https://twitter.com/GAbrevaya
       icon: fab fa-twitter
+
+- name: "Olivia Leone"
+  role: 
+    en: "Computational Psychiatry"
+    fr: "Psychiatrie computationnelle"
+  social:
+    - url: https://www.linkedin.com/in/olivia-leone/
+      icon: fab fa-linkedin-in
 
 - name: "Camille Lanoix"
   role:

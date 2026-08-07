@@ -493,16 +493,6 @@ team:
         # - url: 
         #   icon: fab fa-github
 
-    - name: "Camille Rigaudias"
-      role:
-        en: "Visiting Intern<br>(Computational Physiology)"
-        fr: "Stagiaire Visiteuse<br>(Physiologie computationnelle)"
-      image: img/team/Camille_Rigaudias.jpg
-      social:
-        - url: https://www.linkedin.com/in/camille-rigaudias-748019236
-          icon: fab fa-linkedin-in
-        - url: https://github.com/Camomilllle
-          icon: fab fa-github
 
     - name: "Florence Gendreau"
       role:
@@ -516,6 +506,18 @@ team:
           icon: fab fa-github
         - url: https://www.instagram.com/neurogendreau/
           icon: fab fa-instagram
+
+    - name: "Corinne Patry"
+      role:
+        en: "Intern<br>(Social Physiology)"
+        fr: "Stagiaire<br>(Physiologie Sociale)"
+      image: img/team/Corinne_Patry.jpg
+      social:
+        - url: https://www.linkedin.com/in/corinne-patry-4019b3386/
+          icon: fab fa-linkedin-in
+        - url: https://github.com/CorinnePatry
+          icon: fab fa-github
+
 
 
 contact:
