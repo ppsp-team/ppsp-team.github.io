@@ -289,8 +289,8 @@ team:
 
     - name: "Jade Esper"
       role: 
-        en: "AI Data Analyst<br>co-supervision with Sébastien Jacquemont"
-        fr: "Analyste de données en IA<br>co-supervision avec Sébastien Jacquemont"
+        en: "AI Data Scientist<br>co-supervision with Sébastien Jacquemont"
+        fr: "Scientifique de données en IA<br>co-supervision avec Sébastien Jacquemont"
       image: img/team/Jade_Esper.jpg
       social:
         - url: https://www.linkedin.com/in/jade-esper/
