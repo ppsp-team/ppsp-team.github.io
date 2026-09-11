@@ -1,7 +1,44 @@
+- name: "Saskia Helbling"
+  role:
+    en: "Social Neuro AI"
+    fr: "Neuro-IA Sociale"
+  social:
+    - url: https://www.researchgate.net/profile/Saskia-Helbling/research
+      icon: fab fa-researchgate
+    - url: https://scholar.google.com/citations?user=aPr843gAAAAJ&hl=en
+      icon: fab fa-google
+    - url: https://github.com/sashelbling
+      icon: fab fa-github
+
+- name: "Elena Capelli"
+  role:
+    en: "Social Physiology"
+    fr: "Physiologie sociale"
+
+- name: "Maya Behlouli"
+  role:
+    en: "Research Assistant"
+    fr: "Assistante de Recherche"
+  social:
+    - url: https://www.linkedin.com/in/maya-behlouli/
+      icon: fab fa-linkedin-in
+
+- name: "Florence Gendreau"
+  role:
+    en: "Computational Psychiatry"
+    fr: "Psychiatrie computationnelle"
+  social:
+    - url: https://www.linkedin.com/in/florence-gendreau-5b7191185/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/florencegendreau3
+      icon: fab fa-github
+    - url: https://www.instagram.com/neurogendreau/
+      icon: fab fa-instagram
+
 - name: "Camille Rigaudias"
   role:
-    en: "Visiting Intern<br>(Computational Physiology)"
-    fr: "Stagiaire Visiteuse<br>(Physiologie computationnelle)"
+    en: "Computational Physiology"
+    fr: "Physiologie computationnelle"
   social:
     - url: https://www.linkedin.com/in/camille-rigaudias-748019236
       icon: fab fa-linkedin-in
@@ -10,8 +47,8 @@
 
 - name: "Lena Adel"
   role: 
-    en: "PhD Student<br>co-supervision with Michael Lifshitz<br>(Social Computational Physiology)"
-    fr: "Doctorante<br>co-supervision avec Michael Lifshitz<br>(Physiologie sociale et computationnelle)"
+    en: "Social Computational Physiology"
+    fr: "Physiologie sociale et computationnelle"
   social:
     - url: https://twitter.com/anelleda_
       icon: fab fa-twitter
@@ -24,8 +61,8 @@
 
 - name: "Tommaso Tosato"
   role: 
-    en: "Postdoc<br>(Social Neuro AI)"
-    fr: "Postdoc<br>(Neuro-IA Sociale)"
+    en: "Social Neuro AI"
+    fr: "Neuro-IA Sociale"
   social:
     - url: https://www.linkedin.com/in/tommaso-tosato-01382948/
       icon: fab fa-linkedin-in
@@ -115,9 +152,6 @@
       icon: fab fa-linkedin-in
 
 - name: "Gabriela Milanova"
-  role: 
-    en: "Research Assistant"
-    fr: "Assistante de Recherche"
   social:
     - url: https://www.linkedin.com/in/gabriela-m-19b38828b/
       icon: fab fa-linkedin-in
