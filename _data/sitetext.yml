@@ -245,9 +245,9 @@ team:
     #       icon: fas fa-info-circle
     - name: "Laura Peyras"
       role: 
-        en: "Administrative Assistant"
-        fr: "Assistante Administrative"
-      image: img/team/Laura_Peyras.jpeg
+        en: "Lab Manager"
+        fr: "Gestionnaire de laboratoire"
+      image: img/team/Laura_Peyras.png
       social:
         - url: https://www.linkedin.com/in/laura-peyras-17387913b/
           icon: fab fa-linkedin-in
@@ -265,27 +265,16 @@ team:
         - url: https://bsky.app/profile/remyramadour.bsky.social
           icon: fa-brands fa-square-bluesky
 
-    - name: "Saskia Helbling"
-      role: 
-        en: "Research Associate</br>(Social Neuro AI)"
-        fr: "Associée de Recherche</br>(Neuro-IA Sociale)"
-      image: img/team/Saskia_Helbling.jpg
-      social:
-        - url: https://www.researchgate.net/profile/Saskia-Helbling/research
-          icon: fab fa-researchgate
-        - url: https://scholar.google.com/citations?user=aPr843gAAAAJ&hl=en
-          icon: fab fa-google
-        - url:  https://github.com/sashelbling
-          icon: fab fa-github
-
-    - name: "Maya Behlouli"
-      role: 
+    - name: "Corinne Patry"
+      role:
         en: "Research Assistant"
         fr: "Assistante de Recherche"
-      image: img/team/Maya_Behlouli.jpg
+      image: img/team/Corinne_Patry.jpg
       social:
-        - url: https://www.linkedin.com/in/maya-behlouli/
+        - url: https://www.linkedin.com/in/corinne-patry-4019b3386/
           icon: fab fa-linkedin-in
+        - url: https://github.com/CorinnePatry
+          icon: fab fa-github
 
     - name: "Jade Esper"
       role: 
@@ -493,30 +482,6 @@ team:
         # - url: 
         #   icon: fab fa-github
 
-
-    - name: "Florence Gendreau"
-      role:
-        en: "Intern<br>(Computational Psychiatry)"
-        fr: "Stagiaire<br>(Psychiatrie computationnelle)"
-      image: img/team/Florence_Gendreau.jpg
-      social:
-        - url: https://www.linkedin.com/in/florence-gendreau-5b7191185/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/florencegendreau3
-          icon: fab fa-github
-        - url: https://www.instagram.com/neurogendreau/
-          icon: fab fa-instagram
-
-    - name: "Corinne Patry"
-      role:
-        en: "Intern<br>(Social Physiology)"
-        fr: "Stagiaire<br>(Physiologie Sociale)"
-      image: img/team/Corinne_Patry.jpg
-      social:
-        - url: https://www.linkedin.com/in/corinne-patry-4019b3386/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/CorinnePatry
-          icon: fab fa-github
 
 
 

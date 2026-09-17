@@ -38,7 +38,7 @@
 
       <div class="" style="margin: 50px 0px;">
       <table id="pubTable" style="margin-bottom: 45px;"> 
-        {% assign projects=site.papers | where:"doi", page.doi | sort: 'lang' %}
+        {% assign projects=site.papers | where:"doi", page.doi | sort: 'path' %}
         {% for project in projects reversed %}
           <tr>
             <td>
