@@ -1,3 +1,15 @@
+- name: "Sayeh Kazem"
+  role:
+    en: "Precision Medicine"
+    fr: "Médecine de précision"
+  social:
+    - url: https://twitter.com/KazemSayeh
+      icon: fab fa-twitter
+    - url: https://www.linkedin.com/in/saye-kazem-5b830b127/
+      icon: fab fa-linkedin-in
+    - url: https://github.com/sayekazem94
+      icon: fab fa-github
+
 - name: "Saskia Helbling"
   role:
     en: "Social Neuro AI"

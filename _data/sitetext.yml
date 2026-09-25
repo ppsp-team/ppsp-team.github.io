@@ -326,19 +326,6 @@ team:
         - url: https://github.com/ulyssek
           icon: fab fa-github
 
-    - name: "Sayeh Kazem"
-      role: 
-        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
-        fr: "Doctorante<br>co-supervision avec Sébastien Jacquemont<br>(Médecine de précision)"
-      image: img/team/Sayeh_Kazem.png
-      social:
-        - url: https://twitter.com/KazemSayeh
-          icon: fab fa-twitter
-        - url: https://www.linkedin.com/in/saye-kazem-5b830b127/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/sayekazem94
-          icon: fab fa-github
-
     - name: Emmanuel Olarewaju
       role: 
         en: "PhD Student<br>co-supervision with Lena Palaniyappan <br> (Social Physiology)"
