@@ -24,7 +24,7 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="legal">{{ site.data.sitetext.footer.legal[lang] | default: "Privacy Policy" }}</a>
+              <a href="{% if site.lang == 'fr' %}/fr{% endif %}/legal">{{ site.data.sitetext.footer.legal[lang] | default: "Privacy Policy" }}</a>
               {{ site.data.sitetext.footer[lang] " }}
             </li>
           </ul>

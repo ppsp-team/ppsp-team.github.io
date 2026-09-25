@@ -16,9 +16,6 @@ nav:
         title: All papers 
         href: "/publications"
     
-  - title: "Story"
-    section: timeline
-
   - title: "Team"
     section: team
     subsection:
