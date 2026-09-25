@@ -5,9 +5,9 @@
   <div class="container">
     <div class="row">
       <div class="col" style="display: contents;">
-        <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}">
+        <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl | append: '/' | replace: '//', '/' }}">
           <div class="logo">
-            <img class="logo" src="{{ site.baseurl }}favicon-transparent.png" />
+            <img class="logo" src="/favicon-transparent.png" />
           </div>
           {%- if site.logo -%}
           <div>
@@ -52,7 +52,7 @@
           </li>
           {%- else -%}
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}#{{ link.section }}">{{ link.title }}</a>
+            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl | append: '/' | replace: '//', '/' }}#{{ link.section }}">{{ link.title }}</a>
           </li>
           {%- endif -%}
           {%- else -%}
