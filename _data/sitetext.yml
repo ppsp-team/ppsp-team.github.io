@@ -165,7 +165,7 @@ fundings:
       url: https://ivado.ca/en/
       logo: assets/img/fundings/IVADO_logo.png
     - title: "FRQS"
-      url: http://www.frqs.gouv.qc.ca/en/
+      url: https://frq.gouv.qc.ca/en/
       logo: assets/img/fundings/FRQS_logo.png
     - title: "Unique"
       url: https://www.unique.quebec/
@@ -326,19 +326,6 @@ team:
         - url: https://github.com/ulyssek
           icon: fab fa-github
 
-    - name: "Sayeh Kazem"
-      role: 
-        en: "PhD Student<br>co-supervision with Sébastien Jacquemont<br>(Precision Medicine)"
-        fr: "Doctorante<br>co-supervision avec Sébastien Jacquemont<br>(Médecine de précision)"
-      image: img/team/Sayeh_Kazem.png
-      social:
-        - url: https://twitter.com/KazemSayeh
-          icon: fab fa-twitter
-        - url: https://www.linkedin.com/in/saye-kazem-5b830b127/
-          icon: fab fa-linkedin-in
-        - url: https://github.com/sayekazem94
-          icon: fab fa-github
-
     - name: Emmanuel Olarewaju
       role: 
         en: "PhD Student<br>co-supervision with Lena Palaniyappan <br> (Social Physiology)"
@@ -412,7 +399,7 @@ team:
         fr: "Doctorant<br>co-supervision with Sébastien Jacquemont<br>(Physiologie Computationnelle)"
       image: img/team/Adrien_Dubois.jpeg
       social:
-        - url: https://scholar.google.com/citations?hl=fr&user=5yogvbIAAAAJ&view_op=list_works&gmla=AJsN-F6-aWMLFXVtZRC4QZr5LWSb8pWTI_Tmz-yGkRgwCZzDnXVbHKzaKWiUUGq6Ap5fqH3AC2V-IJ9J0v_DpSJL_VYonqi-Roc68quBy0Z3z4poqf7DR2UVhbliWIlxN5L300Crb2xF
+        - url: https://scholar.google.com/citations?user=5yogvbIAAAAJ
           icon: fab fa-google
         - url: https://www.linkedin.com/in/adrien-dubois-604658b2/
           icon: fab fa-linkedin-in

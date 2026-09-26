@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col" style="display: contents;">
-        <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl | replace: '//', '/' }}">
+        <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl | append: '/' | replace: '//', '/' }}">
           <div class="logo">
             <img class="logo" src="/favicon-transparent.png" />
           </div>
@@ -50,7 +50,7 @@
           </li>
           {%- else -%}
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl | replace: '//', '/' }}#{{ link.section }}">{{
+            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl | append: '/' | replace: '//', '/' }}#{{ link.section }}">{{
               link.title }}</a>
           </li>
           {%- endif -%}

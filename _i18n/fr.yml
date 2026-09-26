@@ -11,30 +11,27 @@ nav:
     subsection:
       - 
         title: "En lumière"
-        href: "/#papers"
+        href: "/fr/#papers"
       - 
         title: "Tous les articles"
-        href: "/publications"
+        href: "/fr/publications"
     
-  - title: "Histoire"
-    section: timeline
-
   - title: "Équipe"
     section: team
     subsection:
       - 
         title: "Membres"
-        href: "/#team"
+        href: "/fr/#team"
       - 
         title: "Collaborateurs"
-        href: "/collaborators"
+        href: "/fr/collaborators"
       - 
         title: "alumni"
-        href: "/alumni"        
+        href: "/fr/alumni"        
     
 
   - title: "Emplois"
-    url: "/jobs"
+    url: "/fr/jobs/"
 
   - title: "Contact"
     section: contact
