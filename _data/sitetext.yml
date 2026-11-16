@@ -406,12 +406,6 @@ team:
         - url: https://github.com/Dub21
           icon: fab fa-github
 
-    - name: "Natalie Kastel"
-      role: 
-        en: "PhD Student<br>(Social Neuro AI)"
-        fr: "Doctorante<br>(Neuro-IA sociale)"
-      image: img/team/Natalie_Kastel.jpg
-
     - name: Vincent Chamberland
       role: 
         en: "PhD student<br>(Precision Neuromodulation)"
