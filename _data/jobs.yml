@@ -3,6 +3,2215 @@
 
 jobs:
   # ============================================================================
+  # Internship 2027 - EEG Data Acquisition (mobile hyperscanning)
+  # ============================================================================
+  - id: eeg-acquisition-hyperscanning
+    active: true
+    type: internship
+    title:
+      fr: "Stagiaire en acquisition EEG"
+      en: "EEG Data Acquisition Intern"
+    subtitle:
+      fr: "Hyperscanning mobile : construire une base de données ouverte"
+      en: "Mobile Hyperscanning: Building an Open Database"
+    location:
+      fr: "CHU Sainte-Justine, Montréal"
+      en: "CHU Sainte-Justine, Montreal"
+    duration:
+      fr: "12 à 16 semaines (3 à 4 mois)"
+      en: "12 to 16 weeks (3 to 4 months)"
+    start:
+      fr: "Hiver 2027"
+      en: "Winter 2027"
+    onsite:
+      fr: "À convenir selon votre horaire"
+      en: "Arranged around your schedule"
+    pdf:
+      fr: "/assets/jobs/offre_stage_ppsp_acquisition_hyperscanning_fr.pdf"
+      en: "/assets/jobs/offre_stage_ppsp_acquisition_hyperscanning_en.pdf"
+    our_mission:
+      fr: |
+        ## Notre Mission
+
+        **Social NeuroAI Hub — Where minds connect**
+
+        *Où les intelligences se rencontrent*
+
+        Le **Laboratoire PPSP** est situé au **CHU Sainte-Justine**, l'un des plus grands hôpitaux pédiatriques universitaires au monde. Nous développons les sciences et technologies qui permettent de comprendre comment les diverses intelligences se coordonnent, se développent et s'entraident. Notre approche : l'**hyperscanning multimodal** enregistre simultanément cerveau, physiologie, langage et comportement de plusieurs personnes en interaction. L'objectif est d'explorer **les potentialités et diversités cognitives et méta-cognitives**. Nous créons des outils open-source, des protocoles cliniques et des connaissances qui, ensemble, servent directement les enfants, les familles et les soignants. **Du labo à l'hôpital, de la science à la santé.**
+      en: |
+        ## Our Mission
+
+        **Social NeuroAI Hub — Where minds connect**
+
+        *Où les intelligences se rencontrent*
+
+        The **PPSP Laboratory** is located at **CHU Sainte-Justine**, one of the world's largest pediatric university hospitals. We develop the sciences and technologies that enable understanding of how diverse intelligences coordinate, develop, and support one another. Our approach: **multimodal hyperscanning** simultaneously records brain, physiology, language, and behavior of multiple people in interaction. Our goal is to explore **cognitive and meta-cognitive potentialities and diversities**. We create open-source tools, clinical protocols, and knowledge that together directly serve children, families, and healthcare providers. **From lab to hospital, from science to health.**
+
+    your_mission:
+      fr: |
+        ## Votre Mission
+
+        ### Une base de données ouverte pour l'hyperscanning
+
+        L'hyperscanning enregistre l'activité cérébrale de plusieurs personnes pendant qu'elles interagissent. Les jeux de données publics sont encore peu nombreux, ce qui complique la comparaison des méthodes et la reproduction des résultats d'un laboratoire à l'autre. Votre mission : mener des acquisitions avec des casques EEG mobiles (Mentalab, Starstim) auprès de dyades engagées dans des tâches variées (jeu compétitif, jeu coopératif, méditation) et poser les fondations d'une base de données ouverte, documentée et réutilisable par la communauté scientifique.
+
+        **Ce que vous allez faire :**
+
+        **Acquisition :**
+        - Préparer et conduire des séances d'hyperscanning en EEG mobile avec des dyades : installation des casques, vérification du signal, déroulé des tâches
+        - Mettre en œuvre les tâches du protocole : jeu compétitif, jeu coopératif, méditation
+        - Accueillir les participant·es, recueillir leur consentement et veiller à leur confort tout au long de la séance
+        - Planifier les séances et tenir le journal d'acquisition
+
+        **Qualité & Validation :**
+        - Contrôler la qualité des enregistrements après chaque séance : signal, synchronisation entre les deux casques, marqueurs d'événements
+        - Tester et affiner le protocole lors de séances pilotes
+        - Consigner les incidents et proposer des améliorations du dispositif
+
+        **Documentation & Open-Source :**
+        - Organiser les données et leurs métadonnées selon le standard BIDS
+        - Rédiger le protocole d'acquisition pas à pas, pour qu'une autre équipe puisse le reproduire
+        - Préparer la documentation qui accompagnera la mise à disposition de la base
+
+        **Recherche Appliquée :**
+        - Réaliser de premières analyses de synchronie inter-cérébrale avec HyPyP pour vérifier que les données sont exploitables
+        - Comparer les tâches entre elles et présenter les résultats en lab meeting
+        - Contribuer au choix des prochaines tâches à intégrer à la base
+
+        **Projets concrets :**
+
+        - La base de données ouverte d'hyperscanning du laboratoire, dont vous réaliserez les acquisitions
+        - HyPyP, la librairie open-source du laboratoire pour l'analyse de la synchronie inter-cérébrale, que vos données serviront à éprouver
+        - Les deux stages menés en parallèle (hyperscanning en réalité virtuelle, neurofeedback dyadique), qui s'appuieront sur votre protocole d'acquisition
+
+        **Impact :**
+
+        Chaque séance que vous menez alimente une ressource que d'autres laboratoires pourront réutiliser pour développer et comparer leurs méthodes d'analyse de l'interaction humaine.
+      en: |
+        ## Your Mission
+
+        ### An open database for hyperscanning
+
+        Hyperscanning records the brain activity of several people while they interact. Public datasets are still few, which makes it hard to compare methods and to reproduce results from one lab to another. Your mission: run acquisitions with mobile EEG headsets (Mentalab, Starstim) on dyads engaged in a variety of tasks (competitive game, cooperative game, meditation) and lay the foundations of an open database, documented and reusable by the scientific community.
+
+        **What you will do:**
+
+        **Acquisition:**
+        - Prepare and run mobile EEG hyperscanning sessions with dyads: headset setup, signal checks, task flow
+        - Implement the protocol tasks: competitive game, cooperative game, meditation
+        - Welcome participants, collect their consent, and look after their comfort throughout the session
+        - Schedule sessions and keep the acquisition log
+
+        **Quality & Validation:**
+        - Check recording quality after each session: signal, synchronization between the two headsets, event markers
+        - Test and refine the protocol during pilot sessions
+        - Log incidents and propose improvements to the setup
+
+        **Documentation & Open-Source:**
+        - Organize data and metadata following the BIDS standard
+        - Write the step-by-step acquisition protocol so that another team can reproduce it
+        - Prepare the documentation that will accompany the release of the database
+
+        **Applied Research:**
+        - Run first inter-brain synchrony analyses with HyPyP to confirm the data are usable
+        - Compare tasks with one another and present the results at lab meetings
+        - Contribute to choosing the next tasks to add to the database
+
+        **Concrete projects:**
+
+        - The lab's open hyperscanning database, for which you will run the acquisitions
+        - HyPyP, the lab's open-source library for inter-brain synchrony analysis, which your data will put to the test
+        - The two internships running in parallel (hyperscanning in virtual reality, dyadic neurofeedback), which will build on your acquisition protocol
+
+        **Impact:**
+
+        Every session you run feeds a resource that other labs will be able to reuse to develop and compare their methods for analyzing human interaction.
+
+    profile:
+      fr: |
+        ### Ce qui vous anime
+
+        Vous êtes attiré·e par l'**exécution concrète, robuste, durable**.
+
+        **Orientation résultats**
+
+        Vous trouvez satisfaction dans le travail qui aboutit, les objectifs atteints, la documentation qui éclaire. La finition d'un travail bien fait vous anime. Vous aimez voir un projet abouti et utilisable.
+
+        **Curiosité intellectuelle**
+
+        Vous voulez comprendre **pourquoi** on mène ces projets, **comment** ils s'inscrivent dans la recherche, **à quoi** ils serviront. Vous lisez, vous posez des questions, vous explorez au-delà de votre mission immédiate.
+
+        **Rigueur méthodologique**
+
+        Vous travaillez de façon structurée, documentez vos démarches, validez vos résultats. Vous accordez du temps à bien faire les choses. La qualité de votre travail compte pour vous.
+
+        **Esprit collaboratif**
+
+        Vous appréciez les retours, partagez vos réflexions, accueillez les feedbacks. Vous contribuez à une dynamique d'équipe constructive où l'impact collectif guide les décisions.
+
+        **Autonomie et collaboration**
+
+        Face à un problème, vous décomposez, explorez la documentation, testez des hypothèses. Vous identifiez les moments où collaborer enrichit la solution. Vous naviguez naturellement entre travail autonome et co-construction.
+
+        **Sens de l'accueil**
+
+        Vous mettez à l'aise les personnes que vous recevez, vous expliquez clairement ce qui va se passer et vous restez attentif·ve à leur confort. Une séance réussie commence par des participant·es en confiance.
+
+        ### Compétences techniques fondamentales
+
+        **Formation**
+        - Étudiant·e en médecine, psychologie, neurosciences ou neuropsychologie, dès la deuxième année de votre programme
+        - Envie d'explorer une autre facette de votre future profession au contact de l'innovation logicielle et matérielle
+
+        **Expérimentation avec des participant·es**
+        - Aisance relationnelle pour accueillir et guider des participant·es
+        - Sens de l'organisation : planification de séances, suivi, ponctualité
+        - Respect rigoureux des protocoles, du consentement et de la confidentialité
+
+        **Bases scientifiques, outils et langues**
+        - Notions de neurosciences ou de physiologie acquises en cours
+        - Connaissances de base en méthodes expérimentales et en statistiques
+        - Goût pour la manipulation de matériel de mesure et aisance avec les outils numériques
+        - Français courant pour l'accueil des participant·es, anglais fonctionnel pour la documentation
+
+        ### Atouts valorisés (non-obligatoires)
+
+        - Expérience d'acquisition EEG ou d'une autre mesure physiologique (ECG, fNIRS)
+        - Notions de programmation (Python, R ou MATLAB)
+        - Expérience de recrutement de participant·es, de passation ou d'études comportementales
+        - Pratique de la méditation ou intérêt pour le jeu comme situation d'interaction
+        - Intérêt pour la science ouverte et le partage de données
+
+        ### Comment nous grandissons ensemble
+
+        Ce stage est un espace de **développement mutuel**. Vous apporterez vos compétences et votre perspective, nous partagerons notre expertise scientifique et méthodologique. À travers la collaboration quotidienne, les revues de travail, les discussions et le mentorat, chacun·e développe les compétences qui font avancer le projet.
+      en: |
+        ### What drives you
+
+        You are drawn to **concrete, robust, lasting execution**.
+
+        **Results-oriented**
+
+        You find satisfaction in work that delivers, goals achieved, documentation that clarifies. The completion of work well done motivates you. You enjoy seeing a project finished and usable.
+
+        **Intellectual curiosity**
+
+        You want to understand **why** we pursue these projects, **how** they fit into research, **what** they will serve. You read, ask questions, explore beyond your immediate mission.
+
+        **Methodological rigor**
+
+        You work in a structured way, document your approaches, validate your results. You take time to do things properly. The quality of your work matters to you.
+
+        **Collaborative spirit**
+
+        You appreciate feedback, share your reflections, welcome input. You contribute to a constructive team dynamic where collective impact guides decisions.
+
+        **Autonomy and collaboration**
+
+        Faced with a problem, you break it down, explore documentation, test hypotheses. You identify moments when collaboration enriches the solution. You navigate naturally between autonomous work and co-construction.
+
+        **A sense of welcome**
+
+        You put the people you host at ease, explain clearly what is going to happen, and stay attentive to their comfort. A successful session starts with participants who feel confident.
+
+        ### Core technical skills
+
+        **Education**
+        - Student in medicine, psychology, neuroscience, or neuropsychology, from the second year of your program
+        - A desire to explore another side of your future profession through software and hardware innovation
+
+        **Working with participants**
+        - Interpersonal ease in welcoming and guiding participants
+        - Organizational skills: session scheduling, follow-up, punctuality
+        - Strict respect for protocols, consent, and confidentiality
+
+        **Scientific foundations, tools, and languages**
+        - Notions of neuroscience or physiology from coursework
+        - Basic knowledge of experimental methods and statistics
+        - A taste for hands-on work with measurement equipment and ease with digital tools
+        - Fluent French to welcome participants, functional English for documentation
+
+        ### Valued assets (not required)
+
+        - Experience with EEG acquisition or another physiological measure (ECG, fNIRS)
+        - Notions of programming (Python, R, or MATLAB)
+        - Experience with participant recruitment, test administration, or behavioral studies
+        - Meditation practice, or an interest in games as interaction settings
+        - Interest in open science and data sharing
+
+        ### How we grow together
+
+        This internship is a space for **mutual development**. You will bring your skills and perspective, we will share our scientific and methodological expertise. Through daily collaboration, work reviews, discussions, and mentorship, everyone develops the skills that advance the project.
+
+    skills:
+      fr: |
+        À la fin de ce stage, vous aurez développé une expertise **singulière et recherchée**.
+
+        **Expertise Technique**
+
+        *Acquisition EEG en hyperscanning*
+
+        Vous saurez mener de bout en bout une séance d'enregistrement à deux participant·es avec des casques EEG mobiles (Mentalab, Starstim) : préparation, contrôle du signal, synchronisation, gestion des imprévus.
+
+        *Données ouvertes*
+
+        Vous saurez structurer un jeu de données selon le standard BIDS et le documenter pour qu'il soit réutilisable par d'autres équipes.
+
+        *Premières analyses*
+
+        Vous aurez pris en main HyPyP et les bases de l'analyse de la synchronie inter-cérébrale.
+
+        **Vision Interdisciplinaire**
+
+        *Le pont neuro-IA-clinique*
+
+        Vous comprendrez comment s'articulent neurosciences fondamentales, intelligence artificielle et applications cliniques. Vous aurez travaillé dans un hôpital pédiatrique universitaire, observé comment la recherche se connecte aux besoins réels des enfants et des familles.
+
+        *Culture pluridisciplinaire*
+
+        Vous saurez dialoguer avec des chercheurs en neurosciences, des ingénieurs, des cliniciens et des designers.
+
+        **Méthodologie de Recherche Ouverte**
+
+        *Science reproductible*
+
+        Vous maîtriserez les standards de la science ouverte : travail versionné, pipelines documentés, analyses reproductibles. Ces pratiques deviennent essentielles dans tous les domaines de la recherche.
+
+        **Réseau & Trajectoires**
+
+        *Écosystème montréalais*
+
+        Vous travaillerez au CHU Sainte-Justine, avec accès aux séminaires et formations de l'écosystème IA montréalais (Mila, IVADO). Vous rencontrerez chercheurs, ingénieurs et cliniciens qui façonnent l'avenir de la neuro-IA.
+
+        *Co-authorship possible*
+
+        Selon l'avancement du projet, vous pourrez co-signer des publications méthodologiques ou les études utilisant vos contributions.
+
+        *Trajectoires après le stage*
+
+        Nos anciens stagiaires poursuivent des parcours variés : PhD en neurosciences computationnelles ou IA, postes d'ingénieur·es recherche dans des instituts académiques, développement en neuro-tech, carrières industrielles et création d'entreprises.
+
+        **Portfolio Concret**
+
+        À l'issue du stage, votre portfolio inclura :
+
+        - Un protocole d'acquisition documenté et reproductible
+        - Une contribution identifiée à la base de données ouverte d'hyperscanning du laboratoire
+        - Un rapport de contrôle qualité et de premières analyses
+      en: |
+        At the end of this internship, you will have developed **unique and sought-after** expertise.
+
+        **Technical Expertise**
+
+        *EEG acquisition in hyperscanning*
+
+        You will be able to run a two-participant recording session with mobile EEG headsets (Mentalab, Starstim) from start to finish: preparation, signal checks, synchronization, handling the unexpected.
+
+        *Open data*
+
+        You will be able to structure a dataset following the BIDS standard and document it so that other teams can reuse it.
+
+        *First analyses*
+
+        You will have learned HyPyP and the basics of inter-brain synchrony analysis.
+
+        **Interdisciplinary Vision**
+
+        *The neuro-AI-clinical bridge*
+
+        You will understand how fundamental neuroscience, artificial intelligence, and clinical applications articulate. You will have worked in a pediatric university hospital, observed how research connects to the real needs of children and families.
+
+        *Multidisciplinary culture*
+
+        You will be able to dialogue with neuroscience researchers, engineers, clinicians, and designers.
+
+        **Open Research Methodology**
+
+        *Reproducible science*
+
+        You will master open science standards: versioned work, documented pipelines, reproducible analyses. These practices are becoming essential in all fields of computational research.
+
+        **Network & Trajectories**
+
+        *Montreal ecosystem*
+
+        You will work at CHU Sainte-Justine, with access to seminars and training from Montreal's AI ecosystem (Mila, IVADO). You will meet researchers, engineers, and clinicians shaping the future of neuro-AI.
+
+        *Possible co-authorship*
+
+        Depending on project progress, you may co-sign methodological publications or studies using your contributions.
+
+        *Post-internship trajectories*
+
+        Our former interns pursue varied paths: PhD in computational neuroscience or AI, research engineer positions in academic institutes, neuro-tech development, industrial careers, and company creation.
+
+        **Concrete Portfolio**
+
+        At the end of the internship, your portfolio will include:
+
+        - A documented, reproducible acquisition protocol
+        - A credited contribution to the lab's open hyperscanning database
+        - A quality control and first-analysis report
+
+    working_conditions:
+      fr: |
+        **Rémunération & Durée**
+
+        - Statut : Stage rémunéré (convention avec votre établissement)
+        - Rémunération : Selon convention de stage de votre établissement
+        - Bourses : Nous encourageons et accompagnons les candidatures aux bourses (FRQNT, FRQS, Mitacs, etc.)
+        - Durée : 12 à 16 semaines (environ 3 à 4 mois)
+        - Charge : Temps plein (35-40h/semaine) ou temps partiel selon contraintes académiques (à discuter)
+        - Début souhaité : hiver 2027
+
+        **Organisation du Travail**
+
+        *Présentiel :*
+        - Jours de présence à convenir selon votre horaire de cours, au CHU Sainte-Justine (Montréal)
+        - Localisation : 3175 chemin de la Côte-Sainte-Catherine (métro Université-de-Montréal)
+        - Bureau partagé avec l'équipe projet
+
+        *Télétravail :*
+        - Possible selon les tâches et l'avancement du projet
+        - Flexibilité ponctuelle pour contraintes personnelles
+
+        *Horaires :*
+        - Flexibles dans la plage 8h-18h, organisés autour de vos cours
+        - Core hours de l'équipe : **10h-16h** (présence synchrone pour collaboration équipe)
+        - Autonomie dans l'organisation de votre temps
+
+        **Encadrement & Mentorat**
+
+        *Superviseur scientifique :*
+        - Guillaume Dumas (directeur du laboratoire PPSP)
+        - Rôle : Vision scientifique, guidance stratégique, opportunités réseau
+        - Interactions : Réunions mensuelles + disponibilité ad hoc
+
+        *Encadrant de proximité :*
+        - Rémy Ramadour (ingénieur de recherche)
+        - Rôle : Accompagnement quotidien, revue technique, mentorat pratique
+        - Interactions : Points hebdomadaires (1h) + disponibilité quasi-quotidienne
+
+        *Équipe projet :*
+        - Task team de 3 stagiaires sur des missions complémentaires (acquisition EEG, AR/VR, neurofeedback dyadique)
+        - Appui des assistantes de recherche du laboratoire pour les acquisitions
+        - Rituels d'équipe : stand-ups hebdomadaires, revues de travail, collaboration
+        - Dynamique collaborative
+
+        **Environnement & Avantages**
+
+        *CHU Sainte-Justine — Hôpital Pédiatrique Universitaire*
+
+        Vous travaillez dans un hôpital qui soigne 400 000 enfants par an. Cet environnement donne du sens au quotidien : la recherche que vous développez servira directement les enfants, les familles et les soignants que vous croiserez dans les couloirs.
+
+        - Cantine subventionnée : Repas complets à tarif syndical (~8-10$/repas)
+        - Cafétéria ouverte 7j/7, espaces de repos
+        - Bibliothèque universitaire : Accès ressources UdeM, bases de données scientifiques
+        - Transport : Métro à 5 min à pied, stationnement disponible (frais applicables)
+
+        *Écosystème Scientifique Montréalais*
+
+        - Séminaires : Accès aux talks hebdomadaires (IA, neurosciences, santé numérique)
+        - Formations : Workshops et cours (deep learning, méthodologie, éthique)
+        - Événements : Journées scientifiques, hackathons, conférences
+        - Réseau : Interaction avec l'écosystème Mila-IVADO (chercheurs, ingénieurs, startups)
+
+        *Développement Professionnel*
+
+        - Mentorat carrière : Guidance sur trajectoires académiques ou industrielles
+        - Lettres de recommandation : Détaillées, d'un laboratoire reconnu internationalement
+
+        *Vie d'Équipe*
+
+        - Lab meetings hebdomadaires (présentations, discussions scientifiques)
+        - Culture de feedback constructif et d'apprentissage continu
+        - Environnement multiculturel et interdisciplinaire
+        - Social events ponctuels
+      en: |
+        **Compensation & Duration**
+
+        - Status: Paid internship (agreement with your institution)
+        - Compensation: According to your institution's internship agreement
+        - Scholarships: We encourage and support scholarship applications (FRQNT, FRQS, Mitacs, etc.)
+        - Duration: 12 to 16 weeks (approximately 3 to 4 months)
+        - Workload: Full-time (35-40h/week) or part-time depending on academic constraints (to discuss)
+        - Preferred start: winter 2027
+
+        **Work Organization**
+
+        *On-site:*
+        - On-site days arranged around your class schedule, at CHU Sainte-Justine (Montreal)
+        - Location: 3175 chemin de la Côte-Sainte-Catherine (Université-de-Montréal metro)
+        - Shared office with project team
+
+        *Remote work:*
+        - Possible depending on tasks and project progress
+        - Occasional flexibility for personal constraints
+
+        *Schedule:*
+        - Flexible within 8am-6pm range, organized around your classes
+        - Team core hours: **10am-4pm** (synchronous presence for team collaboration)
+        - Autonomy in organizing your time
+
+        **Supervision & Mentoring**
+
+        *Scientific supervisor:*
+        - Guillaume Dumas (Director, PPSP Laboratory)
+        - Role: Scientific vision, strategic guidance, networking opportunities
+        - Interactions: Monthly meetings + ad hoc availability
+
+        *Daily mentor:*
+        - Rémy Ramadour (Research Engineer)
+        - Role: Daily support, technical review, practical mentoring
+        - Interactions: Weekly check-ins (1h) + near-daily availability
+
+        *Project team:*
+        - Task team of 3 interns on complementary missions (EEG acquisition, AR/VR, dyadic neurofeedback)
+        - Support from the lab's research assistants for acquisitions
+        - Team rituals: weekly stand-ups, work reviews, collaboration
+        - Collaborative dynamics
+
+        **Environment & Benefits**
+
+        *CHU Sainte-Justine — Pediatric University Hospital*
+
+        You work in a hospital that treats 400,000 children per year. This environment gives daily meaning: the research you develop will directly serve the children, families, and healthcare providers you will encounter in the hallways.
+
+        - Subsidized cafeteria: Complete meals at union rate (~$8-10/meal)
+        - Cafeteria open 7 days/week, rest areas
+        - University library: Access to UdeM resources, scientific databases
+        - Transportation: Metro 5 min walk, parking available (fees applicable)
+
+        *Montreal Scientific Ecosystem*
+
+        - Seminars: Access to weekly talks (AI, neuroscience, digital health)
+        - Training: Workshops and courses (deep learning, methodology, ethics)
+        - Events: Scientific days, hackathons, conferences
+        - Network: Interaction with Mila-IVADO ecosystem (researchers, engineers, startups)
+
+        *Professional Development*
+
+        - Career mentoring: Guidance on academic or industrial trajectories
+        - Letters of recommendation: Detailed, from an internationally recognized laboratory
+
+        *Team Life*
+
+        - Weekly lab meetings (presentations, scientific discussions)
+        - Culture of constructive feedback and continuous learning
+        - Multicultural and interdisciplinary environment
+        - Occasional social events
+
+    application:
+      fr: |
+        ## Procédure de Recrutement
+
+        Notre processus est conçu pour être **transparent, respectueux et équitable**. L'objectif : trouver le bon fit mutuel.
+
+        **Documents Requis**
+
+        Envoyez par email les documents suivants :
+
+        *Obligatoires :*
+        - CV (2 pages maximum)
+        - Relevé de notes (transcripts des 2 dernières années)
+        - Lettre de motivation (1 page) :
+            - Pourquoi ce stage précis ?
+            - Pourquoi le laboratoire PPSP ?
+            - Votre projet de carrière à 3-5 ans
+
+        *Complémentaires (recommandés) :*
+        - 1 à 2 références (académiques ou professionnelles) : nom, fonction, email
+        - Tout document illustrant une expérience d'expérimentation ou de collecte de données (rapport, mémoire, affiche)
+
+        **Processus de Sélection**
+
+        **Étape 1 : Présélection sur Dossier (7 jours)**
+
+        Nous évaluons votre candidature selon quatre dimensions :
+
+        1. **Motivation et alignement** : Votre lettre révèle-t-elle une compréhension de notre mission ?
+        2. **Compétences techniques** : Votre parcours démontre-t-il les fondamentaux requis ?
+        3. **Potentiel de croissance** : Trajectoire cohérente, projets personnels, curiosité intellectuelle
+        4. **Fit avec le projet** : Vos intérêts correspondent-ils aux missions du stage ?
+
+        *Engagement :* Vous recevez une réponse dans les **7 jours ouvrés**, même si votre candidature n'est pas retenue pour un entretien.
+
+        **Étape 2 : Entretien Motivation (30 min)**
+
+        *Visioconférence ou présentiel (votre choix)*
+
+        Format : Discussion ouverte pour mieux vous connaître.
+
+        *Vous parlez de vous (15 min) :*
+        - Votre parcours et ce qui vous a amené ici
+        - Vos motivations pour ce stage
+        - Votre projet de carrière
+        - Vos questions sur le stage et le laboratoire
+
+        *Nous parlons du stage (10 min) :*
+        - Mission détaillée et projets concrets
+        - Environnement de travail et dynamique d'équipe
+        - Attentes mutuelles
+
+        *Discussion ouverte (5 min) :*
+        - Vos questions (encouragées)
+        - Clarifications pratiques
+
+        Ce que nous évaluons : Alignement motivationnel, clarté du projet professionnel, capacité à communiquer, questions pertinentes.
+
+        Ce que nous n'évaluons pas ici : Compétences techniques (réservées pour l'étape suivante).
+
+        **Étape 3 : Entretien Technique (45 min)**
+
+        *Visioconférence ou présentiel (votre choix)*
+
+        Format : Mise en situation autour d'une séance d'acquisition, sans préparation requise.
+
+        *Mise en situation (25 min) :*
+        - Nous vous décrivons une séance d'hyperscanning à deux participant·es
+        - Vous expliquez comment vous la prépareriez : accueil, installation, vérifications
+        - Nous introduisons un imprévu (signal dégradé, retard, participant·e mal à l'aise) et discutons de votre réaction
+
+        *Discussion méthodologique (15 min) :*
+        - Une expérience passée de collecte de données, de travaux pratiques ou de travail en laboratoire
+        - Votre façon d'organiser et de documenter votre travail
+
+        *Vos questions (5 min)*
+
+        Ce que nous évaluons : Sens de l'organisation, rigueur, aisance relationnelle, raisonnement face à l'imprévu.
+
+        Ce que nous n'évaluons pas ici : La maîtrise du matériel EEG, qui s'acquiert pendant le stage.
+
+        **Étape 4 : Entretien de Départage (Optionnel, 30 min)**
+
+        Si plusieurs candidatures excellentes sont en balance, un entretien court peut être organisé pour approfondir certains aspects ou discuter de scénarios de collaboration spécifiques.
+
+        **Timeline & Engagements**
+
+        *Timeline indicative :*
+        - Réponse initiale : **7 jours ouvrés** après réception dossier complet
+        - Entretiens : planifiés sur 2-3 semaines
+        - Décision finale : **48h** après dernier entretien
+
+        *Nos engagements :*
+        - Réponse systématique à toute candidature complète
+        - Transparence sur critères et timeline
+        - Feedback constructif pour candidat·es reçu·es en entretien
+        - Respect de votre temps (pas de ghosting, pas de délais excessifs)
+        - Équité : mêmes critères pour tou·tes
+
+        Nous traitons nos candidat·es comme des collaborateur·rices potentiel·les dès le premier contact.
+
+        ## Comment Postuler
+
+        **Email :** apply@ppsp.team
+
+        **Objet :** "Candidature Stage Acquisition EEG - [Votre Nom]"
+
+        **Format des documents :**
+
+        Envoyez tous les documents au format PDF, nommés comme suit :
+        - `NomPrenom_CV.pdf`
+        - `NomPrenom_RelevéNotes.pdf`
+        - `NomPrenom_LettreMotivation.pdf`
+
+        **Dans le corps de l'email :**
+        - Période de disponibilité souhaitée
+        - Questions éventuelles
+
+        **Questions ?**
+
+        Écrivez-nous. Nous répondons à toutes les questions.
+      en: |
+        ## Recruitment Process
+
+        Our process is designed to be **transparent, respectful, and fair**. The goal: find the right mutual fit.
+
+        **Required Documents**
+
+        Send the following documents by email:
+
+        *Mandatory:*
+        - CV (2 pages maximum)
+        - Transcripts (last 2 years)
+        - Cover letter (1 page):
+            - Why this specific internship?
+            - Why the PPSP laboratory?
+            - Your career plan for the next 3-5 years
+
+        *Complementary (recommended):*
+        - 1 to 2 references (academic or professional): name, title, email
+        - Any document illustrating experience with experiments or data collection (report, thesis, poster)
+
+        **Selection Process**
+
+        **Step 1: Application Screening (7 days)**
+
+        We evaluate your application across four dimensions:
+
+        1. **Motivation and alignment**: Does your letter reveal understanding of our mission?
+        2. **Technical skills**: Does your background demonstrate the required fundamentals?
+        3. **Growth potential**: Coherent trajectory, personal projects, intellectual curiosity
+        4. **Project fit**: Do your interests match the internship missions?
+
+        *Commitment:* You receive a response within **7 business days**, even if your application is not selected for an interview.
+
+        **Step 2: Motivation Interview (30 min)**
+
+        *Video conference or in-person (your choice)*
+
+        Format: Open discussion to get to know you better.
+
+        *You talk about yourself (15 min):*
+        - Your background and what brought you here
+        - Your motivations for this internship
+        - Your career plan
+        - Your questions about the internship and laboratory
+
+        *We talk about the internship (10 min):*
+        - Detailed mission and concrete projects
+        - Work environment and team dynamics
+        - Mutual expectations
+
+        *Open discussion (5 min):*
+        - Your questions (encouraged)
+        - Practical clarifications
+
+        What we evaluate: Motivational alignment, career plan clarity, communication ability, relevant questions.
+
+        What we don't evaluate here: Technical skills (reserved for the next stage).
+
+        **Step 3: Technical Interview (45 min)**
+
+        *Video conference or in-person (your choice)*
+
+        Format: A scenario built around an acquisition session, with no preparation required.
+
+        *Scenario (25 min):*
+        - We describe a two-participant hyperscanning session
+        - You explain how you would prepare it: welcome, setup, checks
+        - We introduce something unexpected (degraded signal, delay, uneasy participant) and discuss your response
+
+        *Methodological discussion (15 min):*
+        - A past experience with data collection, lab classes, or laboratory work
+        - How you organize and document your work
+
+        *Your questions (5 min)*
+
+        What we evaluate: Organizational skills, rigor, interpersonal ease, reasoning when things go off plan.
+
+        What we don't evaluate here: Mastery of EEG equipment, which you will acquire during the internship.
+
+        **Step 4: Tie-Breaking Interview (Optional, 30 min)**
+
+        If several excellent applications are balanced, a short interview may be organized to deepen certain aspects or discuss specific collaboration scenarios.
+
+        **Timeline & Commitments**
+
+        *Indicative timeline:*
+        - Initial response: **7 business days** after complete application received
+        - Interviews: scheduled over 2-3 weeks
+        - Final decision: **48 hours** after last interview
+
+        *Our commitments:*
+        - Systematic response to every complete application
+        - Transparency on criteria and timeline
+        - Constructive feedback for candidates interviewed
+        - Respect for your time (no ghosting, no excessive delays)
+        - Equity: same criteria for everyone
+
+        We treat our candidates as potential collaborators from the first contact.
+
+        ## How to Apply
+
+        **Email:** apply@ppsp.team
+
+        **Subject:** "Application EEG Acquisition Internship - [Your Name]"
+
+        **Document format:**
+
+        Send all documents in PDF format, named as follows:
+        - `LastnameFirstname_CV.pdf`
+        - `LastnameFirstname_Transcripts.pdf`
+        - `LastnameFirstname_CoverLetter.pdf`
+
+        **In the email body:**
+        - Desired availability period
+        - Any questions
+
+        **Questions?**
+
+        Write to us. We respond to all questions.
+
+    contact: "apply@ppsp.team"
+
+  # ============================================================================
+  # Internship 2027 - Virtual and Augmented Reality (VR hyperscanning)
+  # ============================================================================
+  - id: hyperscanning-ar-vr
+    active: true
+    type: internship
+    title:
+      fr: "Stagiaire en réalité virtuelle et augmentée"
+      en: "Virtual and Augmented Reality Intern"
+    subtitle:
+      fr: "Hyperscanning en réalité virtuelle : jeux et configurations d'interaction"
+      en: "Hyperscanning in Virtual Reality: Games and Interaction Configurations"
+    location:
+      fr: "CHU Sainte-Justine, Montréal"
+      en: "CHU Sainte-Justine, Montreal"
+    duration:
+      fr: "12 à 16 semaines (3 à 4 mois)"
+      en: "12 to 16 weeks (3 to 4 months)"
+    start:
+      fr: "Hiver 2027"
+      en: "Winter 2027"
+    onsite:
+      fr: "À convenir selon votre horaire"
+      en: "Arranged around your schedule"
+    pdf:
+      fr: "/assets/jobs/offre_stage_ppsp_hyperscanning_ar_vr_fr.pdf"
+      en: "/assets/jobs/offre_stage_ppsp_hyperscanning_ar_vr_en.pdf"
+    our_mission:
+      fr: |
+        ## Notre Mission
+
+        **Social NeuroAI Hub — Where minds connect**
+
+        *Où les intelligences se rencontrent*
+
+        Le **Laboratoire PPSP** est situé au **CHU Sainte-Justine**, l'un des plus grands hôpitaux pédiatriques universitaires au monde. Nous développons les sciences et technologies qui permettent de comprendre comment les diverses intelligences se coordonnent, se développent et s'entraident. Notre approche : l'**hyperscanning multimodal** enregistre simultanément cerveau, physiologie, langage et comportement de plusieurs personnes en interaction. L'objectif est d'explorer **les potentialités et diversités cognitives et méta-cognitives**. Nous créons des outils open-source, des protocoles cliniques et des connaissances qui, ensemble, servent directement les enfants, les familles et les soignants. **Du labo à l'hôpital, de la science à la santé.**
+      en: |
+        ## Our Mission
+
+        **Social NeuroAI Hub — Where minds connect**
+
+        *Où les intelligences se rencontrent*
+
+        The **PPSP Laboratory** is located at **CHU Sainte-Justine**, one of the world's largest pediatric university hospitals. We develop the sciences and technologies that enable understanding of how diverse intelligences coordinate, develop, and support one another. Our approach: **multimodal hyperscanning** simultaneously records brain, physiology, language, and behavior of multiple people in interaction. Our goal is to explore **cognitive and meta-cognitive potentialities and diversities**. We create open-source tools, clinical protocols, and knowledge that together directly serve children, families, and healthcare providers. **From lab to hospital, from science to health.**
+
+    your_mission:
+      fr: |
+        ## Votre Mission
+
+        ### Deux joueurs, deux cerveaux, un monde virtuel
+
+        La réalité virtuelle permet de régler finement une situation d'interaction : ce que chaque personne voit, avec ou contre qui elle joue, dans quel environnement. Votre mission : intégrer, avec l'équipe, la réalité virtuelle et augmentée (Meta Quest 3, Apple Vision Pro) au dispositif d'hyperscanning EEG du laboratoire et concevoir des jeux déclinés en plusieurs configurations, pour étudier comment la situation d'interaction module la synchronie entre les cerveaux.
+
+        **Ce que vous allez faire :**
+
+        **Conception & Développement :**
+        - Concevoir des scènes de jeu à deux et leurs configurations (par exemple coopération et compétition) à partir des questions de recherche
+        - Les prototyper sur Meta Quest 3 et Apple Vision Pro avec l'ingénieur de recherche (Unity, visionOS natif), en vous formant aux outils au fil du stage
+        - Synchroniser les événements du jeu avec les enregistrements EEG des deux participant·es
+        - Rendre les configurations paramétrables pour que l'équipe puisse lancer une séance sans toucher au code
+        - Explorer ce qu'apporte la réalité augmentée pour des interactions en co-présence
+
+        **Validation & Tests :**
+        - Mesurer les latences entre le casque, le jeu et les marqueurs EEG, et chercher à les réduire
+        - Évaluer la cohabitation du casque immersif et du casque EEG : confort, artefacts de mouvement
+        - Mener des séances pilotes avec l'équipe d'acquisition et ajuster l'expérience à partir des retours des participant·es
+
+        **Documentation & Open-Source :**
+        - Documenter l'installation et l'utilisation de chaque scène
+        - Contribuer à la publication du code en open-source, avec des exemples prêts à lancer
+        - Rédiger un guide pour ajouter une nouvelle scène au dispositif
+
+        **Recherche Appliquée :**
+        - Participer aux acquisitions d'hyperscanning en réalité virtuelle
+        - Contribuer à la définition des configurations expérimentales avec l'équipe scientifique
+        - Présenter vos prototypes et vos résultats en lab meeting
+
+        **Projets concrets :**
+
+        - Le dispositif d'hyperscanning en AR/VR du laboratoire, dont vous concevrez et prototyperez les scènes de jeu
+        - La base de données ouverte d'hyperscanning, que vos tâches en réalité virtuelle viendront enrichir
+        - Le stage de neurofeedback dyadique, qui pourra s'appuyer sur vos environnements pour présenter le retour aux participant·es
+
+        **Impact :**
+
+        Vos environnements donneront à l'équipe un terrain d'expérimentation où chaque paramètre de l'interaction se règle et se rejoue à l'identique.
+      en: |
+        ## Your Mission
+
+        ### Two players, two brains, one virtual world
+
+        Virtual reality makes it possible to fine-tune an interaction: what each person sees, who they play with or against, in which environment. Your mission: integrate, together with the team, virtual and augmented reality (Meta Quest 3, Apple Vision Pro) into the lab's EEG hyperscanning setup and design games available in several configurations, to study how the interaction setting modulates synchrony between brains.
+
+        **What you will do:**
+
+        **Design & Development:**
+        - Design two-player game scenes and their configurations (for example cooperation and competition) from the research questions
+        - Prototype them on Meta Quest 3 and Apple Vision Pro with the research engineer (Unity, native visionOS), learning the tools as the internship progresses
+        - Synchronize game events with the EEG recordings of both participants
+        - Make configurations parameterizable so the team can launch a session without touching the code
+        - Explore what augmented reality brings to co-present interactions
+
+        **Validation & Testing:**
+        - Measure latencies between the headset, the game, and the EEG markers, and look for ways to reduce them
+        - Assess how the immersive headset and the EEG headset work together: comfort, movement artifacts
+        - Run pilot sessions with the acquisition team and adjust the experience based on participant feedback
+
+        **Documentation & Open-Source:**
+        - Document the installation and use of each scene
+        - Contribute to releasing the code as open-source, with ready-to-run examples
+        - Write a guide for adding a new scene to the setup
+
+        **Applied Research:**
+        - Take part in virtual reality hyperscanning acquisitions
+        - Contribute to defining the experimental configurations with the scientific team
+        - Present your prototypes and results at lab meetings
+
+        **Concrete projects:**
+
+        - The lab's AR/VR hyperscanning setup, for which you will design and prototype the game scenes
+        - The open hyperscanning database, which your virtual reality tasks will enrich
+        - The dyadic neurofeedback internship, which may build on your environments to present feedback to participants
+
+        **Impact:**
+
+        Your environments will give the team an experimental ground where every parameter of the interaction can be set and replayed identically.
+
+    profile:
+      fr: |
+        ### Ce qui vous anime
+
+        Vous êtes attiré·e par l'**exécution concrète, robuste, durable**.
+
+        **Orientation résultats**
+
+        Vous trouvez satisfaction dans le travail qui aboutit, les objectifs atteints, la documentation qui éclaire. La finition d'un travail bien fait vous anime. Vous aimez voir un projet abouti et utilisable.
+
+        **Curiosité intellectuelle**
+
+        Vous voulez comprendre **pourquoi** on mène ces projets, **comment** ils s'inscrivent dans la recherche, **à quoi** ils serviront. Vous lisez, vous posez des questions, vous explorez au-delà de votre mission immédiate.
+
+        **Rigueur méthodologique**
+
+        Vous travaillez de façon structurée, documentez vos démarches, validez vos résultats. Vous accordez du temps à bien faire les choses. La qualité de votre travail compte pour vous.
+
+        **Esprit collaboratif**
+
+        Vous appréciez les retours, partagez vos réflexions, accueillez les feedbacks. Vous contribuez à une dynamique d'équipe constructive où l'impact collectif guide les décisions.
+
+        **Autonomie et collaboration**
+
+        Face à un problème, vous décomposez, explorez la documentation, testez des hypothèses. Vous identifiez les moments où collaborer enrichit la solution. Vous naviguez naturellement entre travail autonome et co-construction.
+
+        ### Compétences techniques fondamentales
+
+        **Formation**
+        - Étudiant·e en médecine, psychologie, neurosciences ou neuropsychologie, dès la deuxième année de votre programme
+        - Envie d'explorer une autre facette de votre future profession au contact de l'innovation logicielle et matérielle
+
+        **Goût pour la technologie**
+        - Curiosité pour la réalité virtuelle et augmentée, le jeu vidéo ou les médias interactifs
+        - Envie d'apprendre à programmer, quel que soit votre point de départ
+        - Plaisir à manipuler du matériel : casques, capteurs, contrôleurs
+
+        **Bases scientifiques**
+        - Notions de neurosciences, de psychologie ou de cognition sociale acquises en cours
+        - Connaissances de base en méthodes expérimentales
+        - Anglais scientifique (lecture d'articles et de documentation)
+
+        ### Atouts valorisés (non-obligatoires)
+
+        - Première expérience de programmation (Python, C#, Swift ou autre)
+        - Projet personnel avec Unity, un casque de réalité virtuelle ou un outil de création 3D
+        - Notions de game design ou expérience de tests avec des utilisateur·rices
+        - Intérêt pour l'EEG et les neurosciences sociales
+        - Intérêt pour les usages de la réalité virtuelle en santé
+
+        ### Comment nous grandissons ensemble
+
+        Ce stage est un espace de **développement mutuel**. Vous apporterez vos compétences et votre perspective, nous partagerons notre expertise scientifique et méthodologique. À travers la collaboration quotidienne, les revues de travail, les discussions et le mentorat, chacun·e développe les compétences qui font avancer le projet.
+      en: |
+        ### What drives you
+
+        You are drawn to **concrete, robust, lasting execution**.
+
+        **Results-oriented**
+
+        You find satisfaction in work that delivers, goals achieved, documentation that clarifies. The completion of work well done motivates you. You enjoy seeing a project finished and usable.
+
+        **Intellectual curiosity**
+
+        You want to understand **why** we pursue these projects, **how** they fit into research, **what** they will serve. You read, ask questions, explore beyond your immediate mission.
+
+        **Methodological rigor**
+
+        You work in a structured way, document your approaches, validate your results. You take time to do things properly. The quality of your work matters to you.
+
+        **Collaborative spirit**
+
+        You appreciate feedback, share your reflections, welcome input. You contribute to a constructive team dynamic where collective impact guides decisions.
+
+        **Autonomy and collaboration**
+
+        Faced with a problem, you break it down, explore documentation, test hypotheses. You identify moments when collaboration enriches the solution. You navigate naturally between autonomous work and co-construction.
+
+        ### Core technical skills
+
+        **Education**
+        - Student in medicine, psychology, neuroscience, or neuropsychology, from the second year of your program
+        - A desire to explore another side of your future profession through software and hardware innovation
+
+        **A taste for technology**
+        - Curiosity about virtual and augmented reality, video games, or interactive media
+        - Eagerness to learn programming, whatever your starting point
+        - Enjoyment of hands-on work with equipment: headsets, sensors, controllers
+
+        **Scientific foundations**
+        - Notions of neuroscience, psychology, or social cognition from coursework
+        - Basic knowledge of experimental methods
+        - Scientific English (reading articles and documentation)
+
+        ### Valued assets (not required)
+
+        - First programming experience (Python, C#, Swift, or other)
+        - Personal project with Unity, a virtual reality headset, or a 3D creation tool
+        - Notions of game design or experience with user testing
+        - Interest in EEG and social neuroscience
+        - Interest in the uses of virtual reality in health care
+
+        ### How we grow together
+
+        This internship is a space for **mutual development**. You will bring your skills and perspective, we will share our scientific and methodological expertise. Through daily collaboration, work reviews, discussions, and mentorship, everyone develops the skills that advance the project.
+
+    skills:
+      fr: |
+        À la fin de ce stage, vous aurez développé une expertise **singulière et recherchée**.
+
+        **Expertise Technique**
+
+        *Réalité virtuelle et augmentée pour la recherche*
+
+        Vous saurez concevoir et prototyper, sur Meta Quest 3 et Apple Vision Pro, des expériences immersives à deux, paramétrables et rejouables à l'identique d'une séance à l'autre.
+
+        *Synchronisation multimodale*
+
+        Vous comprendrez comment faire dialoguer un environnement 3D et des capteurs physiologiques, et ce qu'exige la précision temporelle d'une mesure.
+
+        *Expérimentation*
+
+        Vous aurez mené des séances pilotes et fait évoluer vos prototypes à partir des retours de l'équipe et des participant·es.
+
+        **Vision Interdisciplinaire**
+
+        *Le pont neuro-IA-clinique*
+
+        Vous comprendrez comment s'articulent neurosciences fondamentales, intelligence artificielle et applications cliniques. Vous aurez travaillé dans un hôpital pédiatrique universitaire, observé comment la recherche se connecte aux besoins réels des enfants et des familles.
+
+        *Culture pluridisciplinaire*
+
+        Vous saurez dialoguer avec des chercheurs en neurosciences, des ingénieurs, des cliniciens et des designers.
+
+        **Méthodologie de Recherche Ouverte**
+
+        *Science reproductible*
+
+        Vous maîtriserez les standards de la science ouverte : travail versionné, pipelines documentés, analyses reproductibles. Ces pratiques deviennent essentielles dans tous les domaines de la recherche.
+
+        **Réseau & Trajectoires**
+
+        *Écosystème montréalais*
+
+        Vous travaillerez au CHU Sainte-Justine, avec accès aux séminaires et formations de l'écosystème IA montréalais (Mila, IVADO). Vous rencontrerez chercheurs, ingénieurs et cliniciens qui façonnent l'avenir de la neuro-IA.
+
+        *Co-authorship possible*
+
+        Selon l'avancement du projet, vous pourrez co-signer des publications méthodologiques ou les études utilisant vos contributions.
+
+        *Trajectoires après le stage*
+
+        Nos anciens stagiaires poursuivent des parcours variés : PhD en neurosciences computationnelles ou IA, postes d'ingénieur·es recherche dans des instituts académiques, développement en neuro-tech, carrières industrielles et création d'entreprises.
+
+        **Portfolio Concret**
+
+        À l'issue du stage, votre portfolio inclura :
+
+        - Des scènes de jeu en réalité virtuelle que vous aurez conçues et prototypées, avec leur code open-source
+        - Un guide d'intégration pour étendre le dispositif
+        - Un rapport de mesure des latences
+        - Une vidéo de démonstration
+      en: |
+        At the end of this internship, you will have developed **unique and sought-after** expertise.
+
+        **Technical Expertise**
+
+        *Virtual and augmented reality for research*
+
+        You will be able to design and prototype, on Meta Quest 3 and Apple Vision Pro, two-person immersive experiences that are parameterizable and replayable identically from one session to the next.
+
+        *Multimodal synchronization*
+
+        You will understand how to connect a 3D environment and physiological sensors, and what the temporal precision of a measurement requires.
+
+        *Experimentation*
+
+        You will have run pilot sessions and evolved your prototypes based on feedback from the team and participants.
+
+        **Interdisciplinary Vision**
+
+        *The neuro-AI-clinical bridge*
+
+        You will understand how fundamental neuroscience, artificial intelligence, and clinical applications articulate. You will have worked in a pediatric university hospital, observed how research connects to the real needs of children and families.
+
+        *Multidisciplinary culture*
+
+        You will be able to dialogue with neuroscience researchers, engineers, clinicians, and designers.
+
+        **Open Research Methodology**
+
+        *Reproducible science*
+
+        You will master open science standards: versioned work, documented pipelines, reproducible analyses. These practices are becoming essential in all fields of computational research.
+
+        **Network & Trajectories**
+
+        *Montreal ecosystem*
+
+        You will work at CHU Sainte-Justine, with access to seminars and training from Montreal's AI ecosystem (Mila, IVADO). You will meet researchers, engineers, and clinicians shaping the future of neuro-AI.
+
+        *Possible co-authorship*
+
+        Depending on project progress, you may co-sign methodological publications or studies using your contributions.
+
+        *Post-internship trajectories*
+
+        Our former interns pursue varied paths: PhD in computational neuroscience or AI, research engineer positions in academic institutes, neuro-tech development, industrial careers, and company creation.
+
+        **Concrete Portfolio**
+
+        At the end of the internship, your portfolio will include:
+
+        - Virtual reality game scenes you designed and prototyped, with their open-source code
+        - An integration guide for extending the setup
+        - A latency measurement report
+        - A demonstration video
+
+    working_conditions:
+      fr: |
+        **Rémunération & Durée**
+
+        - Statut : Stage rémunéré (convention avec votre établissement)
+        - Rémunération : Selon convention de stage de votre établissement
+        - Bourses : Nous encourageons et accompagnons les candidatures aux bourses (FRQNT, FRQS, Mitacs, etc.)
+        - Durée : 12 à 16 semaines (environ 3 à 4 mois)
+        - Charge : Temps plein (35-40h/semaine) ou temps partiel selon contraintes académiques (à discuter)
+        - Début souhaité : hiver 2027
+
+        **Organisation du Travail**
+
+        *Présentiel :*
+        - Jours de présence à convenir selon votre horaire de cours, au CHU Sainte-Justine (Montréal)
+        - Localisation : 3175 chemin de la Côte-Sainte-Catherine (métro Université-de-Montréal)
+        - Bureau partagé avec l'équipe projet
+
+        *Télétravail :*
+        - Possible selon les tâches et l'avancement du projet
+        - Flexibilité ponctuelle pour contraintes personnelles
+
+        *Horaires :*
+        - Flexibles dans la plage 8h-18h, organisés autour de vos cours
+        - Core hours de l'équipe : **10h-16h** (présence synchrone pour collaboration équipe)
+        - Autonomie dans l'organisation de votre temps
+
+        **Encadrement & Mentorat**
+
+        *Superviseur scientifique :*
+        - Guillaume Dumas (directeur du laboratoire PPSP)
+        - Rôle : Vision scientifique, guidance stratégique, opportunités réseau
+        - Interactions : Réunions mensuelles + disponibilité ad hoc
+
+        *Encadrant de proximité :*
+        - Rémy Ramadour (ingénieur de recherche)
+        - Rôle : Accompagnement quotidien, revue technique, mentorat pratique
+        - Interactions : Points hebdomadaires (1h) + disponibilité quasi-quotidienne
+
+        *Équipe projet :*
+        - Task team de 3 stagiaires sur des missions complémentaires (acquisition EEG, AR/VR, neurofeedback dyadique)
+        - Appui des assistantes de recherche du laboratoire pour les acquisitions
+        - Rituels d'équipe : stand-ups hebdomadaires, revues de travail, collaboration
+        - Dynamique collaborative
+
+        **Environnement & Avantages**
+
+        *CHU Sainte-Justine — Hôpital Pédiatrique Universitaire*
+
+        Vous travaillez dans un hôpital qui soigne 400 000 enfants par an. Cet environnement donne du sens au quotidien : la recherche que vous développez servira directement les enfants, les familles et les soignants que vous croiserez dans les couloirs.
+
+        - Cantine subventionnée : Repas complets à tarif syndical (~8-10$/repas)
+        - Cafétéria ouverte 7j/7, espaces de repos
+        - Bibliothèque universitaire : Accès ressources UdeM, bases de données scientifiques
+        - Transport : Métro à 5 min à pied, stationnement disponible (frais applicables)
+
+        *Écosystème Scientifique Montréalais*
+
+        - Séminaires : Accès aux talks hebdomadaires (IA, neurosciences, santé numérique)
+        - Formations : Workshops et cours (deep learning, méthodologie, éthique)
+        - Événements : Journées scientifiques, hackathons, conférences
+        - Réseau : Interaction avec l'écosystème Mila-IVADO (chercheurs, ingénieurs, startups)
+
+        *Développement Professionnel*
+
+        - Mentorat carrière : Guidance sur trajectoires académiques ou industrielles
+        - Lettres de recommandation : Détaillées, d'un laboratoire reconnu internationalement
+
+        *Vie d'Équipe*
+
+        - Lab meetings hebdomadaires (présentations, discussions scientifiques)
+        - Culture de feedback constructif et d'apprentissage continu
+        - Environnement multiculturel et interdisciplinaire
+        - Social events ponctuels
+      en: |
+        **Compensation & Duration**
+
+        - Status: Paid internship (agreement with your institution)
+        - Compensation: According to your institution's internship agreement
+        - Scholarships: We encourage and support scholarship applications (FRQNT, FRQS, Mitacs, etc.)
+        - Duration: 12 to 16 weeks (approximately 3 to 4 months)
+        - Workload: Full-time (35-40h/week) or part-time depending on academic constraints (to discuss)
+        - Preferred start: winter 2027
+
+        **Work Organization**
+
+        *On-site:*
+        - On-site days arranged around your class schedule, at CHU Sainte-Justine (Montreal)
+        - Location: 3175 chemin de la Côte-Sainte-Catherine (Université-de-Montréal metro)
+        - Shared office with project team
+
+        *Remote work:*
+        - Possible depending on tasks and project progress
+        - Occasional flexibility for personal constraints
+
+        *Schedule:*
+        - Flexible within 8am-6pm range, organized around your classes
+        - Team core hours: **10am-4pm** (synchronous presence for team collaboration)
+        - Autonomy in organizing your time
+
+        **Supervision & Mentoring**
+
+        *Scientific supervisor:*
+        - Guillaume Dumas (Director, PPSP Laboratory)
+        - Role: Scientific vision, strategic guidance, networking opportunities
+        - Interactions: Monthly meetings + ad hoc availability
+
+        *Daily mentor:*
+        - Rémy Ramadour (Research Engineer)
+        - Role: Daily support, technical review, practical mentoring
+        - Interactions: Weekly check-ins (1h) + near-daily availability
+
+        *Project team:*
+        - Task team of 3 interns on complementary missions (EEG acquisition, AR/VR, dyadic neurofeedback)
+        - Support from the lab's research assistants for acquisitions
+        - Team rituals: weekly stand-ups, work reviews, collaboration
+        - Collaborative dynamics
+
+        **Environment & Benefits**
+
+        *CHU Sainte-Justine — Pediatric University Hospital*
+
+        You work in a hospital that treats 400,000 children per year. This environment gives daily meaning: the research you develop will directly serve the children, families, and healthcare providers you will encounter in the hallways.
+
+        - Subsidized cafeteria: Complete meals at union rate (~$8-10/meal)
+        - Cafeteria open 7 days/week, rest areas
+        - University library: Access to UdeM resources, scientific databases
+        - Transportation: Metro 5 min walk, parking available (fees applicable)
+
+        *Montreal Scientific Ecosystem*
+
+        - Seminars: Access to weekly talks (AI, neuroscience, digital health)
+        - Training: Workshops and courses (deep learning, methodology, ethics)
+        - Events: Scientific days, hackathons, conferences
+        - Network: Interaction with Mila-IVADO ecosystem (researchers, engineers, startups)
+
+        *Professional Development*
+
+        - Career mentoring: Guidance on academic or industrial trajectories
+        - Letters of recommendation: Detailed, from an internationally recognized laboratory
+
+        *Team Life*
+
+        - Weekly lab meetings (presentations, scientific discussions)
+        - Culture of constructive feedback and continuous learning
+        - Multicultural and interdisciplinary environment
+        - Occasional social events
+
+    application:
+      fr: |
+        ## Procédure de Recrutement
+
+        Notre processus est conçu pour être **transparent, respectueux et équitable**. L'objectif : trouver le bon fit mutuel.
+
+        **Documents Requis**
+
+        Envoyez par email les documents suivants :
+
+        *Obligatoires :*
+        - CV (2 pages maximum)
+        - Relevé de notes (transcripts des 2 dernières années)
+        - Lettre de motivation (1 page) :
+            - Pourquoi ce stage précis ?
+            - Pourquoi le laboratoire PPSP ?
+            - Votre projet de carrière à 3-5 ans
+
+        *Complémentaires (recommandés) :*
+        - 1 à 2 références (académiques ou professionnelles) : nom, fonction, email
+        - Tout projet personnel ou universitaire en lien avec la technologie (code, création 3D, électronique, analyse de données), même modeste
+
+        **Processus de Sélection**
+
+        **Étape 1 : Présélection sur Dossier (7 jours)**
+
+        Nous évaluons votre candidature selon quatre dimensions :
+
+        1. **Motivation et alignement** : Votre lettre révèle-t-elle une compréhension de notre mission ?
+        2. **Compétences techniques** : Votre parcours démontre-t-il les fondamentaux requis ?
+        3. **Potentiel de croissance** : Trajectoire cohérente, projets personnels, curiosité intellectuelle
+        4. **Fit avec le projet** : Vos intérêts correspondent-ils aux missions du stage ?
+
+        *Engagement :* Vous recevez une réponse dans les **7 jours ouvrés**, même si votre candidature n'est pas retenue pour un entretien.
+
+        **Étape 2 : Entretien Motivation (30 min)**
+
+        *Visioconférence ou présentiel (votre choix)*
+
+        Format : Discussion ouverte pour mieux vous connaître.
+
+        *Vous parlez de vous (15 min) :*
+        - Votre parcours et ce qui vous a amené ici
+        - Vos motivations pour ce stage
+        - Votre projet de carrière
+        - Vos questions sur le stage et le laboratoire
+
+        *Nous parlons du stage (10 min) :*
+        - Mission détaillée et projets concrets
+        - Environnement de travail et dynamique d'équipe
+        - Attentes mutuelles
+
+        *Discussion ouverte (5 min) :*
+        - Vos questions (encouragées)
+        - Clarifications pratiques
+
+        Ce que nous évaluons : Alignement motivationnel, clarté du projet professionnel, capacité à communiquer, questions pertinentes.
+
+        Ce que nous n'évaluons pas ici : Compétences techniques (réservées pour l'étape suivante).
+
+        **Étape 3 : Entretien Technique (45 min)**
+
+        *Visioconférence ou présentiel (votre choix)*
+
+        Format : Discussion, puis étude de cas. Aucune préparation requise.
+
+        *Votre rapport à la technologie (15 min) :*
+        - Un projet, un outil ou un apprentissage technique dont vous êtes fier·ère, même modeste
+        - Ce que vous aimeriez apprendre pendant le stage
+
+        *Étude de cas (25 min) :*
+        - Nous imaginons ensemble un jeu à deux en réalité virtuelle pour étudier une interaction
+        - Quelles configurations comparer, que mesurer, quels pièges éviter
+
+        *Vos questions (5 min)*
+
+        Ce que nous évaluons : Curiosité, raisonnement expérimental, envie d'apprendre, clarté des explications.
+
+        Ce que nous n'évaluons pas ici : Vos compétences en programmation, qui se construisent pendant le stage.
+
+        **Étape 4 : Entretien de Départage (Optionnel, 30 min)**
+
+        Si plusieurs candidatures excellentes sont en balance, un entretien court peut être organisé pour approfondir certains aspects ou discuter de scénarios de collaboration spécifiques.
+
+        **Timeline & Engagements**
+
+        *Timeline indicative :*
+        - Réponse initiale : **7 jours ouvrés** après réception dossier complet
+        - Entretiens : planifiés sur 2-3 semaines
+        - Décision finale : **48h** après dernier entretien
+
+        *Nos engagements :*
+        - Réponse systématique à toute candidature complète
+        - Transparence sur critères et timeline
+        - Feedback constructif pour candidat·es reçu·es en entretien
+        - Respect de votre temps (pas de ghosting, pas de délais excessifs)
+        - Équité : mêmes critères pour tou·tes
+
+        Nous traitons nos candidat·es comme des collaborateur·rices potentiel·les dès le premier contact.
+
+        ## Comment Postuler
+
+        **Email :** apply@ppsp.team
+
+        **Objet :** "Candidature Stage AR/VR - [Votre Nom]"
+
+        **Format des documents :**
+
+        Envoyez tous les documents au format PDF, nommés comme suit :
+        - `NomPrenom_CV.pdf`
+        - `NomPrenom_RelevéNotes.pdf`
+        - `NomPrenom_LettreMotivation.pdf`
+
+        **Dans le corps de l'email :**
+        - Période de disponibilité souhaitée
+        - Questions éventuelles
+
+        **Questions ?**
+
+        Écrivez-nous. Nous répondons à toutes les questions.
+      en: |
+        ## Recruitment Process
+
+        Our process is designed to be **transparent, respectful, and fair**. The goal: find the right mutual fit.
+
+        **Required Documents**
+
+        Send the following documents by email:
+
+        *Mandatory:*
+        - CV (2 pages maximum)
+        - Transcripts (last 2 years)
+        - Cover letter (1 page):
+            - Why this specific internship?
+            - Why the PPSP laboratory?
+            - Your career plan for the next 3-5 years
+
+        *Complementary (recommended):*
+        - 1 to 2 references (academic or professional): name, title, email
+        - Any personal or academic project involving technology (code, 3D creation, electronics, data analysis), however modest
+
+        **Selection Process**
+
+        **Step 1: Application Screening (7 days)**
+
+        We evaluate your application across four dimensions:
+
+        1. **Motivation and alignment**: Does your letter reveal understanding of our mission?
+        2. **Technical skills**: Does your background demonstrate the required fundamentals?
+        3. **Growth potential**: Coherent trajectory, personal projects, intellectual curiosity
+        4. **Project fit**: Do your interests match the internship missions?
+
+        *Commitment:* You receive a response within **7 business days**, even if your application is not selected for an interview.
+
+        **Step 2: Motivation Interview (30 min)**
+
+        *Video conference or in-person (your choice)*
+
+        Format: Open discussion to get to know you better.
+
+        *You talk about yourself (15 min):*
+        - Your background and what brought you here
+        - Your motivations for this internship
+        - Your career plan
+        - Your questions about the internship and laboratory
+
+        *We talk about the internship (10 min):*
+        - Detailed mission and concrete projects
+        - Work environment and team dynamics
+        - Mutual expectations
+
+        *Open discussion (5 min):*
+        - Your questions (encouraged)
+        - Practical clarifications
+
+        What we evaluate: Motivational alignment, career plan clarity, communication ability, relevant questions.
+
+        What we don't evaluate here: Technical skills (reserved for the next stage).
+
+        **Step 3: Technical Interview (45 min)**
+
+        *Video conference or in-person (your choice)*
+
+        Format: Discussion, then a case study. No preparation required.
+
+        *You and technology (15 min):*
+        - A project, tool, or technical skill you are proud of, however modest
+        - What you would like to learn during the internship
+
+        *Case study (25 min):*
+        - Together we imagine a two-player virtual reality game to study an interaction
+        - Which configurations to compare, what to measure, which pitfalls to avoid
+
+        *Your questions (5 min)*
+
+        What we evaluate: Curiosity, experimental reasoning, eagerness to learn, clarity of explanations.
+
+        What we don't evaluate here: Your programming skills, which you will build during the internship.
+
+        **Step 4: Tie-Breaking Interview (Optional, 30 min)**
+
+        If several excellent applications are balanced, a short interview may be organized to deepen certain aspects or discuss specific collaboration scenarios.
+
+        **Timeline & Commitments**
+
+        *Indicative timeline:*
+        - Initial response: **7 business days** after complete application received
+        - Interviews: scheduled over 2-3 weeks
+        - Final decision: **48 hours** after last interview
+
+        *Our commitments:*
+        - Systematic response to every complete application
+        - Transparency on criteria and timeline
+        - Constructive feedback for candidates interviewed
+        - Respect for your time (no ghosting, no excessive delays)
+        - Equity: same criteria for everyone
+
+        We treat our candidates as potential collaborators from the first contact.
+
+        ## How to Apply
+
+        **Email:** apply@ppsp.team
+
+        **Subject:** "Application AR/VR Internship - [Your Name]"
+
+        **Document format:**
+
+        Send all documents in PDF format, named as follows:
+        - `LastnameFirstname_CV.pdf`
+        - `LastnameFirstname_Transcripts.pdf`
+        - `LastnameFirstname_CoverLetter.pdf`
+
+        **In the email body:**
+        - Desired availability period
+        - Any questions
+
+        **Questions?**
+
+        Write to us. We respond to all questions.
+
+    contact: "apply@ppsp.team"
+
+  # ============================================================================
+  # Internship 2027 - Dyadic Neurofeedback (EEG hyperscanning)
+  # ============================================================================
+  - id: dyadic-neurofeedback
+    active: true
+    type: internship
+    title:
+      fr: "Stagiaire en neurofeedback"
+      en: "Neurofeedback Intern"
+    subtitle:
+      fr: "Neurofeedback dyadique en hyperscanning EEG"
+      en: "Dyadic Neurofeedback in EEG Hyperscanning"
+    location:
+      fr: "CHU Sainte-Justine, Montréal"
+      en: "CHU Sainte-Justine, Montreal"
+    duration:
+      fr: "12 à 16 semaines (3 à 4 mois)"
+      en: "12 to 16 weeks (3 to 4 months)"
+    start:
+      fr: "Hiver 2027"
+      en: "Winter 2027"
+    onsite:
+      fr: "À convenir selon votre horaire"
+      en: "Arranged around your schedule"
+    pdf:
+      fr: "/assets/jobs/offre_stage_ppsp_neurofeedback_dyadique_fr.pdf"
+      en: "/assets/jobs/offre_stage_ppsp_neurofeedback_dyadique_en.pdf"
+    our_mission:
+      fr: |
+        ## Notre Mission
+
+        **Social NeuroAI Hub — Where minds connect**
+
+        *Où les intelligences se rencontrent*
+
+        Le **Laboratoire PPSP** est situé au **CHU Sainte-Justine**, l'un des plus grands hôpitaux pédiatriques universitaires au monde. Nous développons les sciences et technologies qui permettent de comprendre comment les diverses intelligences se coordonnent, se développent et s'entraident. Notre approche : l'**hyperscanning multimodal** enregistre simultanément cerveau, physiologie, langage et comportement de plusieurs personnes en interaction. L'objectif est d'explorer **les potentialités et diversités cognitives et méta-cognitives**. Nous créons des outils open-source, des protocoles cliniques et des connaissances qui, ensemble, servent directement les enfants, les familles et les soignants. **Du labo à l'hôpital, de la science à la santé.**
+      en: |
+        ## Our Mission
+
+        **Social NeuroAI Hub — Where minds connect**
+
+        *Où les intelligences se rencontrent*
+
+        The **PPSP Laboratory** is located at **CHU Sainte-Justine**, one of the world's largest pediatric university hospitals. We develop the sciences and technologies that enable understanding of how diverse intelligences coordinate, develop, and support one another. Our approach: **multimodal hyperscanning** simultaneously records brain, physiology, language, and behavior of multiple people in interaction. Our goal is to explore **cognitive and meta-cognitive potentialities and diversities**. We create open-source tools, clinical protocols, and knowledge that together directly serve children, families, and healthcare providers. **From lab to hospital, from science to health.**
+
+    your_mission:
+      fr: |
+        ## Votre Mission
+
+        ### Fermer la boucle entre deux cerveaux
+
+        Le neurofeedback présente à une personne son activité cérébrale en temps réel pour qu'elle apprenne à la moduler. En version dyadique, le retour porte sur ce qui se passe entre deux cerveaux, par exemple leur degré de synchronie. Votre mission : piloter le développement et l'évaluation d'une boucle de neurofeedback dyadique à partir des casques EEG mobiles du laboratoire (Mentalab, Starstim), depuis le calcul des mesures en temps réel jusqu'au retour présenté aux deux participant·es. Vous menez ce chantier, et nous y travaillons avec vous.
+
+        **Ce que vous allez faire :**
+
+        **Développement :**
+        - Construire avec l'équipe le traitement en temps réel de deux flux EEG : filtrage, gestion des artefacts, extraction de caractéristiques
+        - Choisir avec l'équipe scientifique les mesures de synchronie inter-cérébrale à calculer en ligne, en s'appuyant sur les métriques de HyPyP
+        - Concevoir le retour présenté à la dyade (visuel, sonore) et en proposer plusieurs variantes à comparer
+
+        **Validation & Tests :**
+        - Caractériser la latence de la boucle de bout en bout
+        - Vérifier la justesse des mesures en ligne en les comparant aux analyses hors ligne
+        - Tester la boucle sur des signaux simulés, puis lors de séances pilotes
+
+        **Documentation & Open-Source :**
+        - Documenter la boucle et ses paramètres
+        - Contribuer à la publication du code en open-source, avec des exemples reproductibles
+        - Rédiger le protocole de séance à destination de l'équipe d'acquisition
+
+        **Recherche Appliquée :**
+        - Participer aux acquisitions EEG en neurofeedback dyadique
+        - Contribuer au design expérimental : conditions contrôle, choix des mesures renvoyées aux participant·es
+        - Analyser les premières données et les présenter en lab meeting
+
+        **Projets concrets :**
+
+        - La boucle de neurofeedback dyadique du laboratoire, dont vous piloterez le développement avec l'équipe
+        - HyPyP, la librairie open-source du laboratoire, dont les mesures de synchronie alimenteront le calcul en temps réel
+        - La base de données ouverte d'hyperscanning et le dispositif AR/VR, avec lesquels votre boucle partagera protocole d'acquisition et environnements
+
+        **Impact :**
+
+        Votre boucle ouvrira à l'équipe un nouveau type d'expérience, où deux personnes apprennent ensemble à moduler leur synchronie.
+      en: |
+        ## Your Mission
+
+        ### Closing the loop between two brains
+
+        Neurofeedback shows a person their brain activity in real time so they can learn to modulate it. In its dyadic form, the feedback reflects what happens between two brains, for example their degree of synchrony. Your mission: lead the development and evaluation of a dyadic neurofeedback loop built on the lab's mobile EEG headsets (Mentalab, Starstim), from real-time computation of the measures to the feedback presented to both participants. You lead this effort, and we work on it with you.
+
+        **What you will do:**
+
+        **Development:**
+        - Build with the team the real-time processing of two EEG streams: filtering, artifact handling, feature extraction
+        - Choose with the scientific team the inter-brain synchrony measures to compute online, building on HyPyP metrics
+        - Design the feedback presented to the dyad (visual, auditory) and propose several variants to compare
+
+        **Validation & Testing:**
+        - Characterize the end-to-end latency of the loop
+        - Check the accuracy of online measures by comparing them with offline analyses
+        - Test the loop on simulated signals, then during pilot sessions
+
+        **Documentation & Open-Source:**
+        - Document the loop and its parameters
+        - Contribute to releasing the code as open-source, with reproducible examples
+        - Write the session protocol for the acquisition team
+
+        **Applied Research:**
+        - Take part in EEG acquisitions with dyadic neurofeedback
+        - Contribute to the experimental design: control conditions, choice of measures fed back to participants
+        - Analyze the first data and present them at lab meetings
+
+        **Concrete projects:**
+
+        - The lab's dyadic neurofeedback loop, whose development you will lead with the team
+        - HyPyP, the lab's open-source library, whose synchrony measures will feed the real-time computation
+        - The open hyperscanning database and the AR/VR setup, with which your loop will share acquisition protocol and environments
+
+        **Impact:**
+
+        Your loop will open a new kind of experiment for the team, where two people learn together to modulate their synchrony.
+
+    profile:
+      fr: |
+        ### Ce qui vous anime
+
+        Vous êtes attiré·e par l'**exécution concrète, robuste, durable**.
+
+        **Orientation résultats**
+
+        Vous trouvez satisfaction dans le travail qui aboutit, les objectifs atteints, la documentation qui éclaire. La finition d'un travail bien fait vous anime. Vous aimez voir un projet abouti et utilisable.
+
+        **Curiosité intellectuelle**
+
+        Vous voulez comprendre **pourquoi** on mène ces projets, **comment** ils s'inscrivent dans la recherche, **à quoi** ils serviront. Vous lisez, vous posez des questions, vous explorez au-delà de votre mission immédiate.
+
+        **Rigueur méthodologique**
+
+        Vous travaillez de façon structurée, documentez vos démarches, validez vos résultats. Vous accordez du temps à bien faire les choses. La qualité de votre travail compte pour vous.
+
+        **Esprit collaboratif**
+
+        Vous appréciez les retours, partagez vos réflexions, accueillez les feedbacks. Vous contribuez à une dynamique d'équipe constructive où l'impact collectif guide les décisions.
+
+        **Autonomie et collaboration**
+
+        Face à un problème, vous décomposez, explorez la documentation, testez des hypothèses. Vous identifiez les moments où collaborer enrichit la solution. Vous naviguez naturellement entre travail autonome et co-construction.
+
+        ### Compétences techniques fondamentales
+
+        **Formation**
+        - Étudiant·e en médecine, psychologie, neurosciences ou neuropsychologie, dès la deuxième année de votre programme
+        - Envie d'explorer une autre facette de votre future profession au contact de l'innovation logicielle et matérielle
+
+        **Goût pour la technologie**
+        - Curiosité pour le neurofeedback, les interfaces cerveau-machine et le traitement des signaux
+        - Envie d'apprendre à programmer en Python, quel que soit votre point de départ
+        - Plaisir à manipuler du matériel de mesure
+
+        **Bases scientifiques**
+        - Notions de neurosciences ou de neurophysiologie acquises en cours
+        - Connaissances de base en méthodes expérimentales et en statistiques
+        - Anglais scientifique (lecture d'articles et de documentation)
+
+        ### Atouts valorisés (non-obligatoires)
+
+        - Première expérience de programmation (Python, R ou MATLAB)
+        - Notions d'EEG : rythmes cérébraux, artefacts
+        - Intérêt pour les applications cliniques du neurofeedback
+        - Notions de traitement du signal
+        - Goût pour la visualisation ou le design sonore
+        - Expérience d'accueil de participant·es ou de passation
+
+        ### Comment nous grandissons ensemble
+
+        Ce stage est un espace de **développement mutuel**. Vous apporterez vos compétences et votre perspective, nous partagerons notre expertise scientifique et méthodologique. À travers la collaboration quotidienne, les revues de travail, les discussions et le mentorat, chacun·e développe les compétences qui font avancer le projet.
+      en: |
+        ### What drives you
+
+        You are drawn to **concrete, robust, lasting execution**.
+
+        **Results-oriented**
+
+        You find satisfaction in work that delivers, goals achieved, documentation that clarifies. The completion of work well done motivates you. You enjoy seeing a project finished and usable.
+
+        **Intellectual curiosity**
+
+        You want to understand **why** we pursue these projects, **how** they fit into research, **what** they will serve. You read, ask questions, explore beyond your immediate mission.
+
+        **Methodological rigor**
+
+        You work in a structured way, document your approaches, validate your results. You take time to do things properly. The quality of your work matters to you.
+
+        **Collaborative spirit**
+
+        You appreciate feedback, share your reflections, welcome input. You contribute to a constructive team dynamic where collective impact guides decisions.
+
+        **Autonomy and collaboration**
+
+        Faced with a problem, you break it down, explore documentation, test hypotheses. You identify moments when collaboration enriches the solution. You navigate naturally between autonomous work and co-construction.
+
+        ### Core technical skills
+
+        **Education**
+        - Student in medicine, psychology, neuroscience, or neuropsychology, from the second year of your program
+        - A desire to explore another side of your future profession through software and hardware innovation
+
+        **A taste for technology**
+        - Curiosity about neurofeedback, brain-computer interfaces, and signal processing
+        - Eagerness to learn programming in Python, whatever your starting point
+        - Enjoyment of hands-on work with measurement equipment
+
+        **Scientific foundations**
+        - Notions of neuroscience or neurophysiology from coursework
+        - Basic knowledge of experimental methods and statistics
+        - Scientific English (reading articles and documentation)
+
+        ### Valued assets (not required)
+
+        - First programming experience (Python, R, or MATLAB)
+        - Notions of EEG: brain rhythms, artifacts
+        - Interest in the clinical applications of neurofeedback
+        - Notions of signal processing
+        - A taste for visualization or sound design
+        - Experience welcoming participants or administering tests
+
+        ### How we grow together
+
+        This internship is a space for **mutual development**. You will bring your skills and perspective, we will share our scientific and methodological expertise. Through daily collaboration, work reviews, discussions, and mentorship, everyone develops the skills that advance the project.
+
+    skills:
+      fr: |
+        À la fin de ce stage, vous aurez développé une expertise **singulière et recherchée**.
+
+        **Expertise Technique**
+
+        *Traitement du signal EEG en temps réel*
+
+        Vous comprendrez comment se construit une chaîne de traitement en ligne, de l'acquisition au calcul des mesures, et vous saurez en caractériser la latence.
+
+        *Neurofeedback et interfaces cerveau-machine*
+
+        Vous saurez concevoir une boucle de retour avec une équipe d'ingénierie, la valider sur signaux simulés et la mettre à l'épreuve en séance.
+
+        *Mesures de synchronie inter-cérébrale*
+
+        Vous aurez pris en main HyPyP et compris ce que mesurent, et ce que laissent de côté, les principales métriques de synchronie.
+
+        **Vision Interdisciplinaire**
+
+        *Le pont neuro-IA-clinique*
+
+        Vous comprendrez comment s'articulent neurosciences fondamentales, intelligence artificielle et applications cliniques. Vous aurez travaillé dans un hôpital pédiatrique universitaire, observé comment la recherche se connecte aux besoins réels des enfants et des familles.
+
+        *Culture pluridisciplinaire*
+
+        Vous saurez dialoguer avec des chercheurs en neurosciences, des ingénieurs, des cliniciens et des designers.
+
+        **Méthodologie de Recherche Ouverte**
+
+        *Science reproductible*
+
+        Vous maîtriserez les standards de la science ouverte : travail versionné, pipelines documentés, analyses reproductibles. Ces pratiques deviennent essentielles dans tous les domaines de la recherche.
+
+        **Réseau & Trajectoires**
+
+        *Écosystème montréalais*
+
+        Vous travaillerez au CHU Sainte-Justine, avec accès aux séminaires et formations de l'écosystème IA montréalais (Mila, IVADO). Vous rencontrerez chercheurs, ingénieurs et cliniciens qui façonnent l'avenir de la neuro-IA.
+
+        *Co-authorship possible*
+
+        Selon l'avancement du projet, vous pourrez co-signer des publications méthodologiques ou les études utilisant vos contributions.
+
+        *Trajectoires après le stage*
+
+        Nos anciens stagiaires poursuivent des parcours variés : PhD en neurosciences computationnelles ou IA, postes d'ingénieur·es recherche dans des instituts académiques, développement en neuro-tech, carrières industrielles et création d'entreprises.
+
+        **Portfolio Concret**
+
+        À l'issue du stage, votre portfolio inclura :
+
+        - Une boucle de neurofeedback dyadique open-source dont vous aurez piloté le développement
+        - Un rapport de validation : latence, comparaison des mesures en ligne et hors ligne
+        - Un protocole de séance et une démonstration de la boucle
+      en: |
+        At the end of this internship, you will have developed **unique and sought-after** expertise.
+
+        **Technical Expertise**
+
+        *Real-time EEG signal processing*
+
+        You will understand how an online processing chain is built, from acquisition to the computation of measures, and you will be able to characterize its latency.
+
+        *Neurofeedback and brain-computer interfaces*
+
+        You will be able to design a feedback loop with an engineering team, validate it on simulated signals, and put it to the test in sessions.
+
+        *Inter-brain synchrony measures*
+
+        You will have learned HyPyP and understood what the main synchrony metrics capture and what they leave out.
+
+        **Interdisciplinary Vision**
+
+        *The neuro-AI-clinical bridge*
+
+        You will understand how fundamental neuroscience, artificial intelligence, and clinical applications articulate. You will have worked in a pediatric university hospital, observed how research connects to the real needs of children and families.
+
+        *Multidisciplinary culture*
+
+        You will be able to dialogue with neuroscience researchers, engineers, clinicians, and designers.
+
+        **Open Research Methodology**
+
+        *Reproducible science*
+
+        You will master open science standards: versioned work, documented pipelines, reproducible analyses. These practices are becoming essential in all fields of computational research.
+
+        **Network & Trajectories**
+
+        *Montreal ecosystem*
+
+        You will work at CHU Sainte-Justine, with access to seminars and training from Montreal's AI ecosystem (Mila, IVADO). You will meet researchers, engineers, and clinicians shaping the future of neuro-AI.
+
+        *Possible co-authorship*
+
+        Depending on project progress, you may co-sign methodological publications or studies using your contributions.
+
+        *Post-internship trajectories*
+
+        Our former interns pursue varied paths: PhD in computational neuroscience or AI, research engineer positions in academic institutes, neuro-tech development, industrial careers, and company creation.
+
+        **Concrete Portfolio**
+
+        At the end of the internship, your portfolio will include:
+
+        - An open-source dyadic neurofeedback loop whose development you led
+        - A validation report: latency, comparison of online and offline measures
+        - A session protocol and a demonstration of the loop
+
+    working_conditions:
+      fr: |
+        **Rémunération & Durée**
+
+        - Statut : Stage rémunéré (convention avec votre établissement)
+        - Rémunération : Selon convention de stage de votre établissement
+        - Bourses : Nous encourageons et accompagnons les candidatures aux bourses (FRQNT, FRQS, Mitacs, etc.)
+        - Durée : 12 à 16 semaines (environ 3 à 4 mois)
+        - Charge : Temps plein (35-40h/semaine) ou temps partiel selon contraintes académiques (à discuter)
+        - Début souhaité : hiver 2027
+
+        **Organisation du Travail**
+
+        *Présentiel :*
+        - Jours de présence à convenir selon votre horaire de cours, au CHU Sainte-Justine (Montréal)
+        - Localisation : 3175 chemin de la Côte-Sainte-Catherine (métro Université-de-Montréal)
+        - Bureau partagé avec l'équipe projet
+
+        *Télétravail :*
+        - Possible selon les tâches et l'avancement du projet
+        - Flexibilité ponctuelle pour contraintes personnelles
+
+        *Horaires :*
+        - Flexibles dans la plage 8h-18h, organisés autour de vos cours
+        - Core hours de l'équipe : **10h-16h** (présence synchrone pour collaboration équipe)
+        - Autonomie dans l'organisation de votre temps
+
+        **Encadrement & Mentorat**
+
+        *Superviseur scientifique :*
+        - Guillaume Dumas (directeur du laboratoire PPSP)
+        - Rôle : Vision scientifique, guidance stratégique, opportunités réseau
+        - Interactions : Réunions mensuelles + disponibilité ad hoc
+
+        *Encadrant de proximité :*
+        - Rémy Ramadour (ingénieur de recherche)
+        - Rôle : Accompagnement quotidien, revue technique, mentorat pratique
+        - Interactions : Points hebdomadaires (1h) + disponibilité quasi-quotidienne
+
+        *Équipe projet :*
+        - Task team de 3 stagiaires sur des missions complémentaires (acquisition EEG, AR/VR, neurofeedback dyadique)
+        - Appui des assistantes de recherche du laboratoire pour les acquisitions
+        - Rituels d'équipe : stand-ups hebdomadaires, revues de travail, collaboration
+        - Dynamique collaborative
+
+        **Environnement & Avantages**
+
+        *CHU Sainte-Justine — Hôpital Pédiatrique Universitaire*
+
+        Vous travaillez dans un hôpital qui soigne 400 000 enfants par an. Cet environnement donne du sens au quotidien : la recherche que vous développez servira directement les enfants, les familles et les soignants que vous croiserez dans les couloirs.
+
+        - Cantine subventionnée : Repas complets à tarif syndical (~8-10$/repas)
+        - Cafétéria ouverte 7j/7, espaces de repos
+        - Bibliothèque universitaire : Accès ressources UdeM, bases de données scientifiques
+        - Transport : Métro à 5 min à pied, stationnement disponible (frais applicables)
+
+        *Écosystème Scientifique Montréalais*
+
+        - Séminaires : Accès aux talks hebdomadaires (IA, neurosciences, santé numérique)
+        - Formations : Workshops et cours (deep learning, méthodologie, éthique)
+        - Événements : Journées scientifiques, hackathons, conférences
+        - Réseau : Interaction avec l'écosystème Mila-IVADO (chercheurs, ingénieurs, startups)
+
+        *Développement Professionnel*
+
+        - Mentorat carrière : Guidance sur trajectoires académiques ou industrielles
+        - Lettres de recommandation : Détaillées, d'un laboratoire reconnu internationalement
+
+        *Vie d'Équipe*
+
+        - Lab meetings hebdomadaires (présentations, discussions scientifiques)
+        - Culture de feedback constructif et d'apprentissage continu
+        - Environnement multiculturel et interdisciplinaire
+        - Social events ponctuels
+      en: |
+        **Compensation & Duration**
+
+        - Status: Paid internship (agreement with your institution)
+        - Compensation: According to your institution's internship agreement
+        - Scholarships: We encourage and support scholarship applications (FRQNT, FRQS, Mitacs, etc.)
+        - Duration: 12 to 16 weeks (approximately 3 to 4 months)
+        - Workload: Full-time (35-40h/week) or part-time depending on academic constraints (to discuss)
+        - Preferred start: winter 2027
+
+        **Work Organization**
+
+        *On-site:*
+        - On-site days arranged around your class schedule, at CHU Sainte-Justine (Montreal)
+        - Location: 3175 chemin de la Côte-Sainte-Catherine (Université-de-Montréal metro)
+        - Shared office with project team
+
+        *Remote work:*
+        - Possible depending on tasks and project progress
+        - Occasional flexibility for personal constraints
+
+        *Schedule:*
+        - Flexible within 8am-6pm range, organized around your classes
+        - Team core hours: **10am-4pm** (synchronous presence for team collaboration)
+        - Autonomy in organizing your time
+
+        **Supervision & Mentoring**
+
+        *Scientific supervisor:*
+        - Guillaume Dumas (Director, PPSP Laboratory)
+        - Role: Scientific vision, strategic guidance, networking opportunities
+        - Interactions: Monthly meetings + ad hoc availability
+
+        *Daily mentor:*
+        - Rémy Ramadour (Research Engineer)
+        - Role: Daily support, technical review, practical mentoring
+        - Interactions: Weekly check-ins (1h) + near-daily availability
+
+        *Project team:*
+        - Task team of 3 interns on complementary missions (EEG acquisition, AR/VR, dyadic neurofeedback)
+        - Support from the lab's research assistants for acquisitions
+        - Team rituals: weekly stand-ups, work reviews, collaboration
+        - Collaborative dynamics
+
+        **Environment & Benefits**
+
+        *CHU Sainte-Justine — Pediatric University Hospital*
+
+        You work in a hospital that treats 400,000 children per year. This environment gives daily meaning: the research you develop will directly serve the children, families, and healthcare providers you will encounter in the hallways.
+
+        - Subsidized cafeteria: Complete meals at union rate (~$8-10/meal)
+        - Cafeteria open 7 days/week, rest areas
+        - University library: Access to UdeM resources, scientific databases
+        - Transportation: Metro 5 min walk, parking available (fees applicable)
+
+        *Montreal Scientific Ecosystem*
+
+        - Seminars: Access to weekly talks (AI, neuroscience, digital health)
+        - Training: Workshops and courses (deep learning, methodology, ethics)
+        - Events: Scientific days, hackathons, conferences
+        - Network: Interaction with Mila-IVADO ecosystem (researchers, engineers, startups)
+
+        *Professional Development*
+
+        - Career mentoring: Guidance on academic or industrial trajectories
+        - Letters of recommendation: Detailed, from an internationally recognized laboratory
+
+        *Team Life*
+
+        - Weekly lab meetings (presentations, scientific discussions)
+        - Culture of constructive feedback and continuous learning
+        - Multicultural and interdisciplinary environment
+        - Occasional social events
+
+    application:
+      fr: |
+        ## Procédure de Recrutement
+
+        Notre processus est conçu pour être **transparent, respectueux et équitable**. L'objectif : trouver le bon fit mutuel.
+
+        **Documents Requis**
+
+        Envoyez par email les documents suivants :
+
+        *Obligatoires :*
+        - CV (2 pages maximum)
+        - Relevé de notes (transcripts des 2 dernières années)
+        - Lettre de motivation (1 page) :
+            - Pourquoi ce stage précis ?
+            - Pourquoi le laboratoire PPSP ?
+            - Votre projet de carrière à 3-5 ans
+
+        *Complémentaires (recommandés) :*
+        - 1 à 2 références (académiques ou professionnelles) : nom, fonction, email
+        - Tout projet personnel ou universitaire en lien avec la technologie (code, création 3D, électronique, analyse de données), même modeste
+
+        **Processus de Sélection**
+
+        **Étape 1 : Présélection sur Dossier (7 jours)**
+
+        Nous évaluons votre candidature selon quatre dimensions :
+
+        1. **Motivation et alignement** : Votre lettre révèle-t-elle une compréhension de notre mission ?
+        2. **Compétences techniques** : Votre parcours démontre-t-il les fondamentaux requis ?
+        3. **Potentiel de croissance** : Trajectoire cohérente, projets personnels, curiosité intellectuelle
+        4. **Fit avec le projet** : Vos intérêts correspondent-ils aux missions du stage ?
+
+        *Engagement :* Vous recevez une réponse dans les **7 jours ouvrés**, même si votre candidature n'est pas retenue pour un entretien.
+
+        **Étape 2 : Entretien Motivation (30 min)**
+
+        *Visioconférence ou présentiel (votre choix)*
+
+        Format : Discussion ouverte pour mieux vous connaître.
+
+        *Vous parlez de vous (15 min) :*
+        - Votre parcours et ce qui vous a amené ici
+        - Vos motivations pour ce stage
+        - Votre projet de carrière
+        - Vos questions sur le stage et le laboratoire
+
+        *Nous parlons du stage (10 min) :*
+        - Mission détaillée et projets concrets
+        - Environnement de travail et dynamique d'équipe
+        - Attentes mutuelles
+
+        *Discussion ouverte (5 min) :*
+        - Vos questions (encouragées)
+        - Clarifications pratiques
+
+        Ce que nous évaluons : Alignement motivationnel, clarté du projet professionnel, capacité à communiquer, questions pertinentes.
+
+        Ce que nous n'évaluons pas ici : Compétences techniques (réservées pour l'étape suivante).
+
+        **Étape 3 : Entretien Technique (45 min)**
+
+        *Visioconférence ou présentiel (votre choix)*
+
+        Format : Discussion, puis étude de cas. Aucune préparation requise.
+
+        *Votre rapport à la technologie (15 min) :*
+        - Un projet, un outil ou un apprentissage technique dont vous êtes fier·ère, même modeste
+        - Ce que vous aimeriez apprendre pendant le stage
+
+        *Étude de cas (25 min) :*
+        - Nous esquissons ensemble une séance de neurofeedback à deux : que renvoyer aux participant·es, sous quelle forme, avec quelle condition contrôle
+        - Ce qui pourrait fausser la mesure et comment s'en prémunir
+
+        *Vos questions (5 min)*
+
+        Ce que nous évaluons : Curiosité, raisonnement expérimental, envie d'apprendre, clarté des explications.
+
+        Ce que nous n'évaluons pas ici : Vos compétences en programmation et en traitement du signal, qui se construisent pendant le stage.
+
+        **Étape 4 : Entretien de Départage (Optionnel, 30 min)**
+
+        Si plusieurs candidatures excellentes sont en balance, un entretien court peut être organisé pour approfondir certains aspects ou discuter de scénarios de collaboration spécifiques.
+
+        **Timeline & Engagements**
+
+        *Timeline indicative :*
+        - Réponse initiale : **7 jours ouvrés** après réception dossier complet
+        - Entretiens : planifiés sur 2-3 semaines
+        - Décision finale : **48h** après dernier entretien
+
+        *Nos engagements :*
+        - Réponse systématique à toute candidature complète
+        - Transparence sur critères et timeline
+        - Feedback constructif pour candidat·es reçu·es en entretien
+        - Respect de votre temps (pas de ghosting, pas de délais excessifs)
+        - Équité : mêmes critères pour tou·tes
+
+        Nous traitons nos candidat·es comme des collaborateur·rices potentiel·les dès le premier contact.
+
+        ## Comment Postuler
+
+        **Email :** apply@ppsp.team
+
+        **Objet :** "Candidature Stage Neurofeedback - [Votre Nom]"
+
+        **Format des documents :**
+
+        Envoyez tous les documents au format PDF, nommés comme suit :
+        - `NomPrenom_CV.pdf`
+        - `NomPrenom_RelevéNotes.pdf`
+        - `NomPrenom_LettreMotivation.pdf`
+
+        **Dans le corps de l'email :**
+        - Période de disponibilité souhaitée
+        - Questions éventuelles
+
+        **Questions ?**
+
+        Écrivez-nous. Nous répondons à toutes les questions.
+      en: |
+        ## Recruitment Process
+
+        Our process is designed to be **transparent, respectful, and fair**. The goal: find the right mutual fit.
+
+        **Required Documents**
+
+        Send the following documents by email:
+
+        *Mandatory:*
+        - CV (2 pages maximum)
+        - Transcripts (last 2 years)
+        - Cover letter (1 page):
+            - Why this specific internship?
+            - Why the PPSP laboratory?
+            - Your career plan for the next 3-5 years
+
+        *Complementary (recommended):*
+        - 1 to 2 references (academic or professional): name, title, email
+        - Any personal or academic project involving technology (code, 3D creation, electronics, data analysis), however modest
+
+        **Selection Process**
+
+        **Step 1: Application Screening (7 days)**
+
+        We evaluate your application across four dimensions:
+
+        1. **Motivation and alignment**: Does your letter reveal understanding of our mission?
+        2. **Technical skills**: Does your background demonstrate the required fundamentals?
+        3. **Growth potential**: Coherent trajectory, personal projects, intellectual curiosity
+        4. **Project fit**: Do your interests match the internship missions?
+
+        *Commitment:* You receive a response within **7 business days**, even if your application is not selected for an interview.
+
+        **Step 2: Motivation Interview (30 min)**
+
+        *Video conference or in-person (your choice)*
+
+        Format: Open discussion to get to know you better.
+
+        *You talk about yourself (15 min):*
+        - Your background and what brought you here
+        - Your motivations for this internship
+        - Your career plan
+        - Your questions about the internship and laboratory
+
+        *We talk about the internship (10 min):*
+        - Detailed mission and concrete projects
+        - Work environment and team dynamics
+        - Mutual expectations
+
+        *Open discussion (5 min):*
+        - Your questions (encouraged)
+        - Practical clarifications
+
+        What we evaluate: Motivational alignment, career plan clarity, communication ability, relevant questions.
+
+        What we don't evaluate here: Technical skills (reserved for the next stage).
+
+        **Step 3: Technical Interview (45 min)**
+
+        *Video conference or in-person (your choice)*
+
+        Format: Discussion, then a case study. No preparation required.
+
+        *You and technology (15 min):*
+        - A project, tool, or technical skill you are proud of, however modest
+        - What you would like to learn during the internship
+
+        *Case study (25 min):*
+        - Together we sketch a two-person neurofeedback session: what to feed back to participants, in what form, with which control condition
+        - What could distort the measurement and how to guard against it
+
+        *Your questions (5 min)*
+
+        What we evaluate: Curiosity, experimental reasoning, eagerness to learn, clarity of explanations.
+
+        What we don't evaluate here: Your programming and signal processing skills, which you will build during the internship.
+
+        **Step 4: Tie-Breaking Interview (Optional, 30 min)**
+
+        If several excellent applications are balanced, a short interview may be organized to deepen certain aspects or discuss specific collaboration scenarios.
+
+        **Timeline & Commitments**
+
+        *Indicative timeline:*
+        - Initial response: **7 business days** after complete application received
+        - Interviews: scheduled over 2-3 weeks
+        - Final decision: **48 hours** after last interview
+
+        *Our commitments:*
+        - Systematic response to every complete application
+        - Transparency on criteria and timeline
+        - Constructive feedback for candidates interviewed
+        - Respect for your time (no ghosting, no excessive delays)
+        - Equity: same criteria for everyone
+
+        We treat our candidates as potential collaborators from the first contact.
+
+        ## How to Apply
+
+        **Email:** apply@ppsp.team
+
+        **Subject:** "Application Neurofeedback Internship - [Your Name]"
+
+        **Document format:**
+
+        Send all documents in PDF format, named as follows:
+        - `LastnameFirstname_CV.pdf`
+        - `LastnameFirstname_Transcripts.pdf`
+        - `LastnameFirstname_CoverLetter.pdf`
+
+        **In the email body:**
+        - Desired availability period
+        - Any questions
+
+        **Questions?**
+
+        Write to us. We respond to all questions.
+
+    contact: "apply@ppsp.team"
+
+  # ============================================================================
   # 1. PRISME - XR Neuropsychological Task Design
   # ============================================================================
   - id: prisme-xr-task-design
