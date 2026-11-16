@@ -1,114 +1,127 @@
 # ============================================================================
-# JOB TEMPLATE - Copy this template to add a new job
+# JOB TEMPLATE - Copy this block to add a new offer to _data/jobs.yml
 # ============================================================================
 # Instructions:
-# 1. Copy this entire template block
-# 2. Paste it at the beginning of the jobs list in _data/jobs.yml
-# 3. Fill in all fields in both French (fr) and English (en)
-# 4. Remove any unused optional fields
-# 5. Update the 'active' field to true when ready to publish
+# 1. Copy the block below and paste it right under the `jobs:` line of
+#    _data/jobs.yml. Offers are displayed in file order, so newest go first.
+# 2. Fill in every text in both French (fr) and English (en).
+# 3. Delete the optional fields you do not need. Fields that are not listed
+#    here are not displayed by jobs.md.
+# 4. Set `active: true` to open the offer, `active: false` once it is filled
+#    (the card stays visible, greyed out, with a "Filled" badge).
+# 5. If you add PDFs, put them in assets/jobs/ and reference them with an
+#    absolute path starting with /assets/jobs/.
+#
+# Long fields are Markdown blocks (`|`). Headings, lists, bold and italics
+# are supported, and a list may follow a paragraph line directly.
+# See JOBS_FEATURE_README.md for how each field is rendered.
 # ============================================================================
 
-- id: unique-job-id  # REQUIRED: Use lowercase, hyphens only (e.g., "data-scientist-2026")
-  active: false  # REQUIRED: Set to true to display, false to hide
-  type: internship  # REQUIRED: internship, position, or contract
-  
-  # REQUIRED: Job title in both languages
-  title:
-    fr: "Titre du poste en français"
-    en: "Job title in English"
-  
-  # OPTIONAL: Subtitle/tagline
-  subtitle:
-    fr: "Sous-titre optionnel en français"
-    en: "Optional subtitle in English"
-  
-  # REQUIRED: Location
-  location:
-    fr: "CHU Sainte-Justine, Montréal"
-    en: "CHU Sainte-Justine, Montreal"
-  
-  # REQUIRED: Duration
-  duration:
-    fr: "X mois (temps plein/partiel)"
-    en: "X months (full-time/part-time)"
-  
-  # REQUIRED: Start date
-  start:
-    fr: "Saison ANNÉE (flexible)"
-    en: "Season YEAR (flexible)"
-  
-  # OPTIONAL: On-site requirements
-  onsite:
-    fr: "X jours/semaine"
-    en: "X days/week"
-  
-  # OPTIONAL: Project context/description
-  project:
-    fr: |
-      Description du projet en français.
-      Peut être sur plusieurs lignes.
-    en: |
-      Project description in English.
-      Can be multiline.
-  
-  # OPTIONAL: Main mission/objective
-  mission:
-    fr: |
-      Description de la mission en français.
-    en: |
-      Mission description in English.
-  
-  # OPTIONAL: List of tasks
-  tasks:
-    fr:
-      - "Tâche 1 en français"
-      - "Tâche 2 en français"
-      - "Tâche 3 en français"
-    en:
-      - "Task 1 in English"
-      - "Task 2 in English"
-      - "Task 3 in English"
-  
-  # OPTIONAL: Requirements/qualifications
-  requirements:
-    fr:
-      - "Exigence 1 en français"
-      - "Exigence 2 en français"
-    en:
-      - "Requirement 1 in English"
-      - "Requirement 2 in English"
-  
-  # OPTIONAL: Skills sought
-  skills:
-    fr:
-      - "Compétence 1 en français"
-      - "Compétence 2 en français"
-    en:
-      - "Skill 1 in English"
-      - "Skill 2 in English"
-  
-  # OPTIONAL: Benefits/perks
-  benefits:
-    fr:
-      - "Avantage 1 en français"
-      - "Avantage 2 en français"
-    en:
-      - "Benefit 1 in English"
-      - "Benefit 2 in English"
-  
-  # REQUIRED: Contact email
-  contact: "jobs@ppsp.team"
-  
-  # OPTIONAL: Application deadline
-  deadline:
-    fr: "Date limite en français"
-    en: "Deadline in English"
-  
-  # OPTIONAL: Salary range
-  salary:
-    fr: "Fourchette salariale en français"
-    en: "Salary range in English"
+  - id: unique-job-id  # REQUIRED: lowercase and hyphens only, unique (used in the modal id)
+    active: false      # REQUIRED: true = open, false = filled/archived
+    type: internship   # REQUIRED: internship, phd, postdoc or research assistant (these match the page filters)
+
+    # REQUIRED: short strings shown on the card and in the modal header
+    title:
+      fr: "Titre du poste"
+      en: "Job title"
+    subtitle:          # OPTIONAL: tagline under the title
+      fr: "Sous-titre"
+      en: "Subtitle"
+
+    # REQUIRED: the four boxes at the top of the modal (`start` is also shown on the card)
+    location:
+      fr: "CHU Sainte-Justine, Montréal"
+      en: "CHU Sainte-Justine, Montreal"
+    duration:
+      fr: "12 à 16 semaines"
+      en: "12 to 16 weeks"
+    start:
+      fr: "Hiver 2027"
+      en: "Winter 2027"
+    onsite:            # OPTIONAL
+      fr: "3 jours/semaine"
+      en: "3 days/week"
+
+    # OPTIONAL: downloadable offer. Adds a "PDF" button on the card and links
+    # to both language versions at the bottom of the modal.
+    pdf:
+      fr: "/assets/jobs/offre_fr.pdf"
+      en: "/assets/jobs/offer_en.pdf"
+
+    # OPTIONAL: rendered as-is, so include your own "## ..." heading.
+    our_mission:
+      fr: |
+        ## Notre Mission
+
+        Présentation du laboratoire.
+      en: |
+        ## Our Mission
+
+        Presentation of the lab.
+
+    # OPTIONAL: rendered as-is, so include your own "## ..." heading. The first
+    # sentence of its first paragraph is used as the card excerpt.
+    your_mission:
+      fr: |
+        ## Votre Mission
+
+        Première phrase affichée sur la carte. Suite de la description.
+
+        **Ce que vous allez faire :**
+        - Tâche 1
+        - Tâche 2
+      en: |
+        ## Your Mission
+
+        First sentence shown on the card. Rest of the description.
+
+        **What you will do:**
+        - Task 1
+        - Task 2
+
+    # OPTIONAL: the page prints its own section title for the next five
+    # fields, so do not repeat it as a "## ..." heading inside the text.
+    profile:             # section title: "Profil Recherché" / "Profile"
+      fr: |
+        Profil recherché.
+      en: |
+        Desired profile.
+    skills:              # section title: "Compétences Développées" / "Skills You Will Develop"
+      fr: |
+        Compétences que la personne développera.
+      en: |
+        Skills the intern will develop.
+    supervision:         # section title: "Encadrement" / "Supervision"
+      fr: |
+        Encadrement.
+      en: |
+        Supervision.
+    working_conditions:  # section title: "Conditions" / "Working Conditions"
+      fr: |
+        Rémunération, horaires, lieu.
+      en: |
+        Compensation, schedule, location.
+    application:         # section title: "Candidature" / "Application"
+      fr: |
+        ## Procédure de Recrutement
+
+        Étapes de sélection.
+
+        ## Comment Postuler
+
+        * **Email** : apply@ppsp.team
+      en: |
+        ## Recruitment Process
+
+        Selection steps.
+
+        ## How to Apply
+
+        * **Email**: apply@ppsp.team
+
+    # REQUIRED: address used by the "Apply" button (mailto:)
+    contact: "apply@ppsp.team"
 
 # ============================================================================
 # END OF TEMPLATE

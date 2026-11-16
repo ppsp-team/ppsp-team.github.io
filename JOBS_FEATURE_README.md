@@ -1,143 +1,29 @@
-# Job Openings Feature - Implementation Summary
+# Job Openings Page
 
-## 🎉 **Implementation Complete!**
+The jobs page lists the lab's open and past positions. It is built from a single data file, so adding or closing an offer never requires touching the page template.
 
-Created by: **Amelia (Developer Agent)** with team collaboration  
-Date: 2026-01-27
+## How the page is built
 
----
+Every offer lives in `_data/jobs.yml`, under the `jobs:` key, as one entry with bilingual `fr` and `en` texts. The page template, `jobs.md`, renders one card per entry and one modal window with the full offer. The French page at `/fr/jobs/` is generated automatically by `jekyll-multiple-languages-plugin`, which picks the `fr` texts; the English page at `/jobs/` picks the `en` texts. Offers appear in the order of the data file, so new offers go at the top.
 
-## ✅ **What Was Implemented**
+An offer with `active: true` is shown as open: its card has a "View offer" button and, when PDFs are provided, a "PDF" button, and its modal ends with an "Apply" button that opens an email to the `contact` address. An offer with `active: false` stays on the page, greyed out with a "Filled" badge, and its modal can no longer be opened. The sidebar filters cards by status (open, all, archived) and by `type`, whose accepted values are `internship`, `phd`, `postdoc` and `research assistant`.
 
-### **1. Data Structure** (`_data/jobs.yml`)
-- YAML-based job listings with comprehensive fields
-- 3 example job postings included:
-  - PhD Position in Social Neuro-AI (Open)
-  - Postdoctoral Fellow in Precision Psychiatry (Archived)
-  - Research Assistant - Clinical Data Collection (Open)
-  
-**Fields per job:**
-- `id, title, type, deadline, posted, status`
-- `short_description, description (markdown support)`
-- `requirements[], responsibilities[], benefits[]`
-- `contact, apply_url, supervisor`
-- Optional: `duration, hours`
+## Adding an offer
 
-### **2. Jobs Page** (`jobs.md`)
-- Card-based grid layout (2 columns on desktop)
-- **Filters:**
-  - Status: Open / All / Archived (default: Open)
-  - Type: All / PhD / Postdoc / Research Assistant / Internship
-- **Modal system** for full job details
-- Responsive design (mobile-friendly)
+Copy the block from `job_template.yml`, paste it right under the `jobs:` line of `_data/jobs.yml`, and fill in both languages. The template lists every field the page displays and marks which ones are required; anything not listed there is ignored by the page. Long texts are Markdown blocks, rendered with kramdown in GFM mode, so headings, bold text and lists all work, and a list can directly follow a paragraph line.
 
-### **3. Navigation Links**
-- Added "Jobs" link to both English and French navigation menus
-- English: "Jobs"
-- French: "Emplois"
+If the offer comes with PDF versions, copy them into `assets/jobs/` and point the `pdf` field at them with absolute paths such as `/assets/jobs/my_offer_fr.pdf`. The card then shows a PDF button in the page language, and the modal footer links to both language versions. The files open in a new browser tab, from which they can be downloaded.
 
----
+To close an offer, set `active: false`. Nothing else needs to change.
 
-## 🎨 **Design Features**
+## How the fields are rendered
 
-- **Card hover effects** - subtle elevation on hover
-- **Color-coded badges** per position type:
-  - PhD: Blue
-  - Postdoc: Yellow/Gold
-  - Research Assistant: Green
-  - Internship: Red
-- **Status indicators** - Green 🟢 for Open, Gray ⚫ for Closed
-- **Consistent styling** with existing publications page
-- **Archived jobs** appear grayed out and cannot be clicked
+The card shows the title, the optional subtitle, the type badge, the open or closed status, the `start` value and a one-line excerpt. The excerpt is the first sentence of the first paragraph of `your_mission`; headings are skipped because they render as `<h2>` or `<h3>` rather than paragraphs. Older offers that still use the legacy `mission` field show that field instead.
 
----
+The modal starts with four boxes for `location`, `duration`, `start` and the optional `onsite`. The long fields follow in a fixed order: `our_mission`, `your_mission`, `profile`, `skills`, `supervision`, `working_conditions` and `application`. The first two are rendered exactly as written, so their text should start with its own `## ...` heading. The other five receive a section title from the page itself ("Profile", "Skills You Will Develop", "Supervision", "Working Conditions", "Application" and their French equivalents), so their text should not repeat it.
 
-## 🔧 **How to Add/Edit Jobs**
+A few legacy fields remain supported for older entries but should not be used for new ones. `project` and `mission` are only rendered when `our_mission` and `your_mission` are absent, `tasks` is a plain list, and `process` is only rendered when `application` is absent.
 
-### **To Add a New Job:**
-1. Open `_data/jobs.yml`
-2. Copy an existing job entry
-3. Update all fields with new job details
-4. Set `status: "open"` for active positions
-5. Save the file - Jekyll auto-rebuilds!
+## Checking a change before it goes live
 
-### **To Archive a Job:**
-1. Find the job in `_data/jobs.yml`
-2. Change `status: "open"` to `status: "closed"`
-3. Save - the job will appear in "Archived" filter
-
-### **To Update Apply URL:**
-Currently set to `mailto:join@ppsp.team`. To change:
-1. Edit the `apply_url` field in each job entry
-2. Can link to external application forms or keep as email
-
----
-
-## 📁 **Files Created/Modified**
-
-### **Created:**
-- `_data/jobs.yml` - Job data source
-- `jobs.md` - Main jobs page with filters and modals
-
-### **Modified:**
-- `_i18n/en.yml` - Added "Jobs" navigation link
-- `_i18n/fr.yml` - Added "Emplois" navigation link
-
----
-
-## 🚀 **Testing**
-
-**Server is running at:** http://localhost:4000
-
-### **Test Checklist:**
-- [ ] Jobs page loads correctly
-- [ ] Card grid displays properly
-- [ ] Filters work (Status: Open/All/Archived)
-- [ ] Filters work (Type: All/PhD/Postdoc/RA/Internship)
-- [ ] Click on Open job card opens modal
-- [ ] Modal shows full job details
-- [ ] "Apply Now" button works (opens email)
-- [ ] Archived jobs show as grayed out
-- [ ] Navigation link "Jobs" appears in menu
-- [ ] Responsive on mobile (cards stack)
-- [ ] French version works ("Emplois" link)
-
----
-
-## 📝 **Notes**
-
-- **Filter default:** Shows only "Open" positions by default
-- **Apply button:** Currently `mailto:` links - update when you have application form URL
-- **Bilingual:** Page is in English, but you can create `fr/jobs.md` for French version
-- **SEO ready:** Page has proper title and structure
-- **Accessible:** ARIA labels included for screen readers
-
----
-
-## 🎯 **Next Steps (Optional)**
-
-1. Add French version of jobs page (`fr/jobs.md`)
-2. Create actual application form or link to external form
-3. Add email notifications when new jobs are posted
-4. Add RSS feed for job openings
-5. Integrate with Zotero for academic job postings
-
----
-
-## 🏗️ **Winston (Architect) Validation**
-
-✅ Architecture follows Jekyll best practices  
-✅ Data-driven approach allows easy maintenance  
-✅ Consistent with existing site patterns  
-✅ Scalable for future enhancements  
-
-## 🎨 **Sally (UX Designer) Validation**
-
-✅ Intuitive card-based interface  
-✅ Clear visual hierarchy  
-✅ Accessible filters and interactions  
-✅ Responsive design for all devices  
-
----
-
-**🎉 Ready to recruit! Happy hiring, PPSP Team! 🎉**
+Every push to `master` deploys the site to production on Netlify, so offers should be changed on a separate branch and merged through a pull request. Each pull request gets a Netlify deploy preview, which is the easiest place to check both the English and the French page, open the modals, and follow the PDF links. To build locally instead, run `bundle install` and then `bundle exec jekyll serve`, as described in the main README.
