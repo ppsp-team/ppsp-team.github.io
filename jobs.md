@@ -243,6 +243,25 @@ permalink: /jobs/
 
   .deadline-info i { margin-right: 5px; }
 
+  /* The theme forces .btn-primary to a fixed 310px width with auto margins
+     (agency.css), which squeezes the start date and overflows the card once a
+     PDF button sits next to it. Let card buttons take their natural size and
+     let the row wrap on narrow cards. */
+  .job-card-action {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .job-card-action .btn {
+    width: auto;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .job-card-action .card-buttons {
+    margin-left: auto;
+  }
+
   /* Modal Enhancements */
   .modal-content {
     border: none;
@@ -341,6 +360,12 @@ permalink: /jobs/
     border-top: 1px solid #edf2f7;
   }
 
+  /* Same theme override as on the cards: keep "Apply" on the footer row. */
+  .modal-footer .btn.btn-primary {
+    width: auto;
+    margin: 0 0 0 .5rem;
+  }
+
   /* Responsive Fixes */
   @media (max-width: 991px) {
     .job-sidebar {
@@ -435,6 +460,19 @@ permalink: /jobs/
                 {% else %}
                   <p class="job-excerpt">{{ job.mission.en | strip_html | truncate: 200 }}</p>
                 {% endif %}
+              {% elsif job.your_mission %}
+                {% comment %}
+                  Newer offers have no `mission` field: use the first sentence of
+                  the first paragraph of `your_mission` (headings are skipped
+                  because they render as <h2>/<h3>, not <p>).
+                {% endcomment %}
+                {% if site.lang == 'fr' %}{% assign mission_md = job.your_mission.fr %}{% else %}{% assign mission_md = job.your_mission.en %}{% endif %}
+                {% assign mission_paras = mission_md | markdownify | split: '<p>' %}
+                {% assign first_para = mission_paras[1] | split: '</p>' | first | strip_html | normalize_whitespace | strip %}
+                {% assign first_sentence = first_para | split: '. ' | first | strip %}
+                {% assign last_char = first_sentence | slice: -1 %}
+                {% unless last_char == '.' or last_char == '!' or last_char == '?' %}{% assign first_sentence = first_sentence | append: '.' %}{% endunless %}
+                <p class="job-excerpt">{{ first_sentence }}</p>
               {% endif %}
 
               <div class="job-card-action">
@@ -445,11 +483,20 @@ permalink: /jobs/
                     <i class="far fa-calendar-alt"></i> {{ job.start.en }}
                   {% endif %}
                 </span>
-                <button class="btn btn-primary btn-sm rounded-pill px-4" 
-                        onclick="openJobModal('{{ job.id }}')" 
-                        {% unless job.active %}disabled{% endunless %}>
-                  {% if job.active %}{% if site.lang == 'fr' %}Voir l'offre{% else %}View offer{% endif %}{% else %}{% if site.lang == 'fr' %}Pourvu{% else %}Filled{% endif %}{% endif %}
-                </button>
+                <div class="card-buttons d-flex align-items-center">
+                  {% if job.active and job.pdf %}
+                  <a href="{{ job.pdf[site.lang] }}" target="_blank" rel="noopener"
+                     class="btn btn-outline-primary btn-sm rounded-pill px-3 mr-2"
+                     title="{% if site.lang == 'fr' %}Ouvrir l'offre en PDF{% else %}Open the offer as PDF{% endif %}">
+                    <i class="far fa-file-pdf mr-1"></i>PDF
+                  </a>
+                  {% endif %}
+                  <button class="btn btn-primary btn-sm rounded-pill px-4" 
+                          onclick="openJobModal('{{ job.id }}')" 
+                          {% unless job.active %}disabled{% endunless %}>
+                    {% if job.active %}{% if site.lang == 'fr' %}Voir l'offre{% else %}View offer{% endif %}{% else %}{% if site.lang == 'fr' %}Pourvu{% else %}Filled{% endif %}{% endif %}
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -615,7 +662,18 @@ permalink: /jobs/
         {% endif %}
       </div>
 
-      <div class="modal-footer">
+      <div class="modal-footer flex-wrap">
+        {% if job.pdf %}
+        {% if site.lang == 'fr' %}{% assign other_lang = 'en' %}{% else %}{% assign other_lang = 'fr' %}{% endif %}
+        <div class="mr-auto d-flex align-items-center flex-wrap">
+          <a href="{{ job.pdf[site.lang] }}" target="_blank" rel="noopener" class="btn btn-outline-primary rounded-pill px-4 mr-3">
+            <i class="far fa-file-pdf mr-2"></i>{% if site.lang == 'fr' %}Offre en PDF{% else %}Offer as PDF{% endif %}
+          </a>
+          <a href="{{ job.pdf[other_lang] }}" target="_blank" rel="noopener" class="small">
+            {% if site.lang == 'fr' %}English version (PDF){% else %}Version française (PDF){% endif %}
+          </a>
+        </div>
+        {% endif %}
         <button type="button" class="btn btn-light rounded-pill px-4" data-dismiss="modal">{% if site.lang == 'fr' %}Fermer{% else %}Close{% endif %}</button>
         {% if job.active %}
         <a href="mailto:{{ job.contact }}" class="btn btn-primary rounded-pill px-5 shadow">{% if site.lang == 'fr' %}Postuler{% else %}Apply{% endif %}</a>
