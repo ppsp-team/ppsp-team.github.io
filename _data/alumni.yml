@@ -1,3 +1,8 @@
+- name: "Natalie Kastel"
+  role:
+    en: "Social Neuro AI"
+    fr: "Neuro-IA Sociale"
+
 - name: "Sayeh Kazem"
   role:
     en: "Precision Medicine"
